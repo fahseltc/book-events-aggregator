@@ -1,0 +1,83 @@
+{
+  "$schema": "./sources.schema.json",
+  "defaults": {
+    "timeoutMs": 20000,
+    "render": false
+  },
+  "sources": [
+    {
+      "name": "Denver Book Society",
+      "url": "https://thedenverbooksociety.com/events",
+      "enabled": true
+    },
+    {
+      "name": "Tattered Cover",
+      "url": "https://www.tatteredcover.com/pages/event-calendar-page",
+      "enabled": true,
+      "render": true,
+      "note": "JS-rendered; carries schema.org/Event JSON-LD once rendered."
+    },
+    {
+      "name": "The Bookies",
+      "url": "https://thebookies.com/events",
+      "enabled": true,
+      "type": "bookmanager",
+      "note": "BookManager platform; events come from its JSON API, read via a headless page session."
+    },
+    {
+      "name": "Little Blue Pigeon Books",
+      "url": "https://www.littlebluepigeonbooks.com/event-list",
+      "enabled": true,
+      "render": true,
+      "note": "JS-rendered calendar grid; needs headless render to get clean data."
+    },
+    {
+      "name": "Douglas County Libraries",
+      "url": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "enabled": true,
+      "type": "rss",
+      "note": "Communico RSS feed (auto-detected); already per-event, so no detail crawl."
+    },
+    {
+      "name": "Aurora Public Library",
+      "url": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "enabled": true,
+      "type": "rss",
+      "note": "LibCal/libnet RSS feed; already per-event, so no detail crawl."
+    },
+    {
+      "name": "Denver Public Library Friends",
+      "url": "https://www.dplfriends.org/events/",
+      "enabled": true,
+      "type": "tribe",
+      "note": "WordPress The Events Calendar REST API (wp-json/tribe/events/v1)."
+    },
+    {
+      "name": "Eventbrite (Denver books)",
+      "url": "https://www.eventbrite.com/d/co--denver/books/",
+      "enabled": true,
+      "type": "eventbrite",
+      "search": {
+        "place": "co--denver",
+        "query": "book",
+        "pages": 3
+      },
+      "note": "Scrapes Eventbrite's public Denver 'books' search (their event search API was retired). Headless."
+    },
+    {
+      "name": "Burning Through Pages",
+      "url": "https://burningthroughpages.org/events/",
+      "enabled": true,
+      "type": "tribe",
+      "note": "WordPress The Events Calendar REST API."
+    },
+    {
+      "name": "Annual festivals (manual)",
+      "url": "config/static-events.json",
+      "enabled": true,
+      "type": "static",
+      "file": "config/static-events.json",
+      "note": "Hand-maintained once-a-year events (book festivals, conventions). Edit config/static-events.json."
+    }
+  ]
+}

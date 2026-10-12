@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "book-events-aggregator keyword filter config",
+  "type": "object",
+  "required": ["keywords"],
+  "properties": {
+    "keywords": {
+      "type": "array",
+      "description": "An event is kept if ANY of these words/phrases is found in the scanned fields.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "fields": {
+      "type": "array",
+      "description": "Which event fields to scan. Defaults to title + description.",
+      "items": { "type": "string", "enum": ["title", "description", "location", "source"] }
+    },
+    "caseSensitive": {
+      "type": "boolean",
+      "description": "Match case-sensitively. Default false."
+    },
+    "wholeWord": {
+      "type": "boolean",
+      "description": "Require whole-word matches (so 'art' won't match 'start'). Default false."
+    }
+  },
+  "additionalProperties": true
+}

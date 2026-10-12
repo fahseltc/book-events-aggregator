@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Events</title>
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --card: #ffffff;
+      --ink: #2a2a2a;
+      --muted: #6b6b6b;
+      --accent: #7a4a2b;
+      --line: #e7e1d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    header {
+      padding: 20px 24px 0;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 20px; margin: 0 0 2px; }
+    .meta { color: var(--muted); font-size: 13px; margin-bottom: 14px; }
+    .tabs { display: flex; gap: 6px; border-bottom: 1px solid var(--line); }
+    .tab {
+      appearance: none; border: 0; background: none; cursor: pointer;
+      padding: 10px 14px; font: inherit; color: var(--muted);
+      border-bottom: 2px solid transparent; margin-bottom: -1px;
+    }
+    .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+    .tab .count { color: var(--muted); font-weight: 400; }
+    main { max-width: 820px; margin: 0 auto; padding: 16px 24px 48px; }
+    .search {
+      width: 100%; padding: 9px 12px; margin-bottom: 16px;
+      border: 1px solid var(--line); border-radius: 8px; font: inherit; background: var(--card);
+    }
+    .event {
+      background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+      padding: 14px 16px; margin-bottom: 10px;
+    }
+    .event h2 { font-size: 16px; margin: 0 0 4px; }
+    .event h2 a { color: var(--ink); text-decoration: none; }
+    .event h2 a:hover { color: var(--accent); text-decoration: underline; }
+    .when { color: var(--accent); font-size: 13px; font-weight: 600; }
+    .where { color: var(--muted); font-size: 13px; }
+    .desc { margin: 8px 0 0; font-size: 14px; color: #444; }
+    .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag {
+      font-size: 11px; color: var(--muted); background: #f1ece4;
+      border-radius: 999px; padding: 2px 9px;
+    }
+    .tag.kw { background: #efe4d8; color: var(--accent); }
+    .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+    .error { color: #a33; padding: 24px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 Book Events</h1>
+    <div class="meta" id="meta">Loading…</div>
+    <div class="tabs">
+      <button class="tab active" id="tab-filtered" data-view="filtered">Filtered <span class="count" id="count-filtered"></span></button>
+      <button class="tab" id="tab-all" data-view="all">All events <span class="count" id="count-all"></span></button>
+    </div>
+  </header>
+  <main>
+    <input class="search" id="search" type="search" placeholder="Search title, description, location, source…" />
+    <div id="list"></div>
+  </main>
+
+  <script>
+    const state = { view: 'filtered', data: { all: null, filtered: null }, query: '' };
+
+    async function loadJson(path) {
+      try {
+        const res = await fetch(path, { cache: 'no-store' });
+        if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+        return await res.json();
+      } catch (e) {
+        return { __error: `${path}: ${e.message}` };
+      }
+    }
+
+    function fmtDate(iso) {
+      if (!iso) return '';
+      const d = new Date(iso);
+      if (isNaN(d)) return iso;
+      const date = d.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+      const hasTime = /T\d{2}:\d{2}/.test(iso) && !/T00:00/.test(iso);
+      const time = hasTime ? ', ' + d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' }) : '';
+      return date + time;
+    }
+
+    function esc(s) {
+      return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    }
+
+    function eventCard(ev) {
+      const title = ev.url
+        ? `<a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.title)}</a>`
+        : esc(ev.title);
+      const where = ev.location ? `<div class="where">${esc(ev.location)}</div>` : '';
+      const desc = ev.description ? `<p class="desc">${esc(ev.description)}</p>` : '';
+      const kws = (ev.matchedKeywords || []).map((k) => `<span class="tag kw">${esc(k)}</span>`).join('');
+      const src = ev.source ? `<span class="tag">${esc(ev.source)}</span>` : '';
+      return `<div class="event">
+        <div class="when">${esc(fmtDate(ev.start))}</div>
+        <h2>${title}</h2>
+        ${where}${desc}
+        <div class="tags">${src}${kws}</div>
+      </div>`;
+    }
+
+    function currentPayload() {
+      return state.view === 'filtered' ? state.data.filtered : state.data.all;
+    }
+
+    function render() {
+      const payload = currentPayload();
+      const listEl = document.getElementById('list');
+      if (!payload) { listEl.innerHTML = '<div class="empty">Loading…</div>'; return; }
+      if (payload.__error) {
+        listEl.innerHTML = `<div class="error">Couldn't load ${esc(payload.__error)}.<br>Run <code>npm run pipeline</code> first to generate the data.</div>`;
+        return;
+      }
+      let events = Array.isArray(payload) ? payload : payload.events || [];
+      const q = state.query.trim().toLowerCase();
+      if (q) {
+        events = events.filter((e) =>
+          [e.title, e.description, e.location, e.source].some((f) => (f || '').toLowerCase().includes(q)),
+        );
+      }
+      if (events.length === 0) {
+        listEl.innerHTML = '<div class="empty">No events to show.</div>';
+        return;
+      }
+      listEl.innerHTML = events.map(eventCard).join('');
+    }
+
+    function setView(view) {
+      state.view = view;
+      document.getElementById('tab-filtered').classList.toggle('active', view === 'filtered');
+      document.getElementById('tab-all').classList.toggle('active', view === 'all');
+      render();
+    }
+
+    function updateMeta() {
+      const all = state.data.all;
+      const filtered = state.data.filtered;
+      const countOf = (p) => (p && !p.__error ? (Array.isArray(p) ? p.length : p.count ?? (p.events || []).length) : '—');
+      document.getElementById('count-all').textContent = `(${countOf(all)})`;
+      document.getElementById('count-filtered').textContent = `(${countOf(filtered)})`;
+      const gen = (all && all.generatedAt) || (filtered && filtered.generatedAt);
+      document.getElementById('meta').textContent = gen
+        ? `Generated ${new Date(gen).toLocaleString()}`
+        : 'Local view of generated events';
+    }
+
+    async function init() {
+      document.getElementById('tab-filtered').addEventListener('click', () => setView('filtered'));
+      document.getElementById('tab-all').addEventListener('click', () => setView('all'));
+      document.getElementById('search').addEventListener('input', (e) => { state.query = e.target.value; render(); });
+
+      const [all, filtered] = await Promise.all([
+        loadJson('../output/events.json'),
+        loadJson('../output/events-filtered.json'),
+      ]);
+      state.data.all = all;
+      state.data.filtered = filtered;
+      updateMeta();
+      render();
+    }
+
+    init();
+  </script>
+</body>
+</html>

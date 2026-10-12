@@ -1,0 +1,89 @@
+#!/usr/bin/env node
+// Produce a filtered view of a generated events JSON file, keeping only events
+// whose text matches keywords from a config file. Runs independently of the
+// crawl, so you can re-filter instantly without re-crawling.
+
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+
+import { filterEvents } from './lib/filter.js';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
+
+function parseArgs(argv) {
+  const args = {
+    in: 'output/events.json',
+    out: 'output/events-filtered.json',
+    config: 'config/filters.json',
+    annotate: true,
+  };
+  for (let i = 2; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--in') args.in = argv[++i];
+    else if (a === '--out') args.out = argv[++i];
+    else if (a === '--config') args.config = argv[++i];
+    else if (a === '--no-annotate') args.annotate = false;
+    else if (a === '--pretty') args.pretty = true;
+    else if (a === '--help' || a === '-h') args.help = true;
+  }
+  return args;
+}
+
+const HELP = `book-events filter — keep only events matching configured keywords.
+
+Usage: node src/filter.js [options]
+
+Options:
+  --in <path>       Input events JSON (default: output/events.json)
+  --out <path>      Filtered output path (default: output/events-filtered.json)
+  --config <path>   Filter config (default: config/filters.json)
+  --no-annotate     Don't add a matchedKeywords field to each kept event
+  --pretty          Pretty-print the output JSON
+  -h, --help        Show this help
+`;
+
+async function main() {
+  const args = parseArgs(process.argv);
+  if (args.help) {
+    process.stdout.write(HELP);
+    return;
+  }
+
+  const inPath = resolve(ROOT, args.in);
+  const configPath = resolve(ROOT, args.config);
+
+  const [payloadRaw, config] = await Promise.all([
+    readFile(inPath, 'utf8').then(JSON.parse),
+    readFile(configPath, 'utf8').then(JSON.parse),
+  ]);
+
+  const events = Array.isArray(payloadRaw) ? payloadRaw : payloadRaw.events || [];
+  const kept = filterEvents(events, config, { annotate: args.annotate });
+
+  const outPath = resolve(ROOT, args.out);
+  await mkdir(dirname(outPath), { recursive: true });
+
+  // Preserve the wrapper shape when the input had one.
+  const payload = Array.isArray(payloadRaw)
+    ? kept
+    : {
+        ...payloadRaw,
+        count: kept.length,
+        filteredFrom: events.length,
+        filterKeywords: config.keywords,
+        events: kept,
+      };
+  await writeFile(outPath, JSON.stringify(payload, null, args.pretty ? 2 : 0) + '\n');
+
+  process.stdout.write(
+    `Kept ${kept.length} of ${events.length} event(s) matching ` +
+      `[${(config.keywords || []).join(', ')}] -> ${args.out}\n`,
+  );
+}
+
+main().catch((err) => {
+  process.stderr.write(`Fatal: ${err.stack || err.message}\n`);
+  process.exit(1);
+});

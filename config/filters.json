@@ -1,0 +1,21 @@
+{
+  "$schema": "./filters.schema.json",
+  "keywords": [
+    "author",
+    "books",
+    "book",
+    "book club",
+    "signing",
+    "poetry",
+    "reading",
+    "swap",
+    "exchange",
+    "sale"
+  ],
+  "fields": [
+    "title",
+    "description"
+  ],
+  "caseSensitive": false,
+  "wholeWord": false
+}

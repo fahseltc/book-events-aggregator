@@ -1,0 +1,71 @@
+{
+  "$schema": "./static-events.schema.json",
+  "note": "Hand-maintained events (annual festivals/conventions not on index sites). Edit dates/locations each year as they are announced. 'start' is ISO 8601 local time (YYYY-MM-DDTHH:MM:SS); 'end' optional.",
+  "events": [
+    {
+      "title": "Fort Collins Book Fest",
+      "start": "2027-04-09T10:00:00",
+      "end": "2027-04-11T17:00:00",
+      "location": "Fort Collins Senior Center, Fort Collins, CO",
+      "description": "Annual Fort Collins book festival (FoCoBookFest). Multi-day; kickoff 4/9.",
+      "url": "https://focobookfest.org/",
+      "source": "FoCo Book Fest",
+      "enabled": true
+    },
+    {
+      "title": "Denver Festival of Books",
+      "start": "2027-05-20T10:00:00",
+      "end": null,
+      "location": "Denver, CO",
+      "description": "Annual Denver book festival hosted by the Colorado Authors League.",
+      "url": "https://denverbookfest.com/",
+      "source": "Denver Book Fest",
+      "enabled": true,
+      "note": "VERIFY DATE — site shows the date in a banner image; 2027-05-20 is a placeholder guess."
+    },
+    {
+      "title": "MileHiCon",
+      "start": "2026-10-23T09:00:00",
+      "end": "2026-10-25T18:00:00",
+      "location": "Denver, CO",
+      "description": "Colorado's long-running science fiction & fantasy literary convention.",
+      "url": "https://milehicon.org/",
+      "source": "MileHiCon",
+      "enabled": true,
+      "note": "VERIFY DATE/VENUE — site lists 'CONVENTION DATES: OCT.' in an image; dates are an estimate."
+    },
+    {
+      "title": "Author Showcase & Book Fair",
+      "start": "2026-10-23T16:30:00",
+      "end": "2026-10-23T19:30:00",
+      "location": "Cantril School Building, 312 Cantril St., Castle Rock, CO 80104",
+      "description": "TriArts Project event bringing authors and readers together for a day of inspiration and discovery.",
+      "url": "https://triartsproject.org/event/author-showcase-book-fair-click-here-for-more-info/",
+      "source": "TriArts Project",
+      "enabled": true,
+      "note": "Date/location pulled from the site's schema.org data (accurate as of entry)."
+    },
+    {
+      "title": "JLF Colorado (Jaipur Literature Festival)",
+      "start": "2026-09-18T10:00:00",
+      "end": "2026-09-20T18:00:00",
+      "location": "Boulder, CO",
+      "description": "Colorado edition of the Jaipur Literature Festival — authors, ideas, and literary conversation.",
+      "url": "https://jlflitfest.org/colorado",
+      "source": "JLF Colorado",
+      "enabled": true,
+      "note": "VERIFY DATE/VENUE — not shown in page text; dates are an estimate based on prior years (mid-September)."
+    },
+    {
+      "title": "RMABA Rocky Mountain Antiquarian Book Fair",
+      "start": "2026-08-08T10:00:00",
+      "end": "2026-08-09T17:00:00",
+      "location": "Denver, CO",
+      "description": "Rocky Mountain Antiquarian Booksellers Association rare & antiquarian book fair.",
+      "url": "https://www.rmaba.org/",
+      "source": "RMABA",
+      "enabled": true,
+      "note": "VERIFY DATE/VENUE — not shown in page text; dates are an estimate."
+    }
+  ]
+}

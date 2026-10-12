@@ -1,0 +1,23 @@
+{
+  "name": "book-events-aggregator",
+  "version": "0.1.0",
+  "description": "Crawl a configurable list of bookstore/event URLs and extract upcoming events to JSON.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "book-events": "src/index.js"
+  },
+  "scripts": {
+    "crawl": "node src/index.js --pretty",
+    "crawl:raw": "node src/index.js --pretty --save-raw",
+    "filter": "node src/filter.js --pretty",
+    "pipeline": "npm run crawl && npm run filter",
+    "serve": "node src/serve.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.64.0"
+  }
+}

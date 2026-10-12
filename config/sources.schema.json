@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "book-events-aggregator sources config",
+  "type": "object",
+  "properties": {
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "timeoutMs": {
+          "type": "integer",
+          "minimum": 1000
+        },
+        "render": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Human-readable label for the source."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Page or feed URL to crawl for events."
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "auto",
+              "html",
+              "rss",
+              "bookmanager",
+              "tribe",
+              "eventbrite",
+              "static"
+            ],
+            "description": "Source kind. 'auto' (default) detects RSS vs HTML; 'rss' forces feed parsing; 'html' forces page scraping; 'bookmanager' uses the BookManager JSON API (headless); 'tribe' uses the WordPress The Events Calendar REST API; 'eventbrite' scrapes Eventbrite's public search page (headless)."
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Skip this source when false. Defaults true."
+          },
+          "render": {
+            "type": "boolean",
+            "description": "Use headless-browser rendering for JS-heavy pages."
+          },
+          "timeoutMs": {
+            "type": "integer",
+            "minimum": 1000,
+            "description": "Per-source fetch timeout override."
+          },
+          "search": {
+            "type": "object",
+            "description": "Search parameters for discovery sources (e.g. type 'eventbrite').",
+            "properties": {
+              "place": {
+                "type": "string",
+                "description": "Eventbrite place slug, e.g. 'co--denver'."
+              },
+              "query": {
+                "type": "string",
+                "description": "Search term/category, e.g. 'books'."
+              },
+              "pages": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Max search result pages to read."
+              }
+            },
+            "additionalProperties": true
+          },
+          "file": {
+            "type": "string",
+            "description": "For type 'static': path (relative to project root) to the hand-maintained events JSON."
+          },
+          "note": {
+            "type": "string",
+            "description": "Free-form note; ignored by the crawler."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "sources"
+  ],
+  "additionalProperties": true
+}
