@@ -2,9 +2,7 @@
   "$schema": "./filters.schema.json",
   "keywords": [
     "author",
-    "books",
-    "book",
-    "book club",
+    "book*",
     "signing",
     "poetry",
     "reading",
@@ -12,11 +10,17 @@
     "exchange",
     "sale",
     "fiction",
-    "romance"
+    "romance",
+    "novel"
   ],
   "exclude": [
     "pokemon",
-    "toddler"
+    "toddler",
+    "teen",
+    "baby",
+    "storytime",
+    "homework",
+    "tummy"
   ],
   "fields": [
     "title",

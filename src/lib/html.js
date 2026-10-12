@@ -33,6 +33,28 @@ const NAMED_ENTITIES = {
   rdquo: '\u201d',
   ldquo: '\u201c',
   middot: '\u00b7',
+  bull: '\u2022',
+  reg: '\u00ae',
+  copy: '\u00a9',
+  trade: '\u2122',
+  deg: '\u00b0',
+  eacute: '\u00e9',
+  egrave: '\u00e8',
+  aacute: '\u00e1',
+  agrave: '\u00e0',
+  iacute: '\u00ed',
+  oacute: '\u00f3',
+  uacute: '\u00fa',
+  ntilde: '\u00f1',
+  uuml: '\u00fc',
+  ouml: '\u00f6',
+  auml: '\u00e4',
+  ccedil: '\u00e7',
+  iexcl: '\u00a1',
+  iquest: '\u00bf',
+  Eacute: '\u00c9',
+  Aacute: '\u00c1',
+  Ntilde: '\u00d1',
 };
 
 /**
@@ -45,6 +67,10 @@ export function decodeEntities(text) {
     .replace(/&#x([0-9a-f]+);/gi, (_, hex) => safeFromCodePoint(parseInt(hex, 16)))
     .replace(/&#(\d+);/g, (_, dec) => safeFromCodePoint(parseInt(dec, 10)))
     .replace(/&([a-z]+);/gi, (whole, name) => {
+      // Try exact case first (e.g. &Eacute; vs &eacute;), then lowercase.
+      if (Object.prototype.hasOwnProperty.call(NAMED_ENTITIES, name)) {
+        return NAMED_ENTITIES[name];
+      }
       const key = name.toLowerCase();
       return Object.prototype.hasOwnProperty.call(NAMED_ENTITIES, key)
         ? NAMED_ENTITIES[key]
@@ -66,12 +92,30 @@ function safeFromCodePoint(cp) {
  */
 export function htmlToText(html) {
   if (!html) return '';
-  const withoutScripts = html
-    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<!--[\s\S]*?-->/g, ' ');
-  const text = withoutScripts.replace(/<[^>]+>/g, ' ');
-  return decodeEntities(text).replace(/\s+/g, ' ').trim();
+  // Some sources double- or even triple-encode their markup (e.g. the raw value
+  // is "&amp;lt;p&amp;gt;"). A single decode-then-strip leaves tags behind, so
+  // we alternate decode -> strip until the text stops changing (bounded).
+  let text = String(html);
+  for (let i = 0; i < 4; i++) {
+    const decoded = decodeEntities(text)
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<!--[\s\S]*?-->/g, ' ');
+    const stripped = decoded.replace(/<[^>]+>/g, ' ');
+    if (stripped === text) break; // stable: no more markup/entities to resolve
+    text = stripped;
+  }
+  return collapseRuns(decodeEntities(text).replace(/\s+/g, ' ').trim());
+}
+
+// Collapse long runs of a repeated separator character (e.g. the
+// "______" / "------" / "======" dividers some sources put in descriptions).
+// Unbroken 100+ char runs have no wrap points and blow out HTML layouts, so we
+// shorten any run of 4+ identical separator/punctuation chars to three.
+// Underscore is included explicitly (it is a \w char but used as a divider).
+function collapseRuns(text) {
+  if (!text) return text;
+  return text.replace(/([^0-9a-zA-Z\s])\1{3,}/g, '$1$1$1');
 }
 
 // Class/role tokens that commonly wrap a single event "card" on event pages.

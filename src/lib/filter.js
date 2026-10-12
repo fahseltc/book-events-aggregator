@@ -33,9 +33,19 @@ export function compileFilter(config) {
 
 function toRegex(kw, config) {
   const flags = config.caseSensitive ? 'g' : 'gi';
-  const escaped = escapeRe(kw);
-  const pattern = config.wholeWord ? `(?<![\\w])${escaped}(?![\\w])` : escaped;
-  return new RegExp(pattern, flags);
+  // Support a trailing/embedded "*" wildcard: it matches zero or more word
+  // characters. e.g. "book*" matches "book", "books", "bookmobile".
+  // Everything else is escaped so it's matched literally.
+  const hasWildcard = kw.includes('*');
+  const core = kw
+    .split('*')
+    .map((part) => escapeRe(part))
+    .join('\\w*');
+  const pattern = config.wholeWord ? `(?<![\\w])${core}(?![\\w])` : core;
+  // With a wildcard, a trailing word boundary would defeat the point, so when
+  // wholeWord is on we only anchor the LEADING boundary for wildcard terms.
+  const finalPattern = config.wholeWord && hasWildcard ? `(?<![\\w])${core}` : pattern;
+  return new RegExp(finalPattern, flags);
 }
 
 /**

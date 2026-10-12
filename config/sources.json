@@ -13,9 +13,9 @@
     {
       "name": "Tattered Cover",
       "url": "https://www.tatteredcover.com/pages/event-calendar-page",
-      "enabled": true,
+      "enabled": false,
       "render": true,
-      "note": "JS-rendered; carries schema.org/Event JSON-LD once rendered."
+      "note": "owned by barnes and noble - disabled for now (not indie)"
     },
     {
       "name": "The Bookies",
@@ -107,6 +107,30 @@
       "type": "html",
       "details": false,
       "note": "WordPress; events listed in page text. Heuristic only; skip detail stage."
+    },
+    {
+      "name": "Arapahoe Libraries",
+      "url": "https://arapahoelibraries.bibliocommons.com/events",
+      "enabled": true,
+      "type": "bibliocommons",
+      "search": {
+        "pages": 10
+      },
+      "note": "BiblioCommons gateway JSON API (RSS feed has no dates). ~10 events/page; pages caps how many to read."
+    },
+    {
+      "name": "Boulder Public Library",
+      "url": "https://boulderlibrary.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "enabled": true,
+      "type": "rss",
+      "note": "LibNet/Communico RSS feed (same family as DCL/Aurora)."
+    },
+    {
+      "name": "High Plains Library District",
+      "url": "https://highplains.libcal.com/rss.php?iid=4057&m=month&cid=8181",
+      "enabled": true,
+      "type": "rss",
+      "note": "LibCal RSS feed (from the hpld calendar). Date/time parsed from the item description."
     },
     {
       "name": "Annual festivals (manual)",

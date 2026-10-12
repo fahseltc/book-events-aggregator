@@ -17,6 +17,7 @@ import { extractFromBookManager } from './lib/extract/bookmanager.js';
 import { extractFromTribe } from './lib/extract/tribe.js';
 import { extractFromEventbrite } from './lib/extract/eventbrite.js';
 import { extractStaticEvents } from './lib/extract/static.js';
+import { extractFromBiblioCommons } from './lib/extract/bibliocommons.js';
 import { normalizeEvents } from './lib/normalize.js';
 import { loadEnv } from './lib/env.js';
 
@@ -164,6 +165,14 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'static';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'bibliocommons') {
+    const events = await extractFromBiblioCommons(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'bibliocommons';
     line.links = 0;
     return events;
   }

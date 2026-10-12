@@ -103,7 +103,7 @@ function rowToRawEvent(row, pageUrl, ctx) {
 
   return {
     title: clean(row.title),
-    description: clean(htmlToText(row.description || '')) || clean(row.summary),
+    description: clean(htmlToText(row.description || '')) || clean(htmlToText(row.summary || '')),
     start,
     end,
     location: clean(row.location_text) || undefined,
