@@ -54,6 +54,10 @@
             "type": "boolean",
             "description": "Use headless-browser rendering for JS-heavy pages."
           },
+          "details": {
+            "type": "boolean",
+            "description": "Set false to skip the detail-page stage and use the index page's events directly (for HTML sources whose links point elsewhere)."
+          },
           "timeoutMs": {
             "type": "integer",
             "minimum": 1000,

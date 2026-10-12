@@ -10,7 +10,13 @@
     "reading",
     "swap",
     "exchange",
-    "sale"
+    "sale",
+    "fiction",
+    "romance"
+  ],
+  "exclude": [
+    "pokemon",
+    "toddler"
   ],
   "fields": [
     "title",

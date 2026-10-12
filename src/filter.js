@@ -69,17 +69,20 @@ async function main() {
   const payload = Array.isArray(payloadRaw)
     ? kept
     : {
-        ...payloadRaw,
-        count: kept.length,
-        filteredFrom: events.length,
-        filterKeywords: config.keywords,
-        events: kept,
-      };
+      ...payloadRaw,
+      count: kept.length,
+      filteredFrom: events.length,
+      filterKeywords: config.keywords,
+      filterExclude: config.exclude || [],
+      events: kept,
+    };
   await writeFile(outPath, JSON.stringify(payload, null, args.pretty ? 2 : 0) + '\n');
 
+  const exclude = config.exclude || [];
+  const excludeMsg = exclude.length ? ` excluding [${exclude.join(', ')}]` : '';
   process.stdout.write(
     `Kept ${kept.length} of ${events.length} event(s) matching ` +
-      `[${(config.keywords || []).join(', ')}] -> ${args.out}\n`,
+    `[${(config.keywords || []).join(', ')}]${excludeMsg} -> ${args.out}\n`,
   );
 }
 

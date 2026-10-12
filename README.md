@@ -122,6 +122,7 @@ Edit `config/filters.json` to control it:
 ```json
 {
   "keywords": ["author", "book club", "signing", "poetry", "storytime"],
+  "exclude": ["pokemon", "toddler"],
   "fields": ["title", "description"],
   "caseSensitive": false,
   "wholeWord": false
@@ -131,6 +132,7 @@ Edit `config/filters.json` to control it:
 | Field | Meaning |
 |-------|---------|
 | `keywords` (required) | An event is kept if **any** keyword appears in the scanned fields |
+| `exclude` | Blacklist — an event is **rejected** if any of these appear, even if it matched a keyword (overrides the whitelist) |
 | `fields` | Which fields to scan: `title`, `description`, `location`, `source` (default: title + description) |
 | `caseSensitive` | Match case-sensitively (default `false`) |
 | `wholeWord` | Require whole-word matches, so `art` won't match `start` (default `false`) |

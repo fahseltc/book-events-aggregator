@@ -66,6 +66,50 @@
       "source": "RMABA",
       "enabled": true,
       "note": "VERIFY DATE/VENUE — not shown in page text; dates are an estimate."
+    },
+    {
+      "title": "Boulder Bookstore — Author Events",
+      "start": "2027-01-01T18:00:00",
+      "end": null,
+      "location": "Boulder Bookstore, 1107 Pearl St, Boulder, CO 80302",
+      "description": "Boulder Bookstore hosts frequent author events; add specific ones here.",
+      "url": "https://boulderbookstore.net/events/calendar",
+      "source": "Boulder Bookstore",
+      "enabled": false,
+      "note": "DISABLED PLACEHOLDER — site's calendar isn't machine-readable (events are empty calendar cells; CDN also flags bots). Enter real events from the site by hand and enable."
+    },
+    {
+      "title": "Second Star to the Right — Author Events",
+      "start": "2027-01-01T18:00:00",
+      "end": null,
+      "location": "Second Star to the Right Books, Denver, CO",
+      "description": "Children's bookstore author events; add specific ones here.",
+      "url": "https://secondstartotherightbooks.com/upcoming-events",
+      "source": "Second Star to the Right",
+      "enabled": false,
+      "note": "DISABLED PLACEHOLDER — site returns a hard 403 to all automated access. Enter events by hand and enable."
+    },
+    {
+      "title": "Good Girl Cafe & Bookstore — Events",
+      "start": "2027-01-01T18:00:00",
+      "end": null,
+      "location": "Good Girl Cafe & Bookstore, Denver, CO",
+      "description": "Cafe/bookstore events (book bedazzling, author signings, book clubs); add specific ones here.",
+      "url": "https://www.goodgirlcafeandbookstore.com/events",
+      "source": "Good Girl Cafe & Bookstore",
+      "enabled": false,
+      "note": "DISABLED PLACEHOLDER — custom JS layout the generic extractor can't read (only 2 events reach Eventbrite). Enter events by hand and enable."
+    },
+    {
+      "title": "Haven Coffee & Books — Events",
+      "start": "2027-01-01T18:00:00",
+      "end": null,
+      "location": "Haven Coffee & Books, Denver, CO",
+      "description": "Book signings, poetry nights, and silent book club; add specific ones here.",
+      "url": "https://havencoffeeandbooks.com/calendar/",
+      "source": "Haven Coffee & Books",
+      "enabled": false,
+      "note": "DISABLED PLACEHOLDER — heuristic yields stale/garbled recurring entries, not reliable. Enter events by hand and enable."
     }
   ]
 }

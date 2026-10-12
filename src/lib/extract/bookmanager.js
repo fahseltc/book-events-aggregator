@@ -23,7 +23,7 @@ export async function extractFromBookManager(pageUrl, ctx = {}) {
   } catch {
     throw new Error(
       `BookManager sources need Playwright. Install it with:\n` +
-        `  npm install playwright && npx playwright install chromium`,
+      `  npm install playwright && npx playwright install chromium`,
     );
   }
 
@@ -97,13 +97,17 @@ function rowToRawEvent(row, pageUrl, ctx) {
   const end = row.end_date || row.end_time
     ? combineDateTime(row.end_date || row.date, row.end_time)
     : undefined;
+  // Per-event page is the events URL plus the row id, e.g.
+  // https://thebookies.com/events/621720261013
+  const eventUrl = row.id != null ? `${pageUrl.replace(/\/$/, '')}/${row.id}` : pageUrl;
+
   return {
     title: clean(row.title),
     description: clean(htmlToText(row.description || '')) || clean(row.summary),
     start,
     end,
     location: clean(row.location_text) || undefined,
-    url: pageUrl, // BookManager events have no stable per-event public URL
+    url: eventUrl,
     sourceName: ctx.sourceName,
     sourceUrl: pageUrl,
     extractor: 'bookmanager',

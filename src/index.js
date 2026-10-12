@@ -88,6 +88,9 @@ async function main() {
       type: src.type ?? 'auto',
       render: src.render ?? defaults.render ?? false,
       timeoutMs: src.timeoutMs ?? defaults.timeoutMs ?? 20000,
+      details: src.details,
+      search: src.search,
+      file: src.file,
     };
     const line = { source: source.name || source.url, url: source.url };
     try {
@@ -179,6 +182,13 @@ async function crawlSource(source, args, now, line) {
 
   // RSS/feed sources are already complete per-event records — no detail stage.
   if (indexResult.via === 'rss') {
+    line.links = 0;
+    return indexEvents;
+  }
+
+  // A source can opt out of the detail stage (details: false) when its index
+  // page already lists complete events and its links point elsewhere.
+  if (source.details === false) {
     line.links = 0;
     return indexEvents;
   }

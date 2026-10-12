@@ -2,18 +2,37 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "book-events-aggregator keyword filter config",
   "type": "object",
-  "required": ["keywords"],
+  "required": [
+    "keywords"
+  ],
   "properties": {
     "keywords": {
       "type": "array",
       "description": "An event is kept if ANY of these words/phrases is found in the scanned fields.",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "minItems": 1
+    },
+    "exclude": {
+      "type": "array",
+      "description": "Blacklist. An event is rejected if ANY of these match, even if it matched a keyword. Overrides the whitelist.",
+      "items": {
+        "type": "string"
+      }
     },
     "fields": {
       "type": "array",
       "description": "Which event fields to scan. Defaults to title + description.",
-      "items": { "type": "string", "enum": ["title", "description", "location", "source"] }
+      "items": {
+        "type": "string",
+        "enum": [
+          "title",
+          "description",
+          "location",
+          "source"
+        ]
+      }
     },
     "caseSensitive": {
       "type": "boolean",

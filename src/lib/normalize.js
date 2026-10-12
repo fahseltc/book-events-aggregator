@@ -57,7 +57,8 @@ function toIso(value, now) {
 //      (e.g. a venue site + Eventbrite), where titles and times vary slightly.
 // When two records collide we keep the richer one (see score()).
 const FUZZY_TIME_WINDOW_MIN = 180; // starts within 3h are candidates
-const TITLE_SIMILARITY = 0.6; // Jaccard token overlap threshold
+const TITLE_SIMILARITY = 0.6; // Jaccard/containment threshold when times are close
+const TITLE_SIMILARITY_SAMEDAY = 0.8; // stricter when one time is unknown (same day only)
 
 function dedupe(events) {
   // Pass 1: exact key.
@@ -90,9 +91,24 @@ function isSameEvent(a, b) {
   const da = new Date(a.start).getTime();
   const db = new Date(b.start).getTime();
   if (Number.isNaN(da) || Number.isNaN(db)) return false;
+
+  // A midnight (00:00) start usually means the source didn't capture a real
+  // time. In that case, fall back to a same-day match (we can't compare times),
+  // but require a stronger title match to avoid merging different same-day
+  // events. When both have real times, use the tighter time window.
+  const timeUnknown = isMidnight(a.start) || isMidnight(b.start);
+  if (timeUnknown) {
+    if (a.start.slice(0, 10) !== b.start.slice(0, 10)) return false;
+    return titleSimilarity(a.title, b.title) >= TITLE_SIMILARITY_SAMEDAY;
+  }
+
   const minutesApart = Math.abs(da - db) / 60000;
   if (minutesApart > FUZZY_TIME_WINDOW_MIN) return false;
   return titleSimilarity(a.title, b.title) >= TITLE_SIMILARITY;
+}
+
+function isMidnight(iso) {
+  return /T00:00(:00)?$/.test(iso);
 }
 
 // Jaccard similarity over significant title tokens. Also treats one title being

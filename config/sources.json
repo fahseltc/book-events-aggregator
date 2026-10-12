@@ -72,6 +72,43 @@
       "note": "WordPress The Events Calendar REST API."
     },
     {
+      "name": "Read Queen Bookstore",
+      "url": "https://thereadqueen.com/events/",
+      "enabled": true,
+      "type": "tribe",
+      "note": "WordPress The Events Calendar REST API."
+    },
+    {
+      "name": "The Romance Section",
+      "url": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+      "enabled": true,
+      "type": "eventbrite",
+      "note": "Eventbrite organizer page -> per-event JSON-LD. Their site uses an Eventbrite import plugin."
+    },
+    {
+      "name": "Spicy Librarian / Romance Discovery",
+      "url": "https://www.eventbrite.com/o/108589566061",
+      "enabled": true,
+      "type": "eventbrite",
+      "note": "Eventbrite organizer page (provided org id) -> per-event JSON-LD."
+    },
+    {
+      "name": "Matter Bookstore",
+      "url": "https://www.shopatmatter.com/book-clubs-events/",
+      "enabled": true,
+      "type": "html",
+      "details": false,
+      "note": "WordPress; events listed in page text (no Tribe API/feed). Heuristic only — its links point to unrelated pages, so skip the detail stage."
+    },
+    {
+      "name": "Edgewater Books",
+      "url": "https://edgewaterbooksofcolorado.com/events/",
+      "enabled": true,
+      "type": "html",
+      "details": false,
+      "note": "WordPress; events listed in page text. Heuristic only; skip detail stage."
+    },
+    {
       "name": "Annual festivals (manual)",
       "url": "config/static-events.json",
       "enabled": true,

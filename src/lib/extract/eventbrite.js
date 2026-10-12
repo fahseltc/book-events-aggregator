@@ -27,6 +27,15 @@ export async function extractFromEventbrite(source, ctx = {}) {
     );
   }
 
+  // Organizer mode: a specific org's events page (/o/<id>). We render it to
+  // collect per-event detail links, then read each detail page's JSON-LD
+  // (reliable, plain-fetchable). Triggered by an /o/ URL or search.organizer.
+  const isOrganizer =
+    (source.search && source.search.organizer) || /eventbrite\.[a-z.]+\/o\//i.test(source.url || '');
+  if (isOrganizer) {
+    return extractOrganizer(chromium, source, ctx);
+  }
+
   const search = source.search || {};
   const place = search.place || 'co--denver';
   const query = search.query || 'books';
@@ -74,6 +83,50 @@ export async function extractFromEventbrite(source, ctx = {}) {
   } finally {
     await browser.close();
   }
+}
+
+// Organizer mode: render the org page, collect /e/<slug>-tickets-<id> links,
+// then fetch each detail page and parse its schema.org/Event JSON-LD.
+async function extractOrganizer(chromium, source, ctx) {
+  const { extractFromJsonLd } = await import('./jsonld.js');
+  const { fetchHtml } = await import('../fetch.js');
+  const timeoutMs = Math.max(ctx.timeoutMs ?? 0, 60000);
+
+  const browser = await chromium.launch();
+  let links = [];
+  try {
+    const page = await browser.newPage();
+    await page.goto(source.url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+    await page.waitForTimeout(2000);
+    const html = await page.content();
+    links = [
+      ...new Set(
+        [...html.matchAll(/https:\/\/www\.eventbrite\.[a-z.]+\/e\/[a-z0-9-]*tickets-\d+/gi)].map(
+          (m) => m[0],
+        ),
+      ),
+    ];
+  } finally {
+    await browser.close();
+  }
+
+  const events = [];
+  const seen = new Set();
+  for (const link of links) {
+    try {
+      const { html } = await fetchHtml(link, { timeoutMs: 25000 });
+      const found = extractFromJsonLd(html, { sourceName: source.name, sourceUrl: link });
+      for (const e of found) {
+        const key = `${e.title}|${e.start}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        events.push({ ...e, url: e.url || link, extractor: 'eventbrite', sourceName: source.name, sourceUrl: source.url });
+      }
+    } catch {
+      // skip a detail page that fails; keep the rest
+    }
+  }
+  return events;
 }
 
 // Pull and parse the `window.__SERVER_DATA__ = {...};` object via brace

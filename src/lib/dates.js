@@ -23,15 +23,32 @@ const MONTHS = {
  */
 export function parseTime(text) {
   if (!text) return null;
-  const m = text.match(/\b(\d{1,2})(?::(\d{2}))?\s*([ap]\.?m\.?)?/i);
+  // Require a real time signal, not a bare integer (which is usually a date
+  // component like the "10" in "10/27"). Accept either:
+  //   - an am/pm marker:  "6pm", "6:30 p.m."
+  //   - a colon time:     "18:00", "6:30"
+  // A lone number with neither is NOT treated as a time.
+  const m = text.match(/\b(\d{1,2})(?::(\d{2}))\s*([ap]\.?m\.?)?|\b(\d{1,2})\s*([ap]\.?m\.?)/i);
   if (!m) return null;
-  let hour = parseInt(m[1], 10);
-  const minute = m[2] ? parseInt(m[2], 10) : 0;
-  const ampm = m[3] ? m[3].replace(/\./g, '').toLowerCase() : null;
+
+  let hour;
+  let minute;
+  let ampm;
+  if (m[1] !== undefined) {
+    // Colon form: HH:MM (optional am/pm).
+    hour = parseInt(m[1], 10);
+    minute = parseInt(m[2], 10);
+    ampm = m[3] ? m[3].replace(/\./g, '').toLowerCase() : null;
+  } else {
+    // Bare-hour form, but only because an am/pm marker is present.
+    hour = parseInt(m[4], 10);
+    minute = 0;
+    ampm = m[5].replace(/\./g, '').toLowerCase();
+  }
+
   if (ampm === 'pm' && hour < 12) hour += 12;
   if (ampm === 'am' && hour === 12) hour = 0;
   if (hour > 23 || minute > 59) return null;
-  // If no am/pm and no 24h signal, we can't be fully sure, but accept as-is.
   return { hour, minute };
 }
 
