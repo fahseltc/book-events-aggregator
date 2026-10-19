@@ -28,8 +28,11 @@
       "name": "Little Blue Pigeon Books",
       "url": "https://www.littlebluepigeonbooks.com/event-list",
       "enabled": true,
-      "render": true,
-      "note": "JS-rendered calendar grid; needs headless render to get clean data."
+      "type": "wix",
+      "search": {
+        "months": 6
+      },
+      "note": "Wix Events calendar API (per-month); months = how many months ahead to fetch."
     },
     {
       "name": "Douglas County Libraries",

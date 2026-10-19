@@ -25,6 +25,7 @@
  * @property {string} url
  * @property {string} source        human-readable source name
  * @property {string} extractor
+ * @property {string} [firstSeen]   ISO stamp of the run this event first appeared in
  */
 
-export {};
+export { };

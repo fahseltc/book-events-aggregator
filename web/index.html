@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,70 +13,519 @@
       --muted: #6b6b6b;
       --accent: #7a4a2b;
       --line: #e7e1d8;
+      --reject: #a1443a;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--ink);
     }
+
     header {
       padding: 20px 24px 0;
       max-width: 820px;
       margin: 0 auto;
     }
-    h1 { font-size: 20px; margin: 0 0 2px; }
-    .meta { color: var(--muted); font-size: 13px; margin-bottom: 14px; }
-    .tabs { display: flex; gap: 6px; border-bottom: 1px solid var(--line); }
+
+    h1 {
+      font-size: 20px;
+      margin: 0 0 2px;
+      cursor: pointer;
+      user-select: none;
+      width: fit-content;
+    }
+
+    #logo:hover {
+      color: var(--accent);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      border-bottom: 1px solid var(--line);
+    }
+
     .tab {
-      appearance: none; border: 0; background: none; cursor: pointer;
-      padding: 10px 14px; font: inherit; color: var(--muted);
-      border-bottom: 2px solid transparent; margin-bottom: -1px;
+      appearance: none;
+      border: 0;
+      background: none;
+      cursor: pointer;
+      padding: 10px 14px;
+      font: inherit;
+      color: var(--muted);
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
     }
-    .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
-    .tab .count { color: var(--muted); font-weight: 400; }
-    main { max-width: 820px; margin: 0 auto; padding: 16px 24px 48px; }
+
+    .tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .tab .count {
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 16px 24px 48px;
+    }
+
+    .controls {
+      margin-bottom: 16px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .row label {
+      font-size: 12px;
+      color: var(--muted);
+      width: 58px;
+      flex: none;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+    }
+
+    .filter-input {
+      display: block;
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font: inherit;
+      background: var(--card);
+    }
+
+    .filter-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0 0;
+    }
+
+    .chips:empty {
+      margin: 0;
+    }
+
+    .fsection {
+      margin-bottom: 18px;
+    }
+
+    .fhead {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .fhelp {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 6px 0 0;
+    }
+
+    .fhelp code {
+      background: #f1ece4;
+      border-radius: 4px;
+      padding: 0 4px;
+    }
+
+    .fnote {
+      margin: 8px 0 0;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      border-radius: 999px;
+      padding: 3px 6px 3px 10px;
+      background: #efe4d8;
+      color: var(--accent);
+      border: 1px solid #e2d2c0;
+    }
+
+    .chip.exclude {
+      background: #f6e1de;
+      color: var(--reject);
+      border-color: #ecc9c4;
+    }
+
+    .chip button {
+      appearance: none;
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+      line-height: 1;
+      background: rgba(0, 0, 0, .08);
+      color: inherit;
+      border-radius: 999px;
+      width: 16px;
+      height: 16px;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      font-size: 11px;
+    }
+
+    .chip button:hover {
+      background: rgba(0, 0, 0, .18);
+    }
+
     .search {
-      width: 100%; padding: 9px 12px; margin-bottom: 16px;
-      border: 1px solid var(--line); border-radius: 8px; font: inherit; background: var(--card);
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font: inherit;
+      background: var(--card);
     }
+
+    .search:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .hint {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 8px 0 0 66px;
+      padding-left: 16px;
+    }
+
+    .hint li {
+      margin: 2px 0;
+    }
+
+    .hint code {
+      background: #f1ece4;
+      border-radius: 4px;
+      padding: 0 4px;
+    }
+
+    .linkbtn {
+      appearance: none;
+      border: 0;
+      background: none;
+      padding: 0;
+      cursor: pointer;
+      font: inherit;
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .linkbtn:hover {
+      color: #5a3620;
+    }
+
+    .filter-toggle {
+      appearance: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      cursor: pointer;
+      font: inherit;
+      text-align: left;
+      padding: 8px 0;
+      border: 0;
+      border-top: 1px solid var(--line);
+      background: none;
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .filter-toggle .chevron {
+      display: inline-block;
+      transition: transform .15s ease;
+      color: var(--muted);
+    }
+
+    .filter-toggle.collapsed .chevron {
+      transform: rotate(-90deg);
+    }
+
+    .filter-summary {
+      margin-left: auto;
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .filter-panel {
+      margin-top: 4px;
+    }
+
+    .filter-panel.collapsed {
+      display: none;
+    }
+
+    .filter-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 4px 0 0;
+    }
+
+    .filter-status {
+      font-size: 12px;
+      color: var(--muted);
+      margin-right: auto;
+    }
+
+    .btn {
+      appearance: none;
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .btn:hover {
+      background: #5a3620;
+      border-color: #5a3620;
+    }
+
+    .btn.ghost {
+      background: transparent;
+      color: var(--accent);
+    }
+
+    .btn.ghost:hover {
+      background: #f1ece4;
+      color: #5a3620;
+    }
+
     .event {
-      background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-      padding: 14px 16px; margin-bottom: 10px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
     }
-    .event h2 { font-size: 16px; margin: 0 0 4px; }
-    .event h2 a { color: var(--ink); text-decoration: none; }
-    .event h2 a:hover { color: var(--accent); text-decoration: underline; }
-    .when { color: var(--accent); font-size: 13px; font-weight: 600; }
-    .where { color: var(--muted); font-size: 13px; }
-    .desc { margin: 8px 0 0; font-size: 14px; color: #444; }
-    .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .event h2 {
+      font-size: 16px;
+      margin: 0 0 4px;
+    }
+
+    .event h2 a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .event h2 a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .when {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .where {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .desc {
+      margin: 8px 0 0;
+      font-size: 14px;
+      color: #444;
+      overflow-wrap: anywhere;
+    }
+
+    .tags {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
     .tag {
-      font-size: 11px; color: var(--muted); background: #f1ece4;
-      border-radius: 999px; padding: 2px 9px;
+      font-size: 11px;
+      color: var(--muted);
+      background: #f1ece4;
+      border-radius: 999px;
+      padding: 2px 9px;
     }
-    .tag.kw { background: #efe4d8; color: var(--accent); }
-    .empty { color: var(--muted); padding: 40px 0; text-align: center; }
-    .error { color: #a33; padding: 24px 0; }
+
+    .tag.kw {
+      background: #efe4d8;
+      color: var(--accent);
+    }
+
+    .tag.added {
+      background: #eef1ec;
+      color: #5a6b55;
+    }
+
+    .new-badge {
+      display: inline-block;
+      margin-left: 8px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      color: #fff;
+      background: #2e7d32;
+      border-radius: 999px;
+      padding: 1px 7px;
+      vertical-align: middle;
+    }
+
+    .event.is-new {
+      border-color: #bcdcbd;
+      box-shadow: inset 3px 0 0 #2e7d32;
+    }
+
+    .showing {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .week-marker {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 18px 0 12px;
+      color: var(--reject);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .week-marker::before,
+    .week-marker::after {
+      content: "";
+      flex: 1;
+      height: 0;
+      border-top: 1px dashed var(--reject);
+      opacity: .55;
+    }
+
+    .week-marker span {
+      white-space: nowrap;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .error {
+      color: #a33;
+      padding: 24px 0;
+    }
   </style>
 </head>
+
 <body>
   <header>
-    <h1>📚 Book Events</h1>
+    <h1 id="logo" title="Reset to the default view">📚 Book Events</h1>
     <div class="meta" id="meta">Loading…</div>
     <div class="tabs">
-      <button class="tab active" id="tab-filtered" data-view="filtered">Filtered <span class="count" id="count-filtered"></span></button>
       <button class="tab" id="tab-all" data-view="all">All events <span class="count" id="count-all"></span></button>
+      <button class="tab active" id="tab-filtered" data-view="filtered">My filters <span class="count"
+          id="count-filtered"></span></button>
+      <button class="tab" id="tab-new" data-view="new">New <span class="count" id="count-new"></span></button>
     </div>
   </header>
   <main>
-    <input class="search" id="search" type="search" placeholder="Search title, description, location, source…" />
+    <div class="controls">
+      <!-- Search is always visible. -->
+      <section class="fsection">
+        <div class="fhead">Search</div>
+        <input class="search" id="search" type="search" placeholder="Quick free-text search across all events…" />
+        <p class="fhelp">A one-off text search layered on top of the Include/Exclude filters.</p>
+      </section>
+
+      <!-- Collapsible Include/Exclude filters. -->
+      <button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="true" aria-controls="filter-panel">
+        <span class="chevron" id="filter-chevron">▾</span>
+        <span>Filters</span>
+        <span class="filter-summary" id="filter-summary"></span>
+      </button>
+
+      <div class="filter-panel" id="filter-panel">
+        <section class="fsection">
+          <div class="fhead">Include</div>
+          <input class="filter-input" id="include" type="text"
+            placeholder="Type a word and press Enter (e.g. author, book*)…" />
+          <p class="fhelp">Shows an event if it matches <b>any</b> Include word. Leave empty to see everything.
+            Use <code>*</code> for longer words — <code>book*</code> also matches <i>books</i>, <i>bookmobile</i>.</p>
+          <div class="chips" id="include-chips"></div>
+        </section>
+
+        <section class="fsection">
+          <div class="fhead">Exclude</div>
+          <input class="filter-input" id="exclude" type="text"
+            placeholder="Type a word and press Enter to hide matches…" />
+          <p class="fhelp">Hides an event if it matches <b>any</b> Exclude word. Exclude always overrides Include.</p>
+          <div class="chips" id="exclude-chips"></div>
+        </section>
+
+        <div class="filter-actions">
+          <span class="filter-status" id="filter-status"></span>
+          <button type="button" class="btn" id="reset-filters">↺ Reset to defaults</button>
+          <button type="button" class="btn ghost" id="clear-filters">Clear all</button>
+        </div>
+        <p class="fhelp fnote">Filters start from your saved <code>config/filters.json</code>; edit them freely here.
+        </p>
+      </div>
+    </div>
+
+    <div class="showing" id="showing"></div>
     <div id="list"></div>
   </main>
 
   <script>
-    const state = { view: 'filtered', data: { all: null, filtered: null }, query: '' };
+    const state = {
+      view: 'all', // default to All so the seeded config chips do visible work
+      data: { all: null, filtered: null },
+      query: '',
+      include: [],
+      exclude: [],
+      touched: false, // true once the user adds/removes/resets a filter
+      collapsed: false, // Include/Exclude panel collapsed?
+      latestRun: null, // generatedAt of the most recent crawl (for "NEW" badges)
+    };
 
     async function loadJson(path) {
       try {
@@ -101,53 +551,250 @@
       return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     }
 
+    // Turn a term (optionally with * wildcards) into a case-insensitive regex.
+    function termRegex(term) {
+      const core = term.trim().split('*').map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\w*');
+      return new RegExp(core, 'i');
+    }
+
+    function haystack(ev) {
+      return [ev.title, ev.description, ev.location, ev.source].filter(Boolean).join('\n');
+    }
+
+    // Short "added" date, e.g. "Oct 19".
+    function fmtAdded(iso) {
+      if (!iso) return '';
+      const d = new Date(iso);
+      if (isNaN(d)) return '';
+      return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
     function eventCard(ev) {
+      const isNew = ev.firstSeen && state.latestRun && ev.firstSeen === state.latestRun;
       const title = ev.url
         ? `<a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.title)}</a>`
         : esc(ev.title);
+      const newBadge = isNew ? '<span class="new-badge">NEW</span>' : '';
       const where = ev.location ? `<div class="where">${esc(ev.location)}</div>` : '';
       const desc = ev.description ? `<p class="desc">${esc(ev.description)}</p>` : '';
       const kws = (ev.matchedKeywords || []).map((k) => `<span class="tag kw">${esc(k)}</span>`).join('');
       const src = ev.source ? `<span class="tag">${esc(ev.source)}</span>` : '';
-      return `<div class="event">
-        <div class="when">${esc(fmtDate(ev.start))}</div>
+      const added = ev.firstSeen ? `<span class="tag added">Added ${esc(fmtAdded(ev.firstSeen))}</span>` : '';
+      return `<div class="event${isNew ? ' is-new' : ''}">
+        <div class="when">${esc(fmtDate(ev.start))}${newBadge}</div>
         <h2>${title}</h2>
         ${where}${desc}
-        <div class="tags">${src}${kws}</div>
+        <div class="tags">${src}${added}${kws}</div>
       </div>`;
     }
 
     function currentPayload() {
+      // "New" and "All" both draw from the full event set; "My filters" uses
+      // the pre-filtered file.
       return state.view === 'filtered' ? state.data.filtered : state.data.all;
     }
 
+    function applyFilters(events) {
+      const newOnly = state.view === 'new';
+      // The New tab shows everything the latest run first surfaced, so it
+      // ignores the Include/Exclude chips (otherwise "New (4)" could show 0).
+      // The Search box still narrows it.
+      const inc = newOnly ? [] : state.include.map(termRegex);
+      const exc = newOnly ? [] : state.exclude.map(termRegex);
+      const q = state.query.trim().toLowerCase();
+      return events.filter((ev) => {
+        if (newOnly && !(ev.firstSeen && state.latestRun && ev.firstSeen === state.latestRun)) return false;
+        const hay = haystack(ev);
+        if (inc.length && !inc.some((re) => re.test(hay))) return false;
+        if (exc.length && exc.some((re) => re.test(hay))) return false;
+        if (q && !hay.toLowerCase().includes(q)) return false;
+        return true;
+      });
+    }
+
+    function renderChips() {
+      const draw = (listId, terms, kind) => {
+        document.getElementById(listId).innerHTML = terms
+          .map((t, i) => `<span class="chip ${kind}">${esc(t)}<button data-kind="${kind}" data-i="${i}" title="Remove">×</button></span>`)
+          .join('');
+      };
+      draw('include-chips', state.include, 'include');
+      draw('exclude-chips', state.exclude, 'exclude');
+
+      // Status + reset affordance.
+      const summary = state.include.length || state.exclude.length
+        ? `${state.include.length} include, ${state.exclude.length} exclude`
+        : 'none — showing everything';
+      document.getElementById('filter-status').textContent = summary;
+      // Mirror the summary next to the collapse toggle so it's visible when the
+      // panel is hidden.
+      document.getElementById('filter-summary').textContent = summary;
+
+      const resetBtn = document.getElementById('reset-filters');
+      const atDefaults = !state.touched && sameAsDefaults();
+      resetBtn.disabled = atDefaults;
+      resetBtn.title = atDefaults ? 'Already showing your config defaults' : 'Restore filters from config/filters.json';
+    }
+
+    // Are the current chips identical to the config defaults?
+    function sameAsDefaults() {
+      const f = state.data.filtered;
+      if (!f || f.__error) return false;
+      const eq = (a, b) => a.length === b.length && a.every((x, i) => x === b[i]);
+      return eq(state.include, f.filterKeywords || []) && eq(state.exclude, f.filterExclude || []);
+    }
+
     function render() {
+      renderChips();
       const payload = currentPayload();
       const listEl = document.getElementById('list');
+      const showing = document.getElementById('showing');
       if (!payload) { listEl.innerHTML = '<div class="empty">Loading…</div>'; return; }
       if (payload.__error) {
+        showing.textContent = '';
         listEl.innerHTML = `<div class="error">Couldn't load ${esc(payload.__error)}.<br>Run <code>npm run pipeline</code> first to generate the data.</div>`;
         return;
       }
-      let events = Array.isArray(payload) ? payload : payload.events || [];
-      const q = state.query.trim().toLowerCase();
-      if (q) {
-        events = events.filter((e) =>
-          [e.title, e.description, e.location, e.source].some((f) => (f || '').toLowerCase().includes(q)),
-        );
-      }
-      if (events.length === 0) {
-        listEl.innerHTML = '<div class="empty">No events to show.</div>';
-        return;
-      }
-      listEl.innerHTML = events.map(eventCard).join('');
+      const all = Array.isArray(payload) ? payload : payload.events || [];
+      const events = applyFilters(all);
+      const scope = state.view === 'filtered' ? ' filtered' : state.view === 'new' ? ' new' : '';
+      const newNote = state.view === 'new' ? ' first seen in the latest run (Include/Exclude ignored here)' : '';
+      showing.textContent = `Showing ${events.length}${scope} event${events.length === 1 ? '' : 's'}${newNote}`;
+      const emptyMsg = state.view === 'new'
+        ? 'No new events in the latest run.'
+        : 'No events match these filters.';
+      listEl.innerHTML = events.length
+        ? renderList(events)
+        : `<div class="empty">${emptyMsg}</div>`;
+      syncHash();
     }
+
+    // Build the event cards, inserting a "one week from now" divider at the
+    // point where events cross that boundary (the list is sorted by start).
+    function renderList(events) {
+      const weekAhead = Date.now() + 7 * 24 * 60 * 60 * 1000;
+      const weekLabel = new Date(weekAhead).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+      const marker = `<div class="week-marker"><span>One week out &middot; ${esc(weekLabel)}</span></div>`;
+      let inserted = false;
+      const parts = [];
+      for (const ev of events) {
+        if (!inserted) {
+          const t = new Date(ev.start).getTime();
+          if (!Number.isNaN(t) && t >= weekAhead) {
+            parts.push(marker);
+            inserted = true;
+          }
+        }
+        parts.push(eventCard(ev));
+      }
+      return parts.join('');
+    }
+
+    const TABS = { all: 'tab-all', filtered: 'tab-filtered', new: 'tab-new' };
 
     function setView(view) {
       state.view = view;
-      document.getElementById('tab-filtered').classList.toggle('active', view === 'filtered');
-      document.getElementById('tab-all').classList.toggle('active', view === 'all');
+      for (const [v, id] of Object.entries(TABS)) {
+        document.getElementById(id).classList.toggle('active', view === v);
+      }
       render();
+    }
+
+    function addTerm(kind, value) {
+      const term = value.trim();
+      if (!term) return;
+      const list = state[kind];
+      if (!list.some((t) => t.toLowerCase() === term.toLowerCase())) list.push(term);
+      state.touched = true;
+      render();
+    }
+
+    function removeTerm(kind, i) {
+      state[kind].splice(i, 1);
+      state.touched = true;
+      render();
+    }
+
+    // Restore the Include/Exclude chips to the config defaults.
+    function resetToDefaults() {
+      seedDefaultFilters();
+      state.touched = false; // back to the default state
+      render();
+    }
+
+    // Clear all Include/Exclude chips (show everything).
+    function clearFilters() {
+      state.include = [];
+      state.exclude = [];
+      state.touched = true;
+      render();
+    }
+
+    // Show/hide the Include/Exclude panel (Search stays visible). Persisted.
+    function setFiltersCollapsed(collapsed) {
+      state.collapsed = collapsed;
+      document.getElementById('filter-panel').classList.toggle('collapsed', collapsed);
+      const toggle = document.getElementById('filter-toggle');
+      toggle.classList.toggle('collapsed', collapsed);
+      toggle.setAttribute('aria-expanded', String(!collapsed));
+      try { localStorage.setItem('filtersCollapsed', collapsed ? '1' : '0'); } catch { }
+    }
+
+    // Return to the pristine landing view: default tab, default filters, no
+    // search, and a clean URL (as if first visiting the page). Used by the logo.
+    function resetToBase() {
+      state.view = 'all';
+      state.query = '';
+      state.touched = false;
+      seedDefaultFilters();
+      document.getElementById('search').value = '';
+      document.getElementById('tab-filtered').classList.remove('active');
+      document.getElementById('tab-all').classList.add('active');
+      history.replaceState(null, '', location.pathname); // drop the hash
+      render();
+    }
+
+    // Persist filters in the URL hash so a view is shareable and reload-safe.
+    // Once the user has touched filters, the hash always reflects their exact
+    // state (including "none"), so defaults are never silently re-applied.
+    function syncHash() {
+      // Pristine base view (All tab, untouched config defaults, no search) gets
+      // a clean URL with no hash — matching a fresh first visit.
+      if (state.view === 'all' && !state.query && !state.touched && sameAsDefaults()) {
+        history.replaceState(null, '', location.pathname);
+        return;
+      }
+      const p = new URLSearchParams();
+      if (state.view !== 'all') p.set('view', state.view);
+      if (state.include.length) p.set('inc', state.include.join(','));
+      if (state.exclude.length) p.set('exc', state.exclude.join(','));
+      if (state.query) p.set('q', state.query);
+      // Mark intentional state once touched, so empty filters stay empty on reload.
+      if (state.touched && !state.include.length && !state.exclude.length) p.set('f', '0');
+      const h = p.toString();
+      history.replaceState(null, '', h ? '#' + h : location.pathname);
+    }
+
+    // Returns true if the hash explicitly carried filter state (so we should
+    // NOT override it with the config defaults). The 'f' flag marks an
+    // intentional "no filters" state (e.g. the user cleared them all).
+    function loadHash() {
+      const p = new URLSearchParams(location.hash.slice(1));
+      const v = p.get('view');
+      if (v === 'filtered' || v === 'new') state.view = v;
+      if (p.get('inc')) state.include = p.get('inc').split(',').filter(Boolean);
+      if (p.get('exc')) state.exclude = p.get('exc').split(',').filter(Boolean);
+      if (p.get('q')) state.query = p.get('q');
+      return p.has('inc') || p.has('exc') || p.has('f');
+    }
+
+    // Seed the Include/Exclude chips from the config filters recorded in
+    // events-filtered.json (filterKeywords / filterExclude).
+    function seedDefaultFilters() {
+      const f = state.data.filtered;
+      if (!f || f.__error) return;
+      state.include = Array.isArray(f.filterKeywords) ? [...f.filterKeywords] : [];
+      state.exclude = Array.isArray(f.filterExclude) ? [...f.filterExclude] : [];
     }
 
     function updateMeta() {
@@ -157,15 +804,51 @@
       document.getElementById('count-all').textContent = `(${countOf(all)})`;
       document.getElementById('count-filtered').textContent = `(${countOf(filtered)})`;
       const gen = (all && all.generatedAt) || (filtered && filtered.generatedAt);
+      state.latestRun = gen || null;
+      // New tab count = events in the full set whose firstSeen is the latest run.
+      const allEvents = (all && !all.__error && all.events) || [];
+      const newInRun = state.latestRun
+        ? allEvents.filter((e) => e.firstSeen === state.latestRun).length
+        : 0;
+      document.getElementById('count-new').textContent = `(${newInRun})`;
+      const newCount = (all && all.newCount) ?? (filtered && filtered.newCount);
+      const newNote = typeof newCount === 'number' && newCount > 0 ? ` · ${newCount} new this run` : '';
       document.getElementById('meta').textContent = gen
-        ? `Generated ${new Date(gen).toLocaleString()}`
+        ? `Generated ${new Date(gen).toLocaleString()}${newNote}`
         : 'Local view of generated events';
     }
 
     async function init() {
+      const hashHadFilters = loadHash();
+
       document.getElementById('tab-filtered').addEventListener('click', () => setView('filtered'));
       document.getElementById('tab-all').addEventListener('click', () => setView('all'));
-      document.getElementById('search').addEventListener('input', (e) => { state.query = e.target.value; render(); });
+      document.getElementById('tab-new').addEventListener('click', () => setView('new'));
+
+      const incInput = document.getElementById('include');
+      const excInput = document.getElementById('exclude');
+      incInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') { addTerm('include', incInput.value); incInput.value = ''; } });
+      excInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') { addTerm('exclude', excInput.value); excInput.value = ''; } });
+
+      const searchEl = document.getElementById('search');
+      searchEl.value = state.query;
+      searchEl.addEventListener('input', (e) => { state.query = e.target.value; render(); });
+
+      document.getElementById('reset-filters').addEventListener('click', resetToDefaults);
+      document.getElementById('clear-filters').addEventListener('click', clearFilters);
+      document.getElementById('logo').addEventListener('click', resetToBase);
+      document.getElementById('filter-toggle').addEventListener('click', () => setFiltersCollapsed(!state.collapsed));
+
+      // Restore the persisted collapsed state (default: expanded).
+      let collapsed = false;
+      try { collapsed = localStorage.getItem('filtersCollapsed') === '1'; } catch { }
+      setFiltersCollapsed(collapsed);
+
+      // Chip remove buttons (event delegation).
+      document.querySelector('main').addEventListener('click', (e) => {
+        const btn = e.target.closest('.chip button');
+        if (btn) removeTerm(btn.dataset.kind, Number(btn.dataset.i));
+      });
 
       const [all, filtered] = await Promise.all([
         loadJson('../output/events.json'),
@@ -173,11 +856,18 @@
       ]);
       state.data.all = all;
       state.data.filtered = filtered;
+
+      // Seed Include/Exclude from the config filters by default, unless the URL
+      // hash already specified filter state (a shared/bookmarked or edited view).
+      if (!hashHadFilters) seedDefaultFilters();
+
       updateMeta();
-      render();
+      // Reflect any view loaded from the hash on the tabs.
+      setView(state.view);
     }
 
     init();
   </script>
 </body>
+
 </html>

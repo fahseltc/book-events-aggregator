@@ -41,24 +41,32 @@ export async function fetchHtml(url, opts = {}) {
  * @returns {Promise<{ html: string, status: number, finalUrl: string }>}
  */
 export async function renderHtml(url, opts = {}) {
-  const { timeoutMs = 30000, userAgent = DEFAULT_UA } = opts;
+  // Give JS-heavy pages room; never shorter than 45s even if a caller passes a
+  // small HTTP-oriented timeout.
+  const { userAgent = DEFAULT_UA, settleMs = 1500 } = opts;
+  const timeoutMs = Math.max(opts.timeoutMs ?? 0, 45000);
   let chromium;
   try {
     ({ chromium } = await import('playwright'));
   } catch {
     throw new Error(
       `Source needs headless rendering (render: true) but "playwright" is not installed.\n` +
-        `Install it with:  npm install playwright && npx playwright install chromium\n` +
-        `Or set render:false for this source to use plain HTTP fetch instead.`,
+      `Install it with:  npm install playwright && npx playwright install chromium\n` +
+      `Or set render:false for this source to use plain HTTP fetch instead.`,
     );
   }
   const browser = await chromium.launch();
   try {
     const page = await browser.newPage({ userAgent });
+    // Use 'domcontentloaded', NOT 'networkidle': many site builders (Wix,
+    // Squarespace) keep background requests going forever, so 'networkidle'
+    // never settles and times out even though the content has loaded. We then
+    // pause briefly to let client-rendered content populate.
     const response = await page.goto(url, {
-      waitUntil: 'networkidle',
+      waitUntil: 'domcontentloaded',
       timeout: timeoutMs,
     });
+    await page.waitForTimeout(settleMs);
     const html = await page.content();
     return {
       html,

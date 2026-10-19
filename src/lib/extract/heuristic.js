@@ -19,8 +19,11 @@ export function extractHeuristic(html, ctx = {}) {
   const cards = extractCards(html);
   const events = [];
   const seen = new Set();
+  const consumed = new Set(); // block indices absorbed as a prior event's details
 
-  for (const card of cards) {
+  for (let i = 0; i < cards.length; i++) {
+    if (consumed.has(i)) continue;
+    const card = cards[i];
     const block = card.text;
     if (block.length < 8 || block.length > 1200) continue;
     if (!DATE_SIGNAL.test(block)) continue;
@@ -28,10 +31,39 @@ export function extractHeuristic(html, ctx = {}) {
     const iso = parseEventDate(block, { now: ctx.now });
     if (!iso) continue;
 
-    const { title, description } = splitTitleDescription(block);
+    // Look-ahead merge: when the date-bearing block has no time of its own,
+    // the time/location/description often live in the following block(s)
+    // (common on blog-style event pages: a "MM/DD: Title" heading followed by
+    // a "Weekday, 7-9 p.m. <venue>" line and a description paragraph). Gather
+    // trailing blocks that DON'T start their own event until the next dated
+    // block, and use them to enrich this one.
+    const follow = [];
+    if (!TIME_SIGNAL.test(block)) {
+      for (let j = i + 1; j < cards.length && follow.length < 3; j++) {
+        const next = cards[j].text;
+        if (!next || next.length > 1200) break;
+        // Stop only if the next block begins a DIFFERENT event (its own date on
+        // a different day). A block repeating this event's date (e.g. a detail
+        // line "Sunday 10/25, 5:30-6:30 p.m.") is part of this event, not a new
+        // one, so we keep absorbing it.
+        if (DATE_SIGNAL.test(next)) {
+          const nextIso = parseEventDate(next, { now: ctx.now });
+          if (nextIso && nextIso.slice(0, 10) !== iso.slice(0, 10)) break;
+        }
+        follow.push(next);
+        consumed.add(j); // don't also emit this block as its own event
+      }
+    }
+    const combined = [block, ...follow].join(' \u0001 '); // marker between blocks
+
+    const { title, description } = splitTitleDescription(block, follow);
     if (!title) continue;
 
-    const key = `${iso}|${title.toLowerCase()}`;
+    // A better start time: re-parse over the combined text so a time in a
+    // following block is picked up (block alone was date-only -> midnight).
+    const startWithTime = parseEventDate(stripSentinel(combined), { now: ctx.now }) || iso;
+
+    const key = `${startWithTime.slice(0, 10)}|${title.toLowerCase()}`;
     if (seen.has(key)) continue;
     seen.add(key);
 
@@ -39,9 +71,9 @@ export function extractHeuristic(html, ctx = {}) {
     events.push({
       title,
       description,
-      start: iso,
+      start: startWithTime,
       end: undefined,
-      location: guessLocation(block),
+      location: guessLocation(stripSentinel(combined)),
       url,
       sourceName: ctx.sourceName,
       sourceUrl: ctx.sourceUrl,
@@ -49,6 +81,10 @@ export function extractHeuristic(html, ctx = {}) {
     });
   }
   return events;
+}
+
+function stripSentinel(s) {
+  return s.replace(/\u0001/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
 function absolute(href, base) {
@@ -59,17 +95,23 @@ function absolute(href, base) {
   }
 }
 
-// Pull a plausible title + description out of a flat text block by removing the
-// leading date/time preamble and taking the first sentence-ish span as title.
-function splitTitleDescription(block) {
+// Pull a plausible title + description out of the heading block, removing the
+// leading date/time preamble. When follow-on blocks were merged in, they become
+// the description (cleaner than slicing the heading mid-sentence).
+function splitTitleDescription(block, follow = []) {
   let rest = block;
 
-  // Strip a leading "Wed, Oct 14 · 5:00 PM" style preamble.
-  const preamble = rest.match(
+  // Strip a leading date preamble in either form:
+  //   "Wed, Oct 14 · 5:00 PM"   (weekday/month-name)
+  //   "10/14:"  "10/14 -"       (numeric MM/DD, as used by blog-style pages)
+  const monthName = rest.match(
     /^(?:[A-Za-z]{3,9},?\s+)?[A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?(?:,?\s*\d{4})?\s*[·\-–—]?\s*(?:\d{1,2}(?::\d{2})?\s*[ap]\.?m\.?)?/i,
   );
-  if (preamble && preamble[0].length >= 5) {
-    rest = rest.slice(preamble[0].length).trim();
+  const numeric = rest.match(/^\d{1,2}\/\d{1,2}(?:\/\d{2,4})?\s*[:·\-–—]?\s*/);
+  if (numeric) {
+    rest = rest.slice(numeric[0].length).trim();
+  } else if (monthName && monthName[0].length >= 5) {
+    rest = rest.slice(monthName[0].length).trim();
   }
 
   // Drop common call-to-action tails.
@@ -78,7 +120,14 @@ function splitTitleDescription(block) {
 
   if (!rest) return { title: undefined, description: undefined };
 
-  // Title = up to first strong boundary; description = remainder.
+  // If we merged follow-on blocks, prefer the heading as the title and the
+  // follow-on text as the description (don't chop the heading mid-sentence).
+  if (follow.length) {
+    const desc = follow.join(' ').replace(/\s+/g, ' ').trim();
+    return { title: rest, description: desc || undefined };
+  }
+
+  // Otherwise (single self-contained block): title = first sentence-ish span.
   const boundary = rest.search(/(?<=[.!?])\s|\s[·|•]\s|\s{2,}/);
   if (boundary > 0 && boundary < 120) {
     return {
@@ -86,7 +135,6 @@ function splitTitleDescription(block) {
       description: rest.slice(boundary).trim() || undefined,
     };
   }
-  // Fall back: first ~90 chars as title.
   if (rest.length > 90) {
     return { title: rest.slice(0, 90).trim() + '…', description: rest };
   }

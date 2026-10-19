@@ -101,10 +101,31 @@ node src/index.js --max-details 15
 ### Viewer
 
 `npm run serve` starts a minimal loopback-only (127.0.0.1) static server and
-opens a one-page viewer at <http://127.0.0.1:8080/>. It has two tabs —
-**Filtered** (`output/events-filtered.json`) and **All events**
-(`output/events.json`) — plus a client-side search box. Generate the data first
+opens a one-page viewer at <http://127.0.0.1:8080/>. Generate the data first
 with `npm run pipeline`. The server only exposes `web/` and `output/`.
+
+The viewer has three tabs — **All events** (`output/events.json`), **My filters**
+(`output/events-filtered.json`), and **New** (events first seen in the most
+recent crawl) — plus live, client-side filtering that works on top of the active
+tab:
+
+- **Include**: type a term and press Enter to add it as a chip. An event shows
+  if it matches **any** include chip (OR). Click a chip's **×** to remove it.
+- **Exclude**: same, but hides matching events. Exclude wins over include.
+- Both support the `*` wildcard (e.g. `book*` matches `bookmobile`), matched
+  across title, description, location, and source.
+- **Search**: a quick free-text box for one-off lookups.
+
+The Include/Exclude chips are **pre-populated from your `config/filters.json`**
+(its `keywords` and `exclude` lists) so the viewer starts with your usual
+filters. Remove any chip with its **×**, or use **reset to defaults** / **clear
+all** under the inputs. Because the chips also scan location and source (not
+just title/description), the live count can differ slightly from the Filtered
+tab's pre-generated total.
+
+These filters are purely in the browser (no re-crawl) and are saved in the URL
+hash, so a filtered view can be bookmarked or shared and survives a reload —
+once you edit them, your choices stick (defaults won't silently return).
 
 ### Filtering by keyword
 
@@ -252,6 +273,8 @@ the source's `search` object:
 {
   "generatedAt": "2026-10-12T17:00:00.000Z",
   "count": 94,
+  "newCount": 12,        // events first seen in this run
+  "existingCount": 82,   // events carried over from a prior run
   "sources": [ /* per-source crawl report */ ],
   "events": [
     {
@@ -262,11 +285,29 @@ the source's `search` object:
       "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
       "url": "https://www.eventbrite.com/e/...",
       "source": "Denver Book Society",
-      "extractor": "jsonld"
+      "extractor": "jsonld",
+      "firstSeen": "2026-10-12T17:00:00.000Z"  // the run this event first appeared in
     }
   ]
 }
 ```
+
+### New-vs-seen tracking
+
+Each event carries a `firstSeen` stamp. On every crawl the tool reads the
+previous `output/events.json`, carries forward `firstSeen` for events it has
+seen before (matched by date + normalized title), and stamps genuinely new
+events with the current run's time. The crawl prints a summary like:
+
+```
+Wrote 1438 upcoming event(s) from 17 source(s) to output/events.json
+  153 NEW, 1285 already seen
+```
+
+In the viewer, each event shows an **Added \<date\>** tag, and events first seen
+in the most recent run get a green **NEW** badge and a highlighted card. The
+**New** tab lists just those latest-run events (it ignores the Include/Exclude
+chips so nothing is hidden, though the Search box still narrows it).
 
 ## Project layout
 

@@ -43,7 +43,8 @@
               "tribe",
               "eventbrite",
               "static",
-              "bibliocommons"
+              "bibliocommons",
+              "wix"
             ],
             "description": "Source kind. 'auto' (default) detects RSS vs HTML; 'rss' forces feed parsing; 'html' forces page scraping; 'bookmanager' uses the BookManager JSON API (headless); 'tribe' uses the WordPress The Events Calendar REST API; 'eventbrite' scrapes Eventbrite's public search page (headless)."
           },

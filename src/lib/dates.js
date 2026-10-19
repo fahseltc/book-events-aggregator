@@ -23,6 +23,22 @@ const MONTHS = {
  */
 export function parseTime(text) {
   if (!text) return null;
+
+  // Time RANGE like "7-9 p.m.", "7:30 – 9 pm", "10 a.m.- 12 p.m.": the start
+  // time often omits its own am/pm (it's shared with the end). Take the START,
+  // applying the end's meridiem when the start lacks one.
+  const range = text.match(
+    /\b(\d{1,2})(?::(\d{2}))?\s*([ap]\.?m\.?)?\s*(?:-|–|—|to)\s*(\d{1,2})(?::\d{2})?\s*([ap]\.?m\.?)/i,
+  );
+  if (range) {
+    let hour = parseInt(range[1], 10);
+    const minute = range[2] ? parseInt(range[2], 10) : 0;
+    const ampm = (range[3] || range[5]).replace(/\./g, '').toLowerCase();
+    if (ampm === 'pm' && hour < 12) hour += 12;
+    if (ampm === 'am' && hour === 12) hour = 0;
+    if (hour <= 23 && minute <= 59) return { hour, minute };
+  }
+
   // Require a real time signal, not a bare integer (which is usually a date
   // component like the "10" in "10/27"). Accept either:
   //   - an am/pm marker:  "6pm", "6:30 p.m."

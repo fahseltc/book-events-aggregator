@@ -4,7 +4,12 @@ import { parseEventDate, isUpcoming } from './dates.js';
 
 /**
  * @param {import('./types.js').RawEvent[]} rawEvents
- * @param {{ now?: Date, includePast?: boolean }} [opts]
+ * @param {{
+ *   now?: Date,
+ *   includePast?: boolean,
+ *   priorFirstSeen?: Map<string,string>,  // event key -> firstSeen ISO (from a prior run)
+ *   runStamp?: string,                    // ISO stamp for events first seen this run
+ * }} [opts]
  * @returns {import('./types.js').Event[]}
  */
 export function normalizeEvents(rawEvents, opts = {}) {
@@ -32,7 +37,30 @@ export function normalizeEvents(rawEvents, opts = {}) {
     });
   }
 
-  return dedupe(out).sort((a, b) => a.start.localeCompare(b.start));
+  const events = dedupe(out).sort((a, b) => a.start.localeCompare(b.start));
+
+  // Stamp each event with firstSeen: carry it over from a prior run when the
+  // same event was seen before, otherwise mark it as first seen this run.
+  const prior = opts.priorFirstSeen;
+  const runStamp = opts.runStamp || now.toISOString();
+  if (prior) {
+    for (const ev of events) {
+      const seen = prior.get(eventKey(ev));
+      ev.firstSeen = seen || runStamp;
+    }
+  }
+
+  return events;
+}
+
+/**
+ * Stable identity key for an event across runs (same date + normalized title).
+ * Matches the exact-dedup key so "the same event" means the same thing
+ * everywhere.
+ * @param {{ start: string, title: string }} ev
+ */
+export function eventKey(ev) {
+  return `${String(ev.start).slice(0, 10)}|${normalizeTitle(ev.title)}`;
 }
 
 // Accept already-ISO values, otherwise parse freeform.

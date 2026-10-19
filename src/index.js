@@ -18,7 +18,8 @@ import { extractFromTribe } from './lib/extract/tribe.js';
 import { extractFromEventbrite } from './lib/extract/eventbrite.js';
 import { extractStaticEvents } from './lib/extract/static.js';
 import { extractFromBiblioCommons } from './lib/extract/bibliocommons.js';
-import { normalizeEvents } from './lib/normalize.js';
+import { extractFromWix } from './lib/extract/wix.js';
+import { normalizeEvents, eventKey } from './lib/normalize.js';
 import { loadEnv } from './lib/env.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -79,6 +80,13 @@ async function main() {
   const sources = (config.sources || []).filter((s) => s.enabled !== false);
 
   const now = new Date();
+  const outPath = resolve(ROOT, args.out);
+
+  // Load the prior output (if any) to carry forward each event's firstSeen date,
+  // so we can tell genuinely new events from ones we've already seen.
+  const runStamp = now.toISOString();
+  const priorFirstSeen = await loadPriorFirstSeen(outPath);
+
   const allRaw = [];
   const report = [];
 
@@ -104,13 +112,22 @@ async function main() {
     logSourceLine(line);
   }
 
-  const events = normalizeEvents(allRaw, { now, includePast: args.includePast });
+  const events = normalizeEvents(allRaw, {
+    now,
+    includePast: args.includePast,
+    priorFirstSeen,
+    runStamp,
+  });
 
-  const outPath = resolve(ROOT, args.out);
+  const newCount = events.filter((e) => e.firstSeen === runStamp).length;
+  const existingCount = events.length - newCount;
+
   await mkdir(dirname(outPath), { recursive: true });
   const payload = {
-    generatedAt: now.toISOString(),
+    generatedAt: runStamp,
     count: events.length,
+    newCount,
+    existingCount,
     sources: report,
     events,
   };
@@ -119,6 +136,26 @@ async function main() {
   process.stdout.write(
     `\nWrote ${events.length} upcoming event(s) from ${sources.length} source(s) to ${args.out}\n`,
   );
+  process.stdout.write(
+    `  \x1b[32m${newCount} NEW\x1b[0m, ${existingCount} already seen\n`,
+  );
+}
+
+// Read the previous output file and map each event's key -> firstSeen, so a
+// re-run preserves when each event first appeared.
+async function loadPriorFirstSeen(outPath) {
+  const map = new Map();
+  try {
+    const prior = JSON.parse(await readFile(outPath, 'utf8'));
+    for (const ev of prior.events || []) {
+      if (ev && ev.start && ev.title) {
+        map.set(eventKey(ev), ev.firstSeen || prior.generatedAt);
+      }
+    }
+  } catch {
+    // No prior output (first run) or unreadable — everything will be "new".
+  }
+  return map;
 }
 
 /**
@@ -173,6 +210,14 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'bibliocommons';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'wix') {
+    const events = await extractFromWix(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'wix';
     line.links = 0;
     return events;
   }
