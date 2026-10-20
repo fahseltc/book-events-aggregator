@@ -110,6 +110,50 @@
       "source": "Haven Coffee & Books",
       "enabled": false,
       "note": "DISABLED PLACEHOLDER — heuristic yields stale/garbled recurring entries, not reliable. Enter events by hand and enable."
+    },
+    {
+      "title": "Spelling Bee(r) @ Velvet Lasso",
+      "start": "2026-10-22T18:30:00",
+      "end": "2026-10-22T20:00:00",
+      "location": "Velvet Lasso — 3254 Navajo St Suite 100, Denver, CO, 80211",
+      "description": "A casual night of spelling, cocktails, and prizes benefiting Burning Through Pages youth literacy programs. 21+.",
+      "url": "https://burningthroughpages.org/event/spelling-beer-velvet-lasso/",
+      "source": "Burning Through Pages",
+      "enabled": true,
+      "note": "Captured from a local crawl — Burning Through Pages' site 403s/202s the Tribe API from CI datacenter IPs (Cloudflare). Dated event; safe to delete after it passes."
+    },
+    {
+      "title": "State of the Library",
+      "start": "2026-11-05T08:30:00",
+      "end": "2026-11-05T10:00:00",
+      "location": "Central Library — 10 W 14th Avenue Parkway, Denver, CO, 80204",
+      "description": "The second annual State of the Library: coffee, a fireside chat on special collections with Rachel Vagts, Volunteer/Friend of the Year awards, and early access to the Red Chair Bookshop.",
+      "url": "https://www.dplfriends.org/event/state-of-the-library/",
+      "source": "Denver Public Library Friends",
+      "enabled": true,
+      "note": "Captured from a local crawl — dplfriends.org 403s the Tribe API (and iCal) from CI datacenter IPs (Cloudflare). Dated event; safe to delete after it passes."
+    },
+    {
+      "title": "The Boozy Book Fair – Castle Rock Edition",
+      "start": "2026-11-08T14:00:00",
+      "end": "2026-11-08T18:00:00",
+      "location": "Sinners & Saints — 221 Perry Street, Castle Rock, CO, 80104",
+      "description": "A grown-up book fair with Sudden Fiction Books — curated books, bookish gifts, and craft cocktails, benefiting Burning Through Pages.",
+      "url": "https://burningthroughpages.org/event/the-boozy-book-fair-castle-rock-edition-2/",
+      "source": "Burning Through Pages",
+      "enabled": true,
+      "note": "Captured from a local crawl — Burning Through Pages' site blocks the Tribe API from CI datacenter IPs. Dated event; safe to delete after it passes."
+    },
+    {
+      "title": "The Red Chair Bookshop 3-Day Used Book Sale",
+      "start": "2026-11-13T10:00:00",
+      "end": "2026-11-15T15:00:00",
+      "location": "Central Library — 10 W 14th Avenue Parkway, Denver, CO, 80204",
+      "description": "The Denver Public Library Friends' used book sale returns to Park View: thousands of gently loved books, CDs, and DVDs. Sunday is a $15 bag sale.",
+      "url": "https://www.dplfriends.org/event/the-red-chair-bookshop-3-day-used-book-sale-3/",
+      "source": "Denver Public Library Friends",
+      "enabled": true,
+      "note": "Captured from a local crawl — dplfriends.org blocks the Tribe API from CI datacenter IPs. Dated event; safe to delete after it passes."
     }
   ]
 }
