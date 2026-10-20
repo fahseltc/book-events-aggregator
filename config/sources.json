@@ -112,6 +112,17 @@
       "note": "WordPress; events listed in page text. Heuristic only; skip detail stage."
     },
     {
+      "name": "Novel Strand",
+      "url": "https://www.novelstrand.com/events",
+      "enabled": true,
+      "type": "tockify",
+      "search": {
+        "calname": "nsbcevents",
+        "max": 100
+      },
+      "note": "Tockify calendar widget; public agenda API (next N upcoming events)."
+    },
+    {
       "name": "Good Girl Cafe & Bookstore",
       "url": "https://www.goodgirlcafeandbookstore.com/events",
       "enabled": true,

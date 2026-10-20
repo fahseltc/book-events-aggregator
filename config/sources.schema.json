@@ -46,7 +46,8 @@
               "bibliocommons",
               "wix",
               "squareonline",
-              "acuity"
+              "acuity",
+              "tockify"
             ],
             "description": "Source kind. 'auto' (default) detects RSS vs HTML; 'rss' forces feed parsing; 'html' forces page scraping; 'bookmanager' uses the BookManager JSON API (headless); 'tribe' uses the WordPress The Events Calendar REST API; 'eventbrite' scrapes Eventbrite's public search page (headless); 'wix' uses the Wix Events API (headless); 'squareonline' renders a Square Online page and parses events from its __BOOTSTRAP_STATE__ (headless)."
           },

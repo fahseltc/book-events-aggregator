@@ -19,6 +19,7 @@ import { extractFromEventbrite } from './lib/extract/eventbrite.js';
 import { extractStaticEvents } from './lib/extract/static.js';
 import { extractFromBiblioCommons } from './lib/extract/bibliocommons.js';
 import { extractFromWix } from './lib/extract/wix.js';
+import { extractFromTockify } from './lib/extract/tockify.js';
 import { extractFromSquareOnline } from './lib/extract/squareonline.js';
 import { extractFromAcuity } from './lib/extract/acuity.js';
 import { normalizeEvents, eventKey } from './lib/normalize.js';
@@ -222,6 +223,14 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'wix';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'tockify') {
+    const events = await extractFromTockify(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'tockify';
     line.links = 0;
     return events;
   }
