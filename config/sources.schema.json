@@ -44,9 +44,11 @@
               "eventbrite",
               "static",
               "bibliocommons",
-              "wix"
+              "wix",
+              "squareonline",
+              "acuity"
             ],
-            "description": "Source kind. 'auto' (default) detects RSS vs HTML; 'rss' forces feed parsing; 'html' forces page scraping; 'bookmanager' uses the BookManager JSON API (headless); 'tribe' uses the WordPress The Events Calendar REST API; 'eventbrite' scrapes Eventbrite's public search page (headless)."
+            "description": "Source kind. 'auto' (default) detects RSS vs HTML; 'rss' forces feed parsing; 'html' forces page scraping; 'bookmanager' uses the BookManager JSON API (headless); 'tribe' uses the WordPress The Events Calendar REST API; 'eventbrite' scrapes Eventbrite's public search page (headless); 'wix' uses the Wix Events API (headless); 'squareonline' renders a Square Online page and parses events from its __BOOTSTRAP_STATE__ (headless)."
           },
           "enabled": {
             "type": "boolean",
@@ -88,6 +90,38 @@
           "file": {
             "type": "string",
             "description": "For type 'static': path (relative to project root) to the hand-maintained events JSON."
+          },
+          "locationName": {
+            "type": "string",
+            "description": "For sources whose events don't carry a location (e.g. 'squareonline', 'acuity'): a fixed location string to attach to every event from this source."
+          },
+          "acuity": {
+            "type": "object",
+            "description": "For type 'acuity': Squarespace Scheduling/Acuity booking identifiers.",
+            "properties": {
+              "owner": {
+                "type": "string",
+                "description": "Numeric Acuity owner id (from schedule.php?owner=...)."
+              },
+              "slug": {
+                "type": "string",
+                "description": "Schedule slug (the /schedule/<slug>/ path segment)."
+              },
+              "calendarId": {
+                "type": "string",
+                "description": "Calendar id used by the availability API."
+              },
+              "timezone": {
+                "type": "string",
+                "description": "IANA tz for availability queries (default America/Denver)."
+              },
+              "months": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "How many months ahead to query (default 4)."
+              }
+            },
+            "additionalProperties": true
           },
           "note": {
             "type": "string",

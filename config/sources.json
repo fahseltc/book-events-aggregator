@@ -112,6 +112,44 @@
       "note": "WordPress; events listed in page text. Heuristic only; skip detail stage."
     },
     {
+      "name": "Good Girl Cafe & Bookstore",
+      "url": "https://www.goodgirlcafeandbookstore.com/events",
+      "enabled": true,
+      "type": "squareonline",
+      "locationName": "Good Girl Cafe & Bookstore, Denver, CO",
+      "note": "Square Online (editmysite) site; events live in window.__BOOTSTRAP_STATE__ as page-builder 'repeatables' (Quill rich text). The squareonline extractor renders the page and parses those; dates are embedded in the body text ('October 7th | 6pm')."
+    },
+    {
+      "name": "Haven Coffee & Books",
+      "url": "https://havencoffeeandbooks.com/calendar/",
+      "enabled": false,
+      "type": "html",
+      "details": false,
+      "note": "seems like all events are old 2026 - WordPress; events are server-rendered in the page HTML as 'Month Day, Year: Title …' entries (no Tribe API). Heuristic over the page text; skip the detail stage (links point elsewhere)."
+    },
+    {
+      "name": "Denver Book Swap Society",
+      "url": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "enabled": true,
+      "type": "eventbrite",
+      "note": "Eventbrite organizer page -> per-event JSON-LD (same pattern as The Romance Section)."
+    },
+    {
+      "name": "Spell Books",
+      "url": "https://www.spellbooksco.com/register-for-classes-events",
+      "enabled": true,
+      "type": "acuity",
+      "locationName": "Spell Books, Denver, CO",
+      "acuity": {
+        "owner": "31155594",
+        "slug": "dfabb2f6",
+        "calendarId": "9493116",
+        "timezone": "America/Denver",
+        "months": 4
+      },
+      "note": "Squarespace Scheduling / Acuity. The acuity extractor establishes a session from the schedule page, reads appointment types from its HTML, and queries /availability/times per type for scheduled dates. owner/slug/calendarId from the booking embed."
+    },
+    {
       "name": "Arapahoe Libraries",
       "url": "https://arapahoelibraries.bibliocommons.com/events",
       "enabled": true,

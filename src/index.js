@@ -19,6 +19,8 @@ import { extractFromEventbrite } from './lib/extract/eventbrite.js';
 import { extractStaticEvents } from './lib/extract/static.js';
 import { extractFromBiblioCommons } from './lib/extract/bibliocommons.js';
 import { extractFromWix } from './lib/extract/wix.js';
+import { extractFromSquareOnline } from './lib/extract/squareonline.js';
+import { extractFromAcuity } from './lib/extract/acuity.js';
 import { normalizeEvents, eventKey } from './lib/normalize.js';
 import { loadEnv } from './lib/env.js';
 
@@ -100,6 +102,8 @@ async function main() {
       details: src.details,
       search: src.search,
       file: src.file,
+      acuity: src.acuity,
+      locationName: src.locationName,
     };
     const line = { source: source.name || source.url, url: source.url };
     try {
@@ -218,6 +222,22 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'wix';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'squareonline') {
+    const events = await extractFromSquareOnline(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'squareonline';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'acuity') {
+    const events = await extractFromAcuity(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'acuity';
     line.links = 0;
     return events;
   }
