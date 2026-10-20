@@ -412,6 +412,24 @@
       box-shadow: inset 3px 0 0 #2e7d32;
     }
 
+    .event.is-excluded {
+      border-color: #ecc9c4;
+      box-shadow: inset 3px 0 0 var(--reject);
+      opacity: .92;
+    }
+
+    .tag.excl {
+      background: #f6e1de;
+      color: var(--reject);
+    }
+
+    mark {
+      background: #ffe08a;
+      color: inherit;
+      padding: 0 1px;
+      border-radius: 2px;
+    }
+
     .showing {
       font-size: 13px;
       color: var(--muted);
@@ -465,6 +483,8 @@
       <button class="tab active" id="tab-filtered" data-view="filtered">My filters <span class="count"
           id="count-filtered"></span></button>
       <button class="tab" id="tab-new" data-view="new">New <span class="count" id="count-new"></span></button>
+      <button class="tab" id="tab-excluded" data-view="excluded">Excluded <span class="count"
+          id="count-excluded"></span></button>
     </div>
   </header>
   <main>
@@ -569,40 +589,82 @@
       return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
     }
 
+    // Escape text, then wrap any occurrences of the given terms (wildcard-aware)
+    // in <mark>. Used to highlight why an event was excluded.
+    function escWithHighlight(text, terms) {
+      const safe = esc(text);
+      if (!terms || !terms.length) return safe;
+      // Build one regex over the term cores (operates on already-escaped text;
+      // terms here are plain words, so escaping them for HTML isn't needed).
+      const parts = terms
+        .map((t) => t.trim().split('*').map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\w*'))
+        .filter(Boolean);
+      if (!parts.length) return safe;
+      const re = new RegExp(`(${parts.join('|')})`, 'gi');
+      return safe.replace(re, '<mark>$1</mark>');
+    }
+
     function eventCard(ev) {
       const isNew = ev.firstSeen && state.latestRun && ev.firstSeen === state.latestRun;
+      const hl = ev.excludedBy; // present only on the Excluded tab
+      const titleText = hl ? escWithHighlight(ev.title, hl) : esc(ev.title);
       const title = ev.url
-        ? `<a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.title)}</a>`
-        : esc(ev.title);
+        ? `<a href="${esc(ev.url)}" target="_blank" rel="noopener">${titleText}</a>`
+        : titleText;
       const newBadge = isNew ? '<span class="new-badge">NEW</span>' : '';
       const where = ev.location ? `<div class="where">${esc(ev.location)}</div>` : '';
-      const desc = ev.description ? `<p class="desc">${esc(ev.description)}</p>` : '';
+      const descText = ev.description ? (hl ? escWithHighlight(ev.description, hl) : esc(ev.description)) : '';
+      const desc = descText ? `<p class="desc">${descText}</p>` : '';
       const kws = (ev.matchedKeywords || []).map((k) => `<span class="tag kw">${esc(k)}</span>`).join('');
       const src = ev.source ? `<span class="tag">${esc(ev.source)}</span>` : '';
       const added = ev.firstSeen ? `<span class="tag added">Added ${esc(fmtAdded(ev.firstSeen))}</span>` : '';
-      return `<div class="event${isNew ? ' is-new' : ''}">
+      const excl = hl ? `<span class="tag excl">Excluded by: ${esc(hl.join(', '))}</span>` : '';
+      return `<div class="event${isNew ? ' is-new' : ''}${hl ? ' is-excluded' : ''}">
         <div class="when">${esc(fmtDate(ev.start))}${newBadge}</div>
         <h2>${title}</h2>
         ${where}${desc}
-        <div class="tags">${src}${added}${kws}</div>
+        <div class="tags">${src}${added}${excl}${kws}</div>
       </div>`;
     }
 
     function currentPayload() {
-      // "New" and "All" both draw from the full event set; "My filters" uses
-      // the pre-filtered file.
+      // "All", "New", and "Excluded" all draw from the full event set; "My
+      // filters" uses the pre-filtered file.
       return state.view === 'filtered' ? state.data.filtered : state.data.all;
     }
 
     function applyFilters(events) {
       const newOnly = state.view === 'new';
+      const excludedView = state.view === 'excluded';
+      const q = state.query.trim().toLowerCase();
+
+      // Excluded tab: show events that WOULD pass the Include filter but are
+      // being removed by an Exclude term — annotated with which term(s) hit, so
+      // the card can highlight them. Needs exclude terms to mean anything.
+      if (excludedView) {
+        const inc = state.include.map((t) => ({ term: t, re: termRegex(t) }));
+        const exc = state.exclude.map((t) => ({ term: t, re: termRegex(t) }));
+        if (exc.length === 0) return [];
+        const out = [];
+        for (const ev of events) {
+          const hay = haystack(ev);
+          if (inc.length && !inc.some((m) => m.re.test(hay))) continue; // not relevant anyway
+          const hits = exc.filter((m) => m.re.test(hay)).map((m) => m.term);
+          if (hits.length === 0) continue; // not excluded
+          if (q && !hay.toLowerCase().includes(q)) continue;
+          ev.excludedBy = hits; // transient annotation for the card
+          out.push(ev);
+        }
+        return out;
+      }
+
       // The New tab shows everything the latest run first surfaced, so it
       // ignores the Include/Exclude chips (otherwise "New (4)" could show 0).
       // The Search box still narrows it.
       const inc = newOnly ? [] : state.include.map(termRegex);
       const exc = newOnly ? [] : state.exclude.map(termRegex);
-      const q = state.query.trim().toLowerCase();
       return events.filter((ev) => {
+        delete ev.excludedBy; // don't let the excluded annotation leak into other views
         if (newOnly && !(ev.firstSeen && state.latestRun && ev.firstSeen === state.latestRun)) return false;
         const hay = haystack(ev);
         if (inc.length && !inc.some((re) => re.test(hay))) return false;
@@ -634,6 +696,28 @@
       const atDefaults = !state.touched && sameAsDefaults();
       resetBtn.disabled = atDefaults;
       resetBtn.title = atDefaults ? 'Already showing your config defaults' : 'Restore filters from config/filters.json';
+
+      updateExcludedCount();
+    }
+
+    // Excluded tab count = relevant events (pass Include) removed by an Exclude
+    // term. Depends on the current chips, so recompute whenever chips change.
+    function updateExcludedCount() {
+      const el = document.getElementById('count-excluded');
+      if (!el) return;
+      const all = state.data.all;
+      const allEvents = (all && !all.__error && all.events) || [];
+      let n = 0;
+      if (state.exclude.length) {
+        const inc = state.include.map(termRegex);
+        const exc = state.exclude.map(termRegex);
+        for (const ev of allEvents) {
+          const hay = haystack(ev);
+          if (inc.length && !inc.some((re) => re.test(hay))) continue;
+          if (exc.some((re) => re.test(hay))) n++;
+        }
+      }
+      el.textContent = `(${n})`;
     }
 
     // Are the current chips identical to the config defaults?
@@ -657,12 +741,21 @@
       }
       const all = Array.isArray(payload) ? payload : payload.events || [];
       const events = applyFilters(all);
-      const scope = state.view === 'filtered' ? ' filtered' : state.view === 'new' ? ' new' : '';
-      const newNote = state.view === 'new' ? ' first seen in the latest run (Include/Exclude ignored here)' : '';
-      showing.textContent = `Showing ${events.length}${scope} event${events.length === 1 ? '' : 's'}${newNote}`;
+      const scope = state.view === 'filtered' ? ' filtered'
+        : state.view === 'new' ? ' new'
+          : state.view === 'excluded' ? ' excluded'
+            : '';
+      const note = state.view === 'new'
+        ? ' first seen in the latest run (Include/Exclude ignored here)'
+        : state.view === 'excluded'
+          ? ' hidden by your Exclude words (highlighted below)'
+          : '';
+      showing.textContent = `Showing ${events.length}${scope} event${events.length === 1 ? '' : 's'}${note}`;
       const emptyMsg = state.view === 'new'
         ? 'No new events in the latest run.'
-        : 'No events match these filters.';
+        : state.view === 'excluded'
+          ? (state.exclude.length ? 'Nothing is being excluded right now.' : 'Add Exclude words to see what they hide.')
+          : 'No events match these filters.';
       listEl.innerHTML = events.length
         ? renderList(events)
         : `<div class="empty">${emptyMsg}</div>`;
@@ -690,7 +783,7 @@
       return parts.join('');
     }
 
-    const TABS = { all: 'tab-all', filtered: 'tab-filtered', new: 'tab-new' };
+    const TABS = { all: 'tab-all', filtered: 'tab-filtered', new: 'tab-new', excluded: 'tab-excluded' };
 
     function setView(view) {
       state.view = view;
@@ -781,7 +874,7 @@
     function loadHash() {
       const p = new URLSearchParams(location.hash.slice(1));
       const v = p.get('view');
-      if (v === 'filtered' || v === 'new') state.view = v;
+      if (v === 'filtered' || v === 'new' || v === 'excluded') state.view = v;
       if (p.get('inc')) state.include = p.get('inc').split(',').filter(Boolean);
       if (p.get('exc')) state.exclude = p.get('exc').split(',').filter(Boolean);
       if (p.get('q')) state.query = p.get('q');
@@ -811,6 +904,8 @@
         ? allEvents.filter((e) => e.firstSeen === state.latestRun).length
         : 0;
       document.getElementById('count-new').textContent = `(${newInRun})`;
+
+      updateExcludedCount();
       const newCount = (all && all.newCount) ?? (filtered && filtered.newCount);
       const newNote = typeof newCount === 'number' && newCount > 0 ? ` · ${newCount} new this run` : '';
       document.getElementById('meta').textContent = gen
@@ -824,6 +919,7 @@
       document.getElementById('tab-filtered').addEventListener('click', () => setView('filtered'));
       document.getElementById('tab-all').addEventListener('click', () => setView('all'));
       document.getElementById('tab-new').addEventListener('click', () => setView('new'));
+      document.getElementById('tab-excluded').addEventListener('click', () => setView('excluded'));
 
       const incInput = document.getElementById('include');
       const excInput = document.getElementById('exclude');

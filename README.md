@@ -104,10 +104,12 @@ node src/index.js --max-details 15
 opens a one-page viewer at <http://127.0.0.1:8080/>. Generate the data first
 with `npm run pipeline`. The server only exposes `web/` and `output/`.
 
-The viewer has three tabs — **All events** (`output/events.json`), **My filters**
-(`output/events-filtered.json`), and **New** (events first seen in the most
-recent crawl) — plus live, client-side filtering that works on top of the active
-tab:
+The viewer has four tabs — **All events** (`output/events.json`), **My filters**
+(`output/events-filtered.json`), **New** (events first seen in the most recent
+crawl), and **Excluded** (events your Exclude words hid, with the offending word
+highlighted — handy for spotting over-broad terms like `tween` matching
+"be**tween**") — plus live, client-side filtering that works on top of the
+active tab:
 
 - **Include**: type a term and press Enter to add it as a chip. An event shows
   if it matches **any** include chip (OR). Click a chip's **×** to remove it.
