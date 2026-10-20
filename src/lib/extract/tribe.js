@@ -5,6 +5,7 @@
 // some hosts gate the API behind a WAF, so we send browser-like headers.
 
 import { htmlToText, decodeEntities } from '../html.js';
+import { parseIcal } from './ical.js';
 
 /**
  * @param {string} siteUrl  the events page or site root (e.g. https://host/events/)
@@ -28,17 +29,68 @@ export async function extractFromTribe(siteUrl, ctx = {}) {
 
   const events = [];
   let page = 1;
-  for (;;) {
-    const url = `${endpoint}?per_page=${perPage}&start_date=${start}&page=${page}`;
-    const json = await getJson(url, headers, ctx.timeoutMs ?? 20000);
-    const batch = Array.isArray(json.events) ? json.events : [];
-    for (const e of batch) events.push(toRawEvent(e, siteUrl, ctx));
+  try {
+    for (; ;) {
+      const url = `${endpoint}?per_page=${perPage}&start_date=${start}&page=${page}`;
+      const json = await getJson(url, headers, ctx.timeoutMs ?? 20000);
+      const batch = Array.isArray(json.events) ? json.events : [];
+      for (const e of batch) events.push(toRawEvent(e, siteUrl, ctx));
 
-    const totalPages = Number(json.total_pages) || 1;
-    if (page >= totalPages || batch.length === 0 || page > 50) break;
-    page += 1;
+      const totalPages = Number(json.total_pages) || 1;
+      if (page >= totalPages || batch.length === 0 || page > 50) break;
+      page += 1;
+    }
+    return events;
+  } catch (err) {
+    // Some hosts (e.g. behind Cloudflare) 403 the /wp-json/ API from datacenter
+    // IPs even with browser-like headers. The Events Calendar also exposes an
+    // iCal feed on the events page, usually on a different (ungated) path —
+    // fall back to that before giving up. If we already paged some events
+    // before the error, keep them.
+    if (/\b403\b/.test(err.message) && events.length === 0) {
+      const ical = await tryIcalFallback(siteUrl, headers, ctx);
+      if (ical && ical.length) return ical;
+    }
+    throw err;
   }
-  return events;
+}
+
+// Fetch the Tribe iCal export and parse it. Tries a couple of known URL shapes.
+async function tryIcalFallback(siteUrl, headers, ctx) {
+  const candidates = [
+    withParam(siteUrl, 'ical', '1'),
+    `${new URL(siteUrl).origin}/events/?ical=1`,
+  ];
+  for (const url of candidates) {
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), ctx.timeoutMs ?? 20000);
+      let text;
+      try {
+        const res = await fetch(url, { headers: { ...headers, Accept: 'text/calendar, */*' }, signal: controller.signal });
+        if (!res.ok) continue;
+        text = await res.text();
+      } finally {
+        clearTimeout(timer);
+      }
+      if (!/BEGIN:VEVENT/.test(text)) continue;
+      const events = parseIcal(text, { sourceName: ctx.sourceName, sourceUrl: siteUrl });
+      if (events.length) return events;
+    } catch {
+      // try next candidate
+    }
+  }
+  return null;
+}
+
+function withParam(urlStr, key, val) {
+  try {
+    const u = new URL(urlStr);
+    u.searchParams.set(key, val);
+    return u.toString();
+  } catch {
+    return urlStr + (urlStr.includes('?') ? '&' : '?') + `${key}=${val}`;
+  }
 }
 
 async function getJson(url, headers, timeoutMs) {
