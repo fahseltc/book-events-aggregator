@@ -135,6 +135,24 @@
       "note": "Luma calendar API (calendar/get -> upcoming.entries). calendar_api_id is the full calendar; handle is a fallback to resolve it."
     },
     {
+      "name": "Broomfield Library (Compass)",
+      "url": "https://compass.broomfield.org/events/list",
+      "enabled": true,
+      "type": "compass",
+      "search": {
+        "pages": 8
+      },
+      "note": "Drupal library_calendar event list (server-rendered, ?page=N). Dates from aria-label + date block; cancelled/closed entries skipped."
+    },
+    {
+      "name": "Gilpin County Library",
+      "url": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "enabled": true,
+      "type": "ical",
+      "excludeTitle": "^(closed|cancel)|library closed",
+      "note": "Tockify public iCal feed (webcal://tockify.com/api/feeds/ics/library.gilpin, fetched over https). UTC stamps converted to America/Denver. Library closure notices dropped via excludeTitle."
+    },
+    {
       "name": "Good Girl Cafe & Bookstore",
       "url": "https://www.goodgirlcafeandbookstore.com/events",
       "enabled": true,
@@ -181,6 +199,16 @@
         "pages": 10
       },
       "note": "BiblioCommons gateway JSON API (RSS feed has no dates). ~10 events/page; pages caps how many to read."
+    },
+    {
+      "name": "Jefferson County Public Library",
+      "url": "https://gateway.bibliocommons.com/v2/libraries/jeffcolibrary/rss/events?page=1",
+      "enabled": true,
+      "type": "bibliocommons",
+      "search": {
+        "pages": 40
+      },
+      "note": "BiblioCommons RSS event feed (25 items/page, sorted by start). Uses bc:start_date_local (no tz conversion) and skips bc:is_cancelled items. pages=40 covers roughly six weeks ahead; raise it to read further out."
     },
     {
       "name": "Boulder Public Library",

@@ -17,15 +17,26 @@
     "spelling bee"
   ],
   "exclude": [
+    "garage sale",
+    "yarn",
+    "knit",
     "pokemon",
     "toddler",
     "children",
     "teen",
     "tween",
     "baby",
+    "kids club",
+    "toy",
+    "lego",
+    "ornament",
+    "sew",
+    "hobby hour",
     "little ones",
     "storytime",
     "story time",
+    "family time",
+    "dance",
     "homework",
     "tummy",
     "english conversations",
@@ -41,7 +52,8 @@
     "woodshop",
     "by appointment only",
     "BLDG 61",
-    "elementary"
+    "elementary",
+    "embroidered"
   ],
   "fields": [
     "title",

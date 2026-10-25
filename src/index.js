@@ -17,10 +17,12 @@ import { extractFromBookManager } from './lib/extract/bookmanager.js';
 import { extractFromTribe } from './lib/extract/tribe.js';
 import { extractFromEventbrite } from './lib/extract/eventbrite.js';
 import { extractStaticEvents } from './lib/extract/static.js';
-import { extractFromBiblioCommons } from './lib/extract/bibliocommons.js';
+import { extractFromBiblioCommons, extractFromBiblioCommonsRss } from './lib/extract/bibliocommons.js';
 import { extractFromWix } from './lib/extract/wix.js';
 import { extractFromTockify } from './lib/extract/tockify.js';
 import { extractFromLuma } from './lib/extract/luma.js';
+import { extractFromCompass } from './lib/extract/compass.js';
+import { extractFromIcal } from './lib/extract/ical.js';
 import { extractFromSquareOnline } from './lib/extract/squareonline.js';
 import { extractFromAcuity } from './lib/extract/acuity.js';
 import { normalizeEvents, eventKey } from './lib/normalize.js';
@@ -106,6 +108,7 @@ async function main() {
       file: src.file,
       acuity: src.acuity,
       locationName: src.locationName,
+      excludeTitle: src.excludeTitle,
     };
     const line = { source: source.name || source.url, url: source.url };
     try {
@@ -212,7 +215,10 @@ async function crawlSource(source, args, now, line) {
     return events;
   }
   if (source.type === 'bibliocommons') {
-    const events = await extractFromBiblioCommons(source, { now, timeoutMs: source.timeoutMs });
+    // URLs containing /rss/ use the RSS feed reader; everything else uses the JSON gateway.
+    const events = /\/rss\//i.test(source.url)
+      ? await extractFromBiblioCommonsRss(source, { now, timeoutMs: source.timeoutMs })
+      : await extractFromBiblioCommons(source, { now, timeoutMs: source.timeoutMs });
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'bibliocommons';
@@ -240,6 +246,22 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'luma';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'compass') {
+    const events = await extractFromCompass(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'compass';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'ical') {
+    const events = await extractFromIcal(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'ical';
     line.links = 0;
     return events;
   }

@@ -56,6 +56,82 @@ async function getJson(url, timeoutMs) {
   }
 }
 
+/**
+ * BiblioCommons RSS event feed (e.g. https://gateway.bibliocommons.com/v2/libraries/<slug>/rss/events?page=N).
+ * Items carry bc:start_date_local / bc:end_date_local (already wall-clock), a
+ * bc:is_cancelled flag, and location fields. Page size is 25 and there is no
+ * page count, so source.search.pages caps how many pages are read.
+ * @param {object} source  uses source.url (any ?page= is replaced) and source.search.pages
+ * @param {{ now?: Date, timeoutMs?: number }} ctx
+ * @returns {Promise<import('../types.js').RawEvent[]>}
+ */
+export async function extractFromBiblioCommonsRss(source, ctx = {}) {
+  const base = String(source.url).split('?')[0];
+  const maxPages = Math.max(1, (source.search && source.search.pages) || 8);
+  const timeoutMs = ctx.timeoutMs ?? 20000;
+  const seen = new Set();
+  const out = [];
+  for (let page = 1; page <= maxPages; page++) {
+    const xml = await getText(`${base}?page=${page}`, timeoutMs);
+    const items = xml.split('<item>').slice(1);
+    if (items.length === 0) break;
+    for (const item of items) {
+      const raw = rssItemToRawEvent(item.split('</item>')[0], source);
+      if (!raw) continue;
+      const key = `${raw.start}|${raw.title.toLowerCase()}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(raw);
+    }
+  }
+  return out;
+}
+
+async function getText(url, timeoutMs) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { Accept: 'application/rss+xml, application/xml, text/xml' },
+    });
+    const text = await res.text();
+    if (!res.ok) throw new Error(`BiblioCommons RSS ${res.status} for ${url}`);
+    return text;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// Read one RSS tag's text, unwrapping CDATA. Returns undefined when absent.
+function rssTag(xml, name) {
+  const m = xml.match(new RegExp(`<${name}>(?:<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>|([^<]*))</${name}>`));
+  if (!m) return undefined;
+  return m[1] ?? m[2];
+}
+
+function rssItemToRawEvent(item, source) {
+  if (/^true$/i.test(rssTag(item, 'bc:is_cancelled') || '')) return null;
+  const title = clean(rssTag(item, 'title'));
+  const start = toIso(rssTag(item, 'bc:start_date_local'));
+  if (!title || !start) return null;
+  const location = [rssTag(item, 'bc:name'), rssTag(item, 'bc:street'), rssTag(item, 'bc:city')]
+    .map(clean)
+    .filter(Boolean)
+    .join(', ');
+  return {
+    title,
+    description: clean(htmlToText(rssTag(item, 'description') || '')),
+    start,
+    end: toIso(rssTag(item, 'bc:end_date_local')),
+    location: location || undefined,
+    url: clean(rssTag(item, 'link')) || source.url,
+    sourceName: source.name,
+    sourceUrl: source.url,
+    extractor: 'bibliocommons-rss',
+  };
+}
+
 function toRawEvent(id, def, locations, publicBase, source) {
   if (def.isCancelled) return { title: undefined, start: undefined, extractor: 'bibliocommons' };
   const locId = def.branchLocationId || def.nonBranchLocationId;
