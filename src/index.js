@@ -20,6 +20,7 @@ import { extractStaticEvents } from './lib/extract/static.js';
 import { extractFromBiblioCommons } from './lib/extract/bibliocommons.js';
 import { extractFromWix } from './lib/extract/wix.js';
 import { extractFromTockify } from './lib/extract/tockify.js';
+import { extractFromLuma } from './lib/extract/luma.js';
 import { extractFromSquareOnline } from './lib/extract/squareonline.js';
 import { extractFromAcuity } from './lib/extract/acuity.js';
 import { normalizeEvents, eventKey } from './lib/normalize.js';
@@ -231,6 +232,14 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'tockify';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'luma') {
+    const events = await extractFromLuma(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'luma';
     line.links = 0;
     return events;
   }

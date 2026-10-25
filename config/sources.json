@@ -123,6 +123,18 @@
       "note": "Tockify calendar widget; public agenda API (next N upcoming events)."
     },
     {
+      "name": "Cherry On Top Bookshop",
+      "url": "https://luma.com/user/cotevents",
+      "enabled": true,
+      "type": "luma",
+      "search": {
+        "calendar_api_id": "cal-88pA17s63PjITPo",
+        "handle": "cotevents",
+        "max": 100
+      },
+      "note": "Luma calendar API (calendar/get -> upcoming.entries). calendar_api_id is the full calendar; handle is a fallback to resolve it."
+    },
+    {
       "name": "Good Girl Cafe & Bookstore",
       "url": "https://www.goodgirlcafeandbookstore.com/events",
       "enabled": true,
