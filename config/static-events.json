@@ -154,6 +154,17 @@
       "source": "Denver Public Library Friends",
       "enabled": true,
       "note": "Captured from a local crawl — dplfriends.org blocks the Tribe API from CI datacenter IPs. Dated event; safe to delete after it passes."
+    },
+    {
+      "title": "COSine 2027 — Colorado Springs Science Fiction Convention",
+      "start": "2027-01-22T10:00:00",
+      "end": "2027-01-24T17:00:00",
+      "location": "Colorado Springs, CO",
+      "description": "Colorado Springs sci-fi and fantasy convention with authors, artists, panels, an author signing and reception, and a dealers room. Guests: Mur Lafferty (author/podcaster) and Ness Brown (astrophysicist and author).",
+      "url": "https://cosinecon.org/",
+      "source": "COSine",
+      "enabled": true,
+      "note": "VERIFY TIMES/VENUE — the site lists January 22-24, 2027 but no start time or venue; 10:00 start and 5 PM Sunday end are placeholders."
     }
   ]
 }
