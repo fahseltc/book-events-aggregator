@@ -1,0 +1,63 @@
+{
+  "source": "Denver Book Swap Society",
+  "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "count": 5,
+  "events": [
+    {
+      "title": "Spooky Pottery Painting & Book Swap - Night 2 (Denver)",
+      "description": "Denver Book Swap Society hosts book swap events for people to pass along their books in exchange for new (to them) books to take home.",
+      "start": "2026-10-28T18:00:00-06:00",
+      "end": "2026-10-28T21:00:00-06:00",
+      "location": "Glaze & Phase — 5174 South Broadway, Englewood, CO 80113",
+      "url": "https://www.eventbrite.com/e/spooky-pottery-painting-book-swap-night-2-denver-tickets-1999613308233",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Curl Up & Read with Cats!",
+      "description": "Book swap +  adoptable cats! Join us for a cozy night of cat cuddles & books with Teddy Cat & Denver Book Swap Society.",
+      "start": "2026-11-05T18:00:00-07:00",
+      "end": "2026-11-05T19:30:00-07:00",
+      "location": "Teddy Cat Cafe — 39 East Florida Avenue, Denver, CO 80210",
+      "url": "https://www.eventbrite.com/e/curl-up-read-with-cats-tickets-1993623889721",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Book Swap @ Denver Milk Market (Denver)",
+      "description": "Denver Book Swap Society hosts book swap events for people to pass along their books in exchange for new (to them) books to take home.",
+      "start": "2026-11-08T15:00:00-07:00",
+      "end": "2026-11-08T16:30:00-07:00",
+      "location": "Denver Milk Market — 1800 Wazee Street, #Suite 100, Denver, CO 80202",
+      "url": "https://www.eventbrite.com/e/book-swap-denver-milk-market-denver-tickets-2001000794241",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Candle Making & Book Swap @ Paddywax Candle Bar (Denver)",
+      "description": "Enjoy a cozy night of book swapping and candle making. Discover new reads, craft a custom candle, and unwind with snacks and good company.",
+      "start": "2026-11-11T18:00:00-07:00",
+      "end": "2026-11-11T20:00:00-07:00",
+      "location": "Paddywax Candle Bar — 2654 Walnut Street, #Suite 520, Denver, CO 80205",
+      "url": "https://www.eventbrite.com/e/candle-making-book-swap-paddywax-candle-bar-denver-tickets-1993623767355",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Holiday Pottery Painting & Book Swap (Denver)",
+      "description": "Denver Book Swap Society hosts book swap events for people to pass along their books in exchange for new (to them) books to take home.",
+      "start": "2026-12-09T18:00:00-07:00",
+      "end": "2026-12-09T21:00:00-07:00",
+      "location": "Glaze & Phase — 5174 South Broadway, Englewood, CO 80113",
+      "url": "https://www.eventbrite.com/e/holiday-pottery-painting-book-swap-denver-tickets-1997460886281",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    }
+  ]
+}

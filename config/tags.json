@@ -1,0 +1,458 @@
+{
+  "$comment": "Tags are added to filtered events (npm run filter). 'sources' gives each source a kind tag. 'hosts' adds the real host's kind for listing platforms such as Eventbrite. 'tags' are content rules using the same syntax as filters.json (wildcard *, wholeWord). An event gets a tag when any of its patterns match title or description.",
+  "fields": [
+    "title",
+    "description"
+  ],
+  "caseSensitive": false,
+  "wholeWord": true,
+  "sources": {
+    "Aurora Public Library": [
+      "library"
+    ],
+    "Boulder Public Library": [
+      "library"
+    ],
+    "Douglas County Libraries": [
+      "library"
+    ],
+    "Arapahoe Libraries": [
+      "library"
+    ],
+    "High Plains Library District": [
+      "library"
+    ],
+    "Jefferson County Public Library": [
+      "library"
+    ],
+    "Broomfield Library (Compass)": [
+      "library"
+    ],
+    "Gilpin County Library": [
+      "library"
+    ],
+    "Denver Public Library Friends": [
+      "library",
+      "friends-group"
+    ],
+    "Novel Strand": [
+      "bookstore"
+    ],
+    "Cherry On Top Bookshop": [
+      "bookstore"
+    ],
+    "The Bookies": [
+      "bookstore"
+    ],
+    "Little Blue Pigeon Books": [
+      "bookstore"
+    ],
+    "Good Girl Cafe & Bookstore": [
+      "bookstore",
+      "cafe"
+    ],
+    "The Romance Section": [
+      "bookstore"
+    ],
+    "Spell Books": [
+      "bookstore"
+    ],
+    "Spicy Librarian / Romance Discovery": [
+      "bookstore"
+    ],
+    "Edgewater Books": [
+      "bookstore"
+    ],
+    "Read Queen Bookstore": [
+      "bookstore"
+    ],
+    "Denver Book Society": [
+      "book-society"
+    ],
+    "Burning Through Pages": [
+      "nonprofit"
+    ],
+    "Wolverine Farm Publick House": [
+      "venue"
+    ],
+    "Eventbrite (Denver books)": [
+      "eventbrite"
+    ],
+    "FoCo Book Fest": [
+      "festival"
+    ],
+    "Denver Book Fest": [
+      "festival"
+    ],
+    "MileHiCon": [
+      "festival"
+    ],
+    "COSine": [
+      "festival"
+    ]
+  },
+  "hosts": {
+    "appliesToSourceKind": "eventbrite",
+    "field": "location",
+    "rules": [
+      {
+        "match": [
+          "Tattered Cover",
+          "Spicy Librarian",
+          "Novel Strand",
+          "The Shop at MATTER",
+          "Second Star to the Right",
+          "Good Girl Cafe",
+          "2807 South Broadway"
+        ],
+        "tags": [
+          "bookstore"
+        ]
+      },
+      {
+        "match": [
+          "Denver Book Society",
+          "1700 North Humboldt"
+        ],
+        "tags": [
+          "book-society"
+        ]
+      },
+      {
+        "match": [
+          "Jefferson County Public Library",
+          "Belmar Library"
+        ],
+        "tags": [
+          "library"
+        ]
+      },
+      {
+        "match": [
+          "Brewing",
+          "Beer Company",
+          "Brewery",
+          "Spirits",
+          "Sake",
+          "Cafe",
+          "Candle",
+          "Pottery",
+          "Glaze & Phase",
+          "Hotel",
+          "Hilton",
+          "Sheraton",
+          "Nutrition",
+          "Milk Market",
+          "Boutique",
+          "Studios",
+          "EdCor",
+          "Teddy Cat",
+          "Paddywax",
+          "Awakening",
+          "Method & Muse",
+          "Launch Pad",
+          "Lady Justice",
+          "Rails End",
+          "4 Noses",
+          "Prost",
+          "Barquentine",
+          "Park Hill"
+        ],
+        "tags": [
+          "venue"
+        ]
+      }
+    ]
+  },
+  "tags": [
+    {
+      "name": "book-club",
+      "match": [
+        "book club",
+        "book group",
+        "book discussion",
+        "reading group",
+        "book chat",
+        "cookbook club",
+        "book of the month"
+      ]
+    },
+    {
+      "name": "acotar",
+      "match": [
+        "acotar",
+        "a court of*"
+      ]
+    },
+    {
+      "name": "release",
+      "match": [
+        "release party",
+        "release day",
+        "midnight release",
+        "book launch",
+        "launch party"
+      ]
+    },
+    {
+      "name": "author",
+      "match": [
+        "author*",
+        "in conversation"
+      ]
+    },
+    {
+      "name": "signing",
+      "match": [
+        "signing",
+        "signings"
+      ]
+    },
+    {
+      "name": "writing",
+      "match": [
+        "writ*"
+      ]
+    },
+    {
+      "name": "poetry",
+      "match": [
+        "poetry",
+        "poem*",
+        "spoken word"
+      ]
+    },
+    {
+      "name": "swap",
+      "match": [
+        "swap",
+        "swaps",
+        "exchange"
+      ]
+    },
+    {
+      "name": "sale",
+      "match": [
+        "sale",
+        "sales",
+        "used book*",
+        "book sale"
+      ]
+    },
+    {
+      "name": "romance",
+      "match": [
+        "romance",
+        "romantasy",
+        "romance novel*"
+      ]
+    },
+    {
+      "name": "sci-fi-fantasy",
+      "match": [
+        "sci-fi",
+        "sci fi",
+        "science fiction",
+        "fantasy",
+        "speculative",
+        "litrpg"
+      ]
+    },
+    {
+      "name": "mystery-thriller",
+      "match": [
+        "mystery",
+        "mysteries",
+        "thriller*",
+        "true crime"
+      ]
+    },
+    {
+      "name": "horror",
+      "match": [
+        "horror",
+        "spooky"
+      ]
+    },
+    {
+      "name": "nonfiction",
+      "match": [
+        "nonfiction",
+        "non-fiction",
+        "memoir*",
+        "biography"
+      ]
+    },
+    {
+      "name": "history",
+      "match": [
+        "history",
+        "historical"
+      ]
+    },
+    {
+      "name": "science",
+      "match": [
+        "science",
+        "astronomy",
+        "cosmology"
+      ]
+    },
+    {
+      "name": "games",
+      "match": [
+        "game*",
+        "d&d",
+        "dungeons",
+        "tabletop",
+        "board game*",
+        "bingo",
+        "trivia",
+        "chess",
+        "puzzle*"
+      ]
+    },
+    {
+      "name": "running",
+      "match": [
+        "run club",
+        "run-club",
+        "running",
+        "runners",
+        "runner*"
+      ]
+    },
+    {
+      "name": "crafts",
+      "match": [
+        "craft*",
+        "knit*",
+        "crochet*",
+        "stitch*",
+        "bookmark*",
+        "make something",
+        "diy"
+      ]
+    },
+    {
+      "name": "drinks",
+      "match": [
+        "beer*",
+        "brewery",
+        "taproom",
+        "wine*",
+        "cocktail*",
+        "drink*",
+        "sake",
+        "happy hour"
+      ]
+    },
+    {
+      "name": "music",
+      "match": [
+        "music*",
+        "concert*",
+        "karaoke",
+        "live music"
+      ]
+    },
+    {
+      "name": "virtual",
+      "match": [
+        "virtual",
+        "online event",
+        "zoom",
+        "webinar",
+        "livestream*",
+        "live stream*",
+        "via zoom"
+      ]
+    },
+    {
+      "name": "library-apps",
+      "match": [
+        "libby",
+        "kanopy",
+        "hoopla",
+        "pressreader",
+        "ebook*",
+        "audiobook*",
+        "digital library",
+        "digital resources"
+      ]
+    },
+    {
+      "name": "registration",
+      "match": [
+        "register*",
+        "registration",
+        "rsvp*",
+        "ticket*"
+      ]
+    },
+    {
+      "name": "free",
+      "match": [
+        "free",
+        "no cost",
+        "no admission charge"
+      ]
+    },
+    {
+      "name": "family",
+      "match": [
+        "family",
+        "families",
+        "kids",
+        "all ages",
+        "youth"
+      ]
+    },
+    {
+      "name": "lgbtq",
+      "match": [
+        "lgbt*",
+        "queer",
+        "pride"
+      ]
+    },
+    {
+      "name": "spanish",
+      "match": [
+        "spanish",
+        "español*",
+        "espanol",
+        "bilingual"
+      ]
+    },
+    {
+      "name": "seasonal",
+      "match": [
+        "halloween",
+        "holiday*",
+        "christmas",
+        "thanksgiving",
+        "winter"
+      ]
+    },
+    {
+      "name": "class",
+      "match": [
+        "class",
+        "classes",
+        "lecture*",
+        "workshop*",
+        "seminar",
+        "course"
+      ]
+    },
+    {
+      "name": "community",
+      "match": [
+        "community",
+        "meetup*",
+        "social"
+      ]
+    }
+  ]
+}

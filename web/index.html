@@ -471,6 +471,71 @@
       color: #a33;
       padding: 24px 0;
     }
+
+    /* ---- New tab verdicts ---- */
+    .verdict.in {
+      color: #2e6b3a;
+      border-color: #2e6b3a;
+      font-weight: 600;
+    }
+
+    .verdict.out {
+      color: var(--reject);
+      border-color: var(--reject);
+    }
+
+    /* ---- Tags ---- */
+    .tag-mode {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .tag-mode .btn.on {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .taggroup {
+      margin-bottom: 8px;
+    }
+
+    .tagchip {
+      font: inherit;
+      font-size: 12px;
+      border: 1px solid var(--accent);
+      background: #fff;
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 2px 9px;
+      margin: 0 6px 6px 0;
+      cursor: pointer;
+    }
+
+    .tagchip.on {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .tagchip .count {
+      opacity: .7;
+      font-size: 11px;
+    }
+
+    .tagbtn {
+      font: inherit;
+      cursor: pointer;
+      border: 1px solid transparent;
+      background: none;
+    }
+
+    .tagbtn.on {
+      border-color: var(--accent);
+      color: var(--accent);
+      font-weight: 600;
+    }
   </style>
 </head>
 
@@ -521,6 +586,28 @@
           <div class="chips" id="exclude-chips"></div>
         </section>
 
+        <section class="fsection">
+          <div class="fhead">Tags</div>
+          <div class="tag-mode" role="group" aria-label="Tag match mode">
+            <span class="fhelp">Match</span>
+            <button type="button" class="btn ghost" id="tag-mode-any" data-mode="any" aria-pressed="true">any
+              tag</button>
+            <button type="button" class="btn ghost" id="tag-mode-all" data-mode="all" aria-pressed="false">all
+              tags</button>
+            <button type="button" class="btn ghost" id="tag-clear">Clear tags</button>
+          </div>
+          <div class="taggroup">
+            <div class="fhelp">Kind (where it's from)</div>
+            <div class="chips" id="tag-kind-chips"></div>
+          </div>
+          <div class="taggroup">
+            <div class="fhelp">Topic (what it's about)</div>
+            <div class="chips" id="tag-topic-chips"></div>
+          </div>
+          <p class="fhelp">Tags apply to events that passed your keyword filters. Click a tag here or on any event;
+            picking one opens My filters.</p>
+        </section>
+
         <div class="filter-actions">
           <span class="filter-status" id="filter-status"></span>
           <button type="button" class="btn" id="reset-filters">↺ Reset to defaults</button>
@@ -542,6 +629,9 @@
       query: '',
       include: [],
       exclude: [],
+      tags: [], // selected tags (apply to the filtered set)
+      tagMode: 'any', // 'any' = event has at least one selected tag, 'all' = every tag
+      wholeWord: true, // match words, not substrings (taken from filters.json)
       touched: false, // true once the user adds/removes/resets a filter
       collapsed: false, // Include/Exclude panel collapsed?
       latestRun: null, // generatedAt of the most recent crawl (for "NEW" badges)
@@ -583,9 +673,17 @@
     }
 
     // Turn a term (optionally with * wildcards) into a case-insensitive regex.
+    // Mirrors src/lib/filter.js so the viewer agrees with the pipeline: with
+    // wholeWord on, a term must start and end at a word boundary (so "dance"
+    // does not match "attendance"). A * wildcard only needs the leading boundary.
     function termRegex(term) {
-      const core = term.trim().split('*').map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\w*');
-      return new RegExp(core, 'i');
+      const t = term.trim();
+      const core = t.split('*').map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\w*');
+      let pattern = core;
+      if (state.wholeWord) {
+        pattern = t.includes('*') ? `(?<!\\w)${core}` : `(?<!\\w)${core}(?!\\w)`;
+      }
+      return new RegExp(pattern, 'i');
     }
 
     function haystack(ev) {
@@ -630,24 +728,41 @@
       const descText = ev.description ? (hl ? escWithHighlight(ev.description, hl) : esc(ev.description)) : '';
       const desc = descText ? `<p class="desc">${descText}</p>` : '';
       const kws = (ev.matchedKeywords || []).map((k) => `<span class="tag kw">${esc(k)}</span>`).join('');
+      // On the New tab, say whether the event passes the current Include/Exclude words.
+      const v = state.view === 'new' ? ev.verdict : null;
+      const verdict = v
+        ? (v.included
+          ? '<span class="tag verdict in">✓ Would be included</span>'
+          : `<span class="tag verdict out">✗ ${esc(v.reason)}</span>`)
+        : '';
       const src = ev.source ? `<span class="tag">${esc(ev.source)}</span>` : '';
+      // Each tag is a button: clicking it selects that tag in the Tags filter.
+      const tagBtns = (ev.tags || []).map((t) => (
+        `<button type="button" class="tag tagbtn${state.tags.includes(t) ? ' on' : ''}" data-tag="${esc(t)}" title="Show only events tagged ${esc(t)}">${esc(t)}</button>`
+      )).join('');
       const added = ev.firstSeen ? `<span class="tag added">Added ${esc(fmtAdded(ev.firstSeen))}</span>` : '';
       const excl = hl ? `<span class="tag excl">Excluded by: ${esc(hl.join(', '))}</span>` : '';
       return `<div class="event${isNew ? ' is-new' : ''}${hl ? ' is-excluded' : ''}">
         <div class="when">${esc(fmtDate(ev.start))}${newBadge}</div>
         <h2>${title}</h2>
         ${where}${desc}
-        <div class="tags">${src}${added}${excl}${kws}</div>
+        <div class="tags">${verdict}${src}${tagBtns}${added}${excl}${kws}</div>
       </div>`;
     }
 
     function currentPayload() {
       // "All", "New", and "Excluded" all draw from the full event set; "My
       // filters" uses the pre-filtered file.
+      // Tags only exist on filtered events, so a tag selection always reads that set.
+      if (state.tags.length) return state.data.filtered;
       return state.view === 'filtered' ? state.data.filtered : state.data.all;
     }
 
     function applyFilters(events) {
+      // Tag selection narrows the pool on the views that use Include/Exclude.
+      if (state.tags.length && state.view !== 'new' && state.view !== 'excluded') {
+        events = events.filter(matchesTagSelection);
+      }
       const newOnly = state.view === 'new';
       const excludedView = state.view === 'excluded';
       const q = state.query.trim().toLowerCase();
@@ -672,20 +787,93 @@
         return out;
       }
 
-      // The New tab shows everything the latest run first surfaced, so it
-      // ignores the Include/Exclude chips (otherwise "New (4)" could show 0).
-      // The Search box still narrows it.
-      const inc = newOnly ? [] : state.include.map(termRegex);
-      const exc = newOnly ? [] : state.exclude.map(termRegex);
+      // The New tab shows every event the latest run first surfaced. It does not
+      // hide anything by Include/Exclude; each card says whether it would pass
+      // the current words. The Search box still narrows it.
+      const inc = state.include.map(termRegex);
+      const exc = state.exclude.map(termRegex);
       return events.filter((ev) => {
         delete ev.excludedBy; // don't let the excluded annotation leak into other views
+        delete ev.verdict;
         if (newOnly && !(ev.firstSeen && state.latestRun && ev.firstSeen === state.latestRun)) return false;
         const hay = haystack(ev);
+        if (newOnly) {
+          ev.verdict = verdictFor(ev);
+          return !q || hay.toLowerCase().includes(q);
+        }
         if (inc.length && !inc.some((re) => re.test(hay))) return false;
         if (exc.length && exc.some((re) => re.test(hay))) return false;
         if (q && !hay.toLowerCase().includes(q)) return false;
         return true;
       });
+    }
+
+    // Would this event pass the current Include/Exclude words, and if not, why.
+    function verdictFor(ev) {
+      const hay = haystack(ev);
+      const hits = state.exclude.filter((t) => termRegex(t).test(hay));
+      if (hits.length) return { included: false, reason: `Excluded by ${hits.join(', ')}` };
+      if (state.include.length && !state.include.some((t) => termRegex(t).test(hay))) {
+        return { included: false, reason: 'No Include word matches' };
+      }
+      return { included: true, reason: '' };
+    }
+
+    // ---- Tags ----
+    function matchesTagSelection(ev) {
+      if (!state.tags.length) return true;
+      const have = new Set(ev.tags || []);
+      return state.tagMode === 'all'
+        ? state.tags.every((t) => have.has(t))
+        : state.tags.some((t) => have.has(t));
+    }
+
+    // Select or deselect a tag. Tags only exist on filtered events, so picking
+    // one from another view opens My filters.
+    function toggleTag(name) {
+      const i = state.tags.indexOf(name);
+      if (i === -1) state.tags.push(name);
+      else state.tags.splice(i, 1);
+      if (state.view !== 'filtered') setView('filtered');
+      render();
+    }
+
+    function setTagMode(mode) {
+      state.tagMode = mode === 'all' ? 'all' : 'any';
+      render();
+    }
+
+    function clearTags() {
+      state.tags = [];
+      render();
+    }
+
+    function renderTagChips() {
+      const f = state.data.filtered;
+      const events = (f && !f.__error && f.events) || [];
+      const kinds = new Set((f && f.tagKinds) || []);
+      const counts = new Map();
+      for (const ev of events) {
+        for (const t of new Set(ev.tags || [])) counts.set(t, (counts.get(t) || 0) + 1);
+      }
+      const byCount = (a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b);
+      const names = [...counts.keys()];
+      const chip = (name) => {
+        const on = state.tags.includes(name);
+        return `<button type="button" class="tagchip${on ? ' on' : ''}" data-tag="${esc(name)}" aria-pressed="${on}">${esc(name)} <span class="count">${counts.get(name)}</span></button>`;
+      };
+      const kindHtml = names.filter((n) => kinds.has(n)).sort(byCount).map(chip).join('');
+      const topicHtml = names.filter((n) => !kinds.has(n)).sort(byCount).map(chip).join('');
+      document.getElementById('tag-kind-chips').innerHTML = kindHtml || '<span class="fhelp">No tags yet.</span>';
+      document.getElementById('tag-topic-chips').innerHTML = topicHtml || '<span class="fhelp">No tags yet.</span>';
+
+      for (const mode of ['any', 'all']) {
+        const b = document.getElementById(`tag-mode-${mode}`);
+        const on = state.tagMode === mode;
+        b.classList.toggle('on', on);
+        b.setAttribute('aria-pressed', String(on));
+      }
+      document.getElementById('tag-clear').disabled = state.tags.length === 0;
     }
 
     function renderChips() {
@@ -744,6 +932,7 @@
 
     function render() {
       renderChips();
+      renderTagChips();
       const payload = currentPayload();
       const listEl = document.getElementById('list');
       const showing = document.getElementById('showing');
@@ -760,7 +949,7 @@
           : state.view === 'excluded' ? ' excluded'
             : '';
       const note = state.view === 'new'
-        ? ' first seen in the latest run (Include/Exclude ignored here)'
+        ? ' first seen in the latest run (each card shows whether it passes your Include/Exclude words)'
         : state.view === 'excluded'
           ? ' hidden by your Exclude words (highlighted below)'
           : '';
@@ -825,6 +1014,7 @@
     // Restore the Include/Exclude chips to the config defaults.
     function resetToDefaults() {
       seedDefaultFilters();
+      state.tags = [];
       state.touched = false; // back to the default state
       render();
     }
@@ -833,6 +1023,7 @@
     function clearFilters() {
       state.include = [];
       state.exclude = [];
+      state.tags = [];
       state.touched = true;
       render();
     }
@@ -852,6 +1043,8 @@
     function resetToBase() {
       state.view = 'all';
       state.query = '';
+      state.tags = [];
+      state.tagMode = 'any';
       state.touched = false;
       seedDefaultFilters();
       document.getElementById('search').value = '';
@@ -867,7 +1060,7 @@
     function syncHash() {
       // Pristine base view (All tab, untouched config defaults, no search) gets
       // a clean URL with no hash — matching a fresh first visit.
-      if (state.view === 'all' && !state.query && !state.touched && sameAsDefaults()) {
+      if (state.view === 'all' && !state.query && !state.touched && !state.tags.length && sameAsDefaults()) {
         history.replaceState(null, '', location.pathname);
         return;
       }
@@ -876,6 +1069,8 @@
       if (state.include.length) p.set('inc', state.include.join(','));
       if (state.exclude.length) p.set('exc', state.exclude.join(','));
       if (state.query) p.set('q', state.query);
+      if (state.tags.length) p.set('tags', state.tags.join(','));
+      if (state.tags.length && state.tagMode === 'all') p.set('tm', 'all');
       // Mark intentional state once touched, so empty filters stay empty on reload.
       if (state.touched && !state.include.length && !state.exclude.length) p.set('f', '0');
       const h = p.toString();
@@ -892,6 +1087,8 @@
       if (p.get('inc')) state.include = p.get('inc').split(',').filter(Boolean);
       if (p.get('exc')) state.exclude = p.get('exc').split(',').filter(Boolean);
       if (p.get('q')) state.query = p.get('q');
+      if (p.get('tags')) state.tags = p.get('tags').split(',').filter(Boolean);
+      if (p.get('tm') === 'all') state.tagMode = 'all';
       return p.has('inc') || p.has('exc') || p.has('f');
     }
 
@@ -902,6 +1099,7 @@
       if (!f || f.__error) return;
       state.include = Array.isArray(f.filterKeywords) ? [...f.filterKeywords] : [];
       state.exclude = Array.isArray(f.filterExclude) ? [...f.filterExclude] : [];
+      state.wholeWord = f.filterWholeWord !== false;
     }
 
     function updateMeta() {
@@ -946,6 +1144,9 @@
 
       document.getElementById('reset-filters').addEventListener('click', resetToDefaults);
       document.getElementById('clear-filters').addEventListener('click', clearFilters);
+      document.getElementById('tag-mode-any').addEventListener('click', () => setTagMode('any'));
+      document.getElementById('tag-mode-all').addEventListener('click', () => setTagMode('all'));
+      document.getElementById('tag-clear').addEventListener('click', clearTags);
       document.getElementById('logo').addEventListener('click', resetToBase);
       document.getElementById('filter-toggle').addEventListener('click', () => setFiltersCollapsed(!state.collapsed));
 
@@ -956,6 +1157,8 @@
 
       // Chip remove buttons (event delegation).
       document.querySelector('main').addEventListener('click', (e) => {
+        const tagEl = e.target.closest('[data-tag]');
+        if (tagEl) { toggleTag(tagEl.dataset.tag); return; }
         const btn = e.target.closest('.chip button');
         if (btn) removeTerm(btn.dataset.kind, Number(btn.dataset.i));
       });
@@ -966,6 +1169,7 @@
       ]);
       state.data.all = all;
       state.data.filtered = filtered;
+      state.wholeWord = !filtered || filtered.__error || filtered.filterWholeWord !== false ? true : false;
 
       // Seed Include/Exclude from the config filters by default, unless the URL
       // hash already specified filter state (a shared/bookmarked or edited view).

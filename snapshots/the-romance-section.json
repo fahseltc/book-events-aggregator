@@ -1,0 +1,63 @@
+{
+  "source": "The Romance Section",
+  "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "count": 5,
+  "events": [
+    {
+      "title": "ACOTAR Midnight Release Party: A Velaris Starfall Celebration",
+      "description": "Celebrate the new ACOTAR release at our Velaris Starfall party—ticket includes your book, themed drinks, swag & midnight magic.",
+      "start": "2026-10-26T22:00:00-06:00",
+      "end": "2026-10-26T23:59:00-06:00",
+      "location": "1909 9th Street, Boulder, CO 80302",
+      "url": "https://www.eventbrite.com/e/acotar-midnight-release-party-a-velaris-starfall-celebration-tickets-1985238045435",
+      "sourceName": "The Romance Section",
+      "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Romance and Recs Book Club",
+      "description": "Looking for a book club without the pressure of assigned reading? Join us for our first BYO Book Club at Sugar & Spice Books, Romance & Recs",
+      "start": "2026-10-28T18:00:00-06:00",
+      "end": "2026-10-28T20:00:00-06:00",
+      "location": "1909 9th Street, Boulder, CO 80302",
+      "url": "https://www.eventbrite.com/e/romance-and-recs-book-club-tickets-1997390574978",
+      "sourceName": "The Romance Section",
+      "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Romance Lovers Private Theatre Showing of Wicker",
+      "description": "We choose the basket! Join fellow romance lovers in a private showing of Wicker!",
+      "start": "2026-11-01T18:30:00-07:00",
+      "end": "2026-11-01T20:30:00-07:00",
+      "location": "AMC Flatiron Crossing 14 — 61 West Flatiron Crossing Drive, Broomfield, CO 80021",
+      "url": "https://www.eventbrite.com/e/romance-lovers-private-theatre-showing-of-wicker-tickets-1998511592973",
+      "sourceName": "The Romance Section",
+      "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Queer Romance Book Club",
+      "description": "Join fellow romance readers to celebrate stories of queer joy and love!",
+      "start": "2026-11-11T18:00:00-07:00",
+      "end": "2026-11-11T19:30:00-07:00",
+      "location": "1909 9th Street, Boulder, CO 80302",
+      "url": "https://www.eventbrite.com/e/queer-romance-book-club-tickets-1997390062445",
+      "sourceName": "The Romance Section",
+      "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Fetish: Smash Taboos and Celebrate What Turns You On",
+      "description": "Celebrate the launch of the book Fetish: Smash Taboos and Celebrate What Turns You On with Niki Fainbloom hosted by The Romance Section.",
+      "start": "2026-11-15T18:30:00-07:00",
+      "end": "2026-11-15T20:00:00-07:00",
+      "location": "1909 9th Street, Boulder, CO 80302",
+      "url": "https://www.eventbrite.com/e/fetish-smash-taboos-and-celebrate-what-turns-you-on-tickets-2002590670604",
+      "sourceName": "The Romance Section",
+      "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
+      "extractor": "eventbrite"
+    }
+  ]
+}

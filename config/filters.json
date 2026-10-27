@@ -57,7 +57,12 @@
     "BLDG 61",
     "elementary",
     "embroidered",
-    "open mic"
+    "open mic",
+    "Fiction/Nonfiction",
+    "I/DD",
+    "potluck",
+    "Run Club",
+    "Gulo Gulo"
   ],
   "fields": [
     "title",

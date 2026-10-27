@@ -26,6 +26,7 @@ import { extractFromIcal } from './lib/extract/ical.js';
 import { extractFromSquareOnline } from './lib/extract/squareonline.js';
 import { extractFromAcuity } from './lib/extract/acuity.js';
 import { normalizeEvents, eventKey } from './lib/normalize.js';
+import { readSnapshot, writeSnapshot, snapshotAgeDays, STALE_DAYS, SNAPSHOT_DIR } from './lib/snapshot.js';
 import { loadEnv } from './lib/env.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -38,6 +39,10 @@ function parseArgs(argv) {
     concurrency: 4,
     delayMs: 250,
     maxDetails: 100,
+    snapshot: false, // capture mode: write snapshots/ instead of the events output
+    snapshotSources: [],
+    snapshotAll: false,
+    noFallback: false, // skip reading snapshots when a live source fails
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
@@ -50,6 +55,10 @@ function parseArgs(argv) {
     else if (a === '--concurrency') args.concurrency = Number(argv[++i]) || 4;
     else if (a === '--delay') args.delayMs = Number(argv[++i]) || 0;
     else if (a === '--max-details') args.maxDetails = Number(argv[++i]) || 100;
+    else if (a === '--snapshot') args.snapshot = true;
+    else if (a === '--source') args.snapshotSources.push(argv[++i]);
+    else if (a === '--all') args.snapshotAll = true;
+    else if (a === '--no-fallback') args.noFallback = true;
     else if (a === '--help' || a === '-h') args.help = true;
   }
   return args;
@@ -64,6 +73,11 @@ Options:
   --out <path>        Output JSON path (default: output/events.json)
   --no-details        Skip stage 2; use only what the index pages show
   --max-details <n>   Cap detail-page visits per source (default: 100)
+  --snapshot          Capture mode: fetch the chosen sources live and save their
+                      raw events to snapshots/ (no events.json is written)
+  --source <name>     With --snapshot: a source to capture (repeatable)
+  --all               With --snapshot: capture every enabled source
+  --no-fallback       Don't use snapshots when a live source fails
   --concurrency <n>   Parallel detail fetches (default: 4)
   --delay <ms>        Delay between detail fetches per worker (default: 250)
   --include-past      Keep past events (default: upcoming only)
@@ -84,6 +98,21 @@ async function main() {
   const config = JSON.parse(await readFile(configPath, 'utf8'));
   const defaults = config.defaults || {};
   const sources = (config.sources || []).filter((s) => s.enabled !== false);
+
+  if (args.snapshot) {
+    if (!args.snapshotAll && args.snapshotSources.length === 0) {
+      process.stderr.write('Choose sources to capture: --source "<name>" (repeatable) or --all\n');
+      process.exitCode = 1;
+      return;
+    }
+    const names = sources.map((s) => s.name);
+    const unknown = args.snapshotSources.filter((n) => !names.includes(n));
+    if (unknown.length) {
+      process.stderr.write(`Unknown or disabled source(s): ${unknown.join(', ')}\nEnabled sources:\n  ${names.join('\n  ')}\n`);
+      process.exitCode = 1;
+      return;
+    }
+  }
 
   const now = new Date();
   const outPath = resolve(ROOT, args.out);
@@ -111,14 +140,46 @@ async function main() {
       excludeTitle: src.excludeTitle,
     };
     const line = { source: source.name || source.url, url: source.url };
+    const captureThis = args.snapshot && (args.snapshotAll || args.snapshotSources.includes(src.name));
+    if (args.snapshot && !captureThis) continue;
+
     try {
       const raw = await crawlSource(source, args, now, line);
+      if (captureThis) {
+        // Never overwrite a good snapshot with an empty result.
+        if (raw.length === 0) {
+          line.error = 'live fetch returned 0 events; existing snapshot kept';
+        } else {
+          await writeSnapshot(ROOT, src.name, { url: src.url, events: raw, capturedAt: runStamp });
+          line.snapshotSaved = raw.length;
+        }
+      }
       allRaw.push(...raw);
     } catch (err) {
       line.error = err.message;
+      // Live fetch failed (blocked, down, rate-limited): use the committed snapshot.
+      if (!args.snapshot && !args.noFallback) {
+        const snap = await readSnapshot(ROOT, src.name);
+        if (snap) {
+          allRaw.push(...snap.events);
+          line.fallback = {
+            capturedAt: snap.capturedAt,
+            count: snap.events.length,
+            ageDays: snapshotAgeDays(snap.capturedAt, now),
+          };
+        }
+      }
     }
     report.push(line);
     logSourceLine(line);
+  }
+
+  if (args.snapshot) {
+    const saved = report.filter((l) => l.snapshotSaved != null).length;
+    const failed = report.filter((l) => l.error && l.snapshotSaved == null).length;
+    process.stdout.write(`\nSaved ${saved} snapshot(s) to ${SNAPSHOT_DIR}/. ${failed} failed.\n`);
+    process.exitCode = failed ? 1 : 0;
+    return;
   }
 
   const events = normalizeEvents(allRaw, {
@@ -388,8 +449,20 @@ async function saveRaw(source, html) {
 }
 
 function logSourceLine(line) {
+  if (line.snapshotSaved != null) {
+    process.stdout.write(`  ● ${line.source}: snapshot saved (${line.snapshotSaved} events)\n`);
+    return;
+  }
   if (line.error) {
     process.stdout.write(`  ✗ ${line.source}: ${line.error}\n`);
+    if (line.fallback) {
+      const f = line.fallback;
+      const stale = f.ageDays > STALE_DAYS ? `, ${Math.floor(f.ageDays)} days old: refresh it with --snapshot` : '';
+      process.stdout.write(
+        `  ↺ ${line.source}: using snapshot from ${f.capturedAt.slice(0, 10)} ` +
+        `(${f.count} events${stale})\n`,
+      );
+    }
     return;
   }
   const detail =

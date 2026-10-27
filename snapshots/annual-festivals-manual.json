@@ -1,0 +1,128 @@
+{
+  "source": "Annual festivals (manual)",
+  "sourceUrl": "config/static-events.json",
+  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "count": 11,
+  "events": [
+    {
+      "title": "Fort Collins Book Fest",
+      "description": "Annual Fort Collins book festival (FoCoBookFest). Multi-day; kickoff 4/9.",
+      "start": "2027-04-09T10:00:00",
+      "end": "2027-04-11T17:00:00",
+      "location": "Fort Collins Senior Center, Fort Collins, CO",
+      "url": "https://focobookfest.org/",
+      "sourceName": "FoCo Book Fest",
+      "sourceUrl": "https://focobookfest.org/",
+      "extractor": "static"
+    },
+    {
+      "title": "Denver Festival of Books",
+      "description": "Annual Denver book festival hosted by the Colorado Authors League.",
+      "start": "2027-05-20T10:00:00",
+      "location": "Denver, CO",
+      "url": "https://denverbookfest.com/",
+      "sourceName": "Denver Book Fest",
+      "sourceUrl": "https://denverbookfest.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "MileHiCon",
+      "description": "Colorado's long-running science fiction & fantasy literary convention.",
+      "start": "2027-10-22T09:00:00",
+      "end": "2027-10-24T18:00:00",
+      "location": "Denver, CO",
+      "url": "https://milehicon.org/",
+      "sourceName": "MileHiCon",
+      "sourceUrl": "https://milehicon.org/",
+      "extractor": "static"
+    },
+    {
+      "title": "Author Showcase & Book Fair",
+      "description": "TriArts Project event bringing authors and readers together for a day of inspiration and discovery.",
+      "start": "2026-10-23T16:30:00",
+      "end": "2026-10-23T19:30:00",
+      "location": "Cantril School Building, 312 Cantril St., Castle Rock, CO 80104",
+      "url": "https://triartsproject.org/event/author-showcase-book-fair-click-here-for-more-info/",
+      "sourceName": "TriArts Project",
+      "sourceUrl": "https://triartsproject.org/event/author-showcase-book-fair-click-here-for-more-info/",
+      "extractor": "static"
+    },
+    {
+      "title": "JLF Colorado (Jaipur Literature Festival)",
+      "description": "Colorado edition of the Jaipur Literature Festival — authors, ideas, and literary conversation.",
+      "start": "2026-09-18T10:00:00",
+      "end": "2026-09-20T18:00:00",
+      "location": "Boulder, CO",
+      "url": "https://jlflitfest.org/colorado",
+      "sourceName": "JLF Colorado",
+      "sourceUrl": "https://jlflitfest.org/colorado",
+      "extractor": "static"
+    },
+    {
+      "title": "RMABA Rocky Mountain Antiquarian Book Fair",
+      "description": "Rocky Mountain Antiquarian Booksellers Association rare & antiquarian book fair.",
+      "start": "2026-08-08T10:00:00",
+      "end": "2026-08-09T17:00:00",
+      "location": "Denver, CO",
+      "url": "https://www.rmaba.org/",
+      "sourceName": "RMABA",
+      "sourceUrl": "https://www.rmaba.org/",
+      "extractor": "static"
+    },
+    {
+      "title": "Spelling Bee(r) @ Velvet Lasso",
+      "description": "A casual night of spelling, cocktails, and prizes benefiting Burning Through Pages youth literacy programs. 21+.",
+      "start": "2026-10-22T18:30:00",
+      "end": "2026-10-22T20:00:00",
+      "location": "Velvet Lasso — 3254 Navajo St Suite 100, Denver, CO, 80211",
+      "url": "https://burningthroughpages.org/event/spelling-beer-velvet-lasso/",
+      "sourceName": "Burning Through Pages",
+      "sourceUrl": "https://burningthroughpages.org/event/spelling-beer-velvet-lasso/",
+      "extractor": "static"
+    },
+    {
+      "title": "State of the Library",
+      "description": "The second annual State of the Library: coffee, a fireside chat on special collections with Rachel Vagts, Volunteer/Friend of the Year awards, and early access to the Red Chair Bookshop.",
+      "start": "2026-11-05T08:30:00",
+      "end": "2026-11-05T10:00:00",
+      "location": "Central Library — 10 W 14th Avenue Parkway, Denver, CO, 80204",
+      "url": "https://www.dplfriends.org/event/state-of-the-library/",
+      "sourceName": "Denver Public Library Friends",
+      "sourceUrl": "https://www.dplfriends.org/event/state-of-the-library/",
+      "extractor": "static"
+    },
+    {
+      "title": "The Boozy Book Fair – Castle Rock Edition",
+      "description": "A grown-up book fair with Sudden Fiction Books — curated books, bookish gifts, and craft cocktails, benefiting Burning Through Pages.",
+      "start": "2026-11-08T14:00:00",
+      "end": "2026-11-08T18:00:00",
+      "location": "Sinners & Saints — 221 Perry Street, Castle Rock, CO, 80104",
+      "url": "https://burningthroughpages.org/event/the-boozy-book-fair-castle-rock-edition-2/",
+      "sourceName": "Burning Through Pages",
+      "sourceUrl": "https://burningthroughpages.org/event/the-boozy-book-fair-castle-rock-edition-2/",
+      "extractor": "static"
+    },
+    {
+      "title": "The Red Chair Bookshop 3-Day Used Book Sale",
+      "description": "The Denver Public Library Friends' used book sale returns to Park View: thousands of gently loved books, CDs, and DVDs. Sunday is a $15 bag sale.",
+      "start": "2026-11-13T10:00:00",
+      "end": "2026-11-15T15:00:00",
+      "location": "Central Library — 10 W 14th Avenue Parkway, Denver, CO, 80204",
+      "url": "https://www.dplfriends.org/event/the-red-chair-bookshop-3-day-used-book-sale-3/",
+      "sourceName": "Denver Public Library Friends",
+      "sourceUrl": "https://www.dplfriends.org/event/the-red-chair-bookshop-3-day-used-book-sale-3/",
+      "extractor": "static"
+    },
+    {
+      "title": "COSine 2027 — Colorado Springs Science Fiction Convention",
+      "description": "Colorado Springs sci-fi and fantasy convention with authors, artists, panels, an author signing and reception, and a dealers room. Guests: Mur Lafferty (author/podcaster) and Ness Brown (astrophysicist and author).",
+      "start": "2027-01-22T10:00:00",
+      "end": "2027-01-24T17:00:00",
+      "location": "Colorado Springs, CO",
+      "url": "https://cosinecon.org/",
+      "sourceName": "COSine",
+      "sourceUrl": "https://cosinecon.org/",
+      "extractor": "static"
+    }
+  ]
+}

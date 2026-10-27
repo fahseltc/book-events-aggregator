@@ -1,0 +1,140 @@
+{
+  "source": "Little Blue Pigeon Books",
+  "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "count": 12,
+  "events": [
+    {
+      "title": "The Great Pumpkin Book Hunt",
+      "description": "Join us for The Great LBP Pumpkin Book Hunt, where every book purchase gives you the chance to hunt for a hidden pigeon and reveal a surprise prize—including the coveted Golden Pigeon.",
+      "start": "2026-10-24T10:00:00",
+      "end": "2026-10-31T17:00:00",
+      "location": "Little Blue Pigeon — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-great-pumpkin-book-hunt",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Halloween Local Author Pop-Up: Lynn Becker",
+      "description": "Celebrate Halloween with Colorado author Lynn Becker and her delightfully spooky picture book, Ghost Town in the Mountains! Stop by Little Blue Pigeon from 11 AM–1 PM to meet Lynn, discover this hauntingly hilarious story, and take home a signed copy.",
+      "start": "2026-10-31T11:00:00",
+      "end": "2026-10-31T13:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/halloween-local-author-pop-up-lynn-becker",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "A New Chapter with Laufey’s Book Club",
+      "description": "Celebrate Little Blue Pigeon Books as Laufey’s Book Club November Bookstore of the Month with a special collaboration, an exclusive custom-designed tote, and a little literary magic!",
+      "start": "2026-11-02T10:00:00",
+      "end": "2026-11-30T18:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/a-new-chapter-with-laufeys-book-club",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "The Gratitude Post Office",
+      "description": "When was the last time you sent someone a handwritten thank-you note? Stop by our Gratitude Post Office and write a letter to someone who made your year brighter.",
+      "start": "2026-11-07T10:00:00",
+      "end": "2026-11-08T16:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-gratitude-post-office-2026-11-07-10-00",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Local Author Pop-Up Event with Christy McConnell",
+      "description": "Join us for a special gathering with author Christy McConnell as we celebrate her book, Awakening Wildness: Reconnecting with Nature and Ourselves. Discover a thought-provoking exploration of our relationship with the natural world and what it means to reconnect with ourselves.",
+      "start": "2026-11-07T11:00:00",
+      "end": "2026-11-07T13:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/local-author-pop-up-event-with-christy-mcconnell",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Dinner for the Dreamers: An Evening with Ladies Supper Society",
+      "description": "Join us as we welcome Ladies Supper Society's original Denver table for an enchanting evening inspired by the stories we love, the friendships we make, and the dreams we dare to chase.",
+      "start": "2026-11-07T18:30:00",
+      "end": "2026-11-07T20:30:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/dinner-for-the-dreamers-an-evening-with-ladies-supper-society",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "The Giving Tree of Gratitude",
+      "description": "Help us fill our Thankful Tree with gratitude! Write something you're thankful for on a colorful autumn leaf and hang it among the branches.",
+      "start": "2026-11-09T10:00:00",
+      "end": "2026-11-25T18:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-giving-tree-of-gratitude",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "The Gratitude Post Office",
+      "description": "When was the last time you sent someone a handwritten thank-you note? Stop by our Gratitude Post Office and write a letter to someone who made your year brighter.",
+      "start": "2026-11-14T10:00:00",
+      "end": "2026-11-15T16:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-gratitude-post-office-2026-11-14-10-00",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "The Gratitude Post Office",
+      "description": "When was the last time you sent someone a handwritten thank-you note? Stop by our Gratitude Post Office and write a letter to someone who made your year brighter.",
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-22T16:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-gratitude-post-office-2026-11-21-10-00",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "The Little Blue Book Haul: Black Friday",
+      "description": "Big stories. Little bookstore. Really good deals! This Black Friday, we're making it a little easier to fill your shelves, check off your holiday gift list, and support your favorite independent bookstore.",
+      "start": "2026-11-27T10:00:00",
+      "end": "2026-11-27T18:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-little-blue-book-haul-black-friday",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Small Business Saturday x The Little Blue Literary Passport",
+      "description": "One little blue pigeon. Five bookshops. A city full of stories! This Small Business Saturday, we're inviting you on a literary adventure through some of Denver's most wonderful independent bookstores.",
+      "start": "2026-11-28T10:00:00",
+      "end": "2026-11-28T18:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/small-business-saturday-x-the-little-blue-literary-passport",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Author Pop-Up & Book Signing with K.K. Salathe",
+      "description": "Join us on Small Business Saturday as we welcome local indie romantasy author K.K. Salathe for a special pop-up celebrating her debut novel, Countdown to the Chosen Wolf. Every wolf has a mate, and Calla knows exactly when she'll meet hers.",
+      "start": "2026-11-28T11:00:00",
+      "end": "2026-11-28T13:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/author-pop-up-book-signing-with-k-k-salathe",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    }
+  ]
+}

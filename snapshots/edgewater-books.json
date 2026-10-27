@@ -1,0 +1,44 @@
+{
+  "source": "Edgewater Books",
+  "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
+  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "count": 4,
+  "events": [
+    {
+      "title": "Writing group",
+      "description": "Wednesday, 7-9 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! The Edgewater Books writing group meets on the second Wednesday and fourth Friday of every month. What to expect at each meeting: A few minutes of chit chat to catch up, 15 minutes to go over personal goals for the day and the day’s optional writing prompt, two 45-minute writing sprints, and 15 to 30 minutes to read aloud, ask questions, and give feedback. No requirements to join, just an interest in writing and community!",
+      "start": "2027-10-14T19:00:00",
+      "url": "https://edgewaterbooksofcolorado.com/events/",
+      "sourceName": "Edgewater Books",
+      "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
+      "extractor": "heuristic"
+    },
+    {
+      "title": "Writing group",
+      "description": "Friday, 10 a.m.- 12 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! The Edgewater Books writing group meets on the second Wednesday and fourth Friday of every month. What to expect at each meeting: A few minutes of chit chat to catch up, 15 minutes to go over personal goals for the day and the day’s optional writing prompt, two 45-minute writing sprints, and 15 to 30 minutes to read aloud, ask questions, and give feedback. No requirements to join, just an interest in writing and community!",
+      "start": "2027-10-23T10:00:00",
+      "url": "https://edgewaterbooksofcolorado.com/events/",
+      "sourceName": "Edgewater Books",
+      "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
+      "extractor": "heuristic"
+    },
+    {
+      "title": "Book club “The Art Thief”",
+      "description": "Sunday 10/25, 5:30-6:30 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! From Bookshop.org : Stéphane Bréitwieser is the most prolific art thief of all time. He pulled off more than 200 heists, often in crowded museums in broad daylight.",
+      "start": "2026-10-25T17:30:00",
+      "url": "https://edgewaterbooksofcolorado.com/events/",
+      "sourceName": "Edgewater Books",
+      "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
+      "extractor": "heuristic"
+    },
+    {
+      "title": "ACOTAR 6 BOOK RELEASE PARTY AND BINGO NIGHT",
+      "description": "Tuesday, 6 – 8 p.m. Barquentine Brewing Co. inside Edgewater Public Market Free to attend — RSVP required",
+      "start": "2026-10-27T18:00:00",
+      "url": "https://edgewaterbooksofcolorado.com/events/",
+      "sourceName": "Edgewater Books",
+      "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
+      "extractor": "heuristic"
+    }
+  ]
+}

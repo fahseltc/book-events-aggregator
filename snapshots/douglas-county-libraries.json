@@ -1,0 +1,1124 @@
+{
+  "source": "Douglas County Libraries",
+  "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "count": 124,
+  "events": [
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-10-27T08:00:00",
+      "url": "https://go.dcl.org/event/14646115",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-10-27T08:00:00",
+      "url": "https://go.dcl.org/event/14646057",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-10-27T08:00:00",
+      "url": "https://go.dcl.org/event/14458020",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-10-27T08:00:00",
+      "url": "https://go.dcl.org/event/14503709",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-10-27T08:00:00",
+      "url": "https://go.dcl.org/event/14452839",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community. Meets by fireplace.",
+      "start": "2026-10-27T08:00:00",
+      "url": "https://go.dcl.org/event/14505527",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker.",
+      "start": "2026-10-27T10:00:00",
+      "url": "https://go.dcl.org/event/15150469",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Sensory Stories",
+      "description": "Enjoy read-aloud stories paired with sensory activities that may include movement, simple crafts, music and interactive experiences. Designed for neurodiverse adults and their caregivers. Drop in.",
+      "start": "2026-10-27T13:30:00",
+      "url": "https://go.dcl.org/event/17470819",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Great Decisions",
+      "description": "Join this Great Decisions series of lectures. Guest speaker tonight: Dr. Lisa Conant Professor of Political Science and Faculty affiliate of the Sie Center for International Security and Diplomacy.",
+      "start": "2026-10-27T18:00:00",
+      "url": "https://go.dcl.org/event/17085439",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-10-28T08:00:00",
+      "url": "https://go.dcl.org/event/15260486",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "20 Mile Book Club",
+      "description": "Adults meet monthly to discuss fiction and nonfiction title",
+      "start": "2026-10-28T09:30:00",
+      "url": "https://go.dcl.org/event/14325344",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Daytime Book Club",
+      "description": "Adults meet monthly to discuss titles from a variety of genres. No registration required. Meets the fourth Wednesday of each month.",
+      "start": "2026-10-28T13:00:00",
+      "url": "https://go.dcl.org/event/14647676",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop in for movement, music, and seated exercises designed to promote creativity, memory and imagination, and to stimulate cognitive skills.",
+      "start": "2026-10-28T13:30:00",
+      "url": "https://go.dcl.org/event/14554411",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "DCL Board Meeting",
+      "description": "The monthly Board Business Meeting begins at 5:30pm and allows for public comment after consent agenda at the start of the meeting.",
+      "start": "2026-10-28T16:00:00",
+      "url": "https://go.dcl.org/event/14524313",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "DCL Board Meeting",
+      "description": "The monthly Board Business Meeting begins at 5:30pm and allows for public comment after consent agenda at the start of the meeting.",
+      "start": "2026-10-28T16:00:00",
+      "url": "https://go.dcl.org/event/17159425",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker.",
+      "start": "2026-10-28T17:00:00",
+      "url": "https://go.dcl.org/event/15150264",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Next Chapter",
+      "description": "Adults meet the fourth Wednesday of each month to read and discuss books with protagonists in early adulthood. Register now.",
+      "start": "2026-10-28T18:00:00",
+      "url": "https://go.dcl.org/event/14452503",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Great Decisions",
+      "description": "Join this Great Decisions series of lectures. This week's guest speaker is Dr. Jing Sun, Professor of Political Science at the University of Denver.",
+      "start": "2026-10-28T18:00:00",
+      "url": "https://go.dcl.org/event/17013224",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Evening Social Hour",
+      "description": "Drop in for conversation in a neuroinclusive space. All abilities welcome. Adults.",
+      "start": "2026-10-28T18:00:00",
+      "url": "https://go.dcl.org/event/15269430",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Haunted Histories",
+      "description": "Join us for a chilling hour of ghost stories and spine-tingling tales rooted in the Denver-metro area's historic buildings.",
+      "start": "2026-10-29T18:00:00",
+      "url": "https://go.dcl.org/event/16908865",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-01T09:00:00",
+      "url": "https://go.dcl.org/event/16891986",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop-in for movement, music and seated exercises designed to promote creativity, memory and imagination, and stimulate cognitive skills.",
+      "start": "2026-11-02T13:30:00",
+      "url": "https://go.dcl.org/event/14715407",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-03T08:00:00",
+      "url": "https://go.dcl.org/event/14646116",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-03T08:00:00",
+      "url": "https://go.dcl.org/event/14646058",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-03T08:00:00",
+      "url": "https://go.dcl.org/event/14452840",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-03T08:00:00",
+      "url": "https://go.dcl.org/event/14503710",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-03T08:00:00",
+      "url": "https://go.dcl.org/event/14458021",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community. Meets by fireplace.",
+      "start": "2026-11-03T08:00:00",
+      "url": "https://go.dcl.org/event/14505528",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker.",
+      "start": "2026-11-03T10:00:00",
+      "url": "https://go.dcl.org/event/15150571",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Daytime Book Club",
+      "description": "Adults meet monthly to discuss fiction and nonfiction titles. Meets upstairs in the Event Hall. This book club is filled to capacity.",
+      "start": "2026-11-03T10:00:00",
+      "url": "https://go.dcl.org/event/14332281",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop-in for movement, music and seated exercises designed to promote creativity, memory and imagination, and stimulate cognitive skills.",
+      "start": "2026-11-03T13:30:00",
+      "url": "https://go.dcl.org/event/14715437",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Sensory Stories",
+      "description": "Enjoy read-aloud stories paired with sensory activities that may include movement, simple crafts, music and interactive experiences. Designed for neurodiverse adults and their caregivers. Drop in.",
+      "start": "2026-11-03T13:30:00",
+      "url": "https://go.dcl.org/event/17509938",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Dungeons & Dragons Gaming and Book Club",
+      "description": "Adults and Teens 15+ meet monthly to learn and play Dungeons & Dragons. No experience necessary.",
+      "start": "2026-11-03T17:00:00",
+      "url": "https://go.dcl.org/event/15027350",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Quiet Reading Group",
+      "description": "Drop in for quiet reading with other adults. Bring a book from home or from our shelves.",
+      "start": "2026-11-03T18:00:00",
+      "url": "https://go.dcl.org/event/14854528",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Inklings",
+      "description": "Adults meet monthly to discuss fiction and nonfiction titles.",
+      "start": "2026-11-03T18:00:00",
+      "url": "https://go.dcl.org/event/14218989",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-04T08:00:00",
+      "url": "https://go.dcl.org/event/15260487",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Play & Connect",
+      "description": "Adults enjoy favorite tabletop games and discover new ones.",
+      "start": "2026-11-04T10:00:00",
+      "url": "https://go.dcl.org/event/15017555",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop in for movement, music, and seated exercises designed to promote creativity, memory and imagination, and to stimulate cognitive skills.",
+      "start": "2026-11-04T13:30:00",
+      "url": "https://go.dcl.org/event/14554412",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop in for movement, music and seated exercises designed to promote creativity, memory and imagination, and stimulate cognitive skills.",
+      "start": "2026-11-04T13:30:00",
+      "url": "https://go.dcl.org/event/14692148",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker",
+      "start": "2026-11-04T17:00:00",
+      "url": "https://go.dcl.org/event/15150185",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "ESL Book Club",
+      "description": "Adults who are intermediate or advanced English speakers meet on the first Wednesday of each month to discuss essays, novels, and memoirs relating to immigrant experiences. Registration required.",
+      "start": "2026-11-04T17:30:00",
+      "url": "https://go.dcl.org/event/14969833",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "The Book Was Better",
+      "description": "Adults meet the first Wednesday of the month to compare a film with its original novel.",
+      "start": "2026-11-04T18:00:00",
+      "url": "https://go.dcl.org/event/14476299",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "3D Printing 101",
+      "description": "This class is for adults and teens. Curious about 3D printing but not sure where to start?",
+      "start": "2026-11-04T18:30:00",
+      "url": "https://go.dcl.org/event/17508139",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Book Banter",
+      "description": "Adults meet the first Wednesday of each month to discuss fiction and nonfiction titles. Meets upstairs in the event hall.",
+      "start": "2026-11-04T18:30:00",
+      "url": "https://go.dcl.org/event/14451687",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Readers' Roost",
+      "description": "Adults meet the first Thursday of each month to discuss fiction and nonfiction titles. Meets in upstairs event hall.",
+      "start": "2026-11-05T11:30:00",
+      "url": "https://go.dcl.org/event/14451977",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Practice Your English",
+      "description": "Intermediate to advanced English learners ages 18 and up gather for informal conversation on everyday topics. Facilitated by a fluent English speaker.",
+      "start": "2026-11-05T17:30:00",
+      "url": "https://go.dcl.org/event/14757595",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Active Minds",
+      "description": "Explore the remarkable life and legacy of Winston Churchill, one of the most influential political leaders of the 20th century.",
+      "start": "2026-11-05T18:00:00",
+      "url": "https://go.dcl.org/event/17241185",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Quiet Reading Group",
+      "description": "Drop in for quiet reading with other adults. Bring a book from home or from our shelves.",
+      "start": "2026-11-05T18:00:00",
+      "url": "https://go.dcl.org/event/14989563",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Mystery Loves Company",
+      "description": "Adults. Mystery lovers meet the first Thursday of each month to discuss a new book. Meets upstairs in the event hall.",
+      "start": "2026-11-05T18:30:00",
+      "url": "https://go.dcl.org/event/14104941",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Great Books - Virtual Book Club",
+      "description": "Join Great Book Discussion group. Meets the 1st and 3rd Thursdays each month online.",
+      "start": "2026-11-05T19:00:00",
+      "url": "https://go.dcl.org/event/17253533",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Booked for the Holidays",
+      "description": "Houseplants make wonderful gifts - and can brighten your own home for the season!",
+      "start": "2026-11-07T10:30:00",
+      "url": "https://go.dcl.org/event/17268967",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Booked for the Holidays",
+      "description": "This class is for adults. Join us each month for a hands-on DIY experience!",
+      "start": "2026-11-07T13:30:00",
+      "url": "https://go.dcl.org/event/17149973",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "GED/COHS/Excel Graduation Ceremony",
+      "description": "Ceremony is open to all Douglas County residents who finished their GED, HiSET, Excel High School or Career Online High School program in 2025 or 2026.",
+      "start": "2026-11-08T09:30:00",
+      "url": "https://go.dcl.org/event/14410978",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-08T10:00:00",
+      "url": "https://go.dcl.org/event/16891987",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop-in for movement, music and seated exercises designed to promote creativity, memory and imagination, and stimulate cognitive skills.",
+      "start": "2026-11-09T13:30:00",
+      "url": "https://go.dcl.org/event/14715408",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Mat Movement",
+      "description": "Strengthen and tone your entire core with this dynamic mat Pilates class that blends mindful movement, flowing sequences, and a touch of dance fundamentals.",
+      "start": "2026-11-09T14:00:00",
+      "url": "https://go.dcl.org/event/17164027",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Know Thy Shelf",
+      "description": "Adults meet the second Monday of each month to discuss graphic novels and fiction.",
+      "start": "2026-11-09T18:00:00",
+      "url": "https://go.dcl.org/event/14646659",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Evening Social Hour",
+      "description": "Drop in for conversation in a neuroinclusive space. All abilities welcome. Adults.",
+      "start": "2026-11-09T18:00:00",
+      "url": "https://go.dcl.org/event/15274694",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Highlands Ranch Book Club",
+      "description": "Adults meet monthly to discuss fiction and nonfiction titles. Meets upstairs in the Event Hall. This club is filled to capacity.",
+      "start": "2026-11-09T18:30:00",
+      "url": "https://go.dcl.org/event/14091009",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-10T08:00:00",
+      "url": "https://go.dcl.org/event/14646117",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-10T08:00:00",
+      "url": "https://go.dcl.org/event/14646059",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-10T08:00:00",
+      "url": "https://go.dcl.org/event/14458022",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community. Meets by fireplace.",
+      "start": "2026-11-10T08:00:00",
+      "url": "https://go.dcl.org/event/14505529",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-10T08:00:00",
+      "url": "https://go.dcl.org/event/14503711",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-10T08:00:00",
+      "url": "https://go.dcl.org/event/14452841",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker.",
+      "start": "2026-11-10T10:00:00",
+      "url": "https://go.dcl.org/event/15150470",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Sensory Stories",
+      "description": "Enjoy read-aloud stories paired with sensory activities that may include movement, simple crafts, music and interactive experiences. Designed for neurodiverse adults and their caregivers. Drop in.",
+      "start": "2026-11-10T13:30:00",
+      "url": "https://go.dcl.org/event/17470820",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-11T08:00:00",
+      "url": "https://go.dcl.org/event/15260488",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop in for movement, music, and seated exercises designed to promote creativity, memory and imagination, and to stimulate cognitive skills.",
+      "start": "2026-11-11T13:30:00",
+      "url": "https://go.dcl.org/event/14554413",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Demystifying Fats",
+      "description": "For decades, dietary fat has been portrayed as something to avoid - but what does the latest research actually tell us?",
+      "start": "2026-11-11T14:00:00",
+      "url": "https://go.dcl.org/event/17442900",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker.",
+      "start": "2026-11-11T17:00:00",
+      "url": "https://go.dcl.org/event/15150265",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Fiction Fusion",
+      "description": "Adults. Come discuss a variety of blended genre fiction which combines elements from mystery, romance, fantasy, horror, science fiction, or historical fiction.",
+      "start": "2026-11-11T18:00:00",
+      "url": "https://go.dcl.org/event/14881566",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Booked for the Holidays",
+      "description": "This class is for adults and teens. Join local artist Jeslyn Sebold for a festive, hands-on workshop where you'll create your own charming holiday village using a mix of recycled and new materials.",
+      "start": "2026-11-11T18:00:00",
+      "url": "https://go.dcl.org/event/17171515",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Teen Reads for Grown-Ups",
+      "description": "Adults meet the second Wednesday of each month to discuss young adult titles from various genres.",
+      "start": "2026-11-11T18:30:00",
+      "url": "https://go.dcl.org/event/15007155",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Gentle Yoga",
+      "description": "Find relaxation and restoration in this Gentle Yoga class, suitable for all levels.",
+      "start": "2026-11-12T10:00:00",
+      "url": "https://go.dcl.org/event/16917122",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Practice Your English",
+      "description": "Intermediate to advanced English learners ages 18 and up gather for informal conversation on everyday topics. Facilitated by a fluent English speaker.",
+      "start": "2026-11-12T10:00:00",
+      "url": "https://go.dcl.org/event/14757638",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Play & Connect",
+      "description": "Adults enjoy favorite tabletop games and discover new ones.",
+      "start": "2026-11-12T14:00:00",
+      "url": "https://go.dcl.org/event/14997329",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Play & Connect",
+      "description": "Adults. Enjoy favorite tabletop games and discover new ones.",
+      "start": "2026-11-12T14:00:00",
+      "url": "https://go.dcl.org/event/15028304",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Doodle & Draw Together",
+      "description": "Whether you're a seasoned artist or a first-timer, we'd love to doodle with you!",
+      "start": "2026-11-12T15:30:00",
+      "url": "https://go.dcl.org/event/17164054",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Adult Literacy Volunteer Orientation",
+      "description": "Take the first step toward becoming a volunteer tutor in the Adult Literacy Program. Adults. Registration required.",
+      "start": "2026-11-12T16:00:00",
+      "url": "https://go.dcl.org/event/15721873",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Fired Up",
+      "description": "A virtual workshop intended for new business owners or prospective entrepreneurs.",
+      "start": "2026-11-12T17:30:00",
+      "url": "https://go.dcl.org/event/17203491",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Quiet Reading Group",
+      "description": "Drop in for quiet reading with other adults. Bring a book from home or from our shelves.",
+      "start": "2026-11-12T18:00:00",
+      "url": "https://go.dcl.org/event/16600947",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Play & Connect",
+      "description": "Adults enjoy favorite tabletop games and discover new ones.",
+      "start": "2026-11-13T13:00:00",
+      "url": "https://go.dcl.org/event/15533551",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Play & Connect",
+      "description": "Adults. Enjoy favorite tabletop games and discover new ones. Meets by the fireplace.",
+      "start": "2026-11-13T13:00:00",
+      "url": "https://go.dcl.org/event/15529579",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Booked for the Holidays",
+      "description": "This class is for adults. Get creative with glass and add a handmade touch to your holiday décor!",
+      "start": "2026-11-13T16:00:00",
+      "url": "https://go.dcl.org/event/17442705",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "True Crime Author & Retired Special Agent Eric Balliet",
+      "description": "Author Eric Balliet, a retired special agent, spent 25 years leading cross-border narcotics and human smuggling investigations, culminating in a team operation that brought down El Chapo.",
+      "start": "2026-11-13T18:30:00",
+      "url": "https://go.dcl.org/event/17239662",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Practice Your English",
+      "description": "Practice for beginner to low-intermediate English learners ages 18 and up. Facilitated by a fluent English speaker.",
+      "start": "2026-11-14T10:00:00",
+      "url": "https://go.dcl.org/event/15460041",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Local Author Showcase",
+      "description": "Join the audience. Meet local authors and hear about their books. Each author will spend five minutes discussing their work, followed by a book sale and signing. Registration required.",
+      "start": "2026-11-14T13:00:00",
+      "url": "https://go.dcl.org/event/14283233",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-15T10:00:00",
+      "url": "https://go.dcl.org/event/16891988",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Knit Together",
+      "description": "Looking to expand your knitting skills or try a new project? Join us for Knit Together, a series of hands-on knitting classes designed for adults and teens of all experience levels.",
+      "start": "2026-11-15T13:00:00",
+      "url": "https://go.dcl.org/event/14674874",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Sit and Stitch",
+      "description": "Come knit, purl, and connect! Join fellow knitters of all ages for a cozy, informal meet-up near the first floor fireplace.",
+      "start": "2026-11-15T15:00:00",
+      "url": "https://go.dcl.org/event/14675046",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop-in for movement, music and seated exercises designed to promote creativity, memory and imagination, and stimulate cognitive skills.",
+      "start": "2026-11-16T13:30:00",
+      "url": "https://go.dcl.org/event/14715409",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Dungeons & Dragons Gaming and Book Club",
+      "description": "Adults and Teens ages 15+ meet monthly to learn and play Dungeons & Dragons. No experience necessary.",
+      "start": "2026-11-16T17:00:00",
+      "url": "https://go.dcl.org/event/15032786",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Let's Rock! An Introduction to Guitar",
+      "description": "This class is for teens & adults. Ready to learn the guitar? In this two-part introductory series with Swallow Hill, discover the basics of one of the world's most popular and versatile instruments.",
+      "start": "2026-11-16T18:00:00",
+      "url": "https://go.dcl.org/event/17494059",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-17T08:00:00",
+      "url": "https://go.dcl.org/event/14646118",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-17T08:00:00",
+      "url": "https://go.dcl.org/event/14646060",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-17T08:00:00",
+      "url": "https://go.dcl.org/event/14452842",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community. Meets by fireplace.",
+      "start": "2026-11-17T08:00:00",
+      "url": "https://go.dcl.org/event/14505530",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-17T08:00:00",
+      "url": "https://go.dcl.org/event/14458023",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-17T08:00:00",
+      "url": "https://go.dcl.org/event/14503712",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker.",
+      "start": "2026-11-17T10:00:00",
+      "url": "https://go.dcl.org/event/15150572",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Sensory Stories",
+      "description": "Enjoy read-aloud stories paired with sensory activities that may include movement, simple crafts, music and interactive experiences.",
+      "start": "2026-11-17T13:30:00",
+      "url": "https://go.dcl.org/event/17482695",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Yin Yoga",
+      "description": "Experience the serenity of Yin Yoga with Dayna Zielke, a seasoned Yin Instructor from Yogi Colorado.",
+      "start": "2026-11-17T14:00:00",
+      "url": "https://go.dcl.org/event/16917131",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Fired Up",
+      "description": "A virtual workshop intended for prospective entrepreneurs thinking of buying an existing business.",
+      "start": "2026-11-17T17:30:00",
+      "url": "https://go.dcl.org/event/15601010",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Quiet Reading Group",
+      "description": "Drop in for quiet reading with other adults. Bring a book from home or from our shelves.",
+      "start": "2026-11-17T18:00:00",
+      "url": "https://go.dcl.org/event/14989603",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Booked for the Holidays",
+      "description": "Join us each month for a hands-on DIY experience for adults and teens!",
+      "start": "2026-11-17T18:00:00",
+      "url": "https://go.dcl.org/event/17338175",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee Chat",
+      "description": "Drop in for coffee and conversation with other adults and retirees. Some chats will include visits from experts in the community.",
+      "start": "2026-11-18T08:00:00",
+      "url": "https://go.dcl.org/event/15260489",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "20 Mile Book Club",
+      "description": "Adults meet monthly to discuss fiction and nonfiction title",
+      "start": "2026-11-18T09:30:00",
+      "url": "https://go.dcl.org/event/14325346",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tales & Travels",
+      "description": "Adult readers who enjoy traveling and exploring different cultures through fiction and non-fiction.",
+      "start": "2026-11-18T11:30:00",
+      "url": "https://go.dcl.org/event/17371489",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Book Lovers",
+      "description": "Adults. Discover great new reads at an afternoon of book talks, featuring door prizes and refreshments. Registration required.",
+      "start": "2026-11-18T13:00:00",
+      "url": "https://go.dcl.org/event/14220385",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Daytime Book Club",
+      "description": "Adults meet monthly to discuss titles from a variety of genres. No registration required. Meets the fourth Wednesday of each month.",
+      "start": "2026-11-18T13:00:00",
+      "url": "https://go.dcl.org/event/14647677",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop in for movement, music, and seated exercises designed to promote creativity, memory and imagination, and to stimulate cognitive skills.",
+      "start": "2026-11-18T13:30:00",
+      "url": "https://go.dcl.org/event/14555017",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Sourdough",
+      "description": "This class is for adults. Discover the art of artisan breadmaking with Forest Trail Farm!",
+      "start": "2026-11-18T16:30:00",
+      "url": "https://go.dcl.org/event/17164062",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Recording Studio Orientation",
+      "description": "Orientation for the Recording Studio at Douglas County Libraries in Parker",
+      "start": "2026-11-18T17:00:00",
+      "url": "https://go.dcl.org/event/15150186",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Practice Your English",
+      "description": "Intermediate to advanced English learners ages 18 and up gather for informal conversation on everyday topics. Facilitated by a fluent English speaker.",
+      "start": "2026-11-18T17:30:00",
+      "url": "https://go.dcl.org/event/14829976",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Quiet Reading Group",
+      "description": "Drop in for quiet reading with other adults. Bring a book from home or from our shelves.",
+      "start": "2026-11-18T18:00:00",
+      "url": "https://go.dcl.org/event/15497428",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Next Chapter",
+      "description": "Adults meet the fourth Wednesday of each month to read and discuss books with protagonists in early adulthood. Register now.",
+      "start": "2026-11-18T18:00:00",
+      "url": "https://go.dcl.org/event/14835677",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "DCL Board Exec Committee",
+      "description": "Public meeting 8-10am",
+      "start": "2026-11-19T08:00:00",
+      "url": "https://go.dcl.org/event/14359865",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Daytime Book Club",
+      "description": "Adults meet the third Thursday of each month in Roxborough to discuss fiction and nonfiction titles.",
+      "start": "2026-11-19T10:00:00",
+      "url": "https://go.dcl.org/event/14275021",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Inquiring Minds",
+      "description": "Adults. Meets the third Thursday of the month to discuss a mix of fiction and nonfiction titles.",
+      "start": "2026-11-19T13:00:00",
+      "url": "https://go.dcl.org/event/14548395",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Practice Your English",
+      "description": "Adults Register Now. Intermediate to advanced English learners ages 18 and up gather for informal conversation on everyday topics. Facilitated by a fluent English speaker.",
+      "start": "2026-11-19T13:00:00",
+      "url": "https://go.dcl.org/event/14332396",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Brain Health Fitness",
+      "description": "Adults, drop in for movement, music, and seated exercises designed to promote creativity, memory and imagination, and to stimulate cognitive skills.",
+      "start": "2026-11-19T13:30:00",
+      "url": "https://go.dcl.org/event/15344441",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Booked for the Holidays",
+      "description": "This program is for adults. Celebrate the season with a festive tea tasting led by Michele Lillie of Tea Journeys!",
+      "start": "2026-11-19T14:00:00",
+      "url": "https://go.dcl.org/event/17369414",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    },
+    {
+      "title": "Haunts & Horrors",
+      "description": "Adults meet the third Thursday of each month to discuss horror, dark fantasy, or science fiction. Meets upstairs in the event hall.",
+      "start": "2026-11-19T18:30:00",
+      "url": "https://go.dcl.org/event/14480552",
+      "sourceName": "Douglas County Libraries",
+      "sourceUrl": "https://go.dcl.org/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiQWR1bHRzIl0sInR5cGVzIjpbIkFydHMsIENyYWZ0cywgSG9iYmllcywgQ3VsdHVyZSIsIkJvb2sgQ2x1YiIsIkJvb2tzLCBBdXRob3JzICYgV3JpdGluZyIsIkJ1c2luZXNzICYgVGVjaG5vbG9neSIsIkNhbXAgRENMIiwiRENMIFB1YmxpYyBNZWV0aW5nIiwiRVNMLCBMaXRlcmFjeSAmIENpdGl6ZW5zaGlwIiwiSGVhbHRoLCBXZWxsbmVzcyAmIENvb2tpbmciLCJIaXN0b3J5LCBDdXJyZW50IEV2ZW50cyAmIENpdmljcyIsIkludGVybmFsIEV2ZW50IiwiUHJvbW90ZWQgUGFpZCBFdmVudCIsIlNpZ25hdHVyZSBFdmVudCIsIlNvY2lhbCAmIEVudGVydGFpbm1lbnQiLCJTVEVNIiwiU3VtbWVyIFJlYWRpbmciXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjoxfX0=",
+      "extractor": "rss"
+    }
+  ]
+}

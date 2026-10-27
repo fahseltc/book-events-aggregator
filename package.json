@@ -15,8 +15,9 @@
     "filter": "node src/filter.js --pretty",
     "pipeline": "npm run crawl && npm run filter",
     "dev": "node src/serve.js",
+    "snapshot": "node src/index.js --snapshot",
     "test": "node --test test/*.test.mjs",
-    "check": "node --check src/index.js && node --check src/filter.js && node --check src/serve.js && node --check src/lib/dates.js && node --check src/lib/env.js && node --check src/lib/fetch.js && node --check src/lib/filter.js && node --check src/lib/html.js && node --check src/lib/links.js && node --check src/lib/normalize.js && node --check src/lib/types.js && node --check src/lib/extract/index.js && node --check src/lib/extract/jsonld.js && node --check src/lib/extract/heuristic.js && node --check src/lib/extract/rss.js && node --check src/lib/extract/bookmanager.js && node --check src/lib/extract/tribe.js && node --check src/lib/extract/eventbrite.js && node --check src/lib/extract/static.js && node --check src/lib/extract/bibliocommons.js && node --check src/lib/extract/wix.js && node --check src/lib/extract/squareonline.js && node --check src/lib/extract/acuity.js && node --check src/lib/extract/ical.js && node --check src/lib/extract/tockify.js && node --check src/lib/extract/luma.js && node --check src/lib/extract/compass.js"
+    "check": "node scripts/check.mjs"
   },
   "license": "MIT",
   "dependencies": {
