@@ -23,6 +23,18 @@ const TYPES = {
   '.ico': 'image/x-icon',
 };
 
+// Headers sent with every response. The viewer uses inline <script>/<style>
+// blocks, so 'unsafe-inline' is allowed for those; everything else is locked to
+// the same origin, and the page cannot be framed.
+const SECURITY_HEADERS = {
+  'Content-Security-Policy':
+    "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; " +
+    "img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+  'X-Content-Type-Options': 'nosniff',
+  'X-Frame-Options': 'DENY',
+  'Referrer-Policy': 'no-referrer',
+};
+
 const server = createServer(async (req, res) => {
   try {
     let urlPath = decodeURIComponent((req.url || '/').split('?')[0]);
@@ -33,7 +45,7 @@ const server = createServer(async (req, res) => {
     const filePath = normalize(join(ROOT, urlPath));
     const ALLOWED = [resolve(ROOT, 'web'), resolve(ROOT, 'output')];
     if (!ALLOWED.some((base) => filePath === base || filePath.startsWith(base + sep))) {
-      res.writeHead(403).end('Forbidden');
+      res.writeHead(403, SECURITY_HEADERS).end('Forbidden');
       return;
     }
 
@@ -41,11 +53,15 @@ const server = createServer(async (req, res) => {
     res.writeHead(200, {
       'Content-Type': TYPES[extname(filePath)] || 'application/octet-stream',
       'Cache-Control': 'no-store',
+      ...SECURITY_HEADERS,
     });
     res.end(body);
   } catch (err) {
-    if (err.code === 'ENOENT') res.writeHead(404).end('Not found');
-    else res.writeHead(500).end('Server error');
+    if (err.code === 'ENOENT' || err.code === 'EISDIR') {
+      res.writeHead(404, SECURITY_HEADERS).end('Not found');
+    } else {
+      res.writeHead(500, SECURITY_HEADERS).end('Server error');
+    }
   }
 });
 

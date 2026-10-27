@@ -567,6 +567,17 @@
       return date + time;
     }
 
+    // Return the URL only if it parses as http or https; otherwise null.
+    function safeHttpUrl(u) {
+      if (!u) return null;
+      try {
+        const parsed = new URL(String(u)); // absolute only; no base, so relative junk is rejected
+        return parsed.protocol === 'http:' || parsed.protocol === 'https:' ? parsed.href : null;
+      } catch {
+        return null;
+      }
+    }
+
     function esc(s) {
       return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     }
@@ -608,8 +619,11 @@
       const isNew = ev.firstSeen && state.latestRun && ev.firstSeen === state.latestRun;
       const hl = ev.excludedBy; // present only on the Excluded tab
       const titleText = hl ? escWithHighlight(ev.title, hl) : esc(ev.title);
-      const title = ev.url
-        ? `<a href="${esc(ev.url)}" target="_blank" rel="noopener">${titleText}</a>`
+      // Only link http(s) URLs. Event URLs come from third-party sites, so a
+      // javascript: or data: URL must never become a clickable href.
+      const safeUrl = safeHttpUrl(ev.url);
+      const title = safeUrl
+        ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer">${titleText}</a>`
         : titleText;
       const newBadge = isNew ? '<span class="new-badge">NEW</span>' : '';
       const where = ev.location ? `<div class="where">${esc(ev.location)}</div>` : '';

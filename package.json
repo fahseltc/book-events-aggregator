@@ -4,7 +4,7 @@
   "description": "Crawl a configurable list of bookstore/event URLs and extract upcoming events to JSON.",
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=22.23.4"
   },
   "bin": {
     "book-events": "src/index.js"
@@ -20,6 +20,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "playwright": "^1.64.0"
+    "playwright": "1.64.1"
   }
 }
