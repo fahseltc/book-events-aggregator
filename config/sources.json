@@ -153,6 +153,13 @@
       "note": "Tockify public iCal feed (webcal://tockify.com/api/feeds/ics/library.gilpin, fetched over https). UTC stamps converted to America/Denver. Library closure notices dropped via excludeTitle."
     },
     {
+      "name": "Wolverine Farm Publick House",
+      "url": "https://www.wolverinefarm.org/events/",
+      "enabled": true,
+      "type": "tribe",
+      "note": "The Events Calendar (Tribe) REST API at /wp-json/tribe/events/v1/events, paged by the tribe provider. Confirmed the site exposes it; the /events/list/page/N URLs are views of the same data."
+    },
+    {
       "name": "Good Girl Cafe & Bookstore",
       "url": "https://www.goodgirlcafeandbookstore.com/events",
       "enabled": true,

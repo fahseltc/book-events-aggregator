@@ -1,8 +1,9 @@
 {
   "$schema": "./filters.schema.json",
   "keywords": [
-    "author",
+    "author*",
     "book*",
+    "ebook*",
     "signing",
     "poetry",
     "reading",
@@ -12,8 +13,8 @@
     "fiction",
     "romance",
     "novel",
+    "cookbook",
     "release party",
-    "early release",
     "spelling bee"
   ],
   "exclude": [
@@ -24,7 +25,9 @@
     "toddler",
     "children",
     "teen",
+    "teens",
     "tween",
+    "tweens",
     "baby",
     "kids club",
     "toy",
@@ -53,12 +56,13 @@
     "by appointment only",
     "BLDG 61",
     "elementary",
-    "embroidered"
+    "embroidered",
+    "open mic"
   ],
   "fields": [
     "title",
     "description"
   ],
   "caseSensitive": false,
-  "wholeWord": false
+  "wholeWord": true
 }
