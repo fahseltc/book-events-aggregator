@@ -22,6 +22,7 @@ import { extractFromWix } from './lib/extract/wix.js';
 import { extractFromTockify } from './lib/extract/tockify.js';
 import { extractFromLuma } from './lib/extract/luma.js';
 import { extractFromCompass } from './lib/extract/compass.js';
+import { extractFromDrupalEventList } from './lib/extract/drupal-event-list.js';
 import { extractFromIcal } from './lib/extract/ical.js';
 import { extractFromSquareOnline } from './lib/extract/squareonline.js';
 import { extractFromAcuity } from './lib/extract/acuity.js';
@@ -268,7 +269,7 @@ async function crawlSource(source, args, now, line) {
   }
   if (source.type === 'static') {
     const path = resolve(ROOT, source.file || source.url || 'config/static-events.json');
-    const events = await extractStaticEvents(path, { sourceName: source.name });
+    const events = await extractStaticEvents(path, { sourceName: source.name, now });
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'static';
@@ -315,6 +316,14 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'compass';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'drupal-event-list') {
+    const events = await extractFromDrupalEventList(source, { timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'drupal-event-list';
     line.links = 0;
     return events;
   }

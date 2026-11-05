@@ -166,5 +166,37 @@
       "enabled": true,
       "note": "VERIFY TIMES/VENUE — the site lists January 22-24, 2027 but no start time or venue; 10:00 start and 5 PM Sunday end are placeholders."
     }
+  ],
+  "recurring": [
+    {
+      "title": "All Genres Book Club",
+      "when": "2nd Wednesday",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "url": "https://cornernookparker.com/",
+      "source": "The Corner Nook",
+      "enabled": true,
+      "note": "Rule from the site's schedule graphic. Start time is not published; add \"time\" (e.g. \"19:00\") once known."
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "when": "3rd Wednesday",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "url": "https://cornernookparker.com/",
+      "source": "The Corner Nook",
+      "enabled": true,
+      "note": "Rule from the site's schedule graphic. Start time is not published; add \"time\" (e.g. \"19:00\") once known."
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "when": "4th Tuesday",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "url": "https://cornernookparker.com/",
+      "source": "The Corner Nook",
+      "enabled": true,
+      "note": "Rule from the site's schedule graphic. Start time is not published; add \"time\" (e.g. \"19:00\") once known."
+    }
   ]
 }

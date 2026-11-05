@@ -238,6 +238,40 @@ a `title` and an ISO `start`:
 Set `"enabled": false` to keep an entry without including it. Past-dated events
 are dropped automatically, so update the dates each year as they're announced.
 
+#### Recurring events (`recurring`)
+
+For events that repeat on a schedule, such as a monthly book club, add an entry
+to the `recurring` array instead. Give it a `when` rule and the crawler expands
+it into dated occurrences for the next `monthsAhead` months (default 6):
+
+```json
+{
+  "recurring": [
+    {
+      "title": "All Genres Book Club",
+      "when": "2nd Wednesday",
+      "time": "19:00",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "source": "The Corner Nook",
+      "exceptions": ["2026-12-09"]
+    }
+  ]
+}
+```
+
+- `when`: the nth weekday of each month, such as `"2nd Wednesday"`,
+  `"every fourth Tuesday"`, or `"1st Monday of the month"`. A 5th weekday skips
+  months that don't have one.
+- `time`: optional 24-hour local start time (`"19:00"`). Without it, the event
+  is date-only and is stored as midnight.
+- `durationMinutes`, `monthsAhead`, `exceptions` (dates to skip, `YYYY-MM-DD`),
+  `enabled`, and `note` are also optional. Occurrences are generated fresh on
+  every run, so there is nothing to update each month.
+
+A malformed `when` or `time` fails the whole static source for that run, so
+check the log line for the source after editing.
+
 ### JavaScript-rendered sources
 
 Some sites (e.g. Shopify/Squarespace/Wix calendars) render events client-side,

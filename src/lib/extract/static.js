@@ -4,10 +4,16 @@
 // they get upcoming-filtered, deduped, and sorted with everything else).
 
 import { readFile } from 'node:fs/promises';
+import { expandRecurring } from '../recurrence.js';
 
 /**
+ * Reads one-off `events` and rule-based `recurring` entries.
+ * A recurring entry becomes one RawEvent per occurrence in its look-ahead window.
+ * A malformed recurring rule throws, so the whole static source fails loudly
+ * instead of silently dropping that club.
+ *
  * @param {string} configPath  absolute path to the static-events config JSON
- * @param {{ sourceName?: string }} [ctx]
+ * @param {{ sourceName?: string, now?: Date }} [ctx]
  * @returns {Promise<import('../types.js').RawEvent[]>}
  */
 export async function extractStaticEvents(configPath, ctx = {}) {
@@ -17,20 +23,39 @@ export async function extractStaticEvents(configPath, ctx = {}) {
   } catch (err) {
     throw new Error(`Could not read static events config at ${configPath}: ${err.message}`);
   }
+  const now = ctx.now || new Date();
+
   const list = Array.isArray(config.events) ? config.events : [];
-  return list
+  const oneOffs = list
     .filter((e) => e && e.enabled !== false && e.title && e.start)
-    .map((e) => ({
-      title: str(e.title),
-      description: str(e.description),
-      start: str(e.start),
-      end: str(e.end),
-      location: str(e.location),
-      url: str(e.url),
-      sourceName: str(e.source) || ctx.sourceName || 'Static',
-      sourceUrl: str(e.url),
-      extractor: 'static',
-    }));
+    .map((e) => toRaw(e, ctx, { start: str(e.start), end: str(e.end) }));
+
+  const recurring = Array.isArray(config.recurring) ? config.recurring : [];
+  const occurrences = recurring
+    .filter((r) => r && r.enabled !== false && r.title && r.when)
+    .flatMap((r) => {
+      try {
+        return expandRecurring(r, now).map((occ) => toRaw(r, ctx, occ));
+      } catch (err) {
+        throw new Error(`static events: recurring "${r.title}": ${err.message}`);
+      }
+    });
+
+  return [...oneOffs, ...occurrences];
+}
+
+function toRaw(e, ctx, when) {
+  return {
+    title: str(e.title),
+    description: str(e.description),
+    start: when.start,
+    end: when.end || undefined,
+    location: str(e.location),
+    url: str(e.url),
+    sourceName: str(e.source) || ctx.sourceName || 'Static',
+    sourceUrl: str(e.url),
+    extractor: 'static',
+  };
 }
 
 function str(v) {

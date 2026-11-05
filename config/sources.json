@@ -232,6 +232,16 @@
       "note": "LibCal RSS feed (from the hpld calendar). Date/time parsed from the item description."
     },
     {
+      "name": "Books Are Awesome",
+      "url": "https://live-bksrawesom1709928873.pantheonsite.io/upcoming-events",
+      "enabled": true,
+      "type": "drupal-event-list",
+      "search": {
+        "pages": 10
+      },
+      "note": "Drupal event-list view at /upcoming-events, paged with ?page=N. Behind a Cloudflare JS challenge, so pages load in headless Chromium. Every field is on the listing, so no detail stage."
+    },
+    {
       "name": "Annual festivals (manual)",
       "url": "config/static-events.json",
       "enabled": true,
