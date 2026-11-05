@@ -242,6 +242,27 @@
       "note": "Drupal event-list view at /upcoming-events, paged with ?page=N. Behind a Cloudflare JS challenge, so pages load in headless Chromium. Every field is on the listing, so no detail stage."
     },
     {
+      "name": "Sudden Fiction Books",
+      "url": "https://suddenfictionbooks.com/events",
+      "enabled": true,
+      "type": "drupal-event-list",
+      "search": {
+        "months": 6
+      },
+      "note": "Drupal indiecommerce event list at /events/YYYY/MM. Read one month at a time, from the current month ahead. Behind a Cloudflare JS challenge, so pages load in headless Chromium. Every field is on the listing, so no detail stage."
+    },
+    {
+      "name": "Fiction Beer",
+      "url": "https://fictionbeer.com/taproom-events",
+      "enabled": true,
+      "type": "squarespace",
+      "locationName": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "search": {
+        "months": 6
+      },
+      "note": "Squarespace Events calendar. Reads /api/open/GetItemsByMonth one month at a time over plain HTTP (no browser). collectionId is found in the page's calendar block."
+    },
+    {
       "name": "Annual festivals (manual)",
       "url": "config/static-events.json",
       "enabled": true,

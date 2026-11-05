@@ -1,8 +1,8 @@
 {
   "source": "Annual festivals (manual)",
   "sourceUrl": "config/static-events.json",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 11,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 29,
   "events": [
     {
       "title": "Fort Collins Book Fest",
@@ -122,6 +122,186 @@
       "url": "https://cosinecon.org/",
       "sourceName": "COSine",
       "sourceUrl": "https://cosinecon.org/",
+      "extractor": "static"
+    },
+    {
+      "title": "All Genres Book Club",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2026-11-11",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "All Genres Book Club",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2026-12-09",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "All Genres Book Club",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-01-13",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "All Genres Book Club",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-02-10",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "All Genres Book Club",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-03-10",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "All Genres Book Club",
+      "description": "Monthly all-genres book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-04-14",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2026-11-18",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2026-12-16",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-01-20",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-02-17",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-03-17",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Psychological Thriller/Suspense Book Club",
+      "description": "Monthly psychological thriller and suspense book club hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-04-21",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2026-11-24",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2026-12-22",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-01-26",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-02-23",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-03-23",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
+      "extractor": "static"
+    },
+    {
+      "title": "Gilmore Girls Book Club",
+      "description": "Monthly cozy book club inspired by Gilmore Girls, hosted by The Teeny Tiny Bookshop at The Corner Nook. No RSVP needed; just show up.",
+      "start": "2027-04-27",
+      "location": "The Corner Nook, 10421 S. Parker Rd, Parker, CO 80134",
+      "url": "https://cornernookparker.com/",
+      "sourceName": "The Corner Nook",
+      "sourceUrl": "https://cornernookparker.com/",
       "extractor": "static"
     }
   ]

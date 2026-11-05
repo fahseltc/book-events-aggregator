@@ -1,99 +1,9 @@
 {
   "source": "Novel Strand",
   "sourceUrl": "https://www.novelstrand.com/events",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "capturedAt": "2026-11-05T23:14:53.385Z",
   "count": 100,
   "events": [
-    {
-      "title": "Weekly Run Club Meetup - 6:00pm every week",
-      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
-      "start": "2026-10-27T00:00:00",
-      "end": "2026-10-28T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/203/1793080800000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Dumpling making class",
-      "description": "https://cocusocial.com/newevent/Denver_Make-Your-Own-Dumplings_Aug-12",
-      "start": "2026-10-27T18:30:00",
-      "end": "2026-10-27T20:30:00",
-      "url": "https://tockify.com/nsbcevents/detail/258/1793147400000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Trivia w/ Denver Trivia League - 7pm each week",
-      "start": "2026-10-28T00:00:00",
-      "end": "2026-10-29T00:00:00",
-      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
-      "url": "https://tockify.com/nsbcevents/detail/154/1793167200000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Pottery With a Purpose",
-      "description": "Follow the link to purchase tickets https://www.potterywithapurpose.com/products/pottery-workshops-novel-strand-brewing-company-denver-co?variant=47297359020252",
-      "start": "2026-10-29T00:00:00",
-      "end": "2026-10-30T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/260/1793253600000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Game Night",
-      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
-      "start": "2026-11-01T00:00:00",
-      "end": "2026-11-02T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/111/1793512800000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Mystery/Thriller Book Club",
-      "description": "Book club meets at 6:30pm on the FIRST Monday of the month at the Novel Strand Taproom. Led By: Liya E.",
-      "start": "2026-11-02T00:00:00",
-      "end": "2026-11-03T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/201/1793602800000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "STEM/Non-Fiction Book Club",
-      "description": "Book club meets at 6:30pm on the FIRST Tuesday of the month at the Novel Strand Taproom. Led By: Tanvi",
-      "start": "2026-11-03T00:00:00",
-      "end": "2026-11-04T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/219/1793689200000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Weekly Run Club Meetup - 6:00pm every week",
-      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
-      "start": "2026-11-03T00:00:00",
-      "end": "2026-11-04T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/203/1793689200000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Trivia w/ Denver Trivia League - 7pm each week",
-      "start": "2026-11-04T00:00:00",
-      "end": "2026-11-05T00:00:00",
-      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
-      "url": "https://tockify.com/nsbcevents/detail/154/1793775600000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
     {
       "title": "Romance Book Club",
       "description": "Book club meets at 6:30pm on the FIRST Thursday of the month at the Novel Strand Taproom. Led By: Steph H.",
@@ -995,6 +905,96 @@
       "start": "2027-03-16T00:00:00",
       "end": "2027-03-17T00:00:00",
       "url": "https://tockify.com/nsbcevents/detail/203/1805176800000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Trivia w/ Denver Trivia League - 7pm each week",
+      "start": "2027-03-17T00:00:00",
+      "end": "2027-03-18T00:00:00",
+      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
+      "url": "https://tockify.com/nsbcevents/detail/154/1805263200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Game Night",
+      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
+      "start": "2027-03-21T00:00:00",
+      "end": "2027-03-22T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/111/1805608800000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Weekly Run Club Meetup - 6:00pm every week",
+      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
+      "start": "2027-03-23T00:00:00",
+      "end": "2027-03-24T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/203/1805781600000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Trivia w/ Denver Trivia League - 7pm each week",
+      "start": "2027-03-24T00:00:00",
+      "end": "2027-03-25T00:00:00",
+      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
+      "url": "https://tockify.com/nsbcevents/detail/154/1805868000000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Game Night",
+      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
+      "start": "2027-03-28T00:00:00",
+      "end": "2027-03-29T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/111/1806213600000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Weekly Run Club Meetup - 6:00pm every week",
+      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
+      "start": "2027-03-30T00:00:00",
+      "end": "2027-03-31T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/203/1806386400000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Trivia w/ Denver Trivia League - 7pm each week",
+      "start": "2027-03-31T00:00:00",
+      "end": "2027-04-01T00:00:00",
+      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
+      "url": "https://tockify.com/nsbcevents/detail/154/1806472800000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Romance Book Club",
+      "description": "Book club meets at 6:30pm on the FIRST Thursday of the month at the Novel Strand Taproom. Led By: Steph H.",
+      "start": "2027-04-01T00:00:00",
+      "end": "2027-04-02T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/205/1806559200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Game Night",
+      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
+      "start": "2027-04-04T00:00:00",
+      "end": "2027-04-05T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/111/1806818400000",
       "sourceName": "Novel Strand",
       "sourceUrl": "https://www.novelstrand.com/events",
       "extractor": "tockify"

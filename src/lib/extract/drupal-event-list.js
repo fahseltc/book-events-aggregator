@@ -1,22 +1,29 @@
-// Drupal "event-list" listing provider (Books Are Awesome, Parker CO).
+// Drupal "event-list" listing provider. Used by Books Are Awesome (Parker, CO)
+// and Sudden Fiction Books (Denver), which run the same Drupal event-list markup.
 //
-// The events page is a Drupal View paged with ?page=N (0-based). It renders one
-// <article id="event-N" class="event-list"> per event, with:
+// Each listing page renders one <article id="event-N" class="event-list"> per
+// event, with:
 //   - title + detail link:  <h3 class="event-list__title"><a href="/event/...">
 //   - "Date:" item:         "Wed, 11/11/2026"
 //   - "Time:" item:         "7:00pm - 8:00pm"
-//   - "Place:" item:        <address>venue and street address</address>
+//   - "Place:" item:        an address block (<address> or <p class="address">)
 //   - blurb:                <div class="event-list__body">
 // Every field is on the listing page, so detail pages are not visited.
 //
-// The site sits behind a Cloudflare JavaScript challenge that plain HTTP
-// requests cannot pass, so each page is loaded with the headless browser helper.
-// Paging stops when a page has no "next" link, or when a page has no events.
+// Two ways to walk the listing, chosen by the source's `search` block:
+//   - search.pages (default): a paged view at ?page=N (0-based). Stops when a page
+//     has no "next" link, or when a page has no events.
+//   - search.months: a monthly view at /events/YYYY/MM, starting with the current
+//     month and reading this many months ahead.
+//
+// The sites sit behind a Cloudflare JavaScript challenge that plain HTTP requests
+// cannot pass, so each page is loaded with the headless browser helper.
 
-import { renderHtml } from '../fetch.js';
+import { renderPages } from '../fetch.js';
 import { decodeEntities } from '../html.js';
 
 const DEFAULT_MAX_PAGES = 10;
+const DEFAULT_MONTHS = 6;
 // Cloudflare clears its challenge a few seconds after DOMContentLoaded, so the
 // browser needs a longer settle time than the default.
 const SETTLE_MS = 8000;
@@ -24,21 +31,28 @@ const SETTLE_MS = 8000;
 const EVENT_START = /<article id="event-\d+" class="event-list">/g;
 
 /**
- * @param {object} source  source.url is the events page; source.search.pages caps
- *   how many ?page=N pages are read (default 10).
- * @param {{ timeoutMs?: number }} ctx
+ * @param {object} source  source.url is the events page. source.search.months
+ *   selects the monthly walk; otherwise source.search.pages caps the ?page=N walk.
+ * @param {{ timeoutMs?: number, now?: Date }} ctx
  * @returns {Promise<import('../types.js').RawEvent[]>}
  */
 export async function extractFromDrupalEventList(source, ctx = {}) {
   const listUrl = new URL(source.url);
   const origin = listUrl.origin;
-  const maxPages = Math.max(1, (source.search && source.search.pages) || DEFAULT_MAX_PAGES);
+  const search = source.search || {};
+  const monthMode = search.months != null;
   const seen = new Set();
   const out = [];
 
-  for (let page = 0; page < maxPages; page++) {
-    const url = `${origin}${listUrl.pathname}?page=${page}`;
-    const res = await renderHtml(url, { timeoutMs: ctx.timeoutMs, settleMs: SETTLE_MS });
+  const urls = monthMode
+    ? monthUrls(origin, listUrl.pathname, search.months || DEFAULT_MONTHS, ctx.now || new Date())
+    : Array.from(
+      { length: Math.max(1, search.pages || DEFAULT_MAX_PAGES) },
+      (_, page) => `${origin}${listUrl.pathname}?page=${page}`,
+    );
+
+  for await (const res of renderPages(urls, { timeoutMs: ctx.timeoutMs, settleMs: SETTLE_MS })) {
+    const url = res.url;
     const { total, events } = parseListingPage(res.html, origin, source);
 
     if (total === 0) {
@@ -46,10 +60,12 @@ export async function extractFromDrupalEventList(source, ctx = {}) {
       // calendar. Throw so the caller falls back to the last snapshot.
       if (res.status >= 400 || isChallengePage(res.html)) {
         throw new Error(
-          `Books Are Awesome listing blocked on page ${page} (HTTP ${res.status}, challenge page)`,
+          `${source.name || 'Event list'} blocked at ${url} (HTTP ${res.status}, challenge page)`,
         );
       }
-      break;
+      // An empty page ends a paged walk. An empty month is just a quiet month.
+      if (!monthMode) break;
+      continue;
     }
 
     for (const ev of events) {
@@ -59,9 +75,21 @@ export async function extractFromDrupalEventList(source, ctx = {}) {
       out.push(ev);
     }
 
-    if (!/\brel="next"/.test(res.html)) break;
+    if (!monthMode && !/\brel="next"/.test(res.html)) break;
   }
   return out;
+}
+
+// /events/YYYY/MM for the current month and the next count-1 months.
+function monthUrls(origin, pathname, count, now) {
+  const base = pathname.replace(/\/+$/, '');
+  const urls = [];
+  for (let i = 0; i < count; i++) {
+    const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    urls.push(`${origin}${base}/${d.getFullYear()}/${mm}`);
+  }
+  return urls;
 }
 
 // Split the page into one slice per event article. Each slice runs from its
@@ -90,7 +118,6 @@ function toRawEvent(card, origin, source) {
   const when = parseWhen(detailValue(card, 'Date'), detailValue(card, 'Time'));
   if (!when) return null;
 
-  const address = card.match(/<address>([\s\S]*?)<\/address>/);
   const body = card.match(/<div class="event-list__body">([\s\S]*?)<\/div>/);
 
   return {
@@ -98,12 +125,22 @@ function toRawEvent(card, origin, source) {
     description: body ? text(body[1]) || undefined : undefined,
     start: when.start,
     end: when.end,
-    location: address ? text(address[1]) || undefined : undefined,
+    location: placeText(card),
     url: new URL(link[1], origin).href,
     sourceName: source.name,
     sourceUrl: source.url,
     extractor: 'drupal-event-list',
   };
+}
+
+// The Place block holds the venue as text, whether it is wrapped in <address>
+// (Books Are Awesome) or <p class="address"> (Sudden Fiction). Read everything
+// from the Place item up to the links block, minus the "Place:" label. An empty
+// Place item gives undefined.
+function placeText(card) {
+  const m = card.match(/event-details__location--location">([\s\S]*?)(?:<div class="event-list__links">|$)/);
+  if (!m) return undefined;
+  return text(m[1]).replace(/^Place:\s*/i, '').replace(/\s+([,.])/g, '$1') || undefined;
 }
 
 // The value next to a "Label:" span, e.g. <span ...>Date: </span> Wed, 11/11/2026 </div>.
@@ -146,8 +183,10 @@ function iso(y, mo, d, h, mi) {
   return `${y}-${p(mo)}-${p(d)}T${p(h)}:${p(mi)}:00`;
 }
 
+// Only the challenge interstitial's own title counts. Cloudflare's challenge-platform
+// script also runs on ordinary pages, so matching it would flag empty months.
 function isChallengePage(html) {
-  return /Just a moment\.\.\./i.test(html) || /challenge-platform/i.test(html);
+  return /<title>\s*Just a moment/i.test(html);
 }
 
 function text(html) {

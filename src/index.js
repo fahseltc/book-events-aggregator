@@ -26,6 +26,7 @@ import { extractFromDrupalEventList } from './lib/extract/drupal-event-list.js';
 import { extractFromIcal } from './lib/extract/ical.js';
 import { extractFromSquareOnline } from './lib/extract/squareonline.js';
 import { extractFromAcuity } from './lib/extract/acuity.js';
+import { extractFromSquarespaceEvents } from './lib/extract/squarespace-events.js';
 import { normalizeEvents, eventKey } from './lib/normalize.js';
 import { readSnapshot, writeSnapshot, snapshotAgeDays, STALE_DAYS, SNAPSHOT_DIR } from './lib/snapshot.js';
 import { loadEnv } from './lib/env.js';
@@ -320,7 +321,7 @@ async function crawlSource(source, args, now, line) {
     return events;
   }
   if (source.type === 'drupal-event-list') {
-    const events = await extractFromDrupalEventList(source, { timeoutMs: source.timeoutMs });
+    const events = await extractFromDrupalEventList(source, { now, timeoutMs: source.timeoutMs });
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'drupal-event-list';
@@ -348,6 +349,14 @@ async function crawlSource(source, args, now, line) {
     line.status = 200;
     line.indexEvents = events.length;
     line.indexVia = 'acuity';
+    line.links = 0;
+    return events;
+  }
+  if (source.type === 'squarespace') {
+    const events = await extractFromSquarespaceEvents(source, { now, timeoutMs: source.timeoutMs });
+    line.status = 200;
+    line.indexEvents = events.length;
+    line.indexVia = 'squarespace';
     line.links = 0;
     return events;
   }

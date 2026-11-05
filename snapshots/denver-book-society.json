@@ -1,70 +1,16 @@
 {
   "source": "Denver Book Society",
   "sourceUrl": "https://thedenverbooksociety.com/events",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 13,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 10,
   "events": [
     {
-      "title": "Live Music - Interpolation Band",
-      "description": "Good jams during happy hour!",
-      "start": "2026-10-24T17:00:00-06:00",
-      "end": "2026-10-24T19:00:00-06:00",
-      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
-      "url": "https://www.eventbrite.com/e/live-music-interpolation-band-tickets-2003469313649",
+      "title": "Denver Holiday festivals Sales ended Sat, Oct 31",
+      "description": "• 9 AM Explore similar events Use Eventbrite How it Works Pricing Event Blog Plan Events Conference Management Software Eventbrite + Yoga Nonprofits & Fundraisers Sell Tickets Event Management & Planning Online Event Registration Online",
+      "start": "2027-10-31T09:00:00",
+      "url": "https://www.eventbrite.com/d/co--denver/holiday--festival",
       "sourceName": "Denver Book Society",
-      "sourceUrl": "https://www.eventbrite.com/e/live-music-interpolation-band-tickets-2003469313649",
-      "extractor": "jsonld"
-    },
-    {
-      "title": "To Be Perfectly Queer Book Club",
-      "description": "A queer book club. This month we are discussing the sapphic horror \"This Movie Doesn't End The Way We Want.\" Grab a coffee and chat!",
-      "start": "2026-10-25T16:00:00-06:00",
-      "end": "2026-10-25T17:30:00-06:00",
-      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
-      "url": "https://www.eventbrite.com/e/to-be-perfectly-queer-book-club-tickets-2001780114208",
-      "sourceName": "Denver Book Society",
-      "sourceUrl": "https://www.eventbrite.com/e/to-be-perfectly-queer-book-club-tickets-2001780114208",
-      "extractor": "jsonld"
-    },
-    {
-      "title": "ACOTAR 6 Midnight Release Party with Denver Book Society",
-      "description": "We'll be ringing in the release of the next book in the ACOTAR series! Ticket includes the book & free drink.",
-      "start": "2026-10-26T22:30:00-06:00",
-      "end": "2026-10-27T00:30:00-06:00",
-      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
-      "url": "https://www.eventbrite.com/e/acotar-6-midnight-release-party-with-denver-book-society-tickets-2003386315399",
-      "sourceName": "Denver Book Society",
-      "sourceUrl": "https://www.eventbrite.com/e/acotar-6-midnight-release-party-with-denver-book-society-tickets-2003386315399",
-      "extractor": "jsonld"
-    },
-    {
-      "title": "DBS Book Club: Parable of the Sower",
-      "description": "Discussion of Octavia's Butler classic novel. Show your $10 ticket at the counter to be redeemed on a drink/snack/book purchase!",
-      "start": "2026-10-27T18:00:00-06:00",
-      "end": "2026-10-27T19:30:00-06:00",
-      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
-      "url": "https://www.eventbrite.com/e/dbs-book-club-parable-of-the-sower-tickets-1994594070558",
-      "sourceName": "Denver Book Society",
-      "sourceUrl": "https://www.eventbrite.com/e/dbs-book-club-parable-of-the-sower-tickets-1994594070558",
-      "extractor": "jsonld"
-    },
-    {
-      "title": "DBS x DCPA: The Tempest",
-      "description": "Explore Shakespeare's magical tale of power, forgiveness, and redemption through a conversation with DCPA Theatre Company Artistic Director.",
-      "start": "2026-10-29T17:30:00-06:00",
-      "end": "2026-10-29T19:00:00-06:00",
-      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
-      "url": "https://www.eventbrite.com/e/dbs-x-dcpa-the-tempest-tickets-2001034632452",
-      "sourceName": "Denver Book Society",
-      "sourceUrl": "https://www.eventbrite.com/e/dbs-x-dcpa-the-tempest-tickets-2001034632452",
-      "extractor": "jsonld"
-    },
-    {
-      "title": "Sat, Oct 31 · 9:00 AM Halloween Book Bash Join us for a day of treats, drinks, minifacials, crafts, & live music. Enter our costume contest (kids & dogs!) and chalk-drawing contest. 1700 N Humboldt St GET TICKETS &rarr;",
-      "start": "Sat, Oct 31 · 9:00 AM Halloween Book Bash Join us for a day of treats, drinks, minifacials, crafts, & live music. Enter our costume contest (kids & dogs!) and chalk-drawing contest. 1700 N Humboldt St GET TICKETS &rarr;",
-      "url": "https://www.eventbrite.com/e/halloween-book-bash-tickets-2002386609251",
-      "sourceName": "Denver Book Society",
-      "sourceUrl": "https://thedenverbooksociety.com/events",
+      "sourceUrl": "https://www.eventbrite.com/e/halloween-book-bash-tickets-2002386609251",
       "extractor": "heuristic"
     },
     {
@@ -101,12 +47,23 @@
       "extractor": "jsonld"
     },
     {
-      "title": "Fiction Book Club: Book TBD",
-      "description": "Discussion of a fiction pick by staff. Show your $5 ticket at the counter to be redeemed on a drink or snack purchase!",
+      "title": "Robert Kolker Talk & Book Signing",
+      "description": "Join for a reception & conversation with NYT bestselling author Robert Kolker, about his book \"The Vanishing Family.\" All are welcome!",
+      "start": "2026-11-17T17:30:00-07:00",
+      "end": "2026-11-17T19:30:00-07:00",
+      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
+      "url": "https://www.eventbrite.com/e/robert-kolker-talk-book-signing-tickets-2004076666257",
+      "sourceName": "Denver Book Society",
+      "sourceUrl": "https://www.eventbrite.com/e/robert-kolker-talk-book-signing-tickets-2004076666257",
+      "extractor": "jsonld"
+    },
+    {
+      "title": "Fiction Book Club: Piranesi",
+      "description": "Discussion of Piranesi, winner of the 2021 Women's Prize for Fiction, by Susanna Clarke. All are welcome!",
       "start": "2026-11-17T18:00:00-07:00",
       "end": "2026-11-17T19:30:00-07:00",
       "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
-      "url": "https://www.eventbrite.com/e/fiction-book-club-book-tbd-tickets-2003409877875",
+      "url": "https://www.eventbrite.com/e/fiction-book-club-piranesi-tickets-2003409877875",
       "sourceName": "Denver Book Society",
       "sourceUrl": "https://www.eventbrite.com/e/fiction-book-club-book-tbd-tickets-2003409877875",
       "extractor": "jsonld"
@@ -120,6 +77,17 @@
       "url": "https://www.eventbrite.com/e/abolitionist-book-club-everything-you-already-know-about-your-own-racism-tickets-2003691905427",
       "sourceName": "Denver Book Society",
       "sourceUrl": "https://www.eventbrite.com/e/abolitionist-book-club-everything-you-already-know-about-your-own-racism-tickets-2003691905427",
+      "extractor": "jsonld"
+    },
+    {
+      "title": "To Be Perfectly Queer Book Club",
+      "description": "A queer book club. This month we are discussing the contemporary lit \"Palaver\", by Bryan Washington. Come grab coffee/wine and chat!",
+      "start": "2026-11-22T16:00:00-07:00",
+      "end": "2026-11-22T18:00:00-07:00",
+      "location": "1700 N Humboldt St — 1700 North Humboldt Street, Denver, CO 80218",
+      "url": "https://www.eventbrite.com/e/to-be-perfectly-queer-book-club-tickets-2004039878223",
+      "sourceName": "Denver Book Society",
+      "sourceUrl": "https://www.eventbrite.com/e/to-be-perfectly-queer-book-club-tickets-2004039878223",
       "extractor": "jsonld"
     },
     {

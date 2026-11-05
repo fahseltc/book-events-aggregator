@@ -1,0 +1,63 @@
+{
+  "source": "Sudden Fiction Books",
+  "sourceUrl": "https://suddenfictionbooks.com/events",
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 5,
+  "events": [
+    {
+      "title": "Book Bingo!",
+      "description": "Tickets for this event will go on sale on Monday, October 20th @ 10am. Join us as we take over Sinners & Saints for a night of book bingo! What is book bingo you may ask? Well it's regular bing...",
+      "start": "2026-11-11T18:30:00",
+      "end": "2026-11-11T20:30:00",
+      "location": "Sinners and Saints Bar 221 Perry St Castle Rock, CO 80104 United States",
+      "url": "https://suddenfictionbooks.com/event/2026-11-11/book-bingo",
+      "sourceName": "Sudden Fiction Books",
+      "sourceUrl": "https://suddenfictionbooks.com/events",
+      "extractor": "drupal-event-list"
+    },
+    {
+      "title": "Final Draft Book Club: 11/22/63",
+      "description": "The Final Draft Book Club meets every 3rd Monday of the month in the shop to talk about a group chosen book. We don't prescribe to a specific genre but instead choose chaos. Take a look below at bo...",
+      "start": "2026-11-16T18:30:00",
+      "end": "2026-11-16T20:00:00",
+      "location": "Sudden Fiction Books 221 Perry St Ecclesia Market Castle Rock, CO 80104-2418",
+      "url": "https://suddenfictionbooks.com/event/2026-11-16/final-draft-book-club-112263",
+      "sourceName": "Sudden Fiction Books",
+      "sourceUrl": "https://suddenfictionbooks.com/events",
+      "extractor": "drupal-event-list"
+    },
+    {
+      "title": "Holiday Book Wrapping",
+      "description": "Join us to learn how to wrap your books festive for gift giving this holiday season! We will teach you how to do the pocket wrap and provide goodies to full up the pockets with! Each ticket include...",
+      "start": "2026-12-07T18:00:00",
+      "end": "2026-12-07T20:00:00",
+      "location": "Sudden Fiction Books 221 Perry St Ecclesia Market Castle Rock, CO 80104-2418",
+      "url": "https://suddenfictionbooks.com/event/2026-12-07/holiday-book-wrapping",
+      "sourceName": "Sudden Fiction Books",
+      "sourceUrl": "https://suddenfictionbooks.com/events",
+      "extractor": "drupal-event-list"
+    },
+    {
+      "title": "Final Draft Book Club: The Night Circus",
+      "description": "The Final Draft Book Club meets every 3rd Monday of the month in the shop to talk about a group chosen book. We don't prescribe to a specific genre but instead choose chaos. Take a look below at bo...",
+      "start": "2026-12-21T18:30:00",
+      "end": "2026-12-21T20:00:00",
+      "location": "Sudden Fiction Books 221 Perry St Ecclesia Market Castle Rock, CO 80104-2418",
+      "url": "https://suddenfictionbooks.com/event/2026-12-21/final-draft-book-club-night-circus",
+      "sourceName": "Sudden Fiction Books",
+      "sourceUrl": "https://suddenfictionbooks.com/events",
+      "extractor": "drupal-event-list"
+    },
+    {
+      "title": "Starfall: ACOTAR 7 Release Party",
+      "description": "We're having a ball! We'll be celebrating Starfall with the release of \"A Court of Forgotten Melody\"! More information to come as we get closer (and read \"A Court of Splintered Harmonies\" to figure...",
+      "start": "2027-01-11T21:00:00",
+      "end": "2027-01-11T23:00:00",
+      "location": "Sudden Fiction Books 221 Perry St Ecclesia Market Castle Rock, CO 80104-2418",
+      "url": "https://suddenfictionbooks.com/event/2027-01-11/starfall-acotar-7-release-party",
+      "sourceName": "Sudden Fiction Books",
+      "sourceUrl": "https://suddenfictionbooks.com/events",
+      "extractor": "drupal-event-list"
+    }
+  ]
+}

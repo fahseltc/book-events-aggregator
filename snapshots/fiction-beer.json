@@ -1,0 +1,338 @@
+{
+  "source": "Fiction Beer",
+  "sourceUrl": "https://fictionbeer.com/taproom-events",
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 33,
+  "events": [
+    {
+      "title": "Holiday Pictures w/ Santa & Krampus",
+      "start": "2026-11-29T15:00:00",
+      "end": "2026-11-29T20:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/29/holiday-pictures-w-santa-krampus",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Holiday Market",
+      "start": "2026-11-28T12:00:00",
+      "end": "2026-11-28T18:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/28/holiday-market",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "A Series of Fortunate Stouts",
+      "start": "2026-11-27T12:00:00",
+      "end": "2026-11-27T22:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/27/a-series-of-fortunate-stouts",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Writers Group",
+      "start": "2026-11-25T19:00:00",
+      "end": "2026-11-25T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/25/writers-group",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Tabletop Tuesdays: Tiny Tourneys",
+      "start": "2026-11-24T18:00:00",
+      "end": "2026-11-24T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/24/tabletop-tuesdays-tiny-tourneys",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Horror Book Club",
+      "start": "2026-11-23T19:00:00",
+      "end": "2026-11-23T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/23/horror-book-club",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Pitch-a-Book Night",
+      "start": "2026-11-22T17:00:00",
+      "end": "2026-11-22T20:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/22/pitch-a-book-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Drag Brunch + Bingo w/ The Pie Queen",
+      "start": "2026-11-22T13:00:00",
+      "end": "2026-11-22T15:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/22/drag-brunch-bingo-w-the-pie-queen",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Celtic Session with Denver Celtic Night",
+      "start": "2026-11-21T18:30:00",
+      "end": "2026-11-21T21:30:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/21/celtic-session-with-denver-celtic-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Bards of the Bar",
+      "start": "2026-11-20T20:00:00",
+      "end": "2026-11-20T22:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/20/bards-of-the-bar",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "The Pie Queen",
+      "start": "2026-11-20T17:00:00",
+      "end": "2026-11-20T19:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/20/the-pie-queen",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Trivia Night",
+      "start": "2026-11-19T19:00:00",
+      "end": "2026-11-19T21:30:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/19/trivia-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Star Trek Meetup with Denver Ten Forward",
+      "start": "2026-11-18T18:00:00",
+      "end": "2026-11-18T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/18/star-trek-meetup-with-denver-ten-forward",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Nostalgia-Themed Vinyl Night",
+      "start": "2026-11-18T17:00:00",
+      "end": "2026-11-18T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/18/vinyl-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Game Night",
+      "start": "2026-11-17T18:00:00",
+      "end": "2026-11-17T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/17/game-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Book Club",
+      "start": "2026-11-16T19:00:00",
+      "end": "2026-11-16T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/book-club",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Mr Disappear Book Launch + Grown-Up Book Fair w/ Second Star to the Right",
+      "start": "2026-11-15T15:00:00",
+      "end": "2026-11-15T18:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/15/mr-disappear-book-launch-grown-up-book-fair-w-second-star-to-the-right",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Dungeons & Drafts",
+      "start": "2026-11-14T18:00:00",
+      "end": "2026-11-14T21:30:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/14/dungeons-drafts",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Paint n Sip Class: Paint Your Own Bookshelf",
+      "start": "2026-11-14T13:00:00",
+      "end": "2026-11-14T16:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/14/paint-n-sip-class-paint-your-own-bookshelf",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Crafturday",
+      "start": "2026-11-14T13:00:00",
+      "end": "2026-11-14T17:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2025/11/14/crafturday",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Poker Night",
+      "start": "2026-11-13T18:30:00",
+      "end": "2026-11-13T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2025/11/13/poker-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Live Music w/ The One and Only Jon Ham",
+      "start": "2026-11-13T18:00:00",
+      "end": "2026-11-13T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/13/live-music-w-the-one-and-only-jon-ham",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Trivia Night",
+      "start": "2026-11-12T19:00:00",
+      "end": "2026-11-12T21:30:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/12/trivia-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Writers Group",
+      "start": "2026-11-11T19:00:00",
+      "end": "2026-11-11T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/11/writers-group",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "PlayTest Tuesday",
+      "start": "2026-11-10T18:00:00",
+      "end": "2026-11-10T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/10/playtest-tuesday",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Miscreant Play-Reading Book Club",
+      "start": "2026-11-09T19:00:00",
+      "end": "2026-11-09T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/9/miscreant-play-reading-book-club",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Plant Bingo",
+      "start": "2026-11-08T15:00:00",
+      "end": "2026-11-08T17:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/8/plant-bingo",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Music Video Bingo",
+      "start": "2026-11-06T19:00:00",
+      "end": "2026-11-06T21:30:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/6/music-video-bingo",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Trivia Night",
+      "start": "2026-11-05T19:00:00",
+      "end": "2026-11-05T21:30:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/5/trivia-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Qties & Cuties: A Comedy Open Mic Safe Space",
+      "start": "2026-11-04T19:00:00",
+      "end": "2026-11-04T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/4/qties-cuties-a-comedy-open-mic-safe-space",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Game Night",
+      "start": "2026-11-03T18:00:00",
+      "end": "2026-11-03T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/3/game-night",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Smutty Book Club",
+      "start": "2026-11-02T19:00:00",
+      "end": "2026-11-02T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/11/2/smutty-book-club",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Smutty Book Club",
+      "start": "2026-12-07T19:00:00",
+      "end": "2026-12-07T21:00:00",
+      "location": "Fiction Beer, 7101 East Colfax Ave, Denver, CO 80220",
+      "url": "https://fictionbeer.com/events/2026/12/7/smutty-book-club",
+      "sourceName": "Fiction Beer",
+      "sourceUrl": "https://fictionbeer.com/taproom-events",
+      "extractor": "squarespace"
+    }
+  ]
+}

@@ -1,20 +1,9 @@
 {
   "source": "Denver Book Swap Society",
   "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 5,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 6,
   "events": [
-    {
-      "title": "Spooky Pottery Painting & Book Swap - Night 2 (Denver)",
-      "description": "Denver Book Swap Society hosts book swap events for people to pass along their books in exchange for new (to them) books to take home.",
-      "start": "2026-10-28T18:00:00-06:00",
-      "end": "2026-10-28T21:00:00-06:00",
-      "location": "Glaze & Phase — 5174 South Broadway, Englewood, CO 80113",
-      "url": "https://www.eventbrite.com/e/spooky-pottery-painting-book-swap-night-2-denver-tickets-1999613308233",
-      "sourceName": "Denver Book Swap Society",
-      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
-      "extractor": "eventbrite"
-    },
     {
       "title": "Curl Up & Read with Cats!",
       "description": "Book swap +  adoptable cats! Join us for a cozy night of cat cuddles & books with Teddy Cat & Denver Book Swap Society.",
@@ -44,6 +33,28 @@
       "end": "2026-11-11T20:00:00-07:00",
       "location": "Paddywax Candle Bar — 2654 Walnut Street, #Suite 520, Denver, CO 80205",
       "url": "https://www.eventbrite.com/e/candle-making-book-swap-paddywax-candle-bar-denver-tickets-1993623767355",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Curl Up & Read with Cats!",
+      "description": "Book swap +  adoptable cats! Join us for a cozy night of cat cuddles & books with Teddy Cat & Denver Book Swap Society.",
+      "start": "2026-12-03T18:00:00-07:00",
+      "end": "2026-12-03T19:30:00-07:00",
+      "location": "Teddy Cat Cafe — 39 East Florida Avenue, Denver, CO 80210",
+      "url": "https://www.eventbrite.com/e/curl-up-read-with-cats-tickets-1993623914796",
+      "sourceName": "Denver Book Swap Society",
+      "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Terrarium OR Macrame Workshop & Book Swap (Denver)",
+      "description": "$10 TICKET REQUIRED to reserve your spot (you'll pay for the terrarium or macrame you choose to build on-site)",
+      "start": "2026-12-04T18:00:00-07:00",
+      "end": "2026-12-04T21:00:00-07:00",
+      "location": "Inks & Drinks — 8920 Westminster Boulevard, Westminster, CO 80031",
+      "url": "https://www.eventbrite.com/e/terrarium-or-macrame-workshop-book-swap-denver-tickets-2002077769503",
       "sourceName": "Denver Book Swap Society",
       "sourceUrl": "https://www.eventbrite.com/o/denver-book-swap-society-60447580723",
       "extractor": "eventbrite"

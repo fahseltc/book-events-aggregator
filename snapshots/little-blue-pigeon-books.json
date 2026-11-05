@@ -1,31 +1,9 @@
 {
   "source": "Little Blue Pigeon Books",
   "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 12,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 10,
   "events": [
-    {
-      "title": "The Great Pumpkin Book Hunt",
-      "description": "Join us for The Great LBP Pumpkin Book Hunt, where every book purchase gives you the chance to hunt for a hidden pigeon and reveal a surprise prize—including the coveted Golden Pigeon.",
-      "start": "2026-10-24T10:00:00",
-      "end": "2026-10-31T17:00:00",
-      "location": "Little Blue Pigeon — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/the-great-pumpkin-book-hunt",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "Halloween Local Author Pop-Up: Lynn Becker",
-      "description": "Celebrate Halloween with Colorado author Lynn Becker and her delightfully spooky picture book, Ghost Town in the Mountains! Stop by Little Blue Pigeon from 11 AM–1 PM to meet Lynn, discover this hauntingly hilarious story, and take home a signed copy.",
-      "start": "2026-10-31T11:00:00",
-      "end": "2026-10-31T13:00:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/halloween-local-author-pop-up-lynn-becker",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
     {
       "title": "A New Chapter with Laufey’s Book Club",
       "description": "Celebrate Little Blue Pigeon Books as Laufey’s Book Club November Bookstore of the Month with a special collaboration, an exclusive custom-designed tote, and a little literary magic!",

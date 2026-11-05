@@ -1,204 +1,24 @@
 {
   "source": "Wolverine Farm Publick House",
   "sourceUrl": "https://www.wolverinefarm.org/events/",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 119,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 112,
   "events": [
-    {
-      "title": "Dead Pen Drawing Club",
-      "description": "Join us weekly on Monday nights at 6pm for Dead Pen Drawing Club.",
-      "start": "2026-10-26T18:00:00",
-      "end": "2026-10-26T21:00:00",
-      "url": "https://www.wolverinefarm.org/event/dead-pen-drawing-club-216/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Queer Writes",
-      "description": "Queer Writes is an LGBTQ+ writing group in Fort Collins. There will be prompts and activities to help get you started on something new, but you can also bring your own work in-progress (creative writing, your dissertation, or that hard to compose email). Get creative, express yourself, and get feedback if you want it!",
-      "start": "2026-10-26T18:00:00",
-      "end": "2026-10-26T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/queer-writes-32/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Gulo Gulo Poetry Community Discussion",
-      "description": "Join the Gulo Gulo community discussion, open to all. gulogulopoetry@gmail.com for details.",
-      "start": "2026-10-27T18:00:00",
-      "end": "2026-10-27T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/gulo-gulo-poetry-community-discussion-9/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Science On Tap",
-      "description": "More details to come",
-      "start": "2026-10-27T18:30:00",
-      "end": "2026-10-27T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/science-on-tap-53/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Upstairs Closed 2:15 – 5:45pm",
-      "description": "The Upstairs will be closed for a private event. The Downstairs will remain open for business.",
-      "start": "2026-10-28T14:15:00",
-      "end": "2026-10-28T17:45:00",
-      "url": "https://www.wolverinefarm.org/event/upstairs-closed-215-545pm/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Wolverine Farm Happy Hour 4-6pm (Wednesdays + Fridays)",
-      "description": "Happy hour!! $10 for a panini and can of beer, NA, or cider",
-      "start": "2026-10-28T16:00:00",
-      "end": "2026-10-28T18:00:00",
-      "url": "https://www.wolverinefarm.org/event/wolverine-farm-happy-hour-4-6pm-wednesdays-fridays-25/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Residency Concert Series (every Wednesday)",
-      "description": "More details to come",
-      "start": "2026-10-28T17:00:00",
-      "end": "2026-10-28T21:00:00",
-      "url": "https://www.wolverinefarm.org/event/residency-concert-series-every-wednesday-44/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Spooky Punketry",
-      "description": "Punketry is the profane math of Punk+Poetry combining into one the absolutely improvised psychrock&roll tricks of Black Market Translation with a treats worth of sweet poets happening monthly since forever at the Mutiny Information Cafe and for special roadshows like this one! Feature length sets from Daphne Strickland Ria Swapp Booger Martin Dadisman followed by an open mic where you can perform your whatevers with the band too! Hosted by Sarah Rodriguez All ages, free admission Halloween costumes hallowly encouraged",
-      "start": "2026-10-28T18:00:00",
-      "end": "2026-10-28T20:30:00",
-      "url": "https://www.wolverinefarm.org/event/spooky-punketry/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Amazon Web Services Meet-up 6-8pm",
-      "description": "This is a group for anyone interested in learning more about the powerful features and services available with Amazon Web Services (AWS). This will be a great chance to meet up with other users, architects, etc. to learn (and teach!). Whether you’re passionate about cloud computing or just curious, this is the place to scratch that itch.",
-      "start": "2026-10-29T18:00:00",
-      "end": "2026-10-29T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/amazon-web-services-meet-up-6-8pm-2/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Wolverine Farm Happy Hour 4-6pm (Wednesdays + Fridays)",
-      "description": "Happy Hour at Wolverine!! $10 for a panini and can of beer, NA, or Cider.",
-      "start": "2026-10-30T16:00:00",
-      "end": "2026-10-30T18:00:00",
-      "url": "https://www.wolverinefarm.org/event/wolverine-farm-happy-hour-4-6pm-wednesdays-fridays-26/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Upstairs Closed 6 – 9pm",
-      "description": "The Upstairs will be closed for a private event. The Downstairs will remain open for business.",
-      "start": "2026-10-30T18:00:00",
-      "end": "2026-10-30T23:00:00",
-      "url": "https://www.wolverinefarm.org/event/upstairs-closed-6-9pm-7/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Upstairs closed 10 – 12pm",
-      "description": "The Upstairs will be closed from 10am – 12pm. The Downstairs will remain open for business.",
-      "start": "2026-11-01T09:00:00",
-      "end": "2026-11-01T12:00:00",
-      "url": "https://www.wolverinefarm.org/event/upstairs-closed-10-12pm/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Anti-MFA: A Writing Workshop for the Rest of Us",
-      "description": "1 st Sundays from 1 pm to 4 pm at Wolverine Farm Why should the University get to monopolize knowledge, community, and resources? Why should graduate students and professors have all the fun? If we’re going to become serious writers—if we’re going to succeed—we need to come together on a regular basis to read, discuss, and advance our work. Think of this as a step up from a critique group—something with a bit more commitment, consistency, and intention. Each month, writers will submit work for feedback along with some published work for us to read and discuss. Then, each participant will prepare in whatever way they have the desire or capacity for—reading ahead of time, leaving comments, writing a letter, or just showing up the day of. Whatever we end up doing, the point here is to support each other as a community of writers, and what that support looks like is entirely up to you. # # # THIS MONTH’S READING / THEME WE BY LAYLI LONG SOLDIER (GRAYWOLF PRESS, 2026) This Month, we’re going to be reading We by Layli Long Soldier, which is currently longlisted for the National Book Aard, who was just named a MacArthur Fellow, and whose last collection (WHEREAS) won several pretty significant awards. In reading We, we’ll be thinking about “what it means to be in community, to be in relation with family, nation, history, and language. We is the first-person plural, the pronoun of inclusion in English. It is also Wé, the Lakota word meaning “blood”—what is shared and what is shed.” Which is to say: what is our relationship to colonialism; how do we write into this; how much blood has the country shed. We can be purchased around town at Old Firehouse, Perelandra, or other such venues. If buying a book presents an issue, email focopoetlaureate@gmail.com for financial assistance. More information about Layli can be found at https://www.macfound.org/…/ class-of…/layli-long-soldier As always, read or prepare as much or as little as you want, show up even if you haven’t read it, even if you haven’t written anything, etc etc. Meetings: Please note: while this workshop is poetry focused, all genres are welcome. The more the merrier. You also do not have to be a writer or share your own work to participate. Depending on how many people participate, there may not be enough time for everyone to receive feedback. Schedules will be determined from meeting to meeting. Priority will be given to folks who have not received feedback at a previous meeting. If there are a lot of us, we may end up splitting into smaller groups. We’ll just have to see. If you’re interested in participating, email focopoetlaureate@gmail.com or just show up.",
-      "start": "2026-11-01T13:00:00",
-      "end": "2026-11-01T16:00:00",
-      "url": "https://www.wolverinefarm.org/event/anti-mfa-a-writing-workshop-for-the-rest-of-us/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Tight Knit Fiber Art Meet up",
-      "description": "“Tight Knit is a fun and cozy meet up for all types of fiber artists. Gather around and work on your current projects while gaining inspiration by this ever growing community of fiber folk!”",
-      "start": "2026-11-02T18:00:00",
-      "end": "2026-11-02T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/tight-knit-fiber-art-meet-up-7/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Dead Pen Drawing Club",
-      "description": "Join us weekly on Monday nights at 6pm for Dead Pen Drawing Club.",
-      "start": "2026-11-02T18:00:00",
-      "end": "2026-11-02T21:00:00",
-      "url": "https://www.wolverinefarm.org/event/dead-pen-drawing-club-217/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Gulo Gulo Writing Workshop (Free)",
-      "description": "Join the Gulo Gulo Poetry folks in a free writing workshop, every First Tuesday of the month from 6-8pm.",
-      "start": "2026-11-03T18:00:00",
-      "end": "2026-11-03T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/gulo-gulo-writing-workshop-free-45/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Wolverine Farm Happy Hour 4-6pm (Wednesdays + Fridays)",
-      "description": "Happy hour!! $10 for a panini and can of beer, NA, or cider",
-      "start": "2026-11-04T16:00:00",
-      "end": "2026-11-04T18:00:00",
-      "url": "https://www.wolverinefarm.org/event/wolverine-farm-happy-hour-4-6pm-wednesdays-fridays-27/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Residency Concert Series (every Wednesday)",
-      "description": "More details to come",
-      "start": "2026-11-04T17:00:00",
-      "end": "2026-11-04T21:00:00",
-      "url": "https://www.wolverinefarm.org/event/residency-concert-series-every-wednesday-45/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
-    {
-      "title": "Residency Concert w/ DVNEHPPY + Friends",
-      "description": "Join us every First Wednesday for live music with our Fall Resident Musician, DVNEHPPY. Residency concerts are meant to encourage collaboration, experimentation, and support our local blooming music scene. Music starts at 6pm, suggested donation is $15-20. DVNEHPPY (pronounced divine-hippy) is a dynamic rap/hip-hop artist based in Fort Collins, CO known for his distinctive fusion of hip-hop, lo-fi, and experimental sounds. Originally born & raised in Houma, Louisiana, his roots are deeply embedded in the Southern Louisiana scene. His new album titled ‘LIFE OF THE PARTY’ showcases an artistic evolution in a more 80’s dance/modern hip-hop music inspired light. . DVNEHPPY’s journey has seen him share the stage with music legends such as Digable Planets, Rebirth Brass Band, Soulja Boy, TWISTA, Slum Village, Cousin Stizz, and Open Mike Eagle along with supporting rising stars like Come Back To Earth (Mac Miller Tribute Band), Dear Silas, Marlon Craft, & Lewsid. He’s also performed at legendary festivals across the country like UMS (Underground Music Showcase), FoCoMX, & Fete Du Void in Louisiana. Catch Divine at the Publick House every First Wednesday: 10/7, 11/4, 12/2",
-      "start": "2026-11-04T18:00:00",
-      "end": "2026-11-04T20:00:00",
-      "url": "https://www.wolverinefarm.org/event/residency-concert-w-dvnehppy-friends/",
-      "sourceName": "Wolverine Farm Publick House",
-      "sourceUrl": "https://www.wolverinefarm.org/events/",
-      "extractor": "tribe"
-    },
     {
       "title": "Thomas Jefferson Lecture",
       "start": "2026-11-05T19:00:00",
       "end": "2026-11-05T20:00:00",
       "url": "https://www.wolverinefarm.org/event/thomas-jefferson-lecture/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Thomas Jefferson’s Lottery and Lotteries in American History",
+      "description": "Join History Professor T.J. Tomlin for a lecture about the later years of Jefferson’s life and his creation of a controversial lottery to provide for his family and pay off debts, which ultimately was a failure. Free and open to the public.",
+      "start": "2026-11-05T19:00:00",
+      "end": "2026-11-05T20:00:00",
+      "url": "https://www.wolverinefarm.org/event/thomas-jeffersons-lottery-and-lotteries-in-american-history/",
       "sourceName": "Wolverine Farm Publick House",
       "sourceUrl": "https://www.wolverinefarm.org/events/",
       "extractor": "tribe"
@@ -234,10 +54,40 @@
       "extractor": "tribe"
     },
     {
+      "title": "5:45-9pm Upstairs Closed",
+      "description": "The downstairs will remain open for business and seating",
+      "start": "2026-11-07T17:45:00",
+      "end": "2026-11-07T21:15:00",
+      "url": "https://www.wolverinefarm.org/event/545-9pm-upstairs-closed/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
       "title": "Potluck with Eddy Event Hall",
       "start": "2026-11-08T12:00:00",
       "end": "2026-11-08T14:00:00",
       "url": "https://www.wolverinefarm.org/event/potluck-with-eddy-event-hall/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Upstairs Closed",
+      "description": "Downstairs will remain open for business and seating",
+      "start": "2026-11-08T12:00:00",
+      "end": "2026-11-08T14:00:00",
+      "url": "https://www.wolverinefarm.org/event/upstairs-closed-24/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Upstairs Closed",
+      "description": "Downstairs will remain open for business and seating",
+      "start": "2026-11-08T12:00:00",
+      "end": "2026-11-08T14:00:00",
+      "url": "https://www.wolverinefarm.org/event/upstairs-closed-25/",
       "sourceName": "Wolverine Farm Publick House",
       "sourceUrl": "https://www.wolverinefarm.org/events/",
       "extractor": "tribe"
@@ -1185,6 +1035,86 @@
       "start": "2027-01-22T16:00:00",
       "end": "2027-01-22T18:00:00",
       "url": "https://www.wolverinefarm.org/event/wolverine-farm-happy-hour-4-6pm-wednesdays-fridays-50/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Queer Writes",
+      "description": "Queer Writes is an LGBTQ+ writing group in Fort Collins. There will be prompts and activities to help get you started on something new, but you can also bring your own work in-progress (creative writing, your dissertation, or that hard to compose email). Get creative, express yourself, and get feedback if you want it!",
+      "start": "2027-01-25T18:00:00",
+      "end": "2027-01-25T20:00:00",
+      "url": "https://www.wolverinefarm.org/event/queer-writes-38/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Dead Pen Drawing Club",
+      "description": "Join us weekly on Monday nights at 6pm for Dead Pen Drawing Club.",
+      "start": "2027-01-25T18:00:00",
+      "end": "2027-01-25T21:00:00",
+      "url": "https://www.wolverinefarm.org/event/dead-pen-drawing-club-229/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Gulo Gulo Poetry Community Discussion",
+      "description": "Join the Gulo Gulo community discussion, open to all. gulogulopoetry@gmail.com for details.",
+      "start": "2027-01-26T18:00:00",
+      "end": "2027-01-26T20:00:00",
+      "url": "https://www.wolverinefarm.org/event/gulo-gulo-poetry-community-discussion-12/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Science On Tap",
+      "description": "More details to come",
+      "start": "2027-01-26T18:30:00",
+      "end": "2027-01-26T20:00:00",
+      "url": "https://www.wolverinefarm.org/event/science-on-tap-56/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Wolverine Farm Happy Hour 4-6pm (Wednesdays + Fridays)",
+      "description": "Happy hour!! $10 for a panini and can of beer, NA, or cider",
+      "start": "2027-01-27T16:00:00",
+      "end": "2027-01-27T18:00:00",
+      "url": "https://www.wolverinefarm.org/event/wolverine-farm-happy-hour-4-6pm-wednesdays-fridays-51/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Residency Concert Series (every Wednesday)",
+      "description": "More details to come",
+      "start": "2027-01-27T17:00:00",
+      "end": "2027-01-27T21:00:00",
+      "url": "https://www.wolverinefarm.org/event/residency-concert-series-every-wednesday-57/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Wolverine Farm Happy Hour 4-6pm (Wednesdays + Fridays)",
+      "description": "Happy Hour at Wolverine!! $10 for a panini and can of beer, NA, or Cider.",
+      "start": "2027-01-29T16:00:00",
+      "end": "2027-01-29T18:00:00",
+      "url": "https://www.wolverinefarm.org/event/wolverine-farm-happy-hour-4-6pm-wednesdays-fridays-52/",
+      "sourceName": "Wolverine Farm Publick House",
+      "sourceUrl": "https://www.wolverinefarm.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "YART Sale",
+      "description": "Join us at the Publick House for another Yart Sale! With a handful of diverse vendors and everything under $30, there is something for everyone! The early bird gets the worm!! Want to vend? Register here (first come first served)",
+      "start": "2027-01-31T11:00:00",
+      "end": "2027-01-31T14:00:00",
+      "url": "https://www.wolverinefarm.org/event/yart-sale-33/",
       "sourceName": "Wolverine Farm Publick House",
       "sourceUrl": "https://www.wolverinefarm.org/events/",
       "extractor": "tribe"

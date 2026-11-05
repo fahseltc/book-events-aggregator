@@ -1,9 +1,20 @@
 {
   "source": "Gilpin County Library",
   "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 339,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 342,
   "events": [
+    {
+      "title": "LEGO Robotics (Ages 5–10)",
+      "description": "LEGO Robotics (Ages 5–10) Build it. Code it. Put it to the test! Get ready to build, experiment, and solve problems with LEGO! Students will use LEGO Education SPIKE Essential kits to learn the basics of engineering and programming. Along the way, they’ll design and build their own creations, write simple programs to make them move, and test their ideas to see what works. Students will also work as a team to prepare for a FIRST LEGO League Explore https://coloradofirst.org/fll-explore/ event, where they’ll share what they’ve built and learned at an end-of-season festival in April. Program begins in January and runs through April. Registration Required * Tuesday class: Ages 7–10, with some experience. First meeting: January 12th * Wednesday class: Ages 5–7, with little to no experience. First meeting: January 13th * Classes meet 4:15–6 PM * Each class is limited to 6 students * Weekly attendance is important * Once a class is full, additional registrations will be added to a waitlist * Registration opens November 2nd at 8 AM Questions? Contact Rachel Schmalz at rschmalz@gilpincounty.org mailto:rschmalz@gilpincounty.org . Tuesday Class Registration (Ages 7-10). REGISTER HERE https://www.eventbrite.com/e/2003022275546?aff=oddtdtcreator Wednesday Class Registration (Ages 5-7). REGISTER HERE https://www.eventbrite.com/e/2003020380879?aff=oddtdtcreator",
+      "start": "2026-11-02T08:00:00",
+      "end": "2026-12-11T00:00:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/19/1793631600000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
     {
       "title": "Pumpkin Decorating Contest",
       "description": "The 2026 Pumpkin Decorating Contest begins October 1st. This event is open to all ages, so get creative! No carved pumpkins, only exterior decoration. Pumpkins must represent a book or movie character. Voting by the staff and public will begin October 26th. Winners announced at noon on October 30th. * Open to all ages (one entry per individual or team/family) * DO NOT carve it as it won’t last. * Real pumpkins, along with plastic ones or gourds, are accepted * You may use any material you wish to decorate your pumpkin. No store bought pre decorated pumpkins * Pumpkins must represent a book or movie character * Drop off your decorated pumpkin at the Gilpin County Public Library during regular hours from October 1st - October 23rd * Winners will be notified at noon on October 30th * Contest ends October 23rd. Pumpkins must be picked up by 4:00pm on Friday, November 6th. All entries not picked up by this time will be discarded * Keep it family friendly. PRIZES AMAZON GIFT CARDS 1st PLACE: $25.00 2ND PLACE: $10.00 3RD PLACE: $10.00",
@@ -11,17 +22,6 @@
       "end": "2026-10-24T00:00:00",
       "location": "Hwy 119, Colorado 80422, USA",
       "url": "https://tockify.com/library.gilpin/detail/146/1790834400000",
-      "sourceName": "Gilpin County Library",
-      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
-      "extractor": "ical"
-    },
-    {
-      "title": "Family Playdate at the Library",
-      "description": "Looking for a chance to meet other families with young children? Join us at the library for a family playdate! Older siblings are welcome, too! Contact Rachel Schmalz (rschmalz@gilpincounty.org mailto:rschmalz@gilpincounty.org ) with any questions.",
-      "start": "2026-09-26T10:00:00",
-      "end": "2026-09-26T12:00:00",
-      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
-      "url": "https://tockify.com/library.gilpin/detail/137/1790438400000",
       "sourceName": "Gilpin County Library",
       "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
       "extractor": "ical"
@@ -113,6 +113,50 @@
       "extractor": "ical"
     },
     {
+      "title": "Friends of the Library Bake Sale",
+      "description": "Throughout the holiday season, the Friends of the Library will be conducting several bake sales to help raise funds to support programs such as the summer reading program. Visit the library between 10AM and Noon for a variety of homemade baked goods for sale.",
+      "start": "2026-11-20T10:00:00",
+      "end": "2026-11-20T12:00:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/154/1795194000000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
+    {
+      "title": "Family Movie Matinee: Moana",
+      "description": "Bring the kids for free popcorn and a movie as we watch the family-friendly film \"Moana\" in the meeting room. PG 1h 55m. Synopsis: A brave teenager named Moana leaves her island for the first time and sails with a shape-shifting demigod named Maui to fix a dangerous curse.",
+      "start": "2026-11-20T16:30:00",
+      "end": "2026-11-20T18:30:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/151/1795217400000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
+    {
+      "title": "Family Playdate at the Library",
+      "description": "Looking for a chance to meet other families with young children? Join us at the library for a family playdate! Older siblings are welcome, too! Contact Rachel Schmalz (rschmalz@gilpincounty.org mailto:rschmalz@gilpincounty.org ) with any questions.",
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T12:00:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/152/1795280400000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
+    {
+      "title": "Friends of the Library Bake Sale",
+      "description": "Throughout the holiday season, the Friends of the Library will be conducting several bake sales to help raise funds to support programs such as the summer reading program. Visit the library between 10AM and Noon for a variety of homemade baked goods for sale.",
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T12:00:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/155/1795280400000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
+    {
       "title": "Oscar Movie Preview: The Odyssey",
       "description": "Join us for popcorn and a movie as we preview early predictions for the 99th Academy Awards. Synopsis: Odysseus, king of Ithaca, embarks on a perilous journey to return home after the Trojan War. Crossing the Mediterranean Sea with his fellow soldiers, they soon find themselves battling not only the elements, but an array of deadly obstacles and mythical creatures along the way. Written and directed by Christopher Nolan, adapted from Homer's ancient Greek epic poem. Rated R. 2h 52m",
       "start": "2026-11-21T17:00:00",
@@ -130,17 +174,6 @@
       "end": "2026-11-23T16:00:00",
       "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
       "url": "https://tockify.com/library.gilpin/detail/104/1795449600000/2",
-      "sourceName": "Gilpin County Library",
-      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
-      "extractor": "ical"
-    },
-    {
-      "title": "Children's Storytime",
-      "description": "Join us every Wednesday morning for our Children's Storytime. Most of our children range from 0-5 years of age but all children are welcome. Enjoy stories, fingerplays, rhymes, and more. A themed craft will follow every storytime. The previous week's crafts are available while supplies last.",
-      "start": "2026-09-30T10:00:00",
-      "end": "2026-09-30T11:00:00",
-      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
-      "url": "https://tockify.com/library.gilpin/detail/70/1790784000000",
       "sourceName": "Gilpin County Library",
       "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
       "extractor": "ical"
@@ -206,28 +239,6 @@
       "end": "2026-11-18T11:00:00",
       "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
       "url": "https://tockify.com/library.gilpin/detail/70/1795021200000",
-      "sourceName": "Gilpin County Library",
-      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
-      "extractor": "ical"
-    },
-    {
-      "title": "Family Movie Matinee: Moana",
-      "description": "Bring the kids for free popcorn and a movie as we watch the family-friendly film \"Moana\" in the meeting room. PG 1h 55m. Synopsis: A brave teenager named Moana leaves her island for the first time and sails with a shape-shifting demigod named Maui to fix a dangerous curse.",
-      "start": "2026-11-20T16:30:00",
-      "end": "2026-11-20T18:30:00",
-      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
-      "url": "https://tockify.com/library.gilpin/detail/151/1795217400000",
-      "sourceName": "Gilpin County Library",
-      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
-      "extractor": "ical"
-    },
-    {
-      "title": "Family Playdate at the Library",
-      "description": "Looking for a chance to meet other families with young children? Join us at the library for a family playdate! Older siblings are welcome, too! Contact Rachel Schmalz (rschmalz@gilpincounty.org mailto:rschmalz@gilpincounty.org ) with any questions.",
-      "start": "2026-11-21T10:00:00",
-      "end": "2026-11-21T12:00:00",
-      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
-      "url": "https://tockify.com/library.gilpin/detail/152/1795280400000",
       "sourceName": "Gilpin County Library",
       "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
       "extractor": "ical"
@@ -3667,6 +3678,28 @@
       "end": "2031-10-22T11:00:00",
       "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
       "url": "https://tockify.com/library.gilpin/detail/70/1950451200000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
+    {
+      "title": "Children's Storytime",
+      "description": "Join us every Wednesday morning for our Children's Storytime. Most of our children range from 0-5 years of age but all children are welcome. Enjoy stories, fingerplays, rhymes, and more. A themed craft will follow every storytime. The previous week's crafts are available while supplies last.",
+      "start": "2031-10-29T10:00:00",
+      "end": "2031-10-29T11:00:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/70/1951056000000",
+      "sourceName": "Gilpin County Library",
+      "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
+      "extractor": "ical"
+    },
+    {
+      "title": "Children's Storytime",
+      "description": "Join us every Wednesday morning for our Children's Storytime. Most of our children range from 0-5 years of age but all children are welcome. Enjoy stories, fingerplays, rhymes, and more. A themed craft will follow every storytime. The previous week's crafts are available while supplies last.",
+      "start": "2031-11-05T10:00:00",
+      "end": "2031-11-05T11:00:00",
+      "location": "Library Meeting Room,Hwy 119, Colorado 80422, USA",
+      "url": "https://tockify.com/library.gilpin/detail/70/1951664400000",
       "sourceName": "Gilpin County Library",
       "sourceUrl": "https://tockify.com/api/feeds/ics/library.gilpin",
       "extractor": "ical"

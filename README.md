@@ -201,7 +201,7 @@ Edit `config/sources.json`. Add or remove entries in the `sources` array; set
 |-------|---------|
 | `url` (required) | Page or feed URL to crawl |
 | `name` | Human-readable label (shown as `source` in output) |
-| `type` | `auto` (default, detects RSS vs HTML), `rss`, `html`, `bookmanager`, `tribe`, `eventbrite`, `bibliocommons`, or `static` |
+| `type` | `auto` (default, detects RSS vs HTML), `rss`, `html`, `bookmanager`, `tribe`, `eventbrite`, `bibliocommons`, `squarespace` (Squarespace Events calendar), or `static` |
 | `search` | For `eventbrite`: `{ place, query, pages }` search parameters |
 | `file` | For `static`: path to the hand-maintained events JSON |
 | `render` | `true` to use a headless browser for JS-rendered pages |

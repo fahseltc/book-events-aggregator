@@ -1,7 +1,7 @@
 {
   "source": "Arapahoe Libraries",
   "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "capturedAt": "2026-11-05T23:14:53.385Z",
   "count": 100,
   "events": [
     {
@@ -33,17 +33,6 @@
       "end": "2026-11-17T19:00:00",
       "location": "Eloise May Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb4de300e0045176913",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Citizenship Study Group",
-      "description": "Join a study group to learn about the citizenship process. Explore free online and library resources for civics knowledge plus increase your reading and writing skills. Note: The study group is designed to help advanced English learners prepare for citizenship interviews. Staff are unable to provide legal advice, assistance with completing USCIS forms or teach English to those with beginner or intermediate knowledge.",
-      "start": "2026-11-03T13:30:00",
-      "end": "2026-11-03T15:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6957fa9c1e64afd01e51eae6",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -85,17 +74,6 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
-      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
-      "start": "2026-11-03T15:00:00",
-      "end": "2026-11-03T17:00:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eadde300e0045176902",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
       "title": "Technology Basics",
       "description": "Learn the basics of using a computer, the internet, and email and how to remain safe online in 5 easy classes! Each class will be taught in English. Please be aware some classes might go a little over-time . Please make sure you register for each class listed below that you are interested in. Registering for one class will not automatically register you for the other classes. October 14: Computer Basics: Part 1 Learn the basics on how to use the keyboard and mouse and navigate the computer desktop. October 21: Computer Basics: Part 2 Learn how to create and manage files and folders and maintain your computer. October 28: Internet Basics Learn how to use Google and how to navigate around websites. November 4: Email Basics Learn how to set up and use a Gmail email account. November 18: Online Safety Basics Learn how to be safer online with accounts/passwords and an overview of frauds/scams. There will be no class on November 11 due to a Veteran’s Day Library Closure",
       "start": "2026-11-18T10:00:00",
@@ -107,12 +85,56 @@
       "extractor": "bibliocommons"
     },
     {
+      "title": "Smoky Hill Evening Book Club",
+      "description": "We'll talk about Good Dirt by Charmaine Wilkerson. Our list of books for the year is here.",
+      "start": "2027-01-04T19:00:00",
+      "end": "2027-01-04T20:00:00",
+      "location": "Smoky Hill Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bd7596ec3a003ade10c7",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Castlewood Afternoon Book Club",
+      "description": "We'll talk about How to Read A Book by Monica Wood. The list of books for the year is here.",
+      "start": "2027-01-05T14:00:00",
+      "end": "2027-01-05T15:00:00",
+      "location": "Castlewood Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bd7396ec3a003ade10c5",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Nonfiction Book Club",
+      "description": "Join us to talk about The Bookshop by Evan Friss. The list of books for this year is here.",
+      "start": "2027-01-07T18:30:00",
+      "end": "2027-01-07T19:30:00",
+      "location": "Koelbel Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bd6d96ec3a003ade10c1",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
       "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
       "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
       "start": "2026-11-12T17:00:00",
       "end": "2026-11-12T19:00:00",
       "location": "Eloise May Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb4de300e0045176912",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Smoky Hill Afternoon Book Club",
+      "description": "We'll talk about The Berry Pickers by Amanda Peters. Our list of books for the year is here !",
+      "start": "2027-01-13T14:00:00",
+      "end": "2027-01-13T15:00:00",
+      "location": "Smoky Hill Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bd689d27a00045547b55",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -140,12 +162,78 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "title": "Early Birds Book Club and Social",
+      "description": "Join us each month for refreshments, conversation, and to discuss books we've read!",
+      "start": "2027-01-21T09:00:00",
+      "end": "2027-01-21T10:30:00",
+      "location": "Southglenn Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bd5d035faf0033e02398",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
       "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
-      "start": "2026-10-27T17:00:00",
-      "end": "2026-10-27T19:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96eff181e9d60947cd3b3f",
+      "start": "2026-12-10T15:00:00",
+      "end": "2026-12-10T17:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb2396ec3a003ade1005",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-03T15:00:00",
+      "end": "2026-12-03T17:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb2396ec3a003ade1003",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-15T15:00:00",
+      "end": "2026-12-15T17:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb2396ec3a003ade1006",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-01T15:00:00",
+      "end": "2026-12-01T17:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb2396ec3a003ade1002",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-17T15:00:00",
+      "end": "2026-12-17T17:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb2396ec3a003ade1007",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-08T15:00:00",
+      "end": "2026-12-08T17:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb2396ec3a003ade1004",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -153,10 +241,87 @@
     {
       "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
       "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
-      "start": "2026-10-29T17:00:00",
-      "end": "2026-10-29T19:00:00",
+      "start": "2026-12-29T17:00:00",
+      "end": "2026-12-29T19:00:00",
       "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96eff181e9d60947cd3b40",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c92233b",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-15T17:00:00",
+      "end": "2026-12-15T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c922338",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-10T17:00:00",
+      "end": "2026-12-10T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c922337",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-22T17:00:00",
+      "end": "2026-12-22T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c92233a",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-17T17:00:00",
+      "end": "2026-12-17T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c922339",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-08T17:00:00",
+      "end": "2026-12-08T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c922336",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-03T17:00:00",
+      "end": "2026-12-03T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c922335",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
+      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
+      "start": "2026-12-01T17:00:00",
+      "end": "2026-12-01T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4bb219dbc2b002c922334",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -173,23 +338,110 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Kickboxing for Teens",
-      "description": "Learn to kickbox with Nova Mente Jiu Jitsu Academy Build confidence, learn practical self-defense skills, and have fun with expert instructors from Nova Mente Academy ! This kickboxing workshop for tweens and teens focuses on self-defense, anti-bullying strategies, and developing strength, discipline, and confidence in a supportive environment. Note: This event is designed for tweens (ages 9-12) and teens (ages 12-18) based on the skills we'll be practicing or the tools used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age. Manage your event registration using \" My Events \" in your library dashboard. Info for How to Prepare: We're excited to see you for Kickboxing for Teens! Before the event begins, we invite you to explore even more that Arapahoe Libraries has to offer. Browse the Authors page to learn about future author events and who we've hosted in the past. Love reading? Discover your new favorite book when you check out teen book talks or recommended reads . Feeling crafty? Explore crafts you can create at home. Flex your writing skills . Learn from the past to create a future. Explore history & genealogy or culture & travel . Arapahoe Libraries is based in Colorado and all events are listed in MT (Mountain Time).",
-      "start": "2026-11-03T16:00:00",
-      "end": "2026-11-03T17:00:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eaade300e0045176900",
+      "title": "Smoky Hill TAG- Drop-in Volunteer Program",
+      "description": "Are you a student in grades 7-12 who needs volunteer hours for school? Then this is the program for you! Come volunteer for the hour and help us prepare resources for the library and our community.",
+      "start": "2026-12-03T17:00:00",
+      "end": "2026-12-03T18:00:00",
+      "location": "Smoky Hill Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b96e9d27a00045547a4a",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
     },
     {
-      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
-      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
-      "start": "2026-10-29T15:00:00",
-      "end": "2026-10-29T17:00:00",
+      "title": "Eloise May Teen Night: Hot Chocolate and Cozy Crafts",
+      "description": "It's the season to be cozy! Grab some delicious hot chocolate and cookies and make something crafty. All materials provided. Dietary needs and restrictions are considered for this program; feel free to contact us with any requests for accommodations.",
+      "start": "2026-12-09T17:00:00",
+      "end": "2026-12-09T18:30:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b95196ec3a003ade0fd7",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Sheridan Afterschool Club (Ages 9-12)",
+      "description": "Get moving, make friends, and have fun! Join us each month for exciting activities like obstacle courses, giant games, challenges, and more—indoors or outside (weather permitting). All activities include options for different abilities so everyone can join in. Come play, move, and connect after school! This is a drop-in event with no registration required. Because families will be invited to enter as space allows, wait times are possible. Expect to spend about 90 minutes with us for this experience.",
+      "start": "2026-12-07T15:30:00",
+      "end": "2026-12-07T17:00:00",
       "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96eff34995480655ed2a5d",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b90129c3d60033339391",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Music and Movement (Ages 2-5)",
+      "description": "Drop by and join us for a fun program that will get kids singing, dancing and exploring musical instruments while also helping them develop motor and listening skills. NO REGISTRATION REQUIRED! Explore these Music and Movement books to help children learn about music and to get them up and moving!",
+      "start": "2026-12-31T11:30:00",
+      "end": "2026-12-31T12:30:00",
+      "location": "Southglenn Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b84df9d28050ccafebad",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "DIY Simmer Pot Kit - Adult Crafting Night",
+      "description": "Join us to make your own simmer pot kit while enjoying some nice tea and coffee. Simmer pots, also known as stovetop potpourri, are a natural, homemade air freshener made by gently simmering aromatic ingredients in a pot of water on a stove or in a slow cooker. This event takes place at Davies Library in Deer Trail. It is for ages 18 and older.",
+      "start": "2026-12-16T17:00:00",
+      "end": "2026-12-16T18:45:00",
+      "location": "Davies Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6aecea5d9b955d531f7d6019",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "English Conversation Circle - Online",
+      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. Registration is required to attend online. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
+      "start": "2026-11-23T18:30:00",
+      "end": "2026-11-23T20:00:00",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb229c3d600332ce57a",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Tween Scene (Ages 9-12)",
+      "description": "Looking for a space that’s just for tweens? Tween Scene is a monthly hangout at Eloise May Library where kids ages 9–12 can explore their creativity, build friendships, and have fun with hands-on activities, games, and challenges. Each month features a new theme—from DIY crafts to collaborative projects—designed to spark imagination and fun! This is a drop-in event with no registration required. Because tweens will be invited to enter as space allows, wait times are possible. Expect to spend about one hour with us this experience.",
+      "start": "2026-12-08T16:00:00",
+      "end": "2026-12-08T17:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b8ec29c3d6003333938a",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Classic Game Club",
+      "description": "Come and enjoy classic board and card games with friendly comradery with others. Join in pastimes such as Yahtzee, Sorry, Scrabble, Crazy Eights and more. Whether you’re just playing for fun or feeling competitive, this is the place for you!",
+      "start": "2026-12-18T13:00:00",
+      "end": "2026-12-18T14:30:00",
+      "location": "Smoky Hill Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b7b29b955d531f7bc144",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Classic Game Club",
+      "description": "Come and enjoy classic board and card games with friendly comradery with others. Join in pastimes such as Yahtzee, Sorry, Scrabble, Crazy Eights and more. Whether you’re just playing for fun or feeling competitive, this is the place for you!",
+      "start": "2026-12-04T13:00:00",
+      "end": "2026-12-04T14:30:00",
+      "location": "Smoky Hill Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b7b09b955d531f7bc142",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Southglenn Teen Night - Bingo & Boba",
+      "description": "Calling all Disney fans! Test your Disney knowledge and your luck with a magical night of Disney-themed Bingo. Win fun prizes, sip on delicious boba tea, and enjoy an evening filled with your favorite characters, movies, and songs. Whether you're a Disney superfan or just looking for a fun night out with friends, join us for a cozy and exciting evening of Bingo, boba, and Disney magic! ✨🧋🏰 Snacks will be provided!. This event is for teens aged 12 - 18.",
+      "start": "2026-12-03T17:30:00",
+      "end": "2026-12-03T19:00:00",
+      "location": "Southglenn Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b9699dbc2b002c9222d5",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -212,17 +464,6 @@
       "end": "2026-11-19T11:45:00",
       "location": "Davies Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc2069dbc2b002c8b6f3b",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Homework Help at Sheridan Library (3rd-12th Grade)",
-      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
-      "start": "2026-10-27T15:00:00",
-      "end": "2026-10-27T17:00:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96eff34995480655ed2a5c",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -264,28 +505,6 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Tween Scene (Ages 9-12)",
-      "description": "Looking for a space that’s just for tweens? Tween Scene is a monthly hangout at Eloise May Library where kids ages 9–12 can explore their creativity, build friendships, and have fun with hands-on activities, games, and challenges. Each month features a new theme—from DIY crafts to collaborative projects—designed to spark imagination and fun! This is a drop-in event with no registration required. Because tweens will be invited to enter as space allows, wait times are possible. Expect to spend about one hour with us this experience.",
-      "start": "2026-11-10T16:00:00",
-      "end": "2026-11-10T17:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc8459d27a000454dc8e2",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Sheridan Afterschool Club (Ages 9-12)",
-      "description": "Get moving, make friends, and have fun! Join us each month for exciting activities like obstacle courses, giant games, challenges, and more—indoors or outside (weather permitting). All activities include options for different abilities so everyone can join in. Come play, move, and connect after school! This is a drop-in event with no registration required. Because families will be invited to enter as space allows, wait times are possible. Expect to spend about 90 minutes with us for this experience.",
-      "start": "2026-11-02T15:30:00",
-      "end": "2026-11-02T17:00:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc809035faf0033d97c45",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
       "title": "Music and Movement (Ages 2-5)",
       "description": "Drop by and join us for a fun program that will get kids singing, dancing and exploring musical instruments while also helping them develop motor and listening skills. NO REGISTRATION REQUIRED! Explore these Music and Movement books to help children learn about music and to get them up and moving!",
       "start": "2026-11-23T10:00:00",
@@ -308,12 +527,34 @@
       "extractor": "bibliocommons"
     },
     {
+      "title": "Medicare Basics and Part C Demonstration / Conceptos básicos sobre Medicare",
+      "description": "Navigating Medicare options can be challenging and confusing. Jennifer Martin, community resource specialist for Arapahoe Libraries, will give a presentation on the basics of Medicare parts A, B, C and D. She will also thoroughly explain Medicare Part C as it is the most requested section for assistance. You will be provided with written and visual instructions, tip sheets and other resources for guidance to keep on hand as needed. Spanish interpretation will be provided. To request additional language support, please contact htingey@ald.lib.co.us by October 28. Comprender las opciones de Medicare puede resultar complicado y confuso. Jennifer Martin, especialista en recursos comunitarios de las bibliotecas Arapahoe, ofrecerá una charla sobre los aspectos básicos de las partes A, B, C y D de Medicare. Además, explicará detalladamente la parte C de Medicare, ya que es la sección sobre la que más se solicita ayuda. Se proporcionarán instrucciones escritas y visuales, hojas informativas y otros recursos de utilidad que podrá conservar para consultarlos cuando lo necesite. Before the event begins, we invite you to explore even more that Arapahoe Libraries has to offer. Check out our upcoming adult programs . Visit the Adults’ page to discover staff picks, career and business resources, lists and more. Browse the coming soon page.",
+      "start": "2026-11-06T10:00:00",
+      "end": "2026-11-06T11:30:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6abdbc8e9d27a000454dc644",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
       "title": "Scribble & Giggle (Ages 2-5)",
       "description": "Join us to strengthen prewriting skills through a variety of play-based activities. If your child is starting to scribble, then this will be a great time for them! Gather ideas for prewriting activities to do at home. Drop-ins welcome as space allows.",
       "start": "2026-11-17T10:30:00",
       "end": "2026-11-17T11:30:00",
       "location": "Sheridan Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc2b5035faf0033d97b5f",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Scribble & Giggle (Ages 2-5)",
+      "description": "Join us to strengthen prewriting skills through a variety of play-based activities. If your child is starting to scribble, then this will be a great time for them! Gather ideas for prewriting activities to do at home. Drop-ins welcome as space allows.",
+      "start": "2026-12-15T10:30:00",
+      "end": "2026-12-15T11:30:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b8a49b955d531f7bc1ac",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -341,6 +582,27 @@
       "extractor": "bibliocommons"
     },
     {
+      "title": "English Conversation Circle - Online",
+      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. Registration is required to attend online. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
+      "start": "2026-12-09T13:30:00",
+      "end": "2026-12-09T15:00:00",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b95f035faf0033e0225c",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Avalanche Awareness with Colorado Mountain Club",
+      "description": "Arapahoe Libraries is excited to offer an Avalanche Awareness event with the Colorado Mountain Club! Participants will watch AIARE's short \"Know Before You Go\" awareness video, and then work in teams to decide what kind of outdoor conditions can make a winter activity a go or no-go. This class acts as an accessible starting point to becoming more aware with avalanches. This class does NOT serve as a replacement for more advanced avalanche certification classes. The Colorado Mountain Club (CMC) is a statewide community dedicated to getting people outside, building outdoor skills, and exploring Colorado. Through courses, trips, events, education, and more, CMC creates opportunities for people of all experience levels to learn, connect, and enjoy the outdoors. https://www.cmc.org/about",
+      "start": "2026-11-10T18:00:00",
+      "end": "2026-11-10T19:30:00",
+      "location": "Southglenn Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7e78e06996003a807dec",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
       "title": "Интерактивная театрализованная программа \"Кошкин дом\"",
       "description": "Приглашаем детей от 3 до 7 лет и их родителей на интерактивную сказку на русском языке «Кошкин дом»! Маленьких зрителей ждут театрализованное представление, музыка, игры и весёлые активности. Приходите всей семьёй провести время весело и интереснo. Отправляйтесь в сказочное путешествие вместе с актрисой музыкального театра Татьяной Фёдоровой!",
       "start": "2026-11-07T11:00:00",
@@ -354,10 +616,54 @@
     {
       "title": "Scribble & Giggle (Ages 2-5)",
       "description": "Join us to strengthen prewriting skills through a variety of play-based activities. If your child is starting to scribble, then this will be a great time for them! Gather ideas for prewriting activities to do at home. Drop-ins welcome as space allows.",
+      "start": "2026-12-15T14:00:00",
+      "end": "2026-12-15T15:00:00",
+      "location": "Koelbel Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b89e29c3d6003333937c",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Scribble & Giggle (Ages 2-5)",
+      "description": "Join us to strengthen prewriting skills through a variety of play-based activities. If your child is starting to scribble, then this will be a great time for them! Gather ideas for prewriting activities to do at home. Drop-ins welcome as space allows.",
       "start": "2026-11-17T14:00:00",
       "end": "2026-11-17T15:00:00",
       "location": "Koelbel Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc23796ec3a003ad76d61",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Junior Books and Bricks Club (Ages 5-8)",
+      "description": "Do you love books? Do you love to build? Are you between 5-8 years old? Then join us for Junior Books and Bricks Club! After a interactive read-aloud, we will do a building challenge related to the book. Caregivers are encouraged to stay with us and join in the fun! This program is designed for kids (ages 5-8) based on the skills we'll be practicing or the tools used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age. Manage your event registration through \" My Events \" when signed in to a library account. DISCOVER MORE Explore the fun ideas from this Great Books for Brick Builders List . Visit the Kids Page to discover additional recommendations and resources.",
+      "start": "2026-12-09T16:30:00",
+      "end": "2026-12-09T17:30:00",
+      "location": "Southglenn Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b8cc9b955d531f7bc1ba",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Scribble & Giggle (Ages 2-5)",
+      "description": "Join us to strengthen prewriting skills through a variety of play-based activities. If your child is starting to scribble, then this will be a great time for them! Gather ideas for prewriting activities to do at home. Drop-ins welcome as space allows.",
+      "start": "2026-12-16T18:00:00",
+      "end": "2026-12-16T19:00:00",
+      "location": "Eloise May Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b889de300e00451dfce4",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Tween and Teen Movie Night: Chronicles of Narnia",
+      "description": "Join us for the imaginatively classic film Chronicles of Narnia (Rated PG) Runtime: 143 Minutes The story follows Four British siblings - Peter, Susan, Edmund, and Lucy are evacuated to a countryside estate. While playing a game of hide-and-seek, the youngest sibling, Lucy, discovers a magical wardrobe that acts as a portal to the mystical land of Narnia. We will be in the Forum Theatre at Koelbel Library, film starts promptly at 5:00 PM",
+      "start": "2026-12-30T17:00:00",
+      "end": "2026-12-30T19:45:00",
+      "location": "Koelbel Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b89d96ec3a003ade0fbe",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -379,16 +685,6 @@
       "end": "2026-11-18T19:00:00",
       "location": "Eloise May Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc2859dbc2b002c8b6f40",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Native American Cultures and Traditions",
-      "description": "Get ready to learn, listen, and discover. Join us to explore objects, hear traditional stories and music, and learn about the history and traditions of Native American peoples. Presented by Redhawk Native American Arts Council. Email addresses are required to receive Zoom information. Have questions about attending an online event? Visit Online Event FAQs . Please note, Arapahoe Libraries is based in Colorado and all events are listed in MT (Mountain Time) Manage your event registration through \" My Events \" when signed in to a library account.",
-      "start": "2026-11-25T11:00:00",
-      "end": "2026-11-25T11:45:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe680411bbf300684aa4bb",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -433,6 +729,39 @@
       "end": "2026-12-02T20:00:00",
       "location": "Koelbel Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abed79dc6cddb00459556a5",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Music and Movement (Ages 2-5)",
+      "description": "Drop by and join us for a fun program that will get kids singing, dancing and exploring musical instruments while also helping them develop motor and listening skills. NO REGISTRATION REQUIRED! Explore these Music and Movement books to help children learn about music and to get them up and moving!",
+      "start": "2026-12-21T10:00:00",
+      "end": "2026-12-21T11:00:00",
+      "location": "Kelver Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b87dde300e00451dfcdf",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Plant Propagation | Multiplica tus plantas de interior",
+      "description": "In this program, we will learn how to take cuttings from indoor plants to create new ones. This is an easy way to add many more plants to your home and brighten up your indoor space. We will also cover how to take care of them and what plants work best for propagating. You will also get to take one home! Spanish interpretation will be provided. To request additional language support, please contact Heidi Tingey, htingey@ald.lib.co.us, by November 20. En este programa aprenderemos a tomar esquejes de plantas de interior para crear nuevas plantas. Esta es una excelente manera de añadir más plantas a tu hogar y darle vida a tus espacios interiores. También aprenderemos cómo cuidarlas y qué plantas son las más adecuadas para propagar.¡Además podrás llevarte una a casa! Se ofrecerá interpretación en español. Para solicitar apoyo en otro idioma, comunícate con Heidi Tingey, htingey@ald.lib.co.us , antes del 20 de noviembre. DISCOVER MORE Explore these books and learn techniques for Propagating Plants and Unique Gardening . Before the event begins, we invite you to explore even more that Arapahoe Libraries has to offer. Check out our upcoming adult programs . Visit the Adults’ page to discover staff picks, career and business resources, lists and more. Browse the coming soon page.",
+      "start": "2026-12-04T11:00:00",
+      "end": "2026-12-04T12:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ac79615e06996003a8221f3",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "Family Storytime (All Ages)",
+      "description": "Let's read, sing, rhyme and move together, and lay a foundation for reading and learning! Please reserve spots for each child and adult attending . Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
+      "start": "2026-11-12T10:30:00",
+      "end": "2026-11-12T11:00:00",
+      "location": "Sheridan Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4fa80f4d1423e2ce50e7f",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -515,12 +844,11 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Homework Help at Eloise May Library (3rd-12th Grade)",
-      "description": "Students in grades 3-12 can drop in to receive free homework help in all school subjects. Students are asked to bring their homework assignments and textbooks, if needed. This service is intended to be for general homework help and we do not guarantee individual tutoring support.",
-      "start": "2026-11-03T17:00:00",
-      "end": "2026-11-03T19:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb4de300e004517690f",
+      "title": "Teens Encouraging Activism (AKA TEA Time!) - Virtual Meeting",
+      "description": "Are you a teen who loves thinking of ways to help your community? Join us for our monthly TEA (Teens Encouraging Activism) virtual meeting! We will brainstorm projects to benefit the community and plan activities for our next teen volunteer drop-in hour. Time spent on TEA will count towards volunteer hours. This event is for teens aged 12 - 18. *We are not an approved court ordered volunteer agency and we cannot approve hours for any court ordered service for teens or adults.",
+      "start": "2026-12-16T17:30:00",
+      "end": "2026-12-16T18:30:00",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4ca289dbc2b002c92267e",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -543,6 +871,16 @@
       "end": "2026-11-19T17:00:00",
       "location": "Sheridan Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eadde300e0045176907",
+      "sourceName": "Arapahoe Libraries",
+      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
+      "extractor": "bibliocommons"
+    },
+    {
+      "title": "English Conversation Circle - Online",
+      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. Registration is required to attend online. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
+      "start": "2026-11-25T13:30:00",
+      "end": "2026-11-25T15:00:00",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb229c3d600332ce57b",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -581,12 +919,12 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Plant Propagation | Multiplica tus plantas de interior",
-      "description": "In this program, we will learn how to take cuttings from indoor plants to create new ones. This is an easy way to add many more plants to your home and brighten up your indoor space. We will also cover how to take care of them and what plants work best for propagating. You will also get to take one home! Spanish interpretation will be provided. To request additional language support, please contact Heidi Tingey, htingey@ald.lib.co.us, by November 20. En este programa aprenderemos a tomar esquejes de plantas de interior para crear nuevas plantas. Esta es una excelente manera de añadir más plantas a tu hogar y darle vida a tus espacios interiores. También aprenderemos cómo cuidarlas y qué plantas son las más adecuadas para propagar.¡Además podrás llevarte una a casa! Se ofrecerá interpretación en español. Para solicitar apoyo en otro idioma, comunícate con Heidi Tingey, htingey@ald.lib.co.us , antes del 20 de noviembre. DISCOVER MORE Explore these books and learn techniques for Propagating Plants and Unique Gardening . Before the event begins, we invite you to explore even more that Arapahoe Libraries has to offer. Check out our upcoming adult programs . Visit the Adults’ page to discover staff picks, career and business resources, lists and more. Browse the coming soon page.",
-      "start": "2026-12-04T11:00:00",
-      "end": "2026-12-04T12:00:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ac79615e06996003a8221f3",
+      "title": "Vitalant Blood Drive",
+      "description": "Vitalant provides blood and special services to patients in more than 1,000 hospitals across 40 states. Millions of people in communities throughout these states depend on generous volunteer blood donors and our dedicated team to make sure lifesaving blood is available when and where it is needed. You can schedule an appointment online or Call 877-258-4825 and use the Code DEN5439 for Smoky Hill Library blood drives. Note: Drink plenty of water for 24 hours before your appointment, and eat a healthy low-fat meal within 4 hours of your donation.",
+      "start": "2026-12-17T09:30:00",
+      "end": "2026-12-17T12:45:00",
+      "location": "Smoky Hill Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4a35f29c3d60033338bbd",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -614,20 +952,6 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Baby Storytime (0-24 months)",
-      "description": "Join us for short books, lots of songs and rhymes, and lay a foundation for language and learning! Please register each child and adult attending this storytime. Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
-      "start": "2026-10-27T13:00:00",
-      "end": "2026-10-27T13:30:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ad61e0efee2d21deb244223",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "extractor": "bibliocommons"
-    },
-    {
       "title": "Design a Book Cover with Author-Illustrator Olga Herrera",
       "description": "A lot of thought, planning, and creativity goes into designing the perfect book cover. Join award-winning author-illustrator Olga Herrera, creator of The Unwelcome Surprise, to explore the process behind book covers, from the first sketch to the finished design. Then create your own! Design a cover for a favorite book or an imaginary story, and learn how simple shapes can help you draw just about anything. Email addresses are required to receive Zoom information. Have questions about attending an online event? Visit Online Event FAQs . Writing a book? Check out our Writers’ Resources page for free resources on writing, research and formatting and to submit your original work for publishing. Manage your event registration using \" My Events \" in your library dashboard.",
       "start": "2026-11-05T16:00:00",
@@ -638,44 +962,22 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "May Movie Night",
-      "description": "Come enjoy a night of film fun for adults at Eloise May Library on the first Tuesday of every month! Popcorn and drinks will be provided. For the last movie of every quarterly theme (the movies featured in March, June, September, and December), there will be a craft kit for you to either do during the movie or take home with you! January-March: The Winner Takes It All ( Recent Oscar Award winning movies ) January : The Holdovers – Rated R February : Wicked – Rated PG March : Conclave – Rated PG Craft Kit : Small Clay Trophy Painting Kits April-Ju ne: So Bad It’s Good ( Bad movies that are fun to watch ) April : Troll 2 (1990) – Rated PG-13 May : Moonfall – Rated PG-13 June : Twilight – Rated PG-13 Craft Kit : Moon Puzzle July - September: All Around the World ( Movies from other countries with English subtitles ) July : T rain to Busan (Korean) - Not Rated August : Fear (Bulgarian) - Not Rated September : T he Sea Inside (Spanish) - Rated PG-13 Craft Kit : Scratch Art October-December: Everybody Loves a Classic ( Classic movies from different genres ) October : Suspiria (1977) – Not Rated November : Lord of the Rings: The Fellowship of the Ring - Rated PG-13 December : Clue (1985) – Rated PG Craft Kit : Winter Decorative Bowls",
-      "start": "2026-11-03T17:30:00",
-      "end": "2026-11-03T20:30:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96f0484995480655ed2a61",
+      "title": "TeenAbilities at Koelbel Library: Winter Crafts",
+      "description": "Celebrate the snowy season by making winter-themed crafts! We will 3 crafts you can make during this program: Pinecone owls Sock snow people Winter mugs TeenAbilities programs and activities are developed for teens with disabilities and teens with sensory needs in mind, but all teens are welcome to join us! Please register and let us know if you need any accommodations. When registering, please register for both the teen and caregiver if a caregiver will be joining us. This program is for teens in grades 6-12, ages 11-18.",
+      "start": "2026-12-08T16:30:00",
+      "end": "2026-12-08T17:30:00",
+      "location": "Koelbel Library",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4b9559dbc2b002c92226b",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
     },
     {
-      "title": "Tales at Teatime: Adult Storytime",
-      "description": "Get a warm drink and join us to hear a virtual story. Humor, travel or general fiction, we'll read something entertaining to take your mind off the real world for half an hour. Update to Online Events You will receive an automated reminder that includes the Zoom link approximately 24 hours before the event begins. Have questions about attending an online event? Visit Online Event FAQs . Before the event begins, we invite you to explore even more that Arapahoe Libraries has to offer. Check out our upcoming adult programs . Visit the Adults’ page to discover staff picks, career and business resources, lists and more. Browse the coming soon page .",
-      "start": "2026-11-02T16:00:00",
-      "end": "2026-11-02T16:30:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abdbc7e9dbc2b002c8b6e30",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Read, Build, Create! (Ages 5-8)",
-      "description": "Join us for Read, Build, Create! — a fun, hands-on program designed to spark kids’ imaginations through stories, building, and crafts! Each session begins with a lively read-aloud of a picture book that brings the story to life with expression and excitement. After the story, kids can head to two creative stations: Building Challenge – Build something inspired by the story using your imagination and problem-solving skills. Craft Time – Create a themed art project that strengthens fine motor skills and lets kids take home a piece of the story. From pirate ships to magical animals, each month brings a new theme to explore. Whether you love listening to stories, building with Lego bricks, or making art, this program has something for everyone This program is designed for kids (ages 5-8) based on the skills we'll be practicing or the tools used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age. Manage your event registration through \" My Events \" when signed in to a library account. DISCOVER MORE Explore the fun ideas from this Great Books for Brick Builders List . Visit the Kids Page to discover additional recommendations and resources.",
-      "start": "2026-10-28T16:00:00",
-      "end": "2026-10-28T17:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96d56e29a7dd0d67482f47",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "A Haunted History",
-      "description": "Do you love the supernatural and all things spooky? Is Halloween your favorite holiday? Celebrate the Halloween season with magician and mentalist Erica Sodos. This interactive presentation will blend storytelling, history, humor and astonishing illusions to explore the mysteries of the Victorian Spiritualism era. Together, we’ll delve into spirit communication, tarot, divination and the origins of Halloween in this fun and enchanting program. DISCOVER MORE Join us for these upcoming Halloween events: Friday, October 9: Halloween Tales at Teatime: Adult Storytime Tuesday, October 20: Crows, Crafts & Curiosities Note: This event is intended for adults (ages 18+) based on the topic, material covered, or skills and tools being used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age. Manage your event registration through \" My Events \" when signed in to a library account.",
-      "start": "2026-10-28T17:30:00",
-      "end": "2026-10-28T18:30:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a99960a2dac6e003723cde9",
+      "title": "Native American Cultures and Traditions",
+      "description": "Get ready to learn, listen, and discover. Join us to explore objects, hear traditional stories and music, and learn about the history and traditions of Native American peoples. Presented by Redhawk Native American Arts Council. Email addresses are required to receive Zoom information. Have questions about attending an online event? Visit Online Event FAQs . Please note, Arapahoe Libraries is based in Colorado and all events are listed in MT (Mountain Time) Manage your event registration through \" My Events \" when signed in to a library account.",
+      "start": "2026-11-25T11:00:00",
+      "end": "2026-11-25T11:45:00",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe680411bbf300684aa4bb",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -714,17 +1016,6 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Жизнь Замечательных Людей / The Lives of Remarkable People",
-      "description": "​На этой программе мы встречаемся, чтобы вспомнить и обсудить замечательных и выдающихся личностей: писателей, деятелей культуры и многих других талантливых людей. Присоединяйтесь к нам каждую четвертую среду месяца!",
-      "start": "2026-10-28T11:00:00",
-      "end": "2026-10-28T12:30:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6aa9b9a1ca248a0029160f2a",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
       "title": "Little Explorers (Ages 2-5)",
       "description": "Discover new concepts of science, engineering, math and art with your little explorer. Children ages 2-5 will investigate a different theme each month that combines learning and literacy. Bring your curiosity and get ready to discover, play and learn! Please register each child and adult attending the program. Drop-ins welcome as space allows! This event is designed for kids (ages 2-5) based on the skills we'll be practicing or the tools used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age. Manage your event registration through \" My Events \" when signed in to a library account. DISCOVER MORE Running of out books to read? A sk a librarian for even more personalized recommendations! Visit the Kids Page to discover additional recommendations and resources.",
       "start": "2026-11-18T10:00:00",
@@ -736,23 +1027,12 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Toddler Storytime (Ages 2-3)",
-      "description": "Join us for short books, lots of songs and rhymes, and lay a foundation for language and learning! Please reserve spots for each child and adult attending . Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
-      "start": "2026-10-27T09:30:00",
-      "end": "2026-10-27T10:00:00",
+      "title": "A Culinary Journey Through Italy",
+      "description": "Join Monica Kadillak of Kadillak Kitchens as she takes us on a journey to the tastes of Italy. Italy's cuisine is a rich tradition focused on fresh, high-quality ingredients, regional diversity and simple preparations. During this presentation, you'll sample a variety of Italian specialties while learning about the dishes and the culinary traditions behind them. Recipes & samples will be provided. Note: This event is intended for adults (ages 18+) based on the topic, material covered, or skills and tools being used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age. Manage your event registration through \" My Events \" when signed in to a library account.",
+      "start": "2026-12-15T18:30:00",
+      "end": "2026-12-15T19:30:00",
       "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ad61d05de300e00451b5d8f",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Koelbel Kids (Ages 5-8)",
-      "description": "Join us to read, play and create at the library! In this program, kids ages 5-8 and their grown-ups will listen to stories and strengthen language comprehension skills through exploratory play, games, and crafts. Please register each child attending this program . Drop-ins welcome as space allows! This program is designed for kids (ages 5-8) and their adults based on the skills we'll be practicing or the tools used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age.",
-      "start": "2026-11-04T16:00:00",
-      "end": "2026-11-04T17:00:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abdc3e89dbc2b002c8b6f68",
+      "url": "https://arapahoelibraries.bibliocommons.com/events/6ae4a35bf9d28050ccafe259",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -771,32 +1051,10 @@
     {
       "title": "English Conversation Circle",
       "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. No registration required. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. No registration is required. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
-      "start": "2026-11-03T18:00:00",
-      "end": "2026-11-03T19:30:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7ea2e06996003a807e25",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "English Conversation Circle",
-      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. No registration required. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. No registration is required. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
       "start": "2026-11-25T13:30:00",
       "end": "2026-11-25T15:00:00",
       "location": "Eloise May Library",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6ac54cd4de300e004518a648",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Technology Basics",
-      "description": "Learn the basics of using a computer, the internet, and email and how to remain safe online in 5 easy classes! Each class will be taught in English. Please be aware some classes might go a little over-time . Please make sure you register for each class listed below that you are interested in. Registering for one class will not automatically register you for the other classes. October 14: Computer Basics: Part 1 Learn the basics on how to use the keyboard and mouse and navigate the computer desktop. October 21: Computer Basics: Part 2 Learn how to create and manage files and folders and maintain your computer. October 28: Internet Basics Learn how to use Google and how to navigate around websites. November 4: Email Basics Learn how to set up and use a Gmail email account. November 18: Online Safety Basics Learn how to be safer online with accounts/passwords and an overview of frauds/scams. There will be no class on November 11 due to a Veteran’s Day Library Closure",
-      "start": "2026-11-04T10:00:00",
-      "end": "2026-11-04T11:30:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7ea0de300e00451768fe",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"
@@ -813,250 +1071,11 @@
       "extractor": "bibliocommons"
     },
     {
-      "title": "Koelbel Fiction Book Club",
-      "description": "Join us to discuss The Correspondent byVirginia Evans Check out our 2026 selections",
-      "start": "2026-10-27T18:30:00",
-      "end": "2026-10-27T19:30:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a70a85c9006f75353149adb",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Fright Night: How to Write Scary Stories",
-      "description": "Spooky season is here! The days are getting shorter, jack-o'-lanterns grin from front porches, and 12-foot skeletons are taking over neighborhoods everywhere. There's no better time to write something that sends a chill down your reader's spine. Join award-winning author and playwright Marty Chan for an interactive workshop on crafting unforgettable scary stories. Through fun writing games, brainstorming exercises, and practical storytelling techniques, you'll learn how to create stories that linger long after the last page. Email addresses are required to receive Zoom information. Have questions about attending an online event? Visit Online Event FAQs . Writing a book? Check out our Writers’ Resources page for free resources on writing, research and formatting and to submit your original work for publishing. Manage your event registration through \" My Events \" when signed in to a library account.",
-      "start": "2026-10-29T16:30:00",
-      "end": "2026-10-29T17:30:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96dad236204e08fbb8b6b5",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
       "title": "Books on Tap at Home",
       "description": "Join us this month to discuss Buckeye by Patrick Ryan. Check out our 2026 selections.",
       "start": "2026-11-18T19:00:00",
       "end": "2026-11-18T20:00:00",
       "url": "https://arapahoelibraries.bibliocommons.com/events/6a96f031e1fb8f13578b802e",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Books on Tap at Home",
-      "description": "Join us this month to discuss The Names by Florence Knapp. Check out our 2026 selections.",
-      "start": "2026-12-16T19:00:00",
-      "end": "2026-12-16T20:00:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6aa1b859a5dbde002aa30ece",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Preschool Storytime (Ages 4-6)",
-      "description": "Join us for short books, lots of songs and rhymes, and lay a foundation for language and learning! Please reserve spots for each child and adult attending . Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
-      "start": "2026-10-30T10:30:00",
-      "end": "2026-10-30T11:00:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ad637f329c3d6003330f39a",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Preschool Storytime (Ages 4-6)",
-      "description": "Join us for short books, lots of songs and rhymes, and lay a foundation for language and learning! Please register each child and adult attending this storytime. Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
-      "start": "2026-10-29T10:30:00",
-      "end": "2026-10-29T11:00:00",
-      "location": "Smoky Hill Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ad63651fee2d21deb2449e6",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Tribute Survival Training",
-      "description": "Think you have what it takes to survive the arena? Celebrate the newest Hunger Games movie with Colorado Mountain Club and take on a series of hands-on survival challenges. Learn how to build a shelter, navigate using your senses, send rescue signals, and camouflage yourself like a true tribute. Note: This event is designed for teens (ages 12-18) based on the skills we'll be practicing or the tools used. Offering age-appropriate programming allows us to craft memorable and personalized experiences for all our patrons, no matter their age . Manage your event registration using \" My Events \" in your library dashboard.",
-      "start": "2026-11-16T16:30:00",
-      "end": "2026-11-16T17:30:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7e569abb62002c6b7473",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Koelbel Library Volunteer Drop-In for Teens",
-      "description": "Are you a teen in grades 7-12 who needs to earn volunteer hours? Are you looking for a way to have fun while helping out? Check out this opportunity to earn some volunteer hours while supporting library programming and services. We will have a variety of prep work and other activities for teens to help with, including testing crafts! Teens can stay the full time or part of the time, and will earn volunteer credit for the hours they attend the program. If you have any paperwork you need filled out, please bring it with you. If you have other verification needs, please contact us. This volunteer program is for teens in grades 7-12, and will take place at Koelbel Library in Centennial, CO. We are not an approved court ordered volunteer agency and we cannot approve hours for any court ordered service for teens or adults.",
-      "start": "2026-11-14T14:00:00",
-      "end": "2026-11-14T17:00:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7e5dde300e00451768e4",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Bilingual (English/Spanish) Family Storytime at Home",
-      "description": "Please join us Tuesday morning at 10 am for a storytime from the comfort of your home. Let's read a book, sing songs and spend time together while we are apart! Acompáñanos el martes a las 10 de la mañana para una hora de cuentos desde la comodidad de su casa! Vamos a leer un libro, cantar unas canciones y pasar el tiempo juntos mientras estamos separados. This event will be hosted on Arapahoe Libraries YouTube channel Tuesdays at 10 am. Este evento se puede ver en el canal de YouTube de las bibliotecas de Arapahoe en martes a las 10 de la mañana.",
-      "start": "2026-11-10T10:00:00",
-      "end": "2026-11-10T10:15:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6aa80fc03dd190003e71d099",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Technology Basics",
-      "description": "Learn the basics of using a computer, the internet, and email and how to remain safe online in 5 easy classes! Each class will be taught in English. Please be aware some classes might go a little over-time . Please make sure you register for each class listed below that you are interested in. Registering for one class will not automatically register you for the other classes. October 14: Computer Basics: Part 1 Learn the basics on how to use the keyboard and mouse and navigate the computer desktop. October 21: Computer Basics: Part 2 Learn how to create and manage files and folders and maintain your computer. October 28: Internet Basics Learn how to use Google and how to navigate around websites. November 4: Email Basics Learn how to set up and use a Gmail email account. November 18: Online Safety Basics Learn how to be safer online with accounts/passwords and an overview of frauds/scams. There will be no class on November 11 due to a Veteran’s Day Library Closure",
-      "start": "2026-10-28T10:00:00",
-      "end": "2026-10-28T11:30:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96ef91392e9c02993d3dcc",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Toddler Storytime (Ages 2-3)",
-      "description": "Let's read, sing, rhyme and move together, and lay a foundation for reading and learning! Please register each child and adult attending this storytime. Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
-      "start": "2026-10-29T09:30:00",
-      "end": "2026-10-29T10:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ad62eb7de300e00451b6335",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "English Conversation Circle",
-      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. No registration required. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. No registration is required. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
-      "start": "2026-11-17T18:00:00",
-      "end": "2026-11-17T19:30:00",
-      "location": "Sheridan Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7ea2e06996003a807e27",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Smoky Hill Afternoon Book Club",
-      "description": "We'll talk about by Articulate by Rachel Kolb. Our list of books for the year is here !",
-      "start": "2026-11-18T14:00:00",
-      "end": "2026-11-18T15:00:00",
-      "location": "Smoky Hill Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96f03581e9d60947cd3b4a",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Nonfiction Book Club",
-      "description": "Join us to talk about Vanderbilt by Anderson Cooper. The list of books for this year is here.",
-      "start": "2026-12-03T18:30:00",
-      "end": "2026-12-03T19:30:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7f79e06996003a807e75",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Kelver Adult Book Club",
-      "description": "Let's talk about Before the Coffee Gets Cold by Toshikazu Kawaguchi. This book club meets at our library in Byers, Colorado. The list of books we'll talk about this year is here.",
-      "start": "2026-12-08T18:00:00",
-      "end": "2026-12-08T19:00:00",
-      "location": "Kelver Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7f7629c3d600332ce5ad",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Smoky Hill Afternoon Book Club",
-      "description": "We'll talk about by The Book Club for Troublesome Women by Marie Bostwick. Our list of books for the year is here !",
-      "start": "2026-12-09T14:00:00",
-      "end": "2026-12-09T15:00:00",
-      "location": "Smoky Hill Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7f75e06996003a807e71",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Davies Adult Book Club",
-      "description": "Join us to talk about Comfort & Joy by Kristin Hannah. This in-person book club meets at our library in Deer Trail, Colorado. The list of books for the year is listed here .",
-      "start": "2026-12-21T18:00:00",
-      "end": "2026-12-21T19:00:00",
-      "location": "Davies Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7f6f9abb62002c6b7493",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Koelbel Fiction Book Club",
-      "description": "Join us to discuss The Lost Ticket by Freya Sampson. Check out our 2026 selections",
-      "start": "2026-12-22T18:30:00",
-      "end": "2026-12-22T19:30:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7f699abb62002c6b748d",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "English Conversation Circle - Online",
-      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. Registration is required to attend online. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
-      "start": "2026-11-18T13:30:00",
-      "end": "2026-11-18T15:00:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb229c3d600332ce579",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "English Conversation Circle - Online",
-      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. Registration is required to attend online. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
-      "start": "2026-11-25T13:30:00",
-      "end": "2026-11-25T15:00:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb229c3d600332ce57b",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "English Conversation Circle - Online",
-      "description": "Practice your English skills and learn about the American culture. Speak with others who are learning the English language. Increase confidence with the English language and American culture. English conversation circles are also available via the Zoom platform on Mondays 6:30-8 pm and Wednesdays (except for the 1st Wednesday of the month), 1:30–3 pm. Registration is required to attend online. For information, contact Jessica Keemle at 720-235-8752 or jessica.keemle@thelearningsource.org. English Conversation Circles Flyer in English English Conversation Circles Flyer in Spanish English Conversation Circles Flyer in Russian English Conversation Circles Flyer in Arabic",
-      "start": "2026-11-16T18:30:00",
-      "end": "2026-11-16T20:00:00",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6abe7eb229c3d600332ce578",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Baby Storytime (0-24 months)",
-      "description": "Join us for short books, lots of songs and rhymes, and lay a foundation for language and learning! Please register each child and adult attending this storytime. Drop-ins welcome as space allows! Sensory Support Kits are available for in-library use for children experiencing anxiety or feeling overwhelmed in a public space.",
-      "start": "2026-10-29T09:30:00",
-      "end": "2026-10-29T10:00:00",
-      "location": "Koelbel Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6ad62cf3de300e00451b61e3",
-      "sourceName": "Arapahoe Libraries",
-      "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
-      "extractor": "bibliocommons"
-    },
-    {
-      "title": "Компьютер для начинающих. Часть 3 / Computer Basics Part 3",
-      "description": "Основы использования интернета Узнайте, как пользоваться интернетом: открывать сайты, переходить по ссылкам и безопасно искать информацию. Занятие поможет вам уверенно ориентироваться онлайн и находить нужные ресурсы для повседневной жизни.",
-      "start": "2026-10-29T12:30:00",
-      "end": "2026-10-29T14:00:00",
-      "location": "Eloise May Library",
-      "url": "https://arapahoelibraries.bibliocommons.com/events/6a96ef8b81e9d60947cd3b08",
       "sourceName": "Arapahoe Libraries",
       "sourceUrl": "https://arapahoelibraries.bibliocommons.com/events",
       "extractor": "bibliocommons"

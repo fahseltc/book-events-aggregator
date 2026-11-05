@@ -1,8 +1,8 @@
 {
   "source": "Burning Through Pages",
   "sourceUrl": "https://burningthroughpages.org/events/",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
-  "count": 1,
+  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "count": 2,
   "events": [
     {
       "title": "The Boozy Book Fair – Castle Rock Edition",
@@ -11,6 +11,17 @@
       "end": "2026-11-08T18:00:00",
       "location": "Sinners & Saints — 221 Perry Street, Castle Rock, CO, 80104",
       "url": "https://burningthroughpages.org/event/the-boozy-book-fair-castle-rock-edition-2/",
+      "sourceName": "Burning Through Pages",
+      "sourceUrl": "https://burningthroughpages.org/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Spelling Bee(r) @ Velvet Lasso",
+      "description": "Come grab a drink and spell some words with us! We’re bringing Spelling Bee(r) back to Velvet Lasso! Join us for a fun, casual night of spelling, cocktails, prizes, and plenty of cheering—all benefiting Burning Through Pages youth literacy programs. 🎟 Want to spell? Competitor tickets are $10, with just 20 spots available. Rather watch? Come hang out and cheer on the spellers! Watching is FREE—no ticket needed. PRIZES First place takes home a prize package, including a $25 Velvet Lasso gift card, with prizes for second and third place too. DRINK FOR A GOOD CAUSE Velvet Lasso is generously donating 10% of bar sales during the event to Burning Through Pages. No spelling expertise required. Come sip a cocktail, laugh at some tricky words, and support young readers while you’re at it. 21+ only.",
+      "start": "2026-11-19T18:30:00",
+      "end": "2026-11-19T20:00:00",
+      "location": "Velvet Lasso — 3254 Navajo St Suite 100, Denver, CO, 80211",
+      "url": "https://burningthroughpages.org/event/spelling-beer-velvet-lasso-2/",
       "sourceName": "Burning Through Pages",
       "sourceUrl": "https://burningthroughpages.org/events/",
       "extractor": "tribe"

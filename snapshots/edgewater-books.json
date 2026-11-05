@@ -1,13 +1,22 @@
 {
   "source": "Edgewater Books",
   "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "capturedAt": "2026-11-05T23:14:53.385Z",
   "count": 4,
   "events": [
     {
       "title": "Writing group",
       "description": "Wednesday, 7-9 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! The Edgewater Books writing group meets on the second Wednesday and fourth Friday of every month. What to expect at each meeting: A few minutes of chit chat to catch up, 15 minutes to go over personal goals for the day and the day’s optional writing prompt, two 45-minute writing sprints, and 15 to 30 minutes to read aloud, ask questions, and give feedback. No requirements to join, just an interest in writing and community!",
-      "start": "2027-10-14T19:00:00",
+      "start": "2026-11-11T19:00:00",
+      "url": "https://edgewaterbooksofcolorado.com/events/",
+      "sourceName": "Edgewater Books",
+      "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
+      "extractor": "heuristic"
+    },
+    {
+      "title": "Book club “Fire Keeper’s Daughter”",
+      "description": "Sunday 11/15, 5:30-6:30 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! From Bookshop.org : Eighteen-year-old Daunis Fontaine has never quite fit in, both in her hometown and on the nearby Ojibwe reservation. She dreams of a fresh start at college, but when family tragedy strikes, Daunis puts her future on hold to look after her fragile mother. The only bright spot is meeting Jamie, the charming new recruit on her brother Levi’s hockey team. Yet even as Daunis falls for Jamie, she senses the dashing hockey star is hiding something. Everything comes to light when Daunis witnesses a shocking murder, thrusting her into an FBI investigation of a lethal new drug.",
+      "start": "2026-11-15T17:30:00",
       "url": "https://edgewaterbooksofcolorado.com/events/",
       "sourceName": "Edgewater Books",
       "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
@@ -16,25 +25,16 @@
     {
       "title": "Writing group",
       "description": "Friday, 10 a.m.- 12 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! The Edgewater Books writing group meets on the second Wednesday and fourth Friday of every month. What to expect at each meeting: A few minutes of chit chat to catch up, 15 minutes to go over personal goals for the day and the day’s optional writing prompt, two 45-minute writing sprints, and 15 to 30 minutes to read aloud, ask questions, and give feedback. No requirements to join, just an interest in writing and community!",
-      "start": "2027-10-23T10:00:00",
+      "start": "2026-11-20T10:00:00",
       "url": "https://edgewaterbooksofcolorado.com/events/",
       "sourceName": "Edgewater Books",
       "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
       "extractor": "heuristic"
     },
     {
-      "title": "Book club “The Art Thief”",
-      "description": "Sunday 10/25, 5:30-6:30 p.m. Edgewater Books inside Edgewater Public Market No RSVP needed — all are welcome! From Bookshop.org : Stéphane Bréitwieser is the most prolific art thief of all time. He pulled off more than 200 heists, often in crowded museums in broad daylight.",
-      "start": "2026-10-25T17:30:00",
-      "url": "https://edgewaterbooksofcolorado.com/events/",
-      "sourceName": "Edgewater Books",
-      "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",
-      "extractor": "heuristic"
-    },
-    {
-      "title": "ACOTAR 6 BOOK RELEASE PARTY AND BINGO NIGHT",
-      "description": "Tuesday, 6 – 8 p.m. Barquentine Brewing Co. inside Edgewater Public Market Free to attend — RSVP required",
-      "start": "2026-10-27T18:00:00",
+      "title": "Edgewater Books Anniversary Celebration!",
+      "description": "Sunday, 12-5 p.m. Edgewater Books inside Edgewater Public Market Edgewater Books turns 4 on Sunday November 22! On our birthday we love to give YOU, our customers who have helped our business thrive these four years, a gift! Stop in to the shop during business hours for a sweet treat, games, special offers and giveaways! We are so grateful to everyone who chooses to shop small and support independent bookstores like ours! We hope to see you at our celebration!",
+      "start": "2026-11-22T12:00:00",
       "url": "https://edgewaterbooksofcolorado.com/events/",
       "sourceName": "Edgewater Books",
       "sourceUrl": "https://edgewaterbooksofcolorado.com/events/",

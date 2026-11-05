@@ -1,414 +1,9 @@
 {
   "source": "Aurora Public Library",
   "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-  "capturedAt": "2026-10-27T03:56:58.060Z",
+  "capturedAt": "2026-11-05T23:14:53.385Z",
   "count": 500,
   "events": [
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2026-10-27T10:15:00",
-      "url": "https://auroraco.libnet.info/event/14420847",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for adults with I/DD and caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
-      "start": "2026-10-27T10:30:00",
-      "url": "https://auroraco.libnet.info/event/14893875",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
-      "start": "2026-10-27T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17098274",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Learn & Play",
-      "description": "Following Storytime, join us for a freeform craft or activity during play group time, and connect with other parents and caregivers!",
-      "start": "2026-10-27T11:00:00",
-      "url": "https://auroraco.libnet.info/event/17420824",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Book of the Month Club",
-      "description": "Try out a new book and join us for tea and snacks to tell us what you think! October: The House Riverton by Katy Morton",
-      "start": "2026-10-27T12:30:00",
-      "url": "https://auroraco.libnet.info/event/16894833",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Think Like A Haunted Scientist",
-      "description": "Enjoy a variety of spooky experiments with Think Like a Scientist.",
-      "start": "2026-10-27T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17406610",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "STEAM Club",
-      "description": "Explore science, technology, engineering, art, or math! 10/6: PROS Naturalists - Bats 10/13: STEMsters - Ramp Racers 10/20: Spider Webs 10/27: Creepy Chemistry",
-      "start": "2026-10-27T16:30:00",
-      "url": "https://auroraco.libnet.info/event/15450249",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime - Ages 0-2",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2026-10-28T10:15:00",
-      "url": "https://auroraco.libnet.info/event/14420967",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Read and Play",
-      "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
-      "start": "2026-10-28T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17604966",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Between the Notes",
-      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
-      "start": "2026-10-28T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17506911",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "English and Spanish Beginner Computer Classes",
-      "description": "Come to the Library and learn how to use a computer in a bilingual Class! Vengan a la biblioteca a aprender como usar una computadora en una clase de las dos idomas!",
-      "start": "2026-10-28T16:30:00",
-      "url": "https://auroraco.libnet.info/event/16975190",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Toddler Storytime - Ages 2-5",
-      "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-5 and their caregivers.",
-      "start": "2026-10-29T10:15:00",
-      "url": "https://auroraco.libnet.info/event/14421068",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tinker Tots Workshop",
-      "description": "Explore STEAM with your preschooler!",
-      "start": "2026-10-29T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17108559",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Adult Writing Group",
-      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
-      "start": "2026-10-29T16:30:00",
-      "url": "https://auroraco.libnet.info/event/16975147",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Fall Storytime and Candy Parade",
-      "description": "Celebrate fall with an autumn-themed storytime followed by a candy parade around the Central Library. Costumes are optional.",
-      "start": "2026-10-30T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17400235",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
-      "start": "2026-10-30T14:30:00",
-      "url": "https://auroraco.libnet.info/event/17510996",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Chess Club",
-      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
-      "start": "2026-10-30T16:00:00",
-      "url": "https://auroraco.libnet.info/event/15450366",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Makerspace: Pop-Up Halloween Cards",
-      "description": "Make your own pop-up Halloween cards to give out to friends or keep as festive decorations. For ages 8 and up.",
-      "start": "2026-10-30T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17492257",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Teen & Tween Crow Party",
-      "description": "Dress as a crow (or in black), bring trinkets to trade, do corvid crafts, enjoy themed snacks, get your tarot read, and more! Best crow costume will be awarded the coveted Crow Crown! Ca Caw!!",
-      "start": "2026-10-30T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17495187",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Lyn A. Buti, TBoli Tradition Bearer",
-      "description": "Discover T'bioli culture",
-      "start": "2026-10-30T18:00:00",
-      "url": "https://auroraco.libnet.info/event/17118668",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "All Ages Storytime",
-      "description": "Saturday, October 31 2026 10:15am - 10:45am",
-      "start": "2026-10-31T10:15:00",
-      "url": "https://auroraco.libnet.info/event/15665340",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Halloween Storytime & Costume Parade",
-      "description": "Join us for a Halloween Storytime in front of the fireplace before showing off your costume in the library and getting treats (not tricks!) Registration opens two weeks before event due to space.",
-      "start": "2026-10-31T10:15:00",
-      "url": "https://auroraco.libnet.info/event/15719110",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Early Literacy Playgroup",
-      "description": "Join us for a fun playgroup in the youth area.",
-      "start": "2026-10-31T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17366008",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Halloween Storytime & Costume Parade",
-      "description": "Join us for a Halloween Storytime in front of the fireplace before showing off your costume in the library and getting treats (not tricks!) Registration opens two weeks before event due to space.",
-      "start": "2026-10-31T11:15:00",
-      "url": "https://auroraco.libnet.info/event/15719149",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "DnD - 4-Hour Block",
-      "description": "Role-play alongside fellow players and our Dungeon Masters in a tabletop collaborative storytelling game! Please arrive before 10:30am for character creation.",
-      "start": "2026-10-31T12:00:00",
-      "url": "https://auroraco.libnet.info/event/15072528",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "DnD - Early Block",
-      "description": "Role-play alongside fellow players and our Dungeon Masters in a tabletop collaborative storytelling game! Please arrive by 10:30am for character creation.",
-      "start": "2026-10-31T12:00:00",
-      "url": "https://auroraco.libnet.info/event/15072562",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Conchas con Chisme",
-      "description": "Vengan todos a comer y chismear! Come all to eat and gossip and practice your Spanish!",
-      "start": "2026-10-31T12:00:00",
-      "url": "https://auroraco.libnet.info/event/16975348",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Teaches Tarot",
-      "description": "Ever wanted to learn the history and use of the item Tarot cards? Join a seven-week workshop series on Tarot! Pop in for one class or take all seven.",
-      "start": "2026-10-31T13:30:00",
-      "url": "https://auroraco.libnet.info/event/15449977",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "DnD - Later Block",
-      "description": "Role-play alongside fellow players and our Dungeon Masters in a tabletop collaborative storytelling game! Please arrive before 12:30pm for character creation.",
-      "start": "2026-10-31T14:00:00",
-      "url": "https://auroraco.libnet.info/event/15072587",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Beginner's Acrylic Painting",
-      "description": "Every Last Saturday, Follow step-by-step instructions and create a beautiful landscape.",
-      "start": "2026-10-31T15:00:00",
-      "url": "https://auroraco.libnet.info/event/15101169",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Art Museum Workshop!",
-      "description": "Join a representative from the Denver Art Museum for a hands-on art workshop about our featured exhibit!",
-      "start": "2026-11-02T10:00:00",
-      "url": "https://auroraco.libnet.info/event/17660267",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "English Conversation Class",
-      "description": "Join us weekly every Monday to practice speaking and listening with others in English. Classes are free and no registration is needed.",
-      "start": "2026-11-02T16:30:00",
-      "url": "https://auroraco.libnet.info/event/14502436",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2026-11-03T10:15:00",
-      "url": "https://auroraco.libnet.info/event/14420848",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for adults with I/DD and caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
-      "start": "2026-11-03T10:30:00",
-      "url": "https://auroraco.libnet.info/event/14893876",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
-      "start": "2026-11-03T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17098275",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Learn & Play",
-      "description": "Following Storytime, join us for a freeform craft or activity during play group time, and connect with other parents and caregivers!",
-      "start": "2026-11-03T11:00:00",
-      "url": "https://auroraco.libnet.info/event/17420825",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Non-Fiction Book Club",
-      "description": "Join us the 1st Tuesday of every month for a lively book discussion. November's book: Demon of Unrest, Erik Larson",
-      "start": "2026-11-03T13:00:00",
-      "url": "https://auroraco.libnet.info/event/14502672",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "STEAM Club",
-      "description": "Explore science, technology, engineering, art, or math!",
-      "start": "2026-11-03T16:30:00",
-      "url": "https://auroraco.libnet.info/event/15471708",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Cookbook Club",
-      "description": "Join our monthly cookbook potluck! This month, pick a recipe from Bonnie Frumkin Morales' Kachka: A Return to Russian Cooking, make it at home, and join us to share delicious food and conversation.",
-      "start": "2026-11-03T17:00:00",
-      "url": "https://auroraco.libnet.info/event/16089041",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime - Ages 0-2",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2026-11-04T10:15:00",
-      "url": "https://auroraco.libnet.info/event/14420968",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Grief and Loss Support Group",
-      "description": "A free, monthly gathering for adults grieving a loss, offering connection, support, and moments of warmth along the way.",
-      "start": "2026-11-04T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17289165",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tech 101",
-      "description": "Learn the basics of computer use and navigation or improve your skills!",
-      "start": "2026-11-04T15:00:00",
-      "url": "https://auroraco.libnet.info/event/15770257",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Between the Notes",
-      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
-      "start": "2026-11-04T16:00:00",
-      "url": "https://auroraco.libnet.info/event/15471788",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Read and Play",
-      "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
-      "start": "2026-11-04T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17604971",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Black Cowboys in Colorado with Acoma Gaither",
-      "description": "Explore the stories and histories of Black cowboys in Colorado and the American West.",
-      "start": "2026-11-04T18:00:00",
-      "url": "https://auroraco.libnet.info/event/17132127",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
     {
       "title": "Toddler Storytime - Ages 2-5",
       "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-5 and their caregivers.",
@@ -446,19 +41,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Adult Writing Group",
-      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
+      "title": "Ceramic Figurine Painting",
+      "description": "Paint a cute ceramic animal that you can keep.",
       "start": "2026-11-05T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17300666",
+      "url": "https://auroraco.libnet.info/event/17388199",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Ceramic Figurine Painting",
-      "description": "Paint a cute ceramic animal that you can keep.",
+      "title": "Adult Writing Group",
+      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2026-11-05T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17388199",
+      "url": "https://auroraco.libnet.info/event/17300666",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -527,7 +122,7 @@
       "extractor": "rss"
     },
     {
-      "title": "IN-BE-TWEEN AND TEEN DIG PRESENTS: ASHIA AJANIA",
+      "title": "IN-BE-TWEEN AND TEEN DIG PRESENTS: ASHIA AJANI",
       "description": "Join local author Ashia Ajania in a nature journaling workshop!",
       "start": "2026-11-06T16:30:00",
       "url": "https://auroraco.libnet.info/event/17699483",
@@ -585,6 +180,15 @@
       "description": "Earn volunteer hours while serving your community, providing advisory feedback, and making new friends!",
       "start": "2026-11-07T15:00:00",
       "url": "https://auroraco.libnet.info/event/16676010",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "English Conversation Class",
+      "description": "Practice speaking and listening with others in English. Free walk-in class.",
+      "start": "2026-11-07T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17773474",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -717,7 +321,7 @@
     },
     {
       "title": "STEAM Club",
-      "description": "Explore science, technology, engineering, art, or math!",
+      "description": "Explore science, technology, engineering, art, or math! 11/3: LEGOS - Shadow Puppets 11/10: Stemsters - Cup Phone 11/17: Germs and Bacteria 11/24: Scattership",
       "start": "2026-11-10T16:30:00",
       "url": "https://auroraco.libnet.info/event/15471709",
       "sourceName": "Aurora Public Library",
@@ -762,7 +366,7 @@
     },
     {
       "title": "People of the Sacred Land Event",
-      "description": "Join the makers of the new documentary \"People of the Sacred Land\" as they share their work. Refreshments included.",
+      "description": "Doors open at 11:30. Film begins at 12pm Join the makers of the new documentary \"People of the Sacred Land\" as they share their work. Refreshments included.",
       "start": "2026-11-12T11:30:00",
       "url": "https://auroraco.libnet.info/event/17383913",
       "sourceName": "Aurora Public Library",
@@ -880,8 +484,8 @@
     {
       "title": "Black Cats",
       "description": "A celebration and adoption event",
-      "start": "2026-11-13T14:00:00",
-      "url": "https://auroraco.libnet.info/event/17599946",
+      "start": "2026-11-13T14:30:00",
+      "url": "https://auroraco.libnet.info/event/17821791",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1031,6 +635,15 @@
       "extractor": "rss"
     },
     {
+      "title": "English Conversation Class",
+      "description": "Practice speaking and listening with others in English. Free walk-in class.",
+      "start": "2026-11-14T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17773517",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Mexica Instrument Experience",
       "description": "Live musical performance and teach-in about indigenous instruments from Mexico.",
       "start": "2026-11-14T18:00:00",
@@ -1140,7 +753,7 @@
     },
     {
       "title": "STEAM Club",
-      "description": "Explore science, technology, engineering, art, or math!",
+      "description": "Explore science, technology, engineering, art, or math! 11/3: LEGOS - Shadow Puppets 11/10: Stemsters - Cup Phone 11/17: Germs and Bacteria 11/24: Scattership",
       "start": "2026-11-17T16:30:00",
       "url": "https://auroraco.libnet.info/event/15471710",
       "sourceName": "Aurora Public Library",
@@ -1238,19 +851,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Shrinky Dinks",
-      "description": "Draw or trace a design onto special plastic paper then watch it melt and shrink into a hard plastic keychain you can keep!",
+      "title": "Eat that Movie",
+      "description": "Learn to make a cozy stew inspired by a holiday classic! Ages 12-17",
       "start": "2026-11-18T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17386839",
+      "url": "https://auroraco.libnet.info/event/17152829",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Eat that Movie",
-      "description": "Learn to make a cozy stew inspired by a holiday classic! Ages 12-17",
+      "title": "Shrinky Dinks",
+      "description": "Draw or trace a design onto special plastic paper then watch it melt and shrink into a hard plastic keychain you can keep!",
       "start": "2026-11-18T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17152829",
+      "url": "https://auroraco.libnet.info/event/17386839",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1319,19 +932,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Adult Writing Group",
-      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
+      "title": "Teen Advisory Group (TAG)",
+      "description": "Advise library staff on what events would be fun for teens while earning volunteer time.",
       "start": "2026-11-19T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17300668",
+      "url": "https://auroraco.libnet.info/event/17388371",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Teen Advisory Group (TAG)",
-      "description": "Advise library staff on what events would be fun for teens while earning volunteer time.",
+      "title": "Adult Writing Group",
+      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2026-11-19T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17388371",
+      "url": "https://auroraco.libnet.info/event/17300668",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1508,6 +1121,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Egnlish Conversation Class",
+      "description": "Practice speaking and listening with others in English. Free walk-in class.",
+      "start": "2026-11-21T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17773531",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Seed Mosaic Free-Craft",
       "description": "Enjoy a self-guided autumn craft in Hoffman's Makerspace!",
       "start": "2026-11-23T10:00:00",
@@ -1521,15 +1143,6 @@
       "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
       "start": "2026-11-23T10:30:00",
       "url": "https://auroraco.libnet.info/event/14510970",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Mature Living Truth",
-      "description": "Join us for this free seminar and learn how others just like you have improved their lives by following these simple downsizing strategies.",
-      "start": "2026-11-23T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17335754",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1653,7 +1266,7 @@
     },
     {
       "title": "STEAM Club",
-      "description": "Explore science, technology, engineering, art, or math!",
+      "description": "Explore science, technology, engineering, art, or math! 11/3: LEGOS - Shadow Puppets 11/10: Stemsters - Cup Phone 11/17: Germs and Bacteria 11/24: Scattership",
       "start": "2026-11-24T16:30:00",
       "url": "https://auroraco.libnet.info/event/15471711",
       "sourceName": "Aurora Public Library",
@@ -1715,19 +1328,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Clay Club",
-      "description": "Make creatures using a special clay that dries quickly into figurines you get to keep.",
+      "title": "English and Spanish Beginner Computer Classes",
+      "description": "¡Ven a la biblioteca a aprender cómo usar una computadora en una clase en dos idiomas! Repasaremos algunos conceptos básicos para usar una computadora, y haremos algunos ejercicios prácticos.",
       "start": "2026-11-25T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17387397",
+      "url": "https://auroraco.libnet.info/event/17300207",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "English and Spanish Beginner Computer Classes",
-      "description": "¡Ven a la biblioteca a aprender cómo usar una computadora en una clase en dos idiomas! Repasaremos algunos conceptos básicos para usar una computadora, y haremos algunos ejercicios prácticos.",
+      "title": "Clay Club",
+      "description": "Make creatures using a special clay that dries quickly into figurines you get to keep.",
       "start": "2026-11-25T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17300207",
+      "url": "https://auroraco.libnet.info/event/17387397",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1773,6 +1386,15 @@
       "description": "Every Last Saturday, Follow step-by-step instructions and create a beautiful landscape.",
       "start": "2026-11-28T15:00:00",
       "url": "https://auroraco.libnet.info/event/15101499",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "English Conversation Class",
+      "description": "Practice speaking and listening with others in English. Free walk-in class.",
+      "start": "2026-11-28T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17773542",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1832,10 +1454,28 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-01T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472238",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Storytime",
       "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
       "start": "2026-12-01T10:30:00",
       "url": "https://auroraco.libnet.info/event/16859862",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-01T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472261",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1868,6 +1508,15 @@
       "extractor": "rss"
     },
     {
+      "title": "STEAM Club",
+      "description": "Explore science, technology, engineering, art, or math!",
+      "start": "2026-12-01T16:30:00",
+      "url": "https://auroraco.libnet.info/event/15472280",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Tallyn's Reach Cookbook Club",
       "description": "Join our monthly cookbook potluck! This month, pick a recipe from Andre Fowles' My Jamaican Table, make it at home, and join us to share delicious food and conversation.",
       "start": "2026-12-01T17:00:00",
@@ -1886,10 +1535,28 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2026-12-02T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472295",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Grief and Loss Support Group",
       "description": "A free, monthly gathering for adults grieving a loss, offering connection, support, and moments of warmth along the way.",
       "start": "2026-12-02T10:30:00",
       "url": "https://auroraco.libnet.info/event/17289166",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2026-12-02T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472339",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1908,6 +1575,15 @@
       "description": "Learn the basics of computer use and navigation or improve your skills!",
       "start": "2026-12-02T15:00:00",
       "url": "https://auroraco.libnet.info/event/15770258",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Between the Notes",
+      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
+      "start": "2026-12-02T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15472354",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -1958,6 +1634,24 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-03T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472244",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-03T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472266",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Teen Advisory Group (TAG)",
       "description": "Help make teen voices heard at the library while earning volunteer hours! Eat snacks and make new friends too.",
       "start": "2026-12-03T16:00:00",
@@ -1985,6 +1679,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Adult Writing Group",
+      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
+      "start": "2026-12-03T16:30:00",
+      "url": "https://auroraco.libnet.info/event/17581383",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Video Game Hangout",
       "description": "Hang out and play Switch games like Super Smash Bros, MarioKart, Overcooked, and more with other teens.",
       "start": "2026-12-03T16:30:00",
@@ -1994,19 +1697,28 @@
       "extractor": "rss"
     },
     {
-      "title": "CEN Adult Writing Group",
-      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
-      "start": "2026-12-03T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17581383",
+      "title": "Tots Tunes - Ages 2-5",
+      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
+      "start": "2026-12-04T10:15:00",
+      "url": "https://auroraco.libnet.info/event/14475061",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2026-12-04T10:15:00",
-      "url": "https://auroraco.libnet.info/event/14475061",
+      "title": "Tallyn's Reach Baby Storytime",
+      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
+      "start": "2026-12-04T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472502",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Playgroup",
+      "description": "Join a freeform playgroup for babies 23-months-old and younger and their caregivers. Registration is not required for this program.",
+      "start": "2026-12-04T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472522",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2057,10 +1769,55 @@
       "extractor": "rss"
     },
     {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2026-12-04T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15472531",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Day of the Grinch",
+      "description": "Join us for a grinchy filled day! First 100 children receive a free book!",
+      "start": "2026-12-05T00:00:00",
+      "url": "https://auroraco.libnet.info/event/15723061",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Grinchy Crafts",
+      "description": "Create crafty whozits and whatzits, bobbles and thing-a-majigs! While supplies last.",
+      "start": "2026-12-05T00:00:00",
+      "url": "https://auroraco.libnet.info/event/15723124",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "All Ages Storytime",
       "description": "Saturday, December 05 2026 10:15am - 10:45am",
       "start": "2026-12-05T10:15:00",
       "url": "https://auroraco.libnet.info/event/15665346",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Grinch Storytime",
+      "description": "Join us for a special reading of \"How the Grinch Stole Christmas!\" Registration opens 11/7 at 12 p.m. and closes 2 hours before the storytime.",
+      "start": "2026-12-05T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15723159",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Pictures with the Grinch",
+      "description": "Get your holiday picture taken with the Grinch!",
+      "start": "2026-12-05T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15723170",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2084,10 +1841,64 @@
       "extractor": "rss"
     },
     {
+      "title": "Sewing Certification",
+      "description": "Learn to use a sewing machine safely so you can be certified to reserve one for independent use at Hoffman. Patrons need only attend this certification once.(Ages 15+)",
+      "start": "2026-12-05T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17555784",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Grinch Storytime",
+      "description": "Join us for a special reading of \"How the Grinch Stole Christmas!\" Registration opens 11/7 at 12 p.m. and closes 2 hours before the storytime.",
+      "start": "2026-12-05T11:30:00",
+      "url": "https://auroraco.libnet.info/event/15723161",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Pictures with the Grinch",
+      "description": "Get your holiday picture taken with the Grinch!",
+      "start": "2026-12-05T11:30:00",
+      "url": "https://auroraco.libnet.info/event/15723171",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Cozy Cocoa Corner",
+      "description": "Take part in a tiny who-feast with warm drinks and sweet snacks.",
+      "start": "2026-12-05T12:00:00",
+      "url": "https://auroraco.libnet.info/event/15723208",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Historic Homes of Galena St. Tour",
       "description": "Walk Galena St. with Aurora's Historic Preservation Specialist.",
       "start": "2026-12-05T12:00:00",
       "url": "https://auroraco.libnet.info/event/17705112",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Visit Santa on the Trolley",
+      "description": "Visit Santa at the museum and take a photo!",
+      "start": "2026-12-05T12:00:00",
+      "url": "https://auroraco.libnet.info/event/17798651",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Grinch Movie",
+      "description": "Get ready for the holidays by watching \"The Grinch\" (PG, 2018)! Unlimited popcorn provided!",
+      "start": "2026-12-05T15:00:00",
+      "url": "https://auroraco.libnet.info/event/15723225",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2106,6 +1917,15 @@
       "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
       "start": "2026-12-07T10:30:00",
       "url": "https://auroraco.libnet.info/event/14511020",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Monday Matinee",
+      "description": "Enjoy some of your favorite classic films with coffee and popcorn.",
+      "start": "2026-12-07T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17510333",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2138,6 +1958,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-08T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472239",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Tots Tunes",
       "description": "Come make some music and boogey to dance tunes! For ages 0-6 and their caregivers.",
       "start": "2026-12-08T10:30:00",
@@ -2147,10 +1976,46 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-08T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472262",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "STEAM Club",
+      "description": "Explore science, technology, engineering, art, or math!",
+      "start": "2026-12-08T16:30:00",
+      "url": "https://auroraco.libnet.info/event/15472281",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Baby Storytime - Ages 0-2",
       "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
       "start": "2026-12-09T10:15:00",
       "url": "https://auroraco.libnet.info/event/14420972",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2026-12-09T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472296",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2026-12-09T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472340",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2174,6 +2039,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Between the Notes",
+      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
+      "start": "2026-12-09T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15472355",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Read and Play",
       "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
       "start": "2026-12-09T16:00:00",
@@ -2187,6 +2061,15 @@
       "description": "Bring your knitting, crochet, cross stitch, any and all fiber and textile art for an after-school chillout hour! Introduction to knitting and crochet available for beginners.",
       "start": "2026-12-09T16:00:00",
       "url": "https://auroraco.libnet.info/event/17555499",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Teen STEAM",
+      "description": "A place for teens to explore science, technology, engineering, art, and math!",
+      "start": "2026-12-09T16:30:00",
+      "url": "https://auroraco.libnet.info/event/15759475",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2228,19 +2111,28 @@
       "extractor": "rss"
     },
     {
-      "title": "Tinker Tots Workshop",
-      "description": "Explore STEAM with your preschooler!",
-      "start": "2026-12-10T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17108564",
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-10T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472245",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "DIY Holiday Cards",
-      "description": "Come make holiday cards with a variety of tools and materials! Cards can be handmade or made using a Cricut.",
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-10T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472267",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tinker Tots Workshop",
+      "description": "Explore STEAM with your preschooler!",
       "start": "2026-12-10T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17555201",
+      "url": "https://auroraco.libnet.info/event/17108564",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2264,6 +2156,15 @@
       "extractor": "rss"
     },
     {
+      "title": "DIY Holiday Cards",
+      "description": "Come make holiday cards with a variety of tools and materials! Cards can be handmade or made using a Cricut.",
+      "start": "2026-12-10T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17555201",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Haunted Gingerbread Houses",
       "description": "Make a creepy, candy-covered abode that you can take home and eat!",
       "start": "2026-12-10T16:30:00",
@@ -2273,7 +2174,7 @@
       "extractor": "rss"
     },
     {
-      "title": "CEN Adult Writing Group",
+      "title": "Adult Writing Group",
       "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2026-12-10T16:30:00",
       "url": "https://auroraco.libnet.info/event/17581384",
@@ -2286,6 +2187,15 @@
       "description": "Come hang in a welcoming and supportive space for teens. Connect with others and celebrate individuality through various activities and discussions.",
       "start": "2026-12-10T16:30:00",
       "url": "https://auroraco.libnet.info/event/17078328",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Homeschool Day: Aurora Celebrates!",
+      "description": "Discover how your neighbors celebrate their favorite holidays.",
+      "start": "2026-12-11T09:30:00",
+      "url": "https://auroraco.libnet.info/event/17798751",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2304,6 +2214,24 @@
       "description": "Join CU's Cancer Center. Pull up a chair. Let's talk cancer research, together.",
       "start": "2026-12-11T10:30:00",
       "url": "https://auroraco.libnet.info/event/15407257",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Storytime",
+      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
+      "start": "2026-12-11T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472503",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Playgroup",
+      "description": "Join a freeform playgroup for babies 23-months-old and younger and their caregivers. Registration is not required for this program.",
+      "start": "2026-12-11T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472523",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2345,6 +2273,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2026-12-11T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15472532",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Monthly Art Club: Card Making",
       "description": "Make art and socialize at the library! Feel free to bring in any personal projects if youd like to work on that instead.",
       "start": "2026-12-11T16:00:00",
@@ -2358,6 +2295,33 @@
       "description": "Spend a cozy winter evening at the library with coloring and hot cocoa!",
       "start": "2026-12-11T16:00:00",
       "url": "https://auroraco.libnet.info/event/17699403",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Hot Coco Bar",
+      "description": "Get cozy and make your own custom coco or cider!",
+      "start": "2026-12-11T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17555765",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Kasama Market",
+      "description": "Join this free event to shop, eat and celebrate the holidays!",
+      "start": "2026-12-11T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17799457",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Radio Play: A Christmas Carol",
+      "description": "Enjoy different take on everyones favorite Christmas ghost story, Dicken's A Christmas Carol.",
+      "start": "2026-12-12T05:30:00",
+      "url": "https://auroraco.libnet.info/event/17798996",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2417,6 +2381,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Books at the Bar",
+      "description": "Title: \"The Haunting of Room 904\" by Erika T. Wurth Location: Cerebral Brewing - 9990 E Colfax Ave, Aurora, CO 80010",
+      "start": "2026-12-12T13:00:00",
+      "url": "https://auroraco.libnet.info/event/17834734",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "DnD - Later Block",
       "description": "Role-play alongside fellow players and our Dungeon Masters in a tabletop collaborative storytelling game! Please arrive before 12:30pm for character creation.",
       "start": "2026-12-12T14:00:00",
@@ -2453,6 +2426,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Teen Hot Sauce Challenge",
+      "description": "Can you handle the heat? Try our different level of hot sauces going hotter in Scoville units while getting asked questions along the way!",
+      "start": "2026-12-12T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15723380",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "DeLaney Farm Open Day",
       "description": "Tour the DeLaney Historic District to learn about early Auroras farming history and get in the holiday spirit.",
       "start": "2026-12-13T11:00:00",
@@ -2480,6 +2462,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Learn to Sew",
+      "description": "Learn a basic sewing craft with friends! Participants are encouraged to bring their own machine. Ages 13+",
+      "start": "2026-12-14T15:00:00",
+      "url": "https://auroraco.libnet.info/event/15101490",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "English Conversation Class",
       "description": "Join us weekly every Monday to practice speaking and listening with others in English. Classes are free and no registration is needed.",
       "start": "2026-12-14T16:30:00",
@@ -2493,6 +2484,15 @@
       "description": "Visit the Bookmobile at the City of Aurora Central Recreation Center",
       "start": "2026-12-14T16:30:00",
       "url": "https://auroraco.libnet.info/event/15879061",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Cozy Craft-A-Day",
+      "description": "Enjoy a different self-paced craft each day in Hoffmans makerspace!",
+      "start": "2026-12-15T10:00:00",
+      "url": "https://auroraco.libnet.info/event/17555607",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2525,10 +2525,28 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-15T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472240",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Storytime",
       "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
       "start": "2026-12-15T10:30:00",
       "url": "https://auroraco.libnet.info/event/16859864",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-15T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472263",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2561,10 +2579,28 @@
       "extractor": "rss"
     },
     {
+      "title": "STEAM Club",
+      "description": "Explore science, technology, engineering, art, or math!",
+      "start": "2026-12-15T16:30:00",
+      "url": "https://auroraco.libnet.info/event/15472282",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "A Christmas Carol Live Radio Play",
       "description": "Four actors perform a live rendition of the classic Charles Dickens story.",
       "start": "2026-12-15T18:30:00",
       "url": "https://auroraco.libnet.info/event/17717286",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Cozy Craft-A-Day",
+      "description": "Enjoy a different self-paced craft each day in Hoffmans makerspace!",
+      "start": "2026-12-16T10:00:00",
+      "url": "https://auroraco.libnet.info/event/17555609",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2579,10 +2615,37 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2026-12-16T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472297",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2026-12-16T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472341",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Miscellaneous Craft Hour",
       "description": "Choose your own craft from a wide variety of pre-made kits and materials.",
       "start": "2026-12-16T11:00:00",
       "url": "https://auroraco.libnet.info/event/17491532",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Between the Notes",
+      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
+      "start": "2026-12-16T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15472356",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2633,6 +2696,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Cozy Craft-A-Day",
+      "description": "Enjoy a different self-paced craft each day in Hoffmans makerspace!",
+      "start": "2026-12-17T10:00:00",
+      "url": "https://auroraco.libnet.info/event/17555610",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Toddler Storytime - Ages 2-5",
       "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-5 and their caregivers.",
       "start": "2026-12-17T10:15:00",
@@ -2646,6 +2718,24 @@
       "description": "Come listen to stories, learn rhymes, socialize and play!",
       "start": "2026-12-17T10:30:00",
       "url": "https://auroraco.libnet.info/event/14516188",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-17T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472246",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-17T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472268",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2669,7 +2759,7 @@
       "extractor": "rss"
     },
     {
-      "title": "CEN Adult Writing Group",
+      "title": "Adult Writing Group",
       "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2026-12-17T16:30:00",
       "url": "https://auroraco.libnet.info/event/17581385",
@@ -2696,6 +2786,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Colorado Aerospace Pioneers and Pacesetters",
+      "description": "Discover aviation history in your backyard!",
+      "start": "2026-12-17T18:00:00",
+      "url": "https://auroraco.libnet.info/event/17799089",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "C.A.F.E. Series: Cancer and Community a Forum for Exchange",
       "description": "Pull up a chair. Lets talk cancer research together, with CUs Cancer Center.",
       "start": "2026-12-18T10:00:00",
@@ -2705,10 +2804,37 @@
       "extractor": "rss"
     },
     {
+      "title": "Cozy Craft-A-Day",
+      "description": "Enjoy a different self-paced craft each day in Hoffmans makerspace!",
+      "start": "2026-12-18T10:00:00",
+      "url": "https://auroraco.libnet.info/event/17555611",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Tots Tunes - Ages 2-5",
       "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
       "start": "2026-12-18T10:15:00",
       "url": "https://auroraco.libnet.info/event/14475063",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Storytime",
+      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
+      "start": "2026-12-18T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472505",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Playgroup",
+      "description": "Join a freeform playgroup for babies 23-months-old and younger and their caregivers. Registration is not required for this program.",
+      "start": "2026-12-18T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472524",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2727,6 +2853,24 @@
       "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
       "start": "2026-12-18T14:30:00",
       "url": "https://auroraco.libnet.info/event/17511002",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2026-12-18T16:00:00",
+      "url": "https://auroraco.libnet.info/event/15472533",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Saturday Morning Puzzle Club",
+      "description": "Enjoy a quiet Saturday morning with tea and puzzles! Guests can work collaboratively or individually.",
+      "start": "2026-12-19T10:00:00",
+      "url": "https://auroraco.libnet.info/event/17549006",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2777,6 +2921,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Monday Matinee",
+      "description": "Enjoy some of your favorite classic films with coffee and popcorn.",
+      "start": "2026-12-21T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17510360",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "English Conversation Class",
       "description": "Join us weekly every Monday to practice speaking and listening with others in English. Classes are free and no registration is needed.",
       "start": "2026-12-21T16:30:00",
@@ -2790,6 +2943,51 @@
       "description": "A weekly, themed library experience for adults with I/DD and caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
       "start": "2026-12-22T10:30:00",
       "url": "https://auroraco.libnet.info/event/14893883",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-22T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472242",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-22T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472264",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "STEAM Club",
+      "description": "Explore science, technology, engineering, art, or math!",
+      "start": "2026-12-22T16:30:00",
+      "url": "https://auroraco.libnet.info/event/15472283",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2026-12-23T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472298",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2026-12-23T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472342",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2813,10 +3011,37 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-24T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472247",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-24T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472269",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Early Literacy Playgroup",
       "description": "Join us for a fun playgroup in the youth area.",
       "start": "2026-12-26T10:30:00",
       "url": "https://auroraco.libnet.info/event/17605069",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Noon Year's Eve",
+      "description": "5-4-3-2-1! Celebrate the New Year before bedtime with a glass of bubbly, fun crafts, and an epic countdown!",
+      "start": "2026-12-26T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15723351",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2858,6 +3083,51 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-29T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472243",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-29T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472265",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "STEAM Club",
+      "description": "Explore science, technology, engineering, art, or math!",
+      "start": "2026-12-29T16:30:00",
+      "url": "https://auroraco.libnet.info/event/15472284",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2026-12-30T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472299",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2026-12-30T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472343",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Read and Play",
       "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
       "start": "2026-12-30T16:00:00",
@@ -2876,10 +3146,37 @@
       "extractor": "rss"
     },
     {
-      "title": "CEN Adult Writing Group",
+      "title": "Tallyn's Reach Tots Tunes",
+      "description": "Develop early literacy and motor skills through music and movement.",
+      "start": "2026-12-31T10:30:00",
+      "url": "https://auroraco.libnet.info/event/15472248",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Music Playgroup",
+      "description": "Freeform playgroup.",
+      "start": "2026-12-31T11:00:00",
+      "url": "https://auroraco.libnet.info/event/15472270",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Adult Writing Group",
       "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2026-12-31T16:30:00",
       "url": "https://auroraco.libnet.info/event/17581386",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Saturday Programs at MVL",
+      "description": "Programs for adults or families on Saturday mornings at Mission Viejo Library.",
+      "start": "2027-01-02T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17816937",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2930,10 +3227,10 @@
       "extractor": "rss"
     },
     {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
+      "title": "Tallyn's Reach Library For All",
+      "description": "A weekly, themed library experience for adults with I/DD and caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
       "start": "2027-01-05T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420851",
+      "url": "https://auroraco.libnet.info/event/17626283",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2948,10 +3245,10 @@
       "extractor": "rss"
     },
     {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for adults with I/DD and caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
+      "title": "Storytime",
+      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
       "start": "2027-01-05T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17626283",
+      "url": "https://auroraco.libnet.info/event/17420851",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -2967,7 +3264,7 @@
     },
     {
       "title": "Non-Fiction Book Club",
-      "description": "Join us the 1st Tuesday of every month for a lively book discussion.",
+      "description": "Join us the 1st Tuesday of every month for a lively book discussion. Book: Boat Baby: A Memoir, by Vicky Nguyen",
       "start": "2027-01-05T13:00:00",
       "url": "https://auroraco.libnet.info/event/17135446",
       "sourceName": "Aurora Public Library",
@@ -2985,7 +3282,7 @@
     },
     {
       "title": "Tallyn's Reach Cookbook Club",
-      "description": "Join our monthly cookbook potluck! This month, pick a recipe from [AUTHOR]'s [BOOK], make it at home, and join us to share delicious food and conversation.",
+      "description": "Join our monthly cookbook potluck! This month, pick a recipe from Mia Sheppard's The Outfitter's Camp Cookbook, make it at home, and join us to share delicious food and conversation.",
       "start": "2027-01-05T17:00:00",
       "url": "https://auroraco.libnet.info/event/17626442",
       "sourceName": "Aurora Public Library",
@@ -3056,15 +3353,6 @@
       "extractor": "rss"
     },
     {
-      "title": "MVL Teen Program - January",
-      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
-      "start": "2027-01-07T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306230",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
       "title": "Adult Writing Group",
       "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2027-01-07T16:30:00",
@@ -3074,10 +3362,37 @@
       "extractor": "rss"
     },
     {
+      "title": "Teen Advisory Group (TAG)",
+      "description": "Help make teen voices heard at the library while earning volunteer hours! Eat snacks and make new friends too.",
+      "start": "2027-01-07T16:30:00",
+      "url": "https://auroraco.libnet.info/event/17104714",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "MVL Teen Program - January",
+      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
+      "start": "2027-01-07T16:30:00",
+      "url": "https://auroraco.libnet.info/event/17306230",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Tots Tunes - Ages 2-5",
       "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
       "start": "2027-01-08T10:15:00",
       "url": "https://auroraco.libnet.info/event/17034684",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee & Coloring",
+      "description": "Come enjoy some adult coloring books, coffee, tea and other warm beverages.",
+      "start": "2027-01-08T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17749879",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3110,6 +3425,24 @@
       "extractor": "rss"
     },
     {
+      "title": "Monthly Art Club",
+      "description": "Make art and socialize at the library! Feel free to bring in any personal projects if youd like to work on that instead.",
+      "start": "2027-01-08T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17778720",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2027-01-08T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17543111",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "All Ages Storytime",
       "description": "Develop early literacy skills through reading, singing, and rhyming.",
       "start": "2027-01-09T10:15:00",
@@ -3128,10 +3461,46 @@
       "extractor": "rss"
     },
     {
+      "title": "Hot Chocolate & Puzzles",
+      "description": "Relax this wintry day with some hot cocoa and make (or take home) a puzzle or two.",
+      "start": "2027-01-09T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17752808",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Genealogy 101",
+      "description": "Have you always wanted to organize your family tree? Work with the Aurora Genealogical Society to uncover the absolute basics of researching and organizing your family history.",
+      "start": "2027-01-09T14:00:00",
+      "url": "https://auroraco.libnet.info/event/17817855",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "LGBTQ+ Book Club",
+      "description": "Read and discuss queer stories in a variety of genres! January's book: This is How You Lose the Time War by Amal El-Mohtar and Max Gladstone.",
+      "start": "2027-01-09T15:30:00",
+      "url": "https://auroraco.libnet.info/event/17835355",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "English Conversation Class",
       "description": "Practice speaking and listening with others in English. Free walk-in classes.",
       "start": "2027-01-09T16:00:00",
       "url": "https://auroraco.libnet.info/event/17133981",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Library For All: Bingo",
+      "description": "Calling all adults with I/DD and their caregivers! Come play bingo, build connections, and win prizes! Program designed for adults with I/DD, however everyone is welcome!",
+      "start": "2027-01-11T10:00:00",
+      "url": "https://auroraco.libnet.info/event/17778541",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3164,19 +3533,19 @@
       "extractor": "rss"
     },
     {
-      "title": "MVL Tots Tunes",
-      "description": "Children and caregivers enjoy songs, movement, and musical instruments together.",
+      "title": "Storytime",
+      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
       "start": "2027-01-12T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17309891",
+      "url": "https://auroraco.libnet.info/event/17420852",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
+      "title": "MVL Tots Tunes",
+      "description": "Children and caregivers enjoy songs, movement, and musical instruments together.",
       "start": "2027-01-12T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420852",
+      "url": "https://auroraco.libnet.info/event/17309891",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3227,10 +3596,10 @@
       "extractor": "rss"
     },
     {
-      "title": "Stroke Support Gathering",
-      "description": "Join UC Health for a free gathering that is open to anyone that has been affected by a stroke!",
-      "start": "2027-01-13T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17556419",
+      "title": "Decoupage Chests",
+      "description": "Decorate miniature treasure chests with all manner of delightful decoupage paper.",
+      "start": "2027-01-13T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17749875",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3240,6 +3609,15 @@
       "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
       "start": "2027-01-13T16:00:00",
       "url": "https://auroraco.libnet.info/event/17714861",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Stroke Support Gathering",
+      "description": "Join UC Health for a free gathering that is open to anyone that has been affected by a stroke!",
+      "start": "2027-01-13T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17556419",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3299,6 +3677,24 @@
       "extractor": "rss"
     },
     {
+      "title": "The Local Legacy of Martin Luther King Jr.",
+      "description": "More information coming soon",
+      "start": "2027-01-14T18:00:00",
+      "url": "https://auroraco.libnet.info/event/17799170",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "AHM Homeschool Day:For Drinking or Fighting? Water in Aurora",
+      "description": "Explore how water has been brought to our city and how Aurora has worked to ensure access for everyone who lives here.",
+      "start": "2027-01-15T09:30:00",
+      "url": "https://auroraco.libnet.info/event/17798793",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Tots Tunes - Ages 2-5",
       "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
       "start": "2027-01-15T10:15:00",
@@ -3312,6 +3708,15 @@
       "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
       "start": "2027-01-15T14:30:00",
       "url": "https://auroraco.libnet.info/event/17629043",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2027-01-15T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17543112",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3344,10 +3749,10 @@
       "extractor": "rss"
     },
     {
-      "title": "MVL Saturday Programs - January",
-      "description": "All ages program at Mission Viejo Library.",
+      "title": "Saturday Programs at MVL",
+      "description": "Programs for adults or families on Saturday mornings at Mission Viejo Library.",
       "start": "2027-01-16T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17306247",
+      "url": "https://auroraco.libnet.info/event/17816938",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3407,10 +3812,28 @@
       "extractor": "rss"
     },
     {
+      "title": "Herbalism Club",
+      "description": "Dig into the wonderful world of herbs! Join Cici and Erin as we explore plants, sip teas, create herbal goodies, and uncover nature-inspired ways to support health and wellness.",
+      "start": "2027-01-19T16:30:00",
+      "url": "https://auroraco.libnet.info/event/17843061",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Baby Storytime - Ages 0-2",
       "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
       "start": "2027-01-20T10:15:00",
       "url": "https://auroraco.libnet.info/event/17034527",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2027-01-20T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17348827",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3425,6 +3848,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2027-01-20T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17348838",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Read and Play",
       "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
       "start": "2027-01-20T16:00:00",
@@ -3434,10 +3866,10 @@
       "extractor": "rss"
     },
     {
-      "title": "Nourish & Thrive",
-      "description": "Fuel your body and feed your life with this DIY, no-cook food program.",
-      "start": "2027-01-20T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17628026",
+      "title": "Between the Notes",
+      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
+      "start": "2027-01-20T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17348865",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3447,6 +3879,15 @@
       "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
       "start": "2027-01-20T16:30:00",
       "url": "https://auroraco.libnet.info/event/17306210",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Nourish & Thrive",
+      "description": "Fuel your body and feed your life with this DIY, no-cook food program.",
+      "start": "2027-01-20T16:30:00",
+      "url": "https://auroraco.libnet.info/event/17628026",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3488,19 +3929,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Adult Writing Group",
-      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
+      "title": "MVL Teen Program - January",
+      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
       "start": "2027-01-21T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17714546",
+      "url": "https://auroraco.libnet.info/event/17306232",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "MVL Teen Program - January",
-      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
+      "title": "Adult Writing Group",
+      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2027-01-21T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306232",
+      "url": "https://auroraco.libnet.info/event/17714546",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3519,6 +3960,33 @@
       "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
       "start": "2027-01-22T10:15:00",
       "url": "https://auroraco.libnet.info/event/17034686",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Storytime",
+      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
+      "start": "2027-01-22T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17349179",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Playgroup",
+      "description": "Join a freeform playgroup for babies 23-months-old and younger and their caregivers. Registration is not required for this program.",
+      "start": "2027-01-22T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17349205",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Coffee & Coloring",
+      "description": "Come enjoy some adult coloring books, coffee, tea and other warm beverages.",
+      "start": "2027-01-22T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17749880",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3551,6 +4019,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2027-01-22T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17543113",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "All Ages Storytime",
       "description": "Develop early literacy skills through reading, singing, and rhyming.",
       "start": "2027-01-23T10:15:00",
@@ -3560,10 +4037,28 @@
       "extractor": "rss"
     },
     {
+      "title": "Loose Leaf Tea Party",
+      "description": "Indulge in the fancier form of fresh tea leaves for national hot tea month!",
+      "start": "2027-01-23T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17749961",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Early Literacy Playgroup",
       "description": "Join us for a fun playgroup in the youth area.",
       "start": "2027-01-23T10:30:00",
       "url": "https://auroraco.libnet.info/event/17714799",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Dayo II Exhibition Opening and Artist Talk",
+      "description": "This exhibit of art by Filipino and Filipino American artists will showcase work from Colorado, California, the Philippines and more.",
+      "start": "2027-01-23T12:00:00",
+      "url": "https://auroraco.libnet.info/event/17836432",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3587,6 +4082,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Beginner Sewing",
+      "description": "Learn the basics of a sewing machine and make your own drawstring to take home. No experience is required, and all supplies will be provided.",
+      "start": "2027-01-25T15:00:00",
+      "url": "https://auroraco.libnet.info/event/17779314",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "English Conversation Class",
       "description": "Practice speaking and listening with others in English. Free walk-in classes.",
       "start": "2027-01-25T16:30:00",
@@ -3605,19 +4109,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Tots Tunes: Block & Play",
-      "description": "Develop problem-solving and fine motor skills while fostering creativity and imagination! Come play with a variety of blocks and interact with others.",
+      "title": "Storytime",
+      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
       "start": "2027-01-26T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17309930",
+      "url": "https://auroraco.libnet.info/event/17420854",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
+      "title": "Tots Tunes: Block & Play",
+      "description": "Develop problem-solving and fine motor skills while fostering creativity and imagination! Come play with a variety of blocks and interact with others.",
       "start": "2027-01-26T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420854",
+      "url": "https://auroraco.libnet.info/event/17309930",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3668,6 +4172,42 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2027-01-27T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17348828",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Book Page Blackout Poetry",
+      "description": "A classic method to write poems by blacking out all but a few select words from old book pages.",
+      "start": "2027-01-27T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17750071",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Learn & Play",
+      "description": "Enjoy educational toys and music as you connect with others!",
+      "start": "2027-01-27T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17348840",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Between the Notes",
+      "description": "Free tutoring on cello, viola, violin, saxophone, trumpet, or french horn from teen players to elementary aged children. Registration required.",
+      "start": "2027-01-27T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17348866",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Read and Play",
       "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
       "start": "2027-01-27T16:00:00",
@@ -3677,19 +4217,19 @@
       "extractor": "rss"
     },
     {
-      "title": "English and Spanish Beginner Computer Classes",
-      "description": "¡Ven a la biblioteca a aprender cómo usar una computadora en una clase en dos idiomas! Repasaremos algunos conceptos básicos para usar una computadora, y haremos algunos ejercicios prácticos.",
+      "title": "MVL Kids Craft - January",
+      "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
       "start": "2027-01-27T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17714511",
+      "url": "https://auroraco.libnet.info/event/17306211",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "MVL Kids Craft - January",
-      "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
+      "title": "English and Spanish Beginner Computer Classes",
+      "description": "¡Ven a la biblioteca a aprender cómo usar una computadora en una clase en dos idiomas! Repasaremos algunos conceptos básicos para usar una computadora, y haremos algunos ejercicios prácticos.",
       "start": "2027-01-27T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306211",
+      "url": "https://auroraco.libnet.info/event/17714511",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3731,19 +4271,19 @@
       "extractor": "rss"
     },
     {
-      "title": "MVL Teen Program - January",
-      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
+      "title": "Adult Writing Group",
+      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
       "start": "2027-01-28T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306233",
+      "url": "https://auroraco.libnet.info/event/17714547",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Adult Writing Group",
-      "description": "Come together with writers of all genres for a weekly writing group. All writing projects welcome! Peer workshop will take place the final Thursday of each month.",
+      "title": "MVL Teen Program - January",
+      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
       "start": "2027-01-28T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17714547",
+      "url": "https://auroraco.libnet.info/event/17306233",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3758,10 +4298,46 @@
       "extractor": "rss"
     },
     {
+      "title": "Tallyn's Reach Baby Storytime",
+      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
+      "start": "2027-01-29T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17349180",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Tallyn's Reach Baby Playgroup",
+      "description": "Join a freeform playgroup for babies 23-months-old and younger and their caregivers. Registration is not required for this program.",
+      "start": "2027-01-29T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17349207",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Winter Watercolors",
+      "description": "Learn about painting a winter scene and the challenges of painting a snowy landscape.",
+      "start": "2027-01-29T11:00:00",
+      "url": "https://auroraco.libnet.info/event/17749987",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Tallyn's Reach Library For All",
       "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
       "start": "2027-01-29T14:30:00",
       "url": "https://auroraco.libnet.info/event/17629045",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
+      "title": "Chess Club",
+      "description": "Stop in for some friendly games of chess! Beginners to masters are welcome. Chess sets are provided.",
+      "start": "2027-01-29T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17543114",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3776,6 +4352,15 @@
       "extractor": "rss"
     },
     {
+      "title": "Saturday Programs at MVL",
+      "description": "Programs for adults or families on Saturday mornings at Mission Viejo Library.",
+      "start": "2027-01-30T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17816939",
+      "sourceName": "Aurora Public Library",
+      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
+      "extractor": "rss"
+    },
+    {
       "title": "Early Literacy Playgroup",
       "description": "Join us for a fun playgroup in the youth area.",
       "start": "2027-01-30T10:30:00",
@@ -3785,19 +4370,19 @@
       "extractor": "rss"
     },
     {
-      "title": "MVL Saturday Programs - January",
-      "description": "All ages program at Mission Viejo Library.",
-      "start": "2027-01-30T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17306246",
+      "title": "Conchas con Chisme",
+      "description": "Vengan todos a comer y chismear! Come all to eat and gossip and practice your Spanish!",
+      "start": "2027-01-30T12:00:00",
+      "url": "https://auroraco.libnet.info/event/17714439",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "Conchas con Chisme",
-      "description": "Vengan todos a comer y chismear! Come all to eat and gossip and practice your Spanish!",
-      "start": "2027-01-30T12:00:00",
-      "url": "https://auroraco.libnet.info/event/17714439",
+      "title": "Persistence and Grit: Lives of Colorado Women Homesteaders",
+      "description": "An author talk from the author of \"Colorado Women Homesteaders\"",
+      "start": "2027-01-30T16:00:00",
+      "url": "https://auroraco.libnet.info/event/17799283",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3839,19 +4424,19 @@
       "extractor": "rss"
     },
     {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
+      "title": "MVL Tots Tunes",
+      "description": "Children and caregivers enjoy songs, movement, and musical instruments together.",
       "start": "2027-02-02T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420855",
+      "url": "https://auroraco.libnet.info/event/17312322",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
     },
     {
-      "title": "MVL Tots Tunes",
-      "description": "Children and caregivers enjoy songs, movement, and musical instruments together.",
+      "title": "Storytime",
+      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
       "start": "2027-02-02T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17312322",
+      "url": "https://auroraco.libnet.info/event/17420855",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"
@@ -3867,7 +4452,7 @@
     },
     {
       "title": "Non-Fiction Book Club",
-      "description": "Join us the 1st Tuesday of every month for a lively book discussion.",
+      "description": "Join us the 1st Tuesday of every month for a lively book discussion. Book: The Backyard Bird Chronicles, by Amy Tan",
       "start": "2027-02-02T13:00:00",
       "url": "https://auroraco.libnet.info/event/17135455",
       "sourceName": "Aurora Public Library",
@@ -3876,7 +4461,7 @@
     },
     {
       "title": "Tallyn's Reach Cookbook Club",
-      "description": "Join our monthly cookbook potluck! This month, pick a recipe from [AUTHOR]'s [BOOK], make it at home, and join us to share delicious food and conversation.",
+      "description": "Join our monthly cookbook potluck! This month, pick a recipe from Mia Sheppard's The Outfitter's Camp Cookbook, make it at home, and join us to share delicious food and conversation.",
       "start": "2027-02-02T17:00:00",
       "url": "https://auroraco.libnet.info/event/17626443",
       "sourceName": "Aurora Public Library",
@@ -3911,595 +4496,10 @@
       "extractor": "rss"
     },
     {
-      "title": "Read and Play",
-      "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
-      "start": "2027-02-03T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17714864",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Kids Craft - February",
-      "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
-      "start": "2027-02-03T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306225",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Building Readers",
-      "description": "Build up literacy skills from preschool age to third grade with games and interactive learning activities.",
-      "start": "2027-02-03T16:40:00",
-      "url": "https://auroraco.libnet.info/event/17714885",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Toddler Storytime - Ages 2-3",
-      "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-3 and their caregivers.",
-      "start": "2027-02-04T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034635",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime (MVL)",
-      "description": "Come listen to stories, learn rhymes and sing songs.",
-      "start": "2027-02-04T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17314783",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Teen Program - February",
-      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
-      "start": "2027-02-04T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306234",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2027-02-05T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034688",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Wood Shop",
-      "description": "Learn hands-on woodworking and build practical projects.",
-      "start": "2027-02-05T14:00:00",
-      "url": "https://auroraco.libnet.info/event/17628404",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
-      "start": "2027-02-05T14:30:00",
-      "url": "https://auroraco.libnet.info/event/17629046",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "All Ages Storytime",
-      "description": "Develop early literacy skills through reading, singing, and rhyming.",
-      "start": "2027-02-06T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034893",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Early Literacy Playgroup",
-      "description": "Join us for a fun playgroup in the youth area.",
-      "start": "2027-02-06T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17714801",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Aurora Seed Swap",
-      "description": "Join Revols Beehive and APL for a seed swap event where you can bring or take home seeds, and connect with fellow gardeners.",
-      "start": "2027-02-06T11:00:00",
-      "url": "https://auroraco.libnet.info/event/17555930",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "English Conversation Class",
-      "description": "Practice speaking and listening with others in English. Free walk-in classes.",
-      "start": "2027-02-06T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17134006",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2027-02-08T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17311215",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "English Conversation Class",
-      "description": "Practice speaking and listening with others in English. Free walk-in classes.",
-      "start": "2027-02-08T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17133780",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2027-02-09T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034050",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
-      "start": "2027-02-09T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420856",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Tots Tunes",
-      "description": "Children and caregivers enjoy songs, movement, and musical instruments together.",
-      "start": "2027-02-09T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17312321",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Learn & Play",
-      "description": "Following Storytime, join us for a freeform craft or activity during play group time, and connect with other parents and caregivers!",
-      "start": "2027-02-09T11:00:00",
-      "url": "https://auroraco.libnet.info/event/17420928",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Medication Safety for Elders or Caregivers",
-      "description": "Are you a caregiver or elder? If so, join CO Pace & APL for a lunch and learn. In this class CO Pace will discuss medication safety for you or your elder.",
-      "start": "2027-02-09T12:00:00",
-      "url": "https://auroraco.libnet.info/event/17425446",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "LEGO Club",
-      "description": "Use building blocks to complete a challenge or design your own creation!",
-      "start": "2027-02-09T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17034816",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime - Ages 0-2",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2027-02-10T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034530",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Stroke Support Gathering",
-      "description": "Join UC Health for a free gathering that is open to anyone that has been affected by a stroke!",
-      "start": "2027-02-10T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17556513",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Read and Play",
-      "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
-      "start": "2027-02-10T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17714865",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Kids Craft - February",
-      "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
-      "start": "2027-02-10T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306226",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Building Readers",
-      "description": "Build up literacy skills from preschool age to third grade with games and interactive learning activities.",
-      "start": "2027-02-10T16:40:00",
-      "url": "https://auroraco.libnet.info/event/17714886",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Toddler Storytime - Ages 2-3",
-      "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-3 and their caregivers.",
-      "start": "2027-02-11T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034636",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime (MVL)",
-      "description": "Come listen to stories, learn rhymes and sing songs.",
-      "start": "2027-02-11T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17314821",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Teen Program - February",
-      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
-      "start": "2027-02-11T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306235",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2027-02-12T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034689",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
-      "start": "2027-02-12T14:30:00",
-      "url": "https://auroraco.libnet.info/event/17629047",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Open Hours",
-      "description": "Use a sewing machine, take a 10-minute Cricut slot, or bring a project you're working on and hang out in the Makerspace! For ages 12 and up.",
-      "start": "2027-02-12T15:00:00",
-      "url": "https://auroraco.libnet.info/event/17290024",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "All Ages Storytime",
-      "description": "Develop early literacy skills through reading, singing, and rhyming.",
-      "start": "2027-02-13T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034894",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Early Literacy Playgroup",
-      "description": "Join us for a fun playgroup in the youth area.",
-      "start": "2027-02-13T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17714802",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Saturday Programs - February",
-      "description": "Programs for adults or families on Saturday mornings at Mission Viejo Library.",
-      "start": "2027-02-13T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17306905",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "English Conversation Class",
-      "description": "Practice speaking and listening with others in English. Free walk-in classes.",
-      "start": "2027-02-13T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17134007",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2027-02-16T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034051",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
-      "start": "2027-02-16T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420857",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Tots Tunes",
-      "description": "Children and caregivers enjoy songs, movement, and musical instruments together.",
-      "start": "2027-02-16T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17312323",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Learn & Play",
-      "description": "Following Storytime, join us for a freeform craft or activity during play group time, and connect with other parents and caregivers!",
-      "start": "2027-02-16T11:00:00",
-      "url": "https://auroraco.libnet.info/event/17420929",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime - Ages 0-2",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2027-02-17T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034531",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Daytime Booklovers Book Club",
-      "description": "Join us the 3rd Wednesday of every month for a lively book discussion.",
-      "start": "2027-02-17T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17138542",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Read and Play",
-      "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
-      "start": "2027-02-17T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17714866",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Kids Craft - February",
-      "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
-      "start": "2027-02-17T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306227",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Nourish & Thrive",
-      "description": "Fuel your body and feed your life with this DIY, no-cook food program.",
-      "start": "2027-02-17T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17628027",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Building Readers",
-      "description": "Build up literacy skills from preschool age to third grade with games and interactive learning activities.",
-      "start": "2027-02-17T16:40:00",
-      "url": "https://auroraco.libnet.info/event/17714887",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Toddler Storytime - Ages 2-3",
-      "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-3 and their caregivers.",
-      "start": "2027-02-18T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034637",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime (MVL)",
-      "description": "Come listen to stories, learn rhymes and sing songs.",
-      "start": "2027-02-18T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17314844",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Teen Program - February",
-      "description": "Teen programs every Thursday afternoon at Mission Viejo Library.",
-      "start": "2027-02-18T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306236",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2027-02-19T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034690",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Mysteries with a Cup of Tea Bookclub",
-      "description": "A Cozy Mystery Book Club",
-      "start": "2027-02-19T12:00:00",
-      "url": "https://auroraco.libnet.info/event/17629156",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tallyn's Reach Library For All",
-      "description": "A weekly, themed library experience for teens with I/DD and their caregivers. Build literacy and life skills through group reading, writing, games, and community knowledge-sharing.",
-      "start": "2027-02-19T14:30:00",
-      "url": "https://auroraco.libnet.info/event/17629048",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "All Ages Storytime",
-      "description": "Develop early literacy skills through reading, singing, and rhyming.",
-      "start": "2027-02-20T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034895",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Early Literacy Playgroup",
-      "description": "Join us for a fun playgroup in the youth area.",
-      "start": "2027-02-20T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17714803",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2027-02-22T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17311216",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "English Conversation Class",
-      "description": "Practice speaking and listening with others in English. Free walk-in classes.",
-      "start": "2027-02-22T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17133781",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes - Ages 2-5",
-      "description": "Develop early literacy skills through music and movement. Together, you'll dance and move with your child!",
-      "start": "2027-02-23T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034052",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Tots Tunes: Block & Play",
-      "description": "Develop problem-solving and fine motor skills while fostering creativity and imagination! Come play with a variety of blocks and interact with others.",
-      "start": "2027-02-23T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17310003",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Storytime",
-      "description": "Weekly Storytime for ages 0-8, followed by Learn & Play",
-      "start": "2027-02-23T10:30:00",
-      "url": "https://auroraco.libnet.info/event/17420858",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Learn & Play",
-      "description": "Following Storytime, join us for a freeform craft or activity during play group time, and connect with other parents and caregivers!",
-      "start": "2027-02-23T11:00:00",
-      "url": "https://auroraco.libnet.info/event/17420930",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Family Immunization Clinic",
-      "description": "Arapahoe County Public Health will be hosting walk-in vaccine clinics for children and adults who are uninsured, underinsured, and those with Medicaid and CHP+. Please call 303-734-5445 for questions.",
-      "start": "2027-02-23T14:00:00",
-      "url": "https://auroraco.libnet.info/event/17350186",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Baby Storytime - Ages 0-2",
-      "description": "Sing, read, and rhyme with babies ages 0-24 months and their caregivers.",
-      "start": "2027-02-24T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034532",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Read and Play",
-      "description": "Enjoy a storytime and play with early literacy toys in the youth play space.",
-      "start": "2027-02-24T16:00:00",
-      "url": "https://auroraco.libnet.info/event/17714867",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "MVL Kids Craft - February",
-      "description": "Crafts for children ages 6-18 every Wednesday afternoon at Mission Viejo Library.",
-      "start": "2027-02-24T16:30:00",
-      "url": "https://auroraco.libnet.info/event/17306228",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Building Readers",
-      "description": "Build up literacy skills from preschool age to third grade with games and interactive learning activities.",
-      "start": "2027-02-24T16:40:00",
-      "url": "https://auroraco.libnet.info/event/17714888",
-      "sourceName": "Aurora Public Library",
-      "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
-      "extractor": "rss"
-    },
-    {
-      "title": "Toddler Storytime - Ages 2-3",
-      "description": "Develop early literacy skills through reading, singing, and rhyming. Designed for ages 2-3 and their caregivers.",
-      "start": "2027-02-25T10:15:00",
-      "url": "https://auroraco.libnet.info/event/17034638",
+      "title": "Tallyn's Reach Family Storytime",
+      "description": "Great stories and fun songs for children 18 months to 5 years.",
+      "start": "2027-02-03T10:30:00",
+      "url": "https://auroraco.libnet.info/event/17542735",
       "sourceName": "Aurora Public Library",
       "sourceUrl": "https://auroraco.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ==",
       "extractor": "rss"

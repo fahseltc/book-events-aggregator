@@ -79,6 +79,55 @@ export async function renderHtml(url, opts = {}) {
 }
 
 /**
+ * Render several URLs, yielding each page as it loads. All pages share one
+ * browser, but each URL gets its own fresh context. Reusing one page for later
+ * navigations left Cloudflare's challenge stuck on "Just a moment...". Stop early
+ * by breaking out of the loop; the browser closes either way.
+ * @param {string[]} urls
+ * @param {{ timeoutMs?: number, userAgent?: string, settleMs?: number, challengeWaitMs?: number }} [opts]
+ * @yields {{ url: string, html: string, status: number, finalUrl: string }}
+ */
+export async function* renderPages(urls, opts = {}) {
+  const { userAgent = DEFAULT_UA, settleMs = 1500, challengeWaitMs = 30000 } = opts;
+  const timeoutMs = Math.max(opts.timeoutMs ?? 0, 45000);
+  let chromium;
+  try {
+    ({ chromium } = await import('playwright'));
+  } catch {
+    throw new Error(
+      `Source needs headless rendering but "playwright" is not installed.\n` +
+      `Install it with:  npm install playwright && npx playwright install chromium`,
+    );
+  }
+  const browser = await chromium.launch();
+  try {
+    for (const url of urls) {
+      const context = await browser.newContext({ userAgent });
+      try {
+        const page = await context.newPage();
+        const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+        // Cloudflare shows "Just a moment..." first, then replaces it. Wait for the
+        // title to change; if it never does, the caller sees the challenge page.
+        await page
+          .waitForFunction(() => !/Just a moment/i.test(document.title), null, { timeout: challengeWaitMs })
+          .catch(() => { });
+        await page.waitForTimeout(settleMs);
+        yield {
+          url,
+          html: await page.content(),
+          status: response ? response.status() : 0,
+          finalUrl: page.url(),
+        };
+      } finally {
+        await context.close();
+      }
+    }
+  } finally {
+    await browser.close();
+  }
+}
+
+/**
  * Load a source's HTML, choosing plain fetch or headless render.
  * @param {{ url: string, render?: boolean, timeoutMs?: number }} source
  */
