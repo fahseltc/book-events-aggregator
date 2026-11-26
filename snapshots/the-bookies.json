@@ -1,15 +1,27 @@
 {
   "source": "The Bookies",
   "sourceUrl": "https://thebookies.com/events",
-  "capturedAt": "2026-11-05T23:14:53.385Z",
-  "count": 14,
+  "capturedAt": "2026-11-26T04:26:06.843Z",
+  "count": 15,
   "events": [
     {
-      "title": "An Evening with Author Dan Wake",
-      "description": "Join us for a conversation, Q&A, and book signing with author Dan Wake. Dan will be talking about his new travel memoir Eat the Wind: Travels with Dictators, Mercenaries, and Queens . About the Book After graduating from Stanford, Dan Wake was on track for a lucrative partnership at a big Washington law firm until he gave it all up to put adventure over career in 1985. It wasn’ t the first time he’ d rolled the dice to explore the world. From hitchhiking in freewheeling Europe to riding buses through the Amazon jungle to roaming through Asia in the shadow of dictatorship, Wake embraced the unpredictability of the open road and developed a Forrest Gump-like knack for dropping into events making world headlines. Whether he is charming his way through a royal jubilee in London, criss-crossing the Philippines during a bloody revolution, or simply finding remarkable people in remote places, Wake uses high adventure and keen humor to unveil the magic of unscripted travel before the internet changed the world. Eat the Wind vividly brings that enchantment alive and shows how it seduced a lifelong overachiever to risk his career for a chance to take the journey of a lifetime.",
-      "start": "2026-11-05T17:30:00",
+      "title": "Drop-In Mah Jongg",
+      "description": "Looking for new friends to play Mah Jongg? Stop by every Wednesday for our drop-in group. No reservations required. All are welcome. 11:30 am social 12-2 pm game play",
+      "start": "2026-11-25T11:30:00",
+      "end": "2026-11-25T14:00:00",
       "location": "The Bookies",
-      "url": "https://thebookies.com/events/6607620261105",
+      "url": "https://thebookies.com/events/5792520261125",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "The Great Holiday Book Fair",
+      "description": "Please join us for our 2nd annual Great Holiday Book Fair! Get your holiday shopping done EARLY and shop LOCAL! More than 25 authors will be in the store signing their books; including children's, YA, and adult fiction authors! We will have a coffee cart on site, fun activities, treats, and raffle prizes throughout the day. Participating authors: Anden Wilder Beth Anderson Bianca Schulze Carmela LaVigna Coyle Cheryl Lock Danielle Kucky Dustin Resch Haven Iverson Heather Preusser Jen Xu & Kate Rhodes Jo Renfro Jolene Gutiérrez Jordyn Jefferson Julie A. Stamm Julie Rowan-Zoch Katie Weaver Kelly Jeffers Lawrence Bub Lynn Becker Megan Duggan Melissa Taylor Nancy Banks Patty Cisneros Prevo Rich Moyer Ryan Rae Harbuck Stan Yan Thane Benson",
+      "start": "2026-11-28T10:00:00",
+      "end": "2026-11-28T14:00:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/6783520261128",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"
@@ -17,41 +29,9 @@
     {
       "title": "Animal Cracker Story Time",
       "description": "Please join us every Saturday at 10:30am for Animal Cracker Story Time. We will read stories, do crafts, sing songs, and dance with your little ones.",
-      "start": "2026-11-07T10:30:00",
-      "end": "2026-11-07T11:00:00",
-      "url": "https://thebookies.com/events/360220261107",
-      "sourceName": "The Bookies",
-      "sourceUrl": "https://thebookies.com/events",
-      "extractor": "bookmanager"
-    },
-    {
-      "title": "Storytime with 9-year-old author Clay Vilhauer",
-      "description": "Join us for a special storytime with young author, Clay Vilhauer, and his mother, Amber Vilhauer, as they read the picture book What Nature Teaches Us: A Book About Being the Light . This is a free all ages event! About the Book: Designed for ages 5–12 and family read-alouds, the book uses lessons from the natural world, including the sun, river, mountain, cloud, and Colorado's state flower, the Columbine, to help children explore resilience, belonging, hope, and life's big emotions. It also includes a built-in \"Your Turn\" activity that encourages readers to head outdoors, making it a natural fit for story times, SEL programming, and family engagement events. About the Author: Clay Vilhauer is nine years old and already a bestselling author. At six, he announced he wanted to write a book -- six months later, The Long Forest Trail hit #1 on Amazon, won three awards, and reached more than 15,000 families. What Nature Teaches Us is his second book. He lives in Northern Colorado, goes outside as much as possible, and believes that when you focus on your thoughts and feelings, you can make the world a happier place. Amber Vilhauer is the founder of NGNG Enterprises -- No Guts, No Glory -- where she has spent twenty years helping impact-driven leaders bring their authentic voices into the world. She and Clay wrote What Nature Teaches Us in the pockets of a full life, going outside, paying attention, and appreciating each other as much as the world around them.",
-      "start": "2026-11-07T10:30:00",
-      "location": "The Bookies",
-      "url": "https://thebookies.com/events/6608720261107",
-      "sourceName": "The Bookies",
-      "sourceUrl": "https://thebookies.com/events",
-      "extractor": "bookmanager"
-    },
-    {
-      "title": "Learn to Play Chess",
-      "description": "The Bookies is happy to host a chess meetup with David Costantino for people of all ages and levels. Never played chess before? Come learn to play! Already play? Come make new friends who love the game! Beginner lessons are $10 and registration is required. Experienced players can play casual or blitz games for free.",
-      "start": "2026-11-07T14:00:00",
-      "end": "2026-11-07T17:00:00",
-      "location": "The Bookies",
-      "url": "https://thebookies.com/events/4472220261107",
-      "sourceName": "The Bookies",
-      "sourceUrl": "https://thebookies.com/events",
-      "extractor": "bookmanager"
-    },
-    {
-      "title": "Sunday Afternoon Book Club",
-      "description": "Please join us for The Bookies Sunday Book Club in a relaxed, friendly environment. Held each first Sunday of the month, this is simply a space for book-lovers to gather, share their thoughts, and read good books. Everyone is welcome! November's book is Be Ready when the Luck Comes by Ina Garten.",
-      "start": "2026-11-08T13:30:00",
-      "end": "2026-11-08T15:00:00",
-      "location": "The Bookies",
-      "url": "https://thebookies.com/events/3191420261108",
+      "start": "2026-11-28T10:30:00",
+      "end": "2026-11-28T11:00:00",
+      "url": "https://thebookies.com/events/360220261128",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"
@@ -59,9 +39,9 @@
     {
       "title": "Animal Cracker Story Time",
       "description": "Please join us every Tuesday and Saturday at 10:30am for Animal Cracker Story Time. We will read stories, do crafts, sing songs, and dance with your little ones.",
-      "start": "2026-11-10T10:30:00",
-      "end": "2026-11-10T11:00:00",
-      "url": "https://thebookies.com/events/360120261110",
+      "start": "2026-12-01T10:30:00",
+      "end": "2026-12-01T11:00:00",
+      "url": "https://thebookies.com/events/360120261201",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"
@@ -69,53 +49,21 @@
     {
       "title": "Denver Writes Creative Writing Club",
       "description": "Kids and teens, ages 10-16, are invited to Denver Write's Creative Writing Club at the Bookies, Tuesdays at 4:30pm! Drop in, write and create!",
-      "start": "2026-11-10T16:30:00",
-      "end": "2026-11-10T18:30:00",
+      "start": "2026-12-01T16:30:00",
+      "end": "2026-12-01T18:30:00",
       "location": "The Bookies",
-      "url": "https://thebookies.com/events/621720261110",
+      "url": "https://thebookies.com/events/621720261201",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"
     },
     {
-      "title": "Drop-In Mah Jongg",
-      "description": "Looking for new friends to play Mah Jongg? Stop by every Wednesday for our drop-in group. No reservations required. All are welcome. 11:30 am social 12-2 pm game play",
-      "start": "2026-11-11T11:30:00",
-      "end": "2026-11-11T14:00:00",
+      "title": "Game Demo Days",
+      "description": "Ever see a cool board or card game and wonder if your family or friends will like it? Now's your chance to try out the latest games before you buy! We'll have our game experts in the store to show you how to play the fun games we have in stock. Saturday, Dec. 5 10:30am - 1:30pm Saturday, Dec. 12 10:30am - 1:30pm Saturday, Dec. 19 10:30am - 1:30pm",
+      "start": "2026-12-05T10:30:00",
+      "end": "2026-12-05T13:30:00",
       "location": "The Bookies",
-      "url": "https://thebookies.com/events/5792520261111",
-      "sourceName": "The Bookies",
-      "sourceUrl": "https://thebookies.com/events",
-      "extractor": "bookmanager"
-    },
-    {
-      "title": "Meet Stephen Graham Jones, Author of ‘The Buffalo Hunter Hunter’",
-      "description": "REGISTRATION REQUIRED - CLICK HERE Join New York Times bestselling author Stephen Graham Jones for an unforgettable evening exploring the art of horror, storytelling and writing. Jones will discuss his newest release, Off the Reservation , a sequel to the 2020 bestseller The Only Good Indians , along with the inspiration behind his chilling novels, creative process and how his Blackfeet heritage influences his work. Whether you are a devoted horror fan, an aspiring writer or simply enjoy meeting acclaimed authors, this is an event you won't want to miss! Based in Boulder, Stephen Graham Jones serves as the Ivena Baldwin Professor of English at the University of Colorado Boulder. Please note: This event is offsite at Embassy Suites DTC. Registration is required for this event through Arapahoe Libraries. REGISTER HERE",
-      "start": "2026-11-12T19:00:00",
-      "location": "Embassy Suites DTC, 10250 East Costilla Avenue, Centennial, CO 80112",
-      "url": "https://thebookies.com/events/6609920261112",
-      "sourceName": "The Bookies",
-      "sourceUrl": "https://thebookies.com/events",
-      "extractor": "bookmanager"
-    },
-    {
-      "title": "Sapphic Salon Book Club",
-      "description": "Join us for our sapphic salon book club! We'll be discussing a new book each month. No RSVP needed. Every third Thursday of the month, at 6:30 pm. November's book is Hexcellent Chance to Fall in Love by Ann Rose",
-      "start": "2026-11-19T18:30:00",
-      "end": "2026-11-19T20:00:00",
-      "location": "Bookies Bookstore",
-      "url": "https://thebookies.com/events/6435120261119",
-      "sourceName": "The Bookies",
-      "sourceUrl": "https://thebookies.com/events",
-      "extractor": "bookmanager"
-    },
-    {
-      "title": "Learn to Play Chess",
-      "description": "The Bookies is happy to host a chess meetup with David Costantino for people of all ages and levels. Never played chess before? Come learn to play! Already play? Come make new friends who love the game! Beginner lessons are $10 and registration is required. Experienced players can play casual or blitz games for free.",
-      "start": "2026-11-21T14:00:00",
-      "end": "2026-11-21T17:00:00",
-      "location": "The Bookies",
-      "url": "https://thebookies.com/events/4472220261121",
+      "url": "https://thebookies.com/events/6834320261205",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"
@@ -132,12 +80,65 @@
       "extractor": "bookmanager"
     },
     {
-      "title": "Speculative Fiction Book Club",
-      "description": "Join us for our speculative fiction book club! Delving into fiction touched with fantastical elements, we will discuss books that go beyond the world we know. Every first Sunday of the month, at 1:30 pm. November's book is This Gilded Abyss by Rebecca Thorne",
+      "title": "Sunday Afternoon Book Club",
+      "description": "Please join us for The Bookies Sunday Book Club in a relaxed, friendly environment. Held each first Sunday of the month, this is simply a space for book-lovers to gather, share their thoughts, and read good books. Everyone is welcome! December's book is Time of the Child by Niall Williams.",
       "start": "2026-12-06T13:30:00",
       "end": "2026-12-06T15:00:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/3191420261206",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "Memorial Birthday Celebration for Bookies Founder",
+      "description": "Join us as we celebrate the memory of Bookies Bookstore founder, Sue Lubeck. Cake will be served. All are invited. Reservations are not required but can help us with planning.",
+      "start": "2026-12-10T14:00:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/6835420261210",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "Storytime with local author Ashley Key",
+      "description": "Join us for a special storytime with local CO author Ashley Key. Ashley will be reading her newest children's book, Echo and the Frozen Sky . Special activity to follow. About the Author Ashley Key is a children's author, former satellite communications specialist and technical writer, and STEM educator who loves turning big science concepts into magical adventures for young readers. Inspired by her Siberian husky, Drake, her books blend lyrical storytelling with real-world science to spark curiosity in children ages 0–8. Through interactive storytimes featuring hands-on experiments, movement, and crafts, Ashley brings books to life for families, libraries, museums, and bookstores across the country. She is the author of Dash and the Lights in the Sky and the upcoming Echo and the Frozen Sky .",
+      "start": "2026-12-12T10:30:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/6833920261212",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "Game Demo Days",
+      "description": "Ever see a cool board or card game and wonder if your family or friends will like it? Now's your chance to try out the latest games before you buy! We'll have our game experts in the store to show you how to play the fun games we have in stock. Saturday, Dec. 5 10:30am - 1:30pm Saturday, Dec. 12 10:30am - 1:30pm Saturday, Dec. 19 10:30am - 1:30pm",
+      "start": "2026-12-12T10:30:00",
+      "end": "2026-12-12T13:30:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/6834320261212",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "Sapphic Salon Book Club",
+      "description": "Join us for our sapphic salon book club! We'll be discussing a new book each month. No RSVP needed. Every third Thursday of the month, at 6:30 pm. November's book is Hexcellent Chance to Fall in Love by Ann Rose",
+      "start": "2026-12-17T18:30:00",
+      "end": "2026-12-17T20:00:00",
       "location": "Bookies Bookstore",
-      "url": "https://thebookies.com/events/4360520261206",
+      "url": "https://thebookies.com/events/6435120261217",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "Game Demo Days",
+      "description": "Ever see a cool board or card game and wonder if your family or friends will like it? Now's your chance to try out the latest games before you buy! We'll have our game experts in the store to show you how to play the fun games we have in stock. Saturday, Dec. 5 10:30am - 1:30pm Saturday, Dec. 12 10:30am - 1:30pm Saturday, Dec. 19 10:30am - 1:30pm",
+      "start": "2026-12-19T10:30:00",
+      "end": "2026-12-19T13:30:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/6834320261219",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"
@@ -149,6 +150,17 @@
       "end": "2026-12-19T17:00:00",
       "location": "The Bookies",
       "url": "https://thebookies.com/events/5792420261219",
+      "sourceName": "The Bookies",
+      "sourceUrl": "https://thebookies.com/events",
+      "extractor": "bookmanager"
+    },
+    {
+      "title": "Storytime with author Susan Wroble",
+      "description": "Please join us for an evening storytime event as local author Susan Wroble reads her new children's book, The Dawn Chorus: Protecting Birdsong Around the World .",
+      "start": "2027-01-27T17:00:00",
+      "end": "2027-01-27T18:30:00",
+      "location": "The Bookies",
+      "url": "https://thebookies.com/events/6833820270127",
       "sourceName": "The Bookies",
       "sourceUrl": "https://thebookies.com/events",
       "extractor": "bookmanager"

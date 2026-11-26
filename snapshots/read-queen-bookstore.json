@@ -1,16 +1,48 @@
 {
   "source": "Read Queen Bookstore",
   "sourceUrl": "https://thereadqueen.com/events/",
-  "capturedAt": "2026-11-05T23:14:53.385Z",
-  "count": 1,
+  "capturedAt": "2026-11-26T04:26:06.843Z",
+  "count": 4,
   "events": [
     {
-      "title": "Meet the Author Kristin Koval",
-      "description": "An Evening with “Penitence” Author Kristin Koval Join us for an evening with Colorado author Kristin Koval, former attorney and author of the award‑winning debut novel “Penitence. ” This literary thriller delves into the complexities of familial loyalty, the pursuit of redemption, and the transformative power of forgiveness. Don’t miss this insightful author talk and book signing.",
-      "start": "2026-11-12T18:30:00",
-      "end": "2026-11-12T19:30:00",
-      "location": "Lafayette Public Library — 775 Baseline Road, Lafayette, 80026",
-      "url": "https://thereadqueen.com/event/meet-the-author-kristin-koval/",
+      "title": "Closed on Thanksgiving Day",
+      "description": "We’ll be closed on Thanksgiving Day.We will reopen on Friday, November 27th. Happy Thanksgiving!",
+      "start": "2026-11-26T07:00:00",
+      "end": "2026-11-26T19:00:00",
+      "location": "Read Queen Bookstore — 129 North Harrison Avenue, LAFAYETTE, CO, 80026",
+      "url": "https://thereadqueen.com/event/1854/",
+      "sourceName": "Read Queen Bookstore",
+      "sourceUrl": "https://thereadqueen.com/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Chai-der Monday",
+      "description": "Instead of Cyber Monday, let’s do Chai-der Monday!",
+      "start": "2026-11-30T07:00:00",
+      "end": "2026-11-30T19:00:00",
+      "location": "Read Queen Bookstore — 129 North Harrison Avenue, LAFAYETTE, CO, 80026",
+      "url": "https://thereadqueen.com/event/chai-der-monday/",
+      "sourceName": "Read Queen Bookstore",
+      "sourceUrl": "https://thereadqueen.com/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "Closing early Dec 6th",
+      "description": "We love our lil’ family here at the Bookstore! We will close at 5pm on Sunday, Dec 6th for our annual Staff Holiday Party. Happy Holidays!",
+      "start": "2026-12-06T17:00:00",
+      "end": "2026-12-06T22:00:00",
+      "url": "https://thereadqueen.com/event/closing-early-dec-6th/",
+      "sourceName": "Read Queen Bookstore",
+      "sourceUrl": "https://thereadqueen.com/events/",
+      "extractor": "tribe"
+    },
+    {
+      "title": "2nd Friday Fun",
+      "description": "colorful art with latte",
+      "start": "2026-12-11T07:00:00",
+      "end": "2026-12-11T19:00:00",
+      "location": "Read Queen Bookstore — 129 North Harrison Avenue, LAFAYETTE, CO, 80026",
+      "url": "https://thereadqueen.com/event/1849/",
       "sourceName": "Read Queen Bookstore",
       "sourceUrl": "https://thereadqueen.com/events/",
       "extractor": "tribe"

@@ -252,6 +252,13 @@
       "note": "Drupal indiecommerce event list at /events/YYYY/MM. Read one month at a time, from the current month ahead. Behind a Cloudflare JS challenge, so pages load in headless Chromium. Every field is on the listing, so no detail stage."
     },
     {
+      "name": "Denver Public Library",
+      "url": "https://denverlibrary.libcal.com/rss.php?iid=5974&m=month&cid=20634",
+      "enabled": true,
+      "type": "rss",
+      "note": "LibCal RSS feed for the library's main calendar (cid=20634; cid=-1 returns nothing). Holds about three weeks of upcoming events, capped at 300 items. Dates and locations come from the LibCal preamble in each item's description. Read the feed daily to keep it current."
+    },
+    {
       "name": "Fiction Beer",
       "url": "https://fictionbeer.com/taproom-events",
       "enabled": true,

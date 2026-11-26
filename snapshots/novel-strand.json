@@ -1,148 +1,9 @@
 {
   "source": "Novel Strand",
   "sourceUrl": "https://www.novelstrand.com/events",
-  "capturedAt": "2026-11-05T23:14:53.385Z",
+  "capturedAt": "2026-11-26T04:26:06.843Z",
   "count": 100,
   "events": [
-    {
-      "title": "Romance Book Club",
-      "description": "Book club meets at 6:30pm on the FIRST Thursday of the month at the Novel Strand Taproom. Led By: Steph H.",
-      "start": "2026-11-05T00:00:00",
-      "end": "2026-11-06T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/205/1793862000000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Game Night",
-      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
-      "start": "2026-11-08T00:00:00",
-      "end": "2026-11-09T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/111/1794121200000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Weekly Run Club Meetup - 6:00pm every week",
-      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
-      "start": "2026-11-10T00:00:00",
-      "end": "2026-11-11T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/203/1794294000000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Trivia w/ Denver Trivia League - 7pm each week",
-      "start": "2026-11-11T00:00:00",
-      "end": "2026-11-12T00:00:00",
-      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
-      "url": "https://tockify.com/nsbcevents/detail/154/1794380400000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Bonsai Bar: Bonsai Workshop",
-      "description": "Visit website for ticket information https://bonsaibar.com/apps/booking/venue/novel-strand-brewing-company",
-      "start": "2026-11-12T18:30:00",
-      "end": "2026-11-12T20:30:00",
-      "url": "https://tockify.com/nsbcevents/detail/271/1794533400000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Game Night",
-      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
-      "start": "2026-11-15T00:00:00",
-      "end": "2026-11-16T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/111/1794726000000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Sci-Fi Book Club",
-      "description": "Book club meets at 6:30pm on the THIRD Monday of the month at the Novel Strand Taproom. Led By: Ivan M.",
-      "start": "2026-11-16T00:00:00",
-      "end": "2026-11-17T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/202/1794812400000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "The OG Book Club Meeting",
-      "start": "2026-11-17T00:00:00",
-      "end": "2026-11-18T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/200/1794898800000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Weekly Run Club Meetup - 6:00pm every week",
-      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
-      "start": "2026-11-17T00:00:00",
-      "end": "2026-11-18T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/203/1794898800000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Trivia w/ Denver Trivia League - 7pm each week",
-      "start": "2026-11-18T00:00:00",
-      "end": "2026-11-19T00:00:00",
-      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
-      "url": "https://tockify.com/nsbcevents/detail/154/1794985200000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Pottery With a Purpose",
-      "description": "Follow the link to purchase tickets https://www.potterywithapurpose.com/products/pottery-workshops-novel-strand-brewing-company-denver-co?variant=47297359020252",
-      "start": "2026-11-19T00:00:00",
-      "end": "2026-11-20T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/261/1795071600000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Game Night",
-      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
-      "start": "2026-11-22T00:00:00",
-      "end": "2026-11-23T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/111/1795330800000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Weekly Run Club Meetup - 6:00pm every week",
-      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
-      "start": "2026-11-24T00:00:00",
-      "end": "2026-11-25T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/203/1795503600000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
-    {
-      "title": "Dumpling making class",
-      "description": "https://cocusocial.com/newevent/Denver_Make-Your-Own-Dumplings_Aug-12",
-      "start": "2026-11-24T18:30:00",
-      "end": "2026-11-24T20:30:00",
-      "url": "https://tockify.com/nsbcevents/detail/267/1795570200000",
-      "sourceName": "Novel Strand",
-      "sourceUrl": "https://www.novelstrand.com/events",
-      "extractor": "tockify"
-    },
     {
       "title": "Trivia w/ Denver Trivia League - 7pm each week",
       "start": "2026-11-25T00:00:00",
@@ -274,6 +135,16 @@
       "extractor": "tockify"
     },
     {
+      "title": "Sci-Fi Book Club",
+      "description": "Book club meets at 6:30pm on the THIRD Monday of the month at the Novel Strand Taproom. Led By: Ivan M.",
+      "start": "2026-12-14T00:00:00",
+      "end": "2026-12-15T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/202/1797231600000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
       "title": "The OG Book Club Meeting",
       "start": "2026-12-15T00:00:00",
       "end": "2026-12-16T00:00:00",
@@ -313,21 +184,20 @@
       "extractor": "tockify"
     },
     {
-      "title": "Game Night",
-      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
-      "start": "2026-12-20T00:00:00",
-      "end": "2026-12-21T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/111/1797750000000",
+      "title": "BYOV w Toast-n-Turntables",
+      "start": "2026-12-19T11:00:00",
+      "end": "2026-12-19T13:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/279/1797703200000",
       "sourceName": "Novel Strand",
       "sourceUrl": "https://www.novelstrand.com/events",
       "extractor": "tockify"
     },
     {
-      "title": "Sci-Fi Book Club",
-      "description": "Book club meets at 6:30pm on the THIRD Monday of the month at the Novel Strand Taproom. Led By: Ivan M.",
-      "start": "2026-12-21T00:00:00",
-      "end": "2026-12-22T00:00:00",
-      "url": "https://tockify.com/nsbcevents/detail/202/1797836400000",
+      "title": "Game Night",
+      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
+      "start": "2026-12-20T00:00:00",
+      "end": "2026-12-21T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/111/1797750000000",
       "sourceName": "Novel Strand",
       "sourceUrl": "https://www.novelstrand.com/events",
       "extractor": "tockify"
@@ -473,6 +343,16 @@
       "extractor": "tockify"
     },
     {
+      "title": "Dumpling making class",
+      "description": "https://cocusocial.com/newevent/Denver_Make-Your-Own-Dumplings_Aug-12",
+      "start": "2027-01-12T18:30:00",
+      "end": "2027-01-12T20:30:00",
+      "url": "https://tockify.com/nsbcevents/detail/276/1799803800000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
       "title": "Trivia w/ Denver Trivia League - 7pm each week",
       "start": "2027-01-13T00:00:00",
       "end": "2027-01-14T00:00:00",
@@ -572,11 +452,30 @@
       "extractor": "tockify"
     },
     {
+      "title": "Dumpling making class",
+      "description": "https://cocusocial.com/newevent/Denver_Make-Your-Own-Dumplings_Aug-12",
+      "start": "2027-01-26T18:30:00",
+      "end": "2027-01-26T20:30:00",
+      "url": "https://tockify.com/nsbcevents/detail/277/1801013400000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
       "title": "Trivia w/ Denver Trivia League - 7pm each week",
       "start": "2027-01-27T00:00:00",
       "end": "2027-01-28T00:00:00",
       "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
       "url": "https://tockify.com/nsbcevents/detail/154/1801033200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "BYOV w Toast-n-Turntables",
+      "start": "2027-01-28T18:00:00",
+      "end": "2027-01-28T20:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/272/1801184400000",
       "sourceName": "Novel Strand",
       "sourceUrl": "https://www.novelstrand.com/events",
       "extractor": "tockify"
@@ -761,11 +660,30 @@
       "extractor": "tockify"
     },
     {
+      "title": "Dumpling making class",
+      "description": "https://cocusocial.com/newevent/Denver_Make-Your-Own-Dumplings_Aug-12",
+      "start": "2027-02-23T18:30:00",
+      "end": "2027-02-23T20:30:00",
+      "url": "https://tockify.com/nsbcevents/detail/278/1803432600000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
       "title": "Trivia w/ Denver Trivia League - 7pm each week",
       "start": "2027-02-24T00:00:00",
       "end": "2027-02-25T00:00:00",
       "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
       "url": "https://tockify.com/nsbcevents/detail/154/1803452400000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "BYOV w Toast-n-Turntables",
+      "start": "2027-02-25T18:00:00",
+      "end": "2027-02-25T20:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/273/1803603600000",
       "sourceName": "Novel Strand",
       "sourceUrl": "https://www.novelstrand.com/events",
       "extractor": "tockify"
@@ -950,6 +868,15 @@
       "extractor": "tockify"
     },
     {
+      "title": "BYOV w Toast-n-Turntables",
+      "start": "2027-03-25T18:00:00",
+      "end": "2027-03-25T20:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/274/1806019200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
       "title": "Game Night",
       "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
       "start": "2027-03-28T00:00:00",
@@ -995,6 +922,76 @@
       "start": "2027-04-04T00:00:00",
       "end": "2027-04-05T00:00:00",
       "url": "https://tockify.com/nsbcevents/detail/111/1806818400000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Mystery/Thriller Book Club",
+      "description": "Book club meets at 6:30pm on the FIRST Monday of the month at the Novel Strand Taproom. Led By: Liya E.",
+      "start": "2027-04-05T00:00:00",
+      "end": "2027-04-06T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/201/1806904800000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "STEM/Non-Fiction Book Club",
+      "description": "Book club meets at 6:30pm on the FIRST Tuesday of the month at the Novel Strand Taproom. Led By: Tanvi",
+      "start": "2027-04-06T00:00:00",
+      "end": "2027-04-07T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/219/1806991200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Weekly Run Club Meetup - 6:00pm every week",
+      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
+      "start": "2027-04-06T00:00:00",
+      "end": "2027-04-07T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/203/1806991200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Trivia w/ Denver Trivia League - 7pm each week",
+      "start": "2027-04-07T00:00:00",
+      "end": "2027-04-08T00:00:00",
+      "location": "305 W 1st Ave — 305 W 1st Ave, Denver, CO, 80223",
+      "url": "https://tockify.com/nsbcevents/detail/154/1807077600000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Bonsai Bar: Bonsai Workshop",
+      "description": "Visit website for ticket information https://bonsaibar.com/apps/booking/venue/novel-strand-brewing-company",
+      "start": "2027-04-08T18:30:00",
+      "end": "2027-04-08T20:30:00",
+      "url": "https://tockify.com/nsbcevents/detail/271/1807230600000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Game Night",
+      "description": "Every Sunday 12pm-8pm-bring a board game to play with your friends and receive 10% off your tab.",
+      "start": "2027-04-11T00:00:00",
+      "end": "2027-04-12T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/111/1807423200000",
+      "sourceName": "Novel Strand",
+      "sourceUrl": "https://www.novelstrand.com/events",
+      "extractor": "tockify"
+    },
+    {
+      "title": "Weekly Run Club Meetup - 6:00pm every week",
+      "description": "Novel Striders is a collaboration run club between The Novel Strand brewery and Rowdy Goudy. All paces are welcome. Runners receive $1 off per drink an 10% off to go beers. Run Club meets at 6:00pm Learn More: https://www.novelstrand.com/run-club",
+      "start": "2027-04-13T00:00:00",
+      "end": "2027-04-14T00:00:00",
+      "url": "https://tockify.com/nsbcevents/detail/203/1807596000000",
       "sourceName": "Novel Strand",
       "sourceUrl": "https://www.novelstrand.com/events",
       "extractor": "tockify"

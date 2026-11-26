@@ -1,27 +1,16 @@
 {
   "source": "The Romance Section",
   "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
-  "capturedAt": "2026-11-05T23:14:53.385Z",
-  "count": 2,
+  "capturedAt": "2026-11-26T04:26:06.843Z",
+  "count": 1,
   "events": [
     {
       "title": "Queer Romance Book Club",
       "description": "Join fellow romance readers to celebrate stories of queer joy and love!",
-      "start": "2026-11-11T18:00:00-07:00",
-      "end": "2026-11-11T19:30:00-07:00",
+      "start": "2026-12-09T18:00:00-07:00",
+      "end": "2026-12-09T19:30:00-07:00",
       "location": "1909 9th Street, Boulder, CO 80302",
-      "url": "https://www.eventbrite.com/e/queer-romance-book-club-tickets-1997390062445",
-      "sourceName": "The Romance Section",
-      "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
-      "extractor": "eventbrite"
-    },
-    {
-      "title": "Fetish: Smash Taboos and Celebrate What Turns You On",
-      "description": "Celebrate the launch of the book Fetish: Smash Taboos and Celebrate What Turns You On with Niki Fainbloom hosted by The Romance Section.",
-      "start": "2026-11-15T18:30:00-07:00",
-      "end": "2026-11-15T20:00:00-07:00",
-      "location": "1909 9th Street, Boulder, CO 80302",
-      "url": "https://www.eventbrite.com/e/fetish-smash-taboos-and-celebrate-what-turns-you-on-tickets-2002590670604",
+      "url": "https://www.eventbrite.com/e/queer-romance-book-club-tickets-1997390415501",
       "sourceName": "The Romance Section",
       "sourceUrl": "https://www.eventbrite.com/o/the-romance-section-bookstore-120787193927",
       "extractor": "eventbrite"

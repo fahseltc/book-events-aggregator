@@ -1,8 +1,8 @@
 {
   "source": "Little Blue Pigeon Books",
   "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-  "capturedAt": "2026-11-05T23:14:53.385Z",
-  "count": 10,
+  "capturedAt": "2026-11-26T04:26:06.843Z",
+  "count": 9,
   "events": [
     {
       "title": "A New Chapter with Laufey’s Book Club",
@@ -11,72 +11,6 @@
       "end": "2026-11-30T18:00:00",
       "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
       "url": "https://www.littlebluepigeonbooks.com/event-details/a-new-chapter-with-laufeys-book-club",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "The Gratitude Post Office",
-      "description": "When was the last time you sent someone a handwritten thank-you note? Stop by our Gratitude Post Office and write a letter to someone who made your year brighter.",
-      "start": "2026-11-07T10:00:00",
-      "end": "2026-11-08T16:00:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/the-gratitude-post-office-2026-11-07-10-00",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "Local Author Pop-Up Event with Christy McConnell",
-      "description": "Join us for a special gathering with author Christy McConnell as we celebrate her book, Awakening Wildness: Reconnecting with Nature and Ourselves. Discover a thought-provoking exploration of our relationship with the natural world and what it means to reconnect with ourselves.",
-      "start": "2026-11-07T11:00:00",
-      "end": "2026-11-07T13:00:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/local-author-pop-up-event-with-christy-mcconnell",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "Dinner for the Dreamers: An Evening with Ladies Supper Society",
-      "description": "Join us as we welcome Ladies Supper Society's original Denver table for an enchanting evening inspired by the stories we love, the friendships we make, and the dreams we dare to chase.",
-      "start": "2026-11-07T18:30:00",
-      "end": "2026-11-07T20:30:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/dinner-for-the-dreamers-an-evening-with-ladies-supper-society",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "The Giving Tree of Gratitude",
-      "description": "Help us fill our Thankful Tree with gratitude! Write something you're thankful for on a colorful autumn leaf and hang it among the branches.",
-      "start": "2026-11-09T10:00:00",
-      "end": "2026-11-25T18:00:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/the-giving-tree-of-gratitude",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "The Gratitude Post Office",
-      "description": "When was the last time you sent someone a handwritten thank-you note? Stop by our Gratitude Post Office and write a letter to someone who made your year brighter.",
-      "start": "2026-11-14T10:00:00",
-      "end": "2026-11-15T16:00:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/the-gratitude-post-office-2026-11-14-10-00",
-      "sourceName": "Little Blue Pigeon Books",
-      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
-      "extractor": "wix"
-    },
-    {
-      "title": "The Gratitude Post Office",
-      "description": "When was the last time you sent someone a handwritten thank-you note? Stop by our Gratitude Post Office and write a letter to someone who made your year brighter.",
-      "start": "2026-11-21T10:00:00",
-      "end": "2026-11-22T16:00:00",
-      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
-      "url": "https://www.littlebluepigeonbooks.com/event-details/the-gratitude-post-office-2026-11-21-10-00",
       "sourceName": "Little Blue Pigeon Books",
       "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
       "extractor": "wix"
@@ -110,6 +44,61 @@
       "end": "2026-11-28T13:00:00",
       "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
       "url": "https://www.littlebluepigeonbooks.com/event-details/author-pop-up-book-signing-with-k-k-salathe",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "A Thousand Wishes",
+      "description": "One little bookstore. One thousand wishes. One city full of possibility.",
+      "start": "2026-12-01T10:00:00",
+      "end": "2026-12-31T16:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/a-thousand-wishes",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "The Little Blue Pigeon Christmas Post Office",
+      "description": "Surprise someone you love with a little holiday cheer!",
+      "start": "2026-12-01T10:00:00",
+      "end": "2026-12-15T18:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/the-little-blue-pigeon-christmas-post-office",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Second Chapter Book Club",
+      "description": "Join us for second chapter book club - where connections come first, books come second, and friendship is a given. Join Little Blue Pigeon and Beach House for a monthly gathering where the story starts before you ever open a page. New friends. Great reads. What are you waiting for?",
+      "start": "2026-12-02T18:30:00",
+      "end": "2026-12-02T20:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/second-chapter-book-club",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "A Merry Little Book Exchange",
+      "description": "Celebrate the season with Little Blue Pigeon Books and Emily Buchtel! Enjoy cocoa, festive book ornaments, a surprise book exchange, and a magical stroll through Denver’s Christkindlmarket.",
+      "start": "2026-12-03T18:00:00",
+      "end": "2026-12-03T20:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/a-merry-little-book-exchange",
+      "sourceName": "Little Blue Pigeon Books",
+      "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
+      "extractor": "wix"
+    },
+    {
+      "title": "Hot Cocoa & Holiday Chapters",
+      "description": "For the final weekend before Christmas, we're planning a cozy last-minute holiday shopping experience!",
+      "start": "2026-12-19T10:00:00",
+      "end": "2026-12-20T16:00:00",
+      "location": "Little Blue Pigeon Books — 1413 Larimer St, Denver, CO 80202, USA",
+      "url": "https://www.littlebluepigeonbooks.com/event-details/hot-cocoa-holiday-chapters",
       "sourceName": "Little Blue Pigeon Books",
       "sourceUrl": "https://www.littlebluepigeonbooks.com/event-list",
       "extractor": "wix"

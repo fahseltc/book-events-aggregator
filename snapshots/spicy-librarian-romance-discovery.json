@@ -1,53 +1,9 @@
 {
   "source": "Spicy Librarian / Romance Discovery",
   "sourceUrl": "https://www.eventbrite.com/o/108589566061",
-  "capturedAt": "2026-11-05T23:14:53.385Z",
-  "count": 8,
+  "capturedAt": "2026-11-26T04:26:06.843Z",
+  "count": 6,
   "events": [
-    {
-      "title": "Romance Discovery Book Club - Carmilla by Sheridan Le Fanu",
-      "description": "Spicy Librarian presents a romance discovery book club. Each month will be a different book from a different romance sub-genre.",
-      "start": "2026-11-09T18:30:00-07:00",
-      "end": "2026-11-09T19:30:00-07:00",
-      "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
-      "url": "https://www.eventbrite.com/e/romance-discovery-book-club-carmilla-by-sheridan-le-fanu-tickets-2001072610044",
-      "sourceName": "Spicy Librarian / Romance Discovery",
-      "sourceUrl": "https://www.eventbrite.com/o/108589566061",
-      "extractor": "eventbrite"
-    },
-    {
-      "title": "Queer Romance Book Club - Just Looking at Him by Ryan O'Connell",
-      "description": "Spicy Librarian presents a queer romance book club. Each month will be a different book.",
-      "start": "2026-11-18T18:30:00-07:00",
-      "end": "2026-11-18T19:30:00-07:00",
-      "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
-      "url": "https://www.eventbrite.com/e/queer-romance-book-club-just-looking-at-him-by-ryan-oconnell-tickets-2003782624771",
-      "sourceName": "Spicy Librarian / Romance Discovery",
-      "sourceUrl": "https://www.eventbrite.com/o/108589566061",
-      "extractor": "eventbrite"
-    },
-    {
-      "title": "Dark Romance Book Club - Haunting Adeline by H.D. Carlton",
-      "description": "Join Spicy Librarian once a month to discuss dark romance books.",
-      "start": "2026-11-19T18:30:00-07:00",
-      "end": "2026-11-19T19:30:00-07:00",
-      "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
-      "url": "https://www.eventbrite.com/e/dark-romance-book-club-haunting-adeline-by-hd-carlton-tickets-1999064853791",
-      "sourceName": "Spicy Librarian / Romance Discovery",
-      "sourceUrl": "https://www.eventbrite.com/o/108589566061",
-      "extractor": "eventbrite"
-    },
-    {
-      "title": "Blake Blessing Signing",
-      "description": "Blake Blessing will be in store signing her newest book, Blades of Two Faces.",
-      "start": "2026-11-21T14:00:00-07:00",
-      "end": "2026-11-21T16:00:00-07:00",
-      "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
-      "url": "https://www.eventbrite.com/e/blake-blessing-signing-tickets-2003619805775",
-      "sourceName": "Spicy Librarian / Romance Discovery",
-      "sourceUrl": "https://www.eventbrite.com/o/108589566061",
-      "extractor": "eventbrite"
-    },
     {
       "title": "Romance Fantasy Book Club - Book Swap and PJ Party",
       "description": "Spicy Librarian presents a romance fantasy book club. Each month will be a different book.",
@@ -88,6 +44,28 @@
       "end": "2026-12-17T19:30:00-07:00",
       "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
       "url": "https://www.eventbrite.com/e/dark-romance-book-club-beautiful-venom-by-rina-kent-tickets-2002250147089",
+      "sourceName": "Spicy Librarian / Romance Discovery",
+      "sourceUrl": "https://www.eventbrite.com/o/108589566061",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "A Court of Forgotten Melody Midnight Release Party",
+      "description": "Come celebrate the release of ACTOAR 7 and get your copy right at midnight!",
+      "start": "2027-01-11T21:00:00-07:00",
+      "end": "2027-01-12T00:30:00-07:00",
+      "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
+      "url": "https://www.eventbrite.com/e/a-court-of-forgotten-melody-midnight-release-party-tickets-2004504421685",
+      "sourceName": "Spicy Librarian / Romance Discovery",
+      "sourceUrl": "https://www.eventbrite.com/o/108589566061",
+      "extractor": "eventbrite"
+    },
+    {
+      "title": "Dark Romance Book Club - Feathers So Vicious by Liv Zander",
+      "description": "Join Spicy Librarian once a month to discuss dark romance books.",
+      "start": "2027-01-28T18:30:00-07:00",
+      "end": "2027-01-28T19:30:00-07:00",
+      "location": "Spicy Librarian — 3040 Blake Street, #110, Denver, CO 80205",
+      "url": "https://www.eventbrite.com/e/dark-romance-book-club-feathers-so-vicious-by-liv-zander-tickets-2005111049124",
       "sourceName": "Spicy Librarian / Romance Discovery",
       "sourceUrl": "https://www.eventbrite.com/o/108589566061",
       "extractor": "eventbrite"
