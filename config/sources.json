@@ -270,6 +270,18 @@
       "note": "Squarespace Events calendar. Reads /api/open/GetItemsByMonth one month at a time over plain HTTP (no browser). collectionId is found in the page's calendar block."
     },
     {
+      "name": "Slowpoke Books",
+      "url": "https://www.slowpokebooks.com/calendar",
+      "enabled": true,
+      "type": "squarespace",
+      "locationName": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "search": {
+        "collectionId": "6acd7ec3cbfd2019b96b0833",
+        "months": 6
+      },
+      "note": "Squarespace Events calendar (same flow as Fiction Beer). Reads /api/open/GetItemsByMonth over plain HTTP; the crumb is not required. collectionId is found in the /calendar page's calendar block."
+    },
+    {
       "name": "Annual festivals (manual)",
       "url": "config/static-events.json",
       "enabled": true,

@@ -1,0 +1,140 @@
+{
+  "source": "Slowpoke Books",
+  "sourceUrl": "https://www.slowpokebooks.com/calendar",
+  "capturedAt": "2026-11-26T15:55:06.933Z",
+  "count": 13,
+  "events": [
+    {
+      "title": "Small Business Saturday Celebration",
+      "start": "2026-11-28T10:00:00",
+      "end": "2026-11-28T20:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/small-business-saturday-celebration",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Closed for Thanksgiving",
+      "start": "2026-11-26T10:00:00",
+      "end": "2026-11-26T18:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/closed-for-thanksgiving",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Pitch a Book @ Fiction Beer Co",
+      "start": "2026-11-22T17:00:00",
+      "end": "2026-11-22T21:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/pitch-a-book-fiction-beer-co",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Preschool Story Time",
+      "description": "Join Kachine from Good Practice art cafe for a preschool storytime featuring books on art and creativity!",
+      "start": "2026-11-21T11:00:00",
+      "end": "2026-11-21T12:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/storytime112126",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Cozy Hours",
+      "start": "2026-11-20T18:00:00",
+      "end": "2026-11-20T20:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/cozy-hours-n6b8z",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Big Fat Holiday Market",
+      "start": "2026-11-15T09:00:00",
+      "end": "2026-11-15T13:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/big-fat-holiday-market",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "The Weird Book Club",
+      "start": "2026-11-10T18:00:00",
+      "end": "2026-11-10T20:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/short-stack-novella-book-club-2d56n-9t944",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Short Stack: Novella Book Club",
+      "start": "2026-11-08T09:00:00",
+      "end": "2026-11-08T11:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/short-stack-novella-book-club",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Closed for Christmas Day",
+      "start": "2026-12-25T10:00:00",
+      "end": "2026-12-25T18:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/closed-for-thanksgiving-myg4n",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Preschool Story Time",
+      "description": "Join Kachine from Good Practice art cafe for a preschool storytime featuring books on art and creativity!",
+      "start": "2026-12-19T11:00:00",
+      "end": "2026-12-19T12:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/storytime121926",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "The Weird Book Club",
+      "start": "2026-12-08T18:00:00",
+      "end": "2026-12-08T20:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/short-stack-novella-book-club-2d56n",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "Short Stack: Novella Book Club",
+      "start": "2026-12-06T09:00:00",
+      "end": "2026-12-06T11:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/short-stack-novella-book-club-zjjn6",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    },
+    {
+      "title": "TransGenre Book Club",
+      "start": "2027-01-06T18:00:00",
+      "end": "2027-01-06T20:00:00",
+      "location": "Slowpoke Books, 2383 South Downing Street, Denver, CO 80210",
+      "url": "https://www.slowpokebooks.com/calendar/short-stack-novella-book-club-2d56n-cwj3m",
+      "sourceName": "Slowpoke Books",
+      "sourceUrl": "https://www.slowpokebooks.com/calendar",
+      "extractor": "squarespace"
+    }
+  ]
+}
